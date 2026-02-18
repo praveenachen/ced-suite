@@ -8,6 +8,9 @@ version = "0.1.0"
 description = "CED Suite – AI-powered grant and impact planning tool"
 readme = "README.md"
 requires-python = ">=3.9"
+dependencies = [
+    "openai>=1.0.0",
+]
 
 [tool.setuptools.packages.find]
 where = ["."]
