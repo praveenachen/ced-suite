@@ -3,7 +3,29 @@ from __future__ import annotations
 
 import os
 import json
-from typing import Dict, Any
+from typing import Dict, Any, Optional
+
+_RAG_AVAILABLE: Optional[bool] = None
+
+
+def _get_rag_context(
+    query: str,
+    top_k: int = 6,
+    persist_dir: Optional[str] = None,
+    collection_name: str = "grant_library",
+) -> str:
+    """Retrieve relevant grant-library excerpts for the query. Returns empty string if RAG unavailable."""
+    global _RAG_AVAILABLE
+    if _RAG_AVAILABLE is False:
+        return ""
+    try:
+        from backend.app.rag.retrieve import retrieve
+        _RAG_AVAILABLE = True
+        out = retrieve(query=query, top_k=top_k, persist_dir=persist_dir, collection_name=collection_name)
+        return (out or "").strip()
+    except Exception:
+        _RAG_AVAILABLE = False
+        return ""
 
 
 def _build_payload(
@@ -97,10 +119,16 @@ def enhance_sections(
     draft: Dict[str, Any],
     requirements: Dict[str, Any] | None = None,
     profile: Dict[str, Any] | None = None,
+    *,
+    use_rag: bool = True,
+    rag_top_k: int = 6,
+    rag_persist_dir: Optional[str] = None,
+    rag_collection_name: str = "grant_library",
 ) -> Dict[str, str]:
     """
     Returns dict mapping section_key -> improved body text
     ex: {"need_statement": "...", "budget_justification": "..."}
+    When use_rag is True, retrieves relevant grant-library excerpts and injects them into the prompt.
     """
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
@@ -116,10 +144,35 @@ def enhance_sections(
 
     payload = _build_payload(draft=draft, requirements=requirements, profile=profile)
 
+    # RAG: retrieve relevant grant-library context and add to payload when available
+    if use_rag:
+        grant_name = (
+            requirements.get("grant_name")
+            or requirements.get("program_name")
+            or requirements.get("name")
+            or ""
+        )
+        raw_req = (requirements.get("raw_text") or "")[:2000]
+        rag_query = f"{grant_name}\n\n{raw_req}".strip() or "grant application community economic development"
+        rag_context = _get_rag_context(
+            query=rag_query,
+            top_k=rag_top_k,
+            persist_dir=rag_persist_dir,
+            collection_name=rag_collection_name,
+        )
+        if rag_context:
+            payload["grant_library_excerpts"] = rag_context
+            payload["instructions"].append(
+                "Use the attached grant_library_excerpts when relevant to strengthen your writing with "
+                "evidence, phrasing, or structure from successful grant materials. Do not copy verbatim; "
+                "adapt to the current application. Cite or echo themes where they align with the requirements."
+            )
+
     system_msg = (
         """You are a senior Canadian grant writer with 10+ years of experience writing successful federal, provincial, and Indigenous community infrastructure and CED grant applications.
-        You write in clear, professional, funder-facing language. Your output should be ready for submission with minimal editing. Write with conrete implementation detail. 
-        Follow the grant posting requirements and do not invent facts."""
+        You write in clear, professional, funder-facing language. Your output should be ready for submission with minimal editing. Write with concrete implementation detail.
+        Follow the grant posting requirements and do not invent facts.
+        When the user payload includes grant_library_excerpts, use them as reference material to inform phrasing and structure where relevant; do not copy verbatim."""
     )
     user_msg = json.dumps(payload, ensure_ascii=False)
 
