@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from "framer-motion";
 import {
@@ -144,7 +144,7 @@ export default function HomePage() {
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   {[
                     "Guided assistant workflow",
-                    "11-section structured workflow",
+                    "5-section structured workflow",
                     "RAG-based smart suggestions",
                   ].map((t) => (
                     <li key={t} className="flex items-center gap-2">
