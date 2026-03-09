@@ -10,6 +10,7 @@ import {
   ArrowRight,
   Database,
   Cpu,
+  ShieldCheck,
 } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -176,6 +177,12 @@ export default function HomePage() {
               desc: "Advanced AI understands Indigenous and Northern community context",
               icon: Cpu,
               color: "bg-blue-500/15 text-blue-400",
+            },
+            {
+              title: "Compliance Checks",
+              desc: "Identify requirement gaps and warnings before final submission",
+              icon: ShieldCheck,
+              color: "bg-emerald-500/15 text-emerald-400",
             },
           ].map((f) => (
             <motion.div key={f.title} variants={item}>
