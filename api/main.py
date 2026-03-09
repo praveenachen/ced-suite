@@ -6,8 +6,10 @@ Set PYTHONPATH to include repo root so backend.app imports resolve.
 from __future__ import annotations
 
 import sys
+import re
 from io import BytesIO
 from pathlib import Path
+from datetime import date
 
 # Ensure repo root is on path (ced-suite)
 ROOT = Path(__file__).resolve().parent.parent
@@ -16,6 +18,7 @@ if str(ROOT) not in sys.path:
 
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 from typing import Any, Dict, List, Optional
 
@@ -76,11 +79,140 @@ class EnhanceRequest(BaseModel):
     draft: Dict[str, Any]
     requirements: Dict[str, Any]
     profile: Dict[str, Any]
+    use_case: Optional[str] = None
 
 
 class ValidateRequest(BaseModel):
     draft: Dict[str, Any]
     requirements: Dict[str, Any]
+
+
+class RewriteSectionRequest(BaseModel):
+    section_key: str
+    section_title: str = ""
+    current_text: str = ""
+    instruction: str = Field(..., min_length=1)
+    requirements: Dict[str, Any]
+    profile: Dict[str, Any]
+    use_case: Optional[str] = None
+
+
+class ExportSection(BaseModel):
+    key: str = ""
+    title: str
+    body: str
+
+
+class ExportDraftPdfRequest(BaseModel):
+    grant_name: str = ""
+    community_name: str = ""
+    region: str = ""
+    local_priority: str = ""
+    requested_budget: Optional[int] = None
+    sections: List[ExportSection] = []
+
+
+def _safe_filename(value: str) -> str:
+    cleaned = re.sub(r"[^A-Za-z0-9_\- ]+", "", (value or "").strip())
+    cleaned = re.sub(r"\s+", "_", cleaned)
+    return cleaned[:60] or "grant_proposal"
+
+
+def _render_pdf(body: ExportDraftPdfRequest) -> bytes:
+    try:
+        from reportlab.lib.pagesizes import LETTER
+        from reportlab.pdfgen import canvas
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"PDF export dependency missing: {e}. Install reportlab.",
+        )
+
+    buf = BytesIO()
+    c = canvas.Canvas(buf, pagesize=LETTER)
+    width, height = LETTER
+    left = 72
+    right = width - 72
+    top = height - 72
+    bottom = 72
+    line_h = 14
+    y = top
+
+    def new_page() -> None:
+        nonlocal y
+        c.showPage()
+        y = top
+
+    def ensure_room(lines: int = 1) -> None:
+        nonlocal y
+        if y - (lines * line_h) < bottom:
+            new_page()
+
+    def draw_line(text: str, *, font: str = "Helvetica", size: int = 11, extra_gap: float = 0.0) -> None:
+        nonlocal y
+        ensure_room(1)
+        c.setFont(font, size)
+        c.drawString(left, y, text)
+        y -= line_h + extra_gap
+
+    def wrap_text(text: str, size: int = 11) -> List[str]:
+        from reportlab.pdfbase.pdfmetrics import stringWidth
+
+        max_w = right - left
+        words = (text or "").split()
+        if not words:
+            return [""]
+
+        lines: List[str] = []
+        cur = words[0]
+        for w in words[1:]:
+            candidate = f"{cur} {w}"
+            if stringWidth(candidate, "Helvetica", size) <= max_w:
+                cur = candidate
+            else:
+                lines.append(cur)
+                cur = w
+        lines.append(cur)
+        return lines
+
+    def draw_paragraph(text: str, *, size: int = 11, gap: float = 4.0) -> None:
+        nonlocal y
+        chunks = [p.strip() for p in (text or "").replace("\r\n", "\n").split("\n")]
+        for chunk in chunks:
+            lines = wrap_text(chunk, size=size)
+            for ln in lines:
+                ensure_room(1)
+                c.setFont("Helvetica", size)
+                c.drawString(left, y, ln)
+                y -= line_h
+            y -= gap
+
+    # Cover header
+    draw_line("Grant Proposal", font="Helvetica-Bold", size=22, extra_gap=8)
+    if body.grant_name:
+        draw_line(body.grant_name, font="Helvetica-Bold", size=14, extra_gap=6)
+    draw_line(f"Community: {body.community_name or 'N/A'}", font="Helvetica", size=11)
+    draw_line(f"Region: {body.region or 'N/A'}", font="Helvetica", size=11)
+    draw_line(f"Local Priority: {body.local_priority or 'N/A'}", font="Helvetica", size=11)
+    if body.requested_budget is not None:
+        draw_line(
+            f"Requested Funding: ${body.requested_budget:,.0f}",
+            font="Helvetica",
+            size=11,
+        )
+    draw_line(f"Generated: {date.today().isoformat()}", font="Helvetica", size=10, extra_gap=14)
+
+    # Body sections
+    for i, sec in enumerate(body.sections, start=1):
+        if y < bottom + 120:
+            new_page()
+        title = (sec.title or f"Section {i}").strip()
+        draw_line(f"{i}. {title}", font="Helvetica-Bold", size=13, extra_gap=3)
+        draw_paragraph((sec.body or "").strip() or "No content provided.", size=11, gap=6.0)
+
+    c.save()
+    buf.seek(0)
+    return buf.read()
 
 
 # ---------- Endpoints ----------
@@ -130,6 +262,7 @@ async def parse_grant(file: UploadFile = File(...)):
         "must_include": requirements.get("must_include", []),
         "raw_text": requirements.get("raw_text", raw_text),
         "required_sections": requirements.get("required_sections", []),
+        "parser_meta": requirements.get("parser_meta", {}),
     }
     return {"requirements": req_dict, "raw_text": raw_text}
 
@@ -159,6 +292,7 @@ def enhance(body: EnhanceRequest):
         draft=body.draft,
         requirements=body.requirements,
         profile=body.profile,
+        use_case=body.use_case,
     )
     return {"enhanced": enhanced}
 
@@ -172,3 +306,43 @@ def validate(body: ValidateRequest):
         raise HTTPException(status_code=500, detail=f"Backend import error: {e}")
     result = validate_proposal_against_requirements(draft=body.draft, requirements=body.requirements)
     return result
+
+
+@app.post("/api/rewrite-section")
+def rewrite_section(body: RewriteSectionRequest):
+    """Rewrite one draft section with user instruction and return source references."""
+    try:
+        from backend.app.llm.llm_utils import rewrite_section_with_instruction
+    except ImportError as e:
+        raise HTTPException(status_code=500, detail=f"Backend import error: {e}")
+
+    try:
+        out = rewrite_section_with_instruction(
+            section_key=body.section_key,
+            section_title=body.section_title,
+            current_text=body.current_text,
+            instruction=body.instruction,
+            requirements=body.requirements,
+            profile=body.profile,
+            use_case=body.use_case,
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+    return out
+
+
+@app.post("/api/export-draft-pdf")
+def export_draft_pdf(body: ExportDraftPdfRequest):
+    """Export the final draft as a professionally formatted PDF."""
+    if not body.sections:
+        raise HTTPException(status_code=400, detail="At least one section is required for export.")
+
+    pdf_bytes = _render_pdf(body)
+    base = _safe_filename(body.community_name or body.grant_name or "grant_proposal")
+    filename = f"{base}_proposal.pdf"
+    return StreamingResponse(
+        BytesIO(pdf_bytes),
+        media_type="application/pdf",
+        headers={"Content-Disposition": f'attachment; filename="{filename}"'},
+    )

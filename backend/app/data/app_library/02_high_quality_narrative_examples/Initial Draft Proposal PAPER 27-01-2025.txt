@@ -1,0 +1,741 @@
+Initial Draft Proposal 
+P .A.P .E.R. 
+Planning Automation for Projects: Energy and 
+Retrofits 
+ 
+1. Overview 
+Project Name: 
+PAPER: Planning Automation for Projects, Energy, and Retrofits 
+Primary Applicant: 
+Askiy Energy  
+PAPER: Empowering Indigenous Energy Futures in Fort Chipewyan and Beyond 
+The PAPER platform is an initiative rooted in Indigenous values and perspectives, 
+addressing the systemic challenges faced by First Nations communities in the energy 
+retrofit sector. By prioritizing Indigenous data sovereignty and community-led solutions, 
+PAPER represents a significant step forward in creating equitable access to energy 
+efficiency tools for communities with limited capacity. 
+PAPER will be a solution and a Holistic Approach from an Indigenous perspective, energy 
+planning is not just about technology—it's about preserving the interconnected 
+relationship between people, land, and resources. PAPER reflects this holistic worldview 
+by: 
+1. Respecting Indigenous Data Sovereignty: Data collection and utilization in PAPER are 
+guided by OCAP® principles (Ownership, Control, Access, and Possession), ensuring that 
+communities retain control over their information and its use aligns with cultural
+
+protocols. This enables governance bodies and members to have a peace of mine and 
+freedom to trust PAPER with their intellectual property. 
+2. Community Empowerment: Through its AI Education Program, PAPER equips local 
+teams with the knowledge and skills to independently plan and implement energy retrofits. 
+This approach aligns with traditional Indigenous values of capacity building and self-
+determination, fostering long-term resilience. While adapting and being resilient to climate 
+change. 
+3. Scalable, Modular Design: The tool is adaptable, recognizing that no two communities or 
+municipalities are alike. PAPER's design considers the diverse realities of First Nations 
+across Alberta, Saskatchewan, and Manitoba, and beyond ensuring scalability without 
+sacrificing cultural or regional relevance. 
+Local Impacts: Fort Chipewyan, with its legacy as one of the oldest settlements in Alberta, 
+has experienced firsthand the challenges of energy dependency and climate change. With 
+its remote location, high costs of diesel dependence, and limited local capacity for large-
+scale energy projects, Fort Chipewyan embodies the challenges Askiy Energy and PAPER 
+seeks to address. 
+1. Building on Proven Success 
+   Fort Chipewyan's successful deployment of a 2.34 MW solar and 1.5 MW battery 
+system—the largest off-grid project of its kind in Canada—demonstrates the 
+transformative power of Indigenous-led clean energy initiatives. PAPER leverages this 
+success, using automation and AI to replicate similar achievements in other communities. 
+2. Addressing Capacity Gaps   
+   Many First Nations, like Fort Chipewyan, face staffing shortages and technical knowledge 
+barriers that delay energy projects. PAPER simplifies the process by automating data 
+collection, analysis, and funding documentation, removing critical bottlenecks for 
+communities with limited capacity. 
+ 
+3. Cultural and Environmental Stewardship 
+   For Indigenous communities, energy retrofits go beyond efficiency—they are about 
+restoring balance. PAPER ensures that energy projects align with traditional teachings by 
+emphasizing sustainability and minimizing environmental harm.
+
+Broader Regional Benefits   
+For First Nations across the Prairie Provinces, PAPER provides a pathway to:   
+Reduce Dependency on Diesel: Many remote Indigenous communities rely heavily on 
+diesel power, which is both expensive and environmentally damaging. PAPER streamlines 
+the transition to clean energy systems, helping reduce emissions and lower energy costs.   
+ 
+Access Funding Opportunities: By automating grant applications and funding 
+documentation, PAPER bridges the gap between Indigenous communities and much-
+needed financial resources.   
+ 
+Strengthen Collaborative Networks: The platform fosters connections between 
+communities, sharing success stories like Fort Chipewyan’s solar project to inspire 
+others.   
+Vision for the Future   
+PAPER is more than a tool—it's a catalyst for self-determination, It empowers Indigenous 
+communities to lead their own clean energy transitions, creating solutions that are 
+culturally relevant, environmentally sustainable, and economically viable. With Fort 
+Chipewyan as an anchor example, PAPER has the potential to redefine how energy 
+projects are envisioned, planned, and executed across Turtle Island.   
+Purpose: 
+PAPER is an innovative platform designed to revolutionize energy retrofit planning for 
+Indigenous communities across Alberta, Saskatchewan, and Manitoba. By automating 
+data collection, analysis, and document creation, PAPER addresses the unique challenges 
+of capacity limitations, data underutilization, and cost barriers. It empowers communities 
+to streamline retrofit planning, access funding opportunities, and foster long-term energy 
+efficiency. 
+Through modular design and AI integration, PAPER enables scalable and customizable 
+energy planning solutions while respecting Indigenous data sovereignty. The platform also 
+includes an AI Education Program to train community teams in leveraging the tool 
+effectively and independently.
+
+2. Details of the Grant 
+Funding Program:  
+Regional Artificial Intelligence Initiative (RAII) - Prairies Economic Development Canada 
+• Funding Amount: $3,000,000 - $5,000,000 over 3 years 
+• Program Objective: To support projects that use AI technologies to enhance 
+economic opportunities, innovation, and community development in Alberta, 
+Saskatchewan, and Manitoba. 
+ 
+Potential Organizational Structures for PAPER 
+PAPER funding approach can be structured as either a For-Profit Indigenous-Owned 
+Company or a Non-Profit Entity. Each structure has distinct advantages and 
+disadvantages, particularly in securing funding, licensing, and ownership considerations. 
+Option 1: For-Profit Indigenous-Owned Company 
+Under this model, PAPER would operate as an Indigenous-owned for-profit business, 
+ensuring full control and ownership of the software by Askiy Energy. 
+Funding Considerations 
+• PrairiesCan Contribution: If at least 51% Indigenous-owned, up to 80% of project 
+costs can be funded as a repayable contribution. 
+• If the project benefits the broader Indigenous community, rather than just the 
+company, 50% of costs could be covered as a non-repayable contribution. 
+• Stacking: Government assistance is capped at 50% for eligible capital costs and 
+75% for other eligible costs. 
+• In-Kind Contributions: The remaining 50% contribution can include in-kind 
+contributions (e.g., from the University of Waterloo or other partners).
+
+Pros 
+   Greater Flexibility & Control: 
+• Askiy retains 100% ownership of the software and all intellectual property. 
+• The ability to license the software to other communities or organizations. 
+• Revenue generation opportunities (e.g., SaaS model or consulting services) 
+without limitations. 
+   Stacking Funding Possibilities: 
+• Ability to combine multiple funding sources, including Indigenous Services 
+Canada (ISC), climate and energy funding, private investment, and in-kind 
+contributions. 
+   Business Development Funding Alignment: 
+• Since this is a Business Development grant, the likelihood of securing funding as a 
+for-profit entity may be higher. 
+Cons 
+  50% Contribution Must Be Secured Before Applying: 
+• All non-PrairiesCan financing must be confirmed upfront, including any private 
+investment or in-kind contributions. 
+• Future revenue from licensing or operations cannot be counted as matching funds. 
+• This may pose a significant challenge in securing capital before the application 
+process. 
+  Repayable Contribution Requirement: 
+• Ideally we will be accepted under “Project that Benefits the community” so 30% is 
+repayable, 50% is not. 
+• If deemed that no clear benefit to community than the 80% PrairiesCan 
+contribution is repayable over 5 years, starting one year after project 
+completion. 
+• Cash flow planning is critical to ensure loan repayment without financial strain.
+
+Option 2: Non-Profit Structure 
+In this model, PAPER would be developed under an existing or new non-profit entity, 
+which would own the software and have the ability to license it to other groups, including 
+Askiy Energy. 
+Funding Considerations 
+• PrairiesCan Contribution: Up to 80% of project costs as a non-repayable grant. 
+• Stacking: If the non-profit lacks sufficient resources, government assistance can 
+cover up to 100% of eligible costs. 
+• Ownership & Licensing: The non-profit must retain ownership of all assets 
+funded by PrairiesCan. 
+• Partnership Approach: A potential structure could involve Three Nations Energy or 
+another Indigenous-led non-profit partnering with Askiy Energy. 
+• Askiy Energy starts a new Non-Profit entity (this could take time) 
+Pros 
+   80% of Costs Are Non-Repayable: 
+• No requirement to repay funds, reducing long-term financial burden. 
+• Less pressure to generate immediate revenue post-project. 
+   Potential for Full Funding (100% Stacking): 
+• If additional funding sources (federal, provincial, or municipal) are secured, the 
+project could be fully funded without requiring private capital or loans. 
+   Lower Upfront Capital Requirements: 
+• Unlike the for-profit model, funding does not need to be secured in advance, 
+making it easier to apply and qualify. 
+Cons 
+  Complex Ownership & Licensing Considerations: 
+• The non-profit retains ownership of the software, not Askiy Energy. 
+• The software could be licensed back to Askiy Energy, but this adds complexity. 
+  Longer Approval Process & Bureaucracy:
+
+• Working within a non-profit framework requires additional approvals and 
+oversight, which may slow down implementation. 
+• Decision-making could involve a board of directors, adding administrative 
+overhead. 
+  Lower Likelihood of Success with Business Development Funding: 
+• Since PrairiesCan primarily funds business development projects, a for-profit 
+model may have a higher chance of being approved. 
+ 
+Recommended Next Steps 
+Given the strengths and challenges of both models, the decision should be based on: 
+1. Securing the required 50% match funding – If Askiy and partners can confirm in-
+kind and cash contributions upfront, the For-Profit model may be preferable. 
+2. Determining ownership priorities – If maintaining 100% control over licensing 
+and intellectual property is essential, the For-Profit model is ideal. 
+3. Balancing funding availability and application success – If obtaining the full 80% 
+as a non-repayable contribution is a priority and complexity is manageable, the 
+Non-Profit model should be considered. 
+By carefully weighing these factors, Askiy Energy and its partners can select the best path 
+forward to maximize funding, retain ownership, and ensure long-term sustainability for 
+PAPER. 
+ 
+Hypothetical Scenario: For-Profit Stream Benefiting Indigenous Communities 
+Total Project Cost: $3,000,000 
+• PrairiesCan Contribution (80% of project costs = $2,400,000) 
+o Non-Repayable Portion (50%): $1,500,000 
+o Repayable Portion (30%): $900,000 (0% interest, repaid over 5 years, 
+starting 1 year after project completion) 
+• Remaining 20% of Project Costs ($600,000) Covered By: 
+o Indigenous Services Canada (ISC) - Housing & Energy Funding: $250,000 
+o Indigenous Off-Diesel Initiative (IODI) - Renewable Energy Transition: 
+$200,000 
+o 3rd Party Contributions (Private/Philanthropic Sources): $100,000
+
+o In-Kind Contributions from Project Partners (University of Waterloo, 
+Industry Experts, Technical Support, Data Analysis): TBD (Could offset a 
+portion of the 20% contribution) 
+ 
+Project Overview: PAPER – Indigenous-Led Energy Retrofit & AI Planning 
+Platform 
+PAPER will be an AI-powered energy planning platform designed to empower 
+Indigenous communities in Alberta, Saskatchewan, and Manitoba by automating energy 
+retrofit planning, funding access, and project execution. (After the pilot phase the tool can 
+be implemented nationally) 
+The project will enable communities to: 
+   Transition away from diesel reliance through streamlined clean energy planning. 
+   Secure funding for energy retrofits using AI-driven applications and automated 
+compliance tracking. 
+   Support local Indigenous businesses by generating contractor-ready retrofit plans. 
+   Foster Indigenous data sovereignty by ensuring communities retain control over their 
+energy data. 
+ 
+Breakdown of Funding Allocation 
+Category Budget 
+Allocation ($) 
+Funding Source 
+Software Development & AI Integration $2,200,000 PrairiesCan (50% non-
+repayable, 30% 
+repayable) 
+Community Pilot Programs (5-10 
+Indigenous Communities) 
+$200,000 PrairiesCan, ISC, IODI 
+Capacity Building & Training (AI 
+Education Program for Indigenous 
+Technicians) 
+$200,000 ISC, In-Kind 
+Contributions 
+Deployment of Retrofit Planning in 10+ 
+Communities 
+$200,000 PrairiesCan, 3rd Party, In-
+Kind 
+Licensing, Legal & Compliance 
+(Ensuring 100% Indigenous Ownership 
+via Askiy Energy) 
+$200,000 PrairiesCan (Repayable), 
+Private Capital 
+Total $3,000,000 80% PrairiesCan + 20% 
+Stackable Funding
+
+Key Benefits to Indigenous Communities 
+   Scalable Impact: A centralized AI-driven energy planning platform that can be used 
+across multiple Indigenous communities to streamline energy transitions and retrofits. 
+   Indigenous Economic Development: The software is 100% Indigenous-owned by 
+Askiy Energy, ensuring that all future revenue stays within Indigenous businesses and 
+communities. 
+   Increased Energy Independence: Communities will be able to leverage AI-generated 
+reports to apply for additional funding, secure contractor quotes, and plan retrofit projects 
+without external reliance. 
+   Employment & Capacity Building: 
+• AI-driven energy audits and training programs will create job opportunities for 
+Indigenous technicians, consultants, and energy auditors. 
+• Communities will be trained to use and adapt the platform to their specific regional 
+needs. 
+   Government & Private Investment Alignment: 
+• By leveraging PrairiesCan, ISC, and IODI funding, PAPER ensures long-term 
+sustainability and alignment with Canada’s Indigenous Clean Energy initiatives. 
+• The ability to stack additional funding ensures communities are not financially 
+burdened while benefiting from long-term cost savings through clean energy 
+transitions. 
+ 
+Risk Mitigation & Financial Sustainability 
+• Ownership & Licensing: Askiy Energy retains 100% ownership of the platform, 
+ensuring control over future commercial licensing opportunities. 
+• Revenue Model: 
+o Licensing to additional Indigenous communities for a subsidized fee 
+ensures long-term financial sustainability. 
+o Partnerships with Indigenous businesses (e.g., solar providers, energy 
+auditors) will help generate revenue without requiring additional external 
+funding.
+
+• Repayment Terms Management: Since only 30% ($900,000) is repayable, 
+structured revenue streams from licensing and energy savings reinvestment will 
+cover repayment obligations without burdening operations. 
+ 
+Why This Model Works Best 
+   Maximizes Grant Opportunities – The 50% non-repayable contribution minimizes 
+financial risk. 
+   Ensures Indigenous Ownership & Control – No loss of ownership to third parties. 
+   Supports Economic Self-Sufficiency – Enables revenue generation through licensing 
+and partnerships. 
+   Aligns with Business Development Mandate – Higher likelihood of success due to 
+clear economic benefits. 
+ 
+Conclusion 
+This For-Profit Indigenous-Owned Model allows PAPER to operate sustainably, scale its 
+impact across multiple Indigenous communities, and create long-term economic, 
+environmental, and social benefits. By leveraging stackable funding sources, 
+Indigenous communities will gain access to a cutting-edge energy planning tool while 
+ensuring that ownership and economic opportunities remain within Indigenous hands. 
+ 
+3. The Challenge Statement 
+Key Issues: 
+1. Limited Capacity in Communities: 
+o Many Indigenous communities lack the internal workforce, expertise, and 
+resources to manage data collection, planning, and documentation 
+independently. 
+o Competing priorities among staff often delay critical energy initiatives. 
+2. Underutilized Data: 
+o Existing energy data, utility records, and housing information are often not 
+analyzed due to a lack of tools and expertise.
+
+o Without aggregated and validated data, creating actionable energy retrofit 
+plans remains a significant hurdle. 
+3. High Costs and Scalability Barriers: 
+o Piecemeal retrofitting approaches are costly and inefficient. 
+o Bulk procurement and centralized planning require advanced tools and 
+detailed documentation that many communities cannot produce. 
+4. Knowledge Gaps in AI Technology: 
+o Communities often lack familiarity with AI-powered tools, limiting their 
+ability to leverage advanced automation for energy planning. 
+ 
+4. Project Objectives 
+Primary Goals: 
+1. Automate Planning Processes: 
+o Streamline data collection, analysis, and document generation to create 
+high-quality retrofit plans, RFQs, and financial models. 
+2. Empower Indigenous Communities: 
+o Train local teams through the AI Education Program, fostering autonomy in 
+managing retrofit projects. 
+3. Promote Scalability and Cost Efficiency: 
+o Support aggregated planning and procurement, reducing costs and 
+improving implementation timelines. 
+4. Ensure Data Sovereignty: 
+o Develop and implement robust policies ensuring communities retain 
+ownership and control over their data. 
+5. Validate and Scale: 
+o Demonstrate the effectiveness of PAPER through pilots in 5-10 communities, 
+creating a replicable model for future use.
+
+5. Pilot Community Journey 
+The pilot will involve 5 Indigenous communities in Alberta, Saskatchewan, and Manitoba. 
+1. Fort Chipewyan (Alberta) 
+2. Lac La Ronge Indian Band (Saskatchewan) 
+3. Frog Lake First Nation (Alberta) 
+4. Pinaymootang First Nation (Manitoba) 
+5. Ahtahkahkoop Cree Nation (Saskatchewan) 
+Step-by-Step Journey: 
+1. Community Engagement: 
+o Conduct initial meetings to introduce PAPER and its benefits. 
+o Define project scope, identify community priorities, and formalize a Data 
+Access Agreement. 
+o Deliverable: Signed agreements and recorded meeting minutes. 
+2. Data Collection: 
+o Perform energy audits for varied housing archetypes. 
+o Collect key data, including utility usage, building characteristics, and 
+occupancy patterns. 
+o Deliverable: Comprehensive dataset uploaded to the PAPER platform. 
+3. Data Input and Validation: 
+o Input data into the PAPER platform. 
+o Validate and analyze data using integrated tools like Volta Snap and CP 
+Logic’s Utility Bill Analysis Tool. 
+o Deliverable: Initial dashboard summarizing energy usage and retrofit 
+opportunities. 
+4. Plan Generation: 
+o Use PAPER to generate Actionable Retrofit Plans (ARPs) and Scopes of 
+Work (SOW) templates.
+
+o Deliverable: Draft ARPs and RFQs customized to each community. 
+5. Community Feedback and Adaptation: 
+o Present findings to the community and collect feedback through AI-guided 
+surveys. 
+o Adapt plans based on community input, ensuring alignment with local values 
+and priorities. 
+o Deliverable: Finalized ARPs reflecting community feedback. 
+6. Procurement and Financial Planning: 
+o Upload contractor quotes, compare them against the SOW, and finalize a 
+detailed financial plan. 
+o Deliverable: Comprehensive financial documentation, including projected 
+cost savings. 
+7. Implementation and Monitoring: 
+o Track project progress using automated reporting tools. 
+o Deliverable: Final implementation report and ongoing measurement and 
+verification plan. 
+ 
+6. AI Education Program 
+Goal: Enable community teams to independently use and maintain PAPER, ensuring 
+sustainable energy planning. 
+Program Structure: 
+1. Initial Training: 
+o Onboarding workshops covering data input, validation, and document 
+generation. 
+2. Ongoing Support: 
+o AI-guided tutorials, helpdesk support, and regular webinars. 
+3. Advanced Modules: 
+o Training in customizing templates and analyzing trends.
+
+Deliverables: 
+• Certified training programs for community members. 
+• User manuals tailored to local needs. 
+ 
+7. Roles and Responsibilities 
+A. Askiy Energy 
+Askiy Energy Corp, a 100% Indigenous-owned and operated renewable energy company 
+based in Doghead, Mikisew Cree Reserve near Fort Chipewyan, Alberta, provides 
+sustainable energy solutions that benefit both clients and the environment. Their services 
+include solar power installation, community energy planning, energy efficiency audits, and 
+smart grid implementation.  
+Scope and Contribution to PAPER 
+In the PAPER project, Askiy Energy will leverage its expertise to lead community 
+engagement, capacity building, and the implementation of renewable energy solutions. 
+Their specific contributions include: 
+1. Community Engagement and Coordination: 
+o Initial Outreach: Engage with participating Indigenous communities to 
+introduce the PAPER project, outline its benefits, and establish collaborative 
+relationships. 
+o Data Access Agreements: Facilitate the development and signing of 
+agreements that define project scope, data collection methodologies, and 
+data usage policies, ensuring alignment with community priorities. 
+o Ongoing Communication: Maintain regular contact with community 
+stakeholders to provide updates, gather feedback, and address concerns 
+throughout the project lifecycle. 
+2. Capacity Building and Training: 
+o AI Education Program Delivery: Lead the implementation of training 
+workshops and provide ongoing support to community teams, enabling them
+
+to effectively utilize the PAPER platform and manage energy retrofit projects 
+independently. 
+o Resource Development: Create tailored training materials, user manuals, 
+and support resources that cater to the specific needs and contexts of each 
+community. 
+3. Renewable Energy Assessments and Planning: 
+o Energy Efficiency Audits: Conduct comprehensive audits to identify areas 
+for improvement, aiming to reduce energy consumption and increase savings 
+for clients.  
+o Community Energy Planning: Develop detailed plans that identify 
+opportunities for energy efficiency and clean energy solutions, considering 
+infrastructure, land use, and future growth to achieve community energy 
+goals.  
+4. Implementation of Renewable Energy Solutions: 
+o Solar Power Installation: Leverage experience from leading Canada's 
+largest solar farm in a remote community to design and implement solar 
+energy systems tailored to each community's needs.  
+o Smart Grid Implementation: Design and implement smart grid systems that 
+optimize energy distribution, enhancing reliability, efficiency, and integration 
+of renewable energy sources.  
+5. Cultural Integration and Community Programs: 
+o Youth and Elder Engagement: Develop programs that connect generations, 
+fostering the transmission of knowledge, culture, language, and traditions 
+related to energy practices.  
+o Local Food Production Initiatives: Support projects like the Grocer SEACAN 
+to promote local food production, creating employment opportunities and 
+reducing reliance on external sources.  
+Askiy Energy's deep-rooted commitment to sustainable energy solutions, combined with 
+its cultural understanding and community engagement expertise, positions it as a pivotal 
+partner in the PAPER project. Their contributions will ensure that the project is 
+implemented in a manner that is both technically effective and culturally resonant, 
+empowering Indigenous communities to achieve their energy sustainability goals.
+
+B. CP Logic 
+CP Logic, founded by Cedric Pepelea, is a consultancy dedicated to advancing sustainable 
+energy solutions across Canada. The firm specializes in scaling energy efficiency 
+programs, developing community energy financing mechanisms, and providing 
+transformative training methods that engage communities in STEM and sustainability 
+initiatives.  
+Scope and Contribution to PAPER 
+In the PAPER project, CP Logic will leverage its expertise to oversee project management, 
+strategic planning, and community engagement. Their specific contributions include: 
+1. Project Management and Strategic Planning: 
+o Timeline Oversight: Develop and monitor detailed project timelines to 
+ensure all phases of the PAPER initiative progress as scheduled. 
+o Risk Assessment: Identify potential challenges and implement mitigation 
+strategies to maintain project momentum and integrity. 
+o Reporting: Prepare comprehensive reports detailing project milestones, 
+outcomes, and areas for improvement, ensuring transparency and 
+accountability. 
+2. Community Engagement and Capacity Building: 
+o Energy Coaching: Utilize experience from conducting over 300 one-on-one 
+energy coaching sessions to educate community members on energy 
+efficiency practices and the benefits of retrofit programs. 
+o Training Programs: Develop and deliver training workshops aimed at 
+building local capacity to manage and sustain energy projects, fostering 
+community autonomy. 
+3. Development of Analytical Tools: 
+o Utility Bill Analysis Tool: Create and implement a tool designed to analyze 
+utility bills, providing insights into energy consumption patterns and 
+identifying opportunities for efficiency improvements.
+
+o Data Validation and Verification: Ensure the accuracy and reliability of 
+collected data, forming a solid foundation for informed decision-making 
+within the PAPER platform. 
+4. Strategic Partnerships and Scaling: 
+o Collaboration: Leverage existing relationships with organizations to facilitate 
+the scaling of energy solutions across Canada, ensuring the PAPER project's 
+methodologies can be replicated and adapted in various contexts. 
+o Resource Mobilization: Assist in securing additional resources and support 
+to enhance the project's reach and impact. 
+CP Logic's extensive experience in sustainable energy initiatives, project management, and 
+community engagement positions it as a crucial partner in the PAPER project. Their 
+contributions will ensure the project is executed efficiently, effectively, and in a manner 
+that empowers Indigenous communities to achieve their energy sustainability goals. 
+ 
+C. Parachute Software 
+Parachute Software, established in 2005, specializes in delivering configurable software 
+solutions for energy efficiency programs. Their flagship platform, DropZone, has been 
+instrumental in managing some of Canada's most ambitious energy efficiency initiatives, 
+including GreenON and Energy Efficiency Alberta.  
+ 
+Scope and Contribution to PAPER 
+In the PAPER project, Parachute Software will leverage its extensive experience to develop 
+and integrate a comprehensive platform tailored to the needs of Indigenous communities. 
+Their contributions include: 
+ 
+1. Platform Development and Customization: 
+   - Design and Build: Develop a user-friendly, modular platform that automates data 
+collection, analysis, and document generation for energy retrofit planning. 
+   - Configurability: Ensure the platform is adaptable to various community requirements 
+without necessitating extensive IT upgrades.
+
+2. System Integration: 
+   - Third-Party Tools: Integrate essential tools such as Volta Snap and CP Logic’s Utility Bill 
+Analysis Tool to enhance data validation and analysis capabilities. 
+   - External Systems: Utilize DropZone's flexible architecture with APIs to connect to 
+external systems, facilitating seamless data exchange and preventing data silos.  
+ 
+3. Data Management and Reporting: 
+   - Real-Time Analytics: Implement features that allow for real-time data analysis and 
+reporting, utilizing Parachute's expertise in actionable analytics and Microsoft Power BI 
+integrations.  
+   - Comprehensive Tracking: Develop functionalities to track every data point and user 
+action, ensuring detailed program reporting and effectiveness assessment.  
+ 
+4. Mobile Application Development: 
+   - DropZone Mobile: Create a fully integrated mobile application to facilitate in-field data 
+collection, measure installation, photo uploads, and customer signature capture, 
+enhancing the platform's accessibility and usability.  
+ 
+5. User Training and Support: 
+   - AI Education Program: Collaborate in delivering training workshops and ongoing support 
+to community teams, ensuring they can effectively utilize the platform and maintain 
+autonomy in managing energy retrofit projects. 
+ 
+Parachute Software's proven track record in deploying configurable, integrated solutions for 
+large-scale energy efficiency programs positions them as a pivotal partner in the PAPER 
+project. Their expertise will ensure the platform is robust, adaptable, and tailored to meet 
+the specific needs of Indigenous communities, thereby facilitating successful energy 
+retrofit planning and implementation.
+
+D. Volta Research 
+Volta Research, a not-for-profit organization, advances knowledge-based decision-making 
+for low-carbon technologies by supporting research processes and providing analytical 
+expertise. Their services encompass emissions accounting, solar energy solutions, green 
+building initiatives, and smart grid development.  
+Scope and Contribution to PAPER 
+In the PAPER project, Volta Research will leverage its expertise to enhance data integration 
+and analysis, focusing on energy assessments and retrofit recommendations. Their 
+specific contributions include: 
+1. Energy Assessment and Modeling: 
+o Development of Analytical Tools: Create user-friendly software 
+applications that streamline energy assessments and modeling for existing 
+low-rise residential buildings, integrating on-site data collection with 
+industry-standard energy modeling software like HOT2000.  
+o Enhanced Analytics: Provide location-specific energy and emissions 
+analytics to offer tailored retrofit recommendations, aiding Certified Energy 
+Advisors in delivering effective solutions. 
+2. Data Integration: 
+o Volta SNAP Platform: Utilize and customize the Volta SNAP platform to 
+facilitate seamless data collection and analysis, ensuring compatibility with 
+existing energy modeling tools and standards.  
+o Integration with PAPER: Ensure that data from energy audits and 
+assessments are effectively integrated into the PAPER platform, enabling 
+comprehensive analysis and reporting. 
+3. Training and Capacity Building: 
+o Educational Support: Assist in developing training materials and workshops 
+to educate community teams on using energy assessment tools and 
+interpreting data for informed decision-making. 
+o Ongoing Support: Provide continuous assistance to community teams, 
+ensuring they can effectively utilize the tools and methodologies introduced. 
+4. Research and Development:
+
+o Innovative Solutions: Collaborate on developing new tools and 
+methodologies that address specific challenges identified during the project, 
+such as affordability and accessibility of energy retrofits.  
+o Pilot Testing: Participate in pilot projects to test and refine tools and 
+approaches, ensuring they meet the needs of Indigenous communities 
+involved in the PAPER project. 
+Estimated Cost Contribution: $400,000 (13.3% of the total project budget) 
+Volta Research's extensive experience in energy assessments, modeling, and low-carbon 
+technology solutions positions them as a vital partner in the PAPER project. Their 
+contributions will ensure that the platform provides accurate, actionable insights, 
+empowering Indigenous communities to make informed decisions about energy retrofits 
+and sustainability initiatives. 
+ 
+E. University of Waterloo – Future Cities 
+University of Waterloo Future Cities Institute (FCI): Scope and Contribution to PAPER 
+ 
+The Future Cities Institute (FCI) at the University of Waterloo is a premier interdisciplinary 
+research hub committed to developing innovative solutions for sustainable urban 
+development. FCI focuses on creating tools and methodologies for healthy, prosperous, 
+and environmentally sustainable communities. A core area of their expertise includes the 
+development of AI-driven tools for community energy planning and policy design, aligning 
+perfectly with the objectives of the PAPER project. (uwaterloo.ca) 
+ 
+Scope and Contribution 
+The University of Waterloo’s FCI will play a critical role in ensuring the success of PAPER 
+through the following contributions: 
+1. Support AI Development with Software Partners 
+Collaborate with leading software partners to support the development and 
+integration of advanced AI tools tailored for the PAPER platform. These 
+partnerships will enhance the platform's capabilities, ensuring cutting-edge 
+technology is deployed to address the unique energy planning needs of 
+Indigenous communities.
+
+2. Manage Quality Assurance of PAPER Output 
+Implement rigorous quality assurance (QA) processes to ensure the accuracy 
+and reliability of PAPER's outputs. This includes providing reinforcement 
+learning and continuous feedback mechanisms to fine-tune the AI models, 
+ensuring they remain aligned with best practices and evolving community 
+requirements. 
+3. Program Validation: Conduct rigorous studies to evaluate the 
+methodologies and outputs of the PAPER platform, ensuring alignment with 
+best practices in energy planning and policy. 
+4. Case Study Development: Collaborate with pilot communities to document 
+the implementation of PAPER, highlighting challenges, successes, and 
+opportunities for improvement. 
+5. Scalability Analysis: Assess the feasibility of scaling the platform to other 
+communities and regions, providing recommendations for adaptation and 
+expansion. 
+• Interdisciplinary Collaboration: 
+1. Cross-Sector Expertise: Leverage FCI’s expertise in urban planning, energy 
+systems, AI development, and sustainability to enhance PAPER’s 
+capabilities. 
+2. Partnership Facilitation: Foster connections between academia, 
+Indigenous communities, government agencies, and industry partners to 
+create a cohesive, collaborative ecosystem for the project. 
+• Capacity Building and Talent Development: 
+1. Training Programs: Design and deliver training programs for Indigenous 
+communities to empower local teams with the skills to use PAPER and the 
+integrated AI tools effectively. 
+2. Student Engagement: Involve university students and researchers in the 
+project, providing hands-on experience in real-world energy planning and 
+sustainability initiatives. 
+ 
+Leadership Expertise
+
+The project will benefit greatly from the leadership of Eryn Stewart, Managing Director of 
+FCI. Eryn was the Founding Managing Director of Indigenous Clean Energy (ICE), where 
+she developed and implemented innovative programming to advance clean energy projects 
+in Indigenous communities across Canada. Her experience includes: 
+• Deep knowledge of Indigenous programming and funding mechanisms. 
+• Proven success in facilitating meaningful engagement with Indigenous 
+communities. 
+• Expertise in ensuring clean energy initiatives align with cultural, social, and 
+economic goals. 
+Eryn’s leadership will ensure that the PAPER project is culturally sensitive, community-
+driven, and aligned with Indigenous aspirations for sustainable development. 
+ 
+Estimated Cost Contribution 
+Activity Cost ($) 
+Support AI Development with Software Partners $75,000 
+Manage Quality Assurance of PAPER Output $250,000 
+Program Validation $75,000 
+Total $400,000 
+ 
+Conclusion 
+The University of Waterloo’s Future Cities Institute will be a pivotal partner in the PAPER 
+project. Their cutting-edge AI tools for Community Energy Planning, combined with their 
+expertise in interdisciplinary research, capacity building, and cultural sensitivity, will 
+significantly enhance the project’s success. This partnership ensures that PAPER is not 
+only technically robust but also strategically aligned with the unique needs and goals of 
+Indigenous communities, fostering long-term sustainability and resilience.
+
+8. Cost Estimated Breakdown Table 
+Partner Role Responsibilities Estimated 
+Cost ($) 
+Askiy Energy 
+Lead Applicant, 
+Community 
+Engagement 
+Train local teams, manage data 
+sovereignty, coordinate pilot 
+projects. 
+500,000 
+CP Logic Project Management 
+and Strategic Planning 
+Oversee project deliverables, 
+Community Engagement support, 
+Coordinate with all partners  
+300,000 
+Parachute 
+Software 
+Platform 
+Development and 
+Integration 
+Build and customize the PAPER 
+platform, integrate third-party 
+tools, generate documentation 
+templates. 
+900,000 
+Volta Research Data Integration and 
+Analysis 
+Customize Volta Snap, aggregate 
+energy audit data, and create 
+analysis modules. 
+400,000 
+University of 
+Waterloo 
+Academic Validation 
+and Capacity Building 
+Conduct validation studies, 
+produce case studies, and provide 
+scalability recommendations. 
+400,000 
+Legal Services 
+Contract Drafting, 
+Licensing, and Data 
+Sovereignty Policies 
+Draft contracts, develop the data 
+sovereignty policy, and review 
+agreements. 
+100,000 
+Miscellaneous 
+Costs 
+Travel, contingency, 
+and unforeseen 
+expenses 
+Cover unexpected project needs. 
+To be expanded on. 100,000 
+ 
+9. Next Steps 
+1. Refine Project Scope: 
+o Complete integrations of Volta Snap and CP Logic tools.
+
+2. Partner Cost Estimated: 
+o Align budget details, partner contributions, and pilot plans with grant criteria. 
+3. Create and circulate draft grant application: 
+o Submit the finalized application to Prairies Economic Development Canada. 
+ 
+10. Conclusion 
+PAPER represents a transformative opportunity for Indigenous communities to streamline 
+energy retrofit planning while building internal capacity and fostering long-term 
+sustainability. By automating critical processes and equipping local teams with AI-driven 
+tools, PAPER addresses systemic barriers, reduces costs, and empowers communities to 
+lead their own energy futures.

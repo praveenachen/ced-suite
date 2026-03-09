@@ -1,0 +1,172 @@
+The Future Cities Institute (FCI) Synthetics Laboratory: Connecting Researchers, Governance, 
+Private Industry, and Students through Disruptive Simulations 
+Lead Applicant: Dillon T. Browne, Ph.D., C.Psych.  
+Canada Research Chair in Child and Family Clinical Psychology | Royal Society of Canada, College 
+Member | Founder & Director, FamilyPsycle® Laboratory | Member, Future Cities Institute & 
+Waterloo Climate Institute | Department of Psychology, Faculty of Arts, University of Waterloo  
+ 
+Co-Lead Applicant: Leia Minaker 
+Director, Future Cities Institute | Associate Professor, School of Planning, Faculty of Environment 
+ 
+Team Members 
+Chris Perlman, Associate Professor, School of Public Health Sciences, Faculty of Health 
+Adrian Buttazzoni, Postdoctoral Fellow, School of Planning, Faculty of Environment 
+Roberto Guglielmi, Assistant Professor, Department of Applied Mathematics. Faculty of Math 
+Kate Sellen, George Soulis Chair in Design, Systems Design Engineering, Faculty of Engineering   
+[TBD], Faculty of Science 
+Dean Bittner, Chief Technology Officer, RunWithIt Synthetics® 
+Alison Pearson, Children & Youth Planning Table of Waterloo Region 
+ 
+ 
+Application Type 
+[leverage: up to $200,000] 
+ 
+Expression of Interest (1000 words total)  
+12. How does this initiative impact one or more of the five Global Futures? Refer to the Global 
+Futures Fund webpage for information on Societal Futures, Health Futures, Sustainable 
+Futures, Technological Futures and Economic Futures. 
+ 
+The proposed  project is  to build a  state-of-the-art synthetic modeling laboratory within the 
+Future Cities Institute (FCI) at the University of Waterloo (UW) . Given the flexibility of synthetic 
+modeling, which includes techniques such as  simulated cities, the initiative  cuts across all five 
+Global Futures. Specifically, t he experiential FCI Synthetics Lab  will develop, apply, and 
+disseminate advanced technological (i.e., software) solutions, including artificial intelligence 
+(AI), modeling, and visualization tools to render and model entire populations of cities . 
+Subsequently, compelling, geospatially accurate, and dynamic  simulations of digital twins will be 
+tested, exploring scenarios and processes related to infrastructure (e.g., housing, transportation), 
+sustainability (e.g., waste management , energy use ), resilience (e.g., natural disasters, power 
+outages), and economic conditions (e.g., investment, inequalities). The interface of these inputs 
+with human health and well -being will be modeled, disseminated,  and discussed alongside key 
+players, including governance, the private sector, and marginalized communities  (i.e., voice 
+representatives).  
+ 
+The synthetic approach to data, modeling, and simulation is ideally suited for the testing of “what 
+if” scenarios relevant for promoting resilient Global Futures. It is essential for the University of
+
+Waterloo (UW) and Canada to develop and advance such technologies, as we delve deeper into an 
+era of rapid technological change and global destabilization. Synthetic data and modeling solutions 
+have been used in multiple research sub-specialties, though these areas are seldom integrated into 
+simulations that cut across domains  (i.e., lacking interdisciplinarity). Thus, the proposed FCI 
+Synthetics Lab will be open and available to all faculty, staff, and students at UW, along side 
+government leaders and indus try partners, permitting cross-functional research, innovation, and 
+entrepreneurship. The proposed project will catapult FCI’s methodological sophistication, 
+transforming the institute and UW into a world class in synthetic computing solutions. 
+ 
+13. How does this initiative leverage existing or emerging strengths at UWaterloo? (Required) Our 
+areas of strength exist in our academic and research domains, as well as across our founding 
+differentiators (co-op and work-integrated learning, innovation and entrepreneurship, and 
+connections to our local region). 
+ 
+Co-op and work-integrated learning: Experiential learning for students is an integral component of 
+the proposed laboratory within FCI, which already houses  the Interdisciplinary Capstone (i -Cap) 
+course, and presently involves >200 students from all six faculties , including >80 (and growing) 
+external partners . Both graduate and undergraduate students will have opportunities to design, 
+utilize, and disseminate the data and modeling solutions developed in the FCI Synthetics Laboratory. 
+Moreover, the facility will create new opportunities for students (including co-op, and those working 
+in applied settings such as industry, governance, non -profit) to engage in research, while providing 
+impactful and highly so ught-after insights to partners including employers , funders, and other 
+sponsors. This includes FCI’s CIVIC (City/Community Innovation via Internships & Co -ops) 
+Response team, which embeds students directly with industry, municipal, and NGO partners. 
+Moreover, additional opportunities for student funding will emerge through matching programs such 
+as Mitacs. 
+ 
+Innovation & entrepreneurship: The proposed FCI Synthetics Laboratory will synergistically 
+interface with UW’s remarkable legacy of innovation and entrepreneurship. This includes FCI’s Build 
+Now Student Challenges, where students from all disciplines are invited to work on urgent 
+community challenges. The proposed laboratory  reflects a partnership with industry partner, 
+RunWithIt® Synthetics, which is a global leader in synthetic data science. This partner was attracted 
+to UW because of the intellectual property (IP) policy, in addition to longstanding relationship with 
+the study team, and is already engaged with Research Partnerships (Contracts) at UW. The proposed 
+arrangement will allow UW researchers and students to develop commercial synthetic modeling 
+solutions while retaining ownership . At the same time, the laboratory will generate a revenue 
+stream through the sale of research and data services.   
+ 
+Connections to the region: Since its founding, FCI has been closely connected to municipal 
+planning and decision-making in Waterloo, including Build Now Waterloo Region, which is a $500M 
+initiative led by Habitat for Humanity  to build “missing middle” housing. Moreover, it is guided by 
+an advisory board involved in high-level conversations around land development and infrastructure 
+needs of local and national communities and has over 50 UW faculty members. FCI also has a close 
+relationship in advising the Kitchener-Waterloo Chamber of Commerce.
+
+In addition to FCI’s connections, t his initiative is connected via the FamilyPsycle® Laboratory’s 
+(Graham Seed 1.0 recipient, 2023) longstanding connection to family health and social service 
+providers in Ontario. Most importantly, the project is backed by the Children and Youth Planning 
+Table (CYPT), which is a municipal planning and leadership body, designed to create a single voice 
+for promoting child, youth, and family well-being in the region. FamilyPsycle® (Dr. Browne) is the data 
+lead for CYPT. There are over 1000 individual members, reflecting 80 organizations  and entities , 
+including all seven cities/townships, the YMCA/YWCA, United Way, Regional Police, Waterloo Region 
+Community Foundation, foodbanks, schoolboards, post-secondary institutions, public libraries, and 
+a variety of health and social service providers, including grassroots organizations supporting 
+underserved groups. 
+ 
+14. How does this initiative involve collaboration across academic disciplines and organizational 
+units at UWaterloo? (Required) 
+ 
+Basing the proposed laboratory on the science of synthetic data /modeling has major benefits for 
+interdisciplinarity and university organizational structure. This approach is theoretically amenable to 
+any discipline that utilizes quantitative data (and, increasingly, linguistic data, as well). Keeping with 
+the goals of the initiative, the team on this proposal represents all UW faculties . Following 
+consultations from Global Futures 1.0 and the Healthy Futures Roundtable, the decision to situate 
+this laboratory within FCI will significantly enhance reach by promoting visibility and piggybacking 
+onto established university-wide workgroups. Furthermore, the study team includes membership 
+in UW’s many centres and institutes  (e.g., Centre for Mental Health Research and Treatment, 
+Waterloo Climate Insti tute, Waterloo Institute for Complexity and Innovation, Centre for 
+Bioengineering and Biotechnology) who will be engaged throughout project.  
+ 
+15. Describe any existing or planned external partners and opportunities for sustainability of the 
+initiative? (Required). If there are no existing or planned external partners/opportunities, use the 
+space below to explain why (e.g. for educational initiatives dependent only on internal 
+collaboration). 
+ 
+There are several external partners that significantly enhance the sustainability of the initiative.  The 
+primary partner is RunWithIt® Synthetics  (RWI: https://rwisynthetics.com/), which is a private 
+company and global leader in “synthetic decision intelligence” . This Indigenous owned and women-
+led organization has 25 years of experience creating synthetic cities, where their unique advantage 
+is the inclusion of entire populations of digital twins in simulations. The FCI Synthetics Lab, and UW 
+more broadly, will benefit significantly from RWI’s proven track record of raising significant capital 
+from a variety of sources, including grants (e.g., Innovation, Science and Economic Development 
+Canada; National Research Council), along with private equity, cutting across topic areas, including 
+transportation, utilities, insurance, electric vehicles, disaster  readiness, emissions reduction, and 
+space exploration. Other partners include the Waterloo Region Children and Youth Planning Table 
+(CYPT), which will serve as a voice representative  and liaison between all 80+ child, youth, and 
+family serving organizations and entities in the region. Of course, FCI was founded upon a $10m 
+investment from Caivan, which is a major Canadian real estate d eveloper, and leader in the
+
+development of advanced solutions to promote housing affordability.  FCI is an established institute 
+at UW with many additional external partners committed to the success of this project.  
+16. What top 2 to 3 key activities do you plan to undertake during proposed funding period? 
+(Required) 
+ 
+Over the two years  of the requested funding, success will be measured by (1) implanting five 
+workgroups of researchers (e.g., one team per Global Future) into the laboratory, where teams are 
+comprised of both UW faculty/students and partners in both government and the private/public 
+sector, and (2) supporting these teams to attract at least one source of additional funding  
+(including grants, contracts, and private investment) using the advanced synthetic modeling 
+solutions available in the laboratory. 
+ 
+Year 1 activities include:  
+(a) install infrastructure (e.g., computing, servers, visualization tools) within FCI, where systems have 
+already been approved in Dr. Browne’s $500,000 CFI-JELF attached to his CRC renewal, and;  
+(b) complete a test project with study team on diversion of mental health 911 calls that builds upon 
+the beta -version of “Synthetic Waterloo” , which has already been const ructed from a  past 
+collaboration with RWI, CYPT, the Region of Waterloo, and Dr. Browne.  
+ 
+Year 2 activities include: 
+(c)  scaling “tenants” in the FCI Synthetics Laboratory, where 5 teams are invited (one per Global 
+Future), who are supported to attract funding based on Synthetic Waterloo, along with the primary 
+study team.  
+ 
+Any Other Additional information (200 words) 
+The FCI Synthetics Laboratory will create new opportunities for researchers across the entire 
+university to approach important Global Futures questions from the methodological stance of 
+synthetic decision intelligence. This will result in increased funding (across government and the 
+private sector) and increased impact , including traditional scholarly outputs, alongside novel 
+approaches to engaging with key decision makers and the community (i.e., compelling visualizations 
+and collaborative approaches to research). Developing and a ccessing state-of-the-art tools will 
+further raise the university’s global reputation, particularly in the area of advanced synthetic 
+simulations, while increasing competitiveness, as high -profile and university -level synthetic 
+laboratories are beginning to emerge at other institutions (e.g., Arizona State University’s Global 
+Futures Laboratory).  Together, these investments position the FCI Synthetics Laboratory as a 
+catalytic hub that not only accelerates discovery and translation  but also ensures the university 
+leads—rather than follows—in shaping how synthetic decision intelligence informs high -stakes 
+global futures.

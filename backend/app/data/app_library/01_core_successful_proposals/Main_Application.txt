@@ -1,0 +1,571 @@
+1 
+ 
+Full Title: “Investigating the links between Canadian cities’ social infrastructure and community 
+health: Mapping national trends of self-reported health and behaviour, social connection, chronic 
+conditions, and mortality” 
+ 
+ 
+Summary:
+
+2 
+ 
+Lay Title: 
+ 
+Lay Abstract: 
+ 
+CCHS PUMFs | CSS PUMFs | SMHSE PUMFs | CVSD PUMFs | CENSUS PUMFs |
+
+3 
+ 
+1 BACKGROUND & OBJECTIVES: 
+ Inequities in social determinants of health (SDoH) like the local built environment, 
+community safety, social networks, and access to physical activity opportunities1 can result in 
+differences in life expectancy up to 33 years between countries.2 In Canada, understanding the 
+myriad implications of SDoH differentials and disparate health outcomes is of increasing 
+importance to governments at all levels seeking to achieve health equity and improved health 
+trajectories for vulnerable communities.e.g., 3,4 Illustrative examples of the links between SDoH 
+and disparate health outcomes in Canada include area income (e.g., lower area income correlated 
+with lower life expectancy), material and social deprivation (e.g., greater deprivation associated 
+with higher suicide mortality), and physical and social environments (e.g., prevalence of living in 
+below-standard housing is ~7.5x higher for Canadians in the lowest income group).5 Leaving 
+SDoH unaddressed with respect to environmental factors comes at significant cost for 
+Canadians. Poor mental health, including mental illnesses, is estimated to cost $51 billion 
+annually in health care expenditures and lost economic productivity.6 Low levels of physical 
+inactivity in Canada similarly has total direct and indirect annual health care costs of $4.3-$9.3 
+billion,7 as well as an additional $2.2 billion in costs related to decreased work capacity and 
+productivity losses.8 Emerging research multiple country trends also notes rising economic and 
+health care costs associated with social isolation; for instance, in the US, Medicare programs 
+spend $6.7 billion USD annually to address loneliness,9 in the UK an estimated £2.5 billion is 
+lost in annual economic productivity due to loneliness-related issues like greater absences and 
+turnover,10 and in the Netherlands loneliness is associated with an indirect increase of €3.5 
+billion in total healthcare expenditures.11 
+ An emerging potentially cost-effective and community level intervention to support the 
+health of Canadians is addressing local SDoH, and specifically the quality of area social 
+infrastructure (SI; i.e., places and spaces like gardens, gathering sites, libraries, parks/pools, and 
+pubs that help build and maintain community and social life12). High quality SI can measurably 
+improve different aspects of health such as resilience, social ties, and active living13–15 as a result 
+of allowing for people to build connections, develop healthy and active habits, and enhance 
+collective action capacity. SI can also have important protective health benefits. For instance, 
+everyday networking places like sites for local community organizations (e.g., community 
+centres),16 cafés, and places of worship can function as nodes through which individuals engage 
+in building and strengthening social ties thereby mitigating the potential for isolation and 
+loneliness.17 However, SI is a relatively new concept18 that has only recently been connected to 
+health services19 and recreational studies20 topics. Moreover, international reviews of SI have 
+reported most existing research appears to be local in scale (i.e., few national-scale analyses),21 
+lacks clarity regarding which specific communities (e.g., vulnerable social identity groups) may 
+benefit the most and in what ways from SI,22 and is yet to directly link SI with a comprehensive 
+set of health outcomes beyond social indicators.23 Using the 25 largest municipalities in Canada 
+to map national trends regarding how the quality of local SI is associated with multiple 
+dimensions of health, the proposed research has three objectives: 
+O1: Explore how the quality and prevalence of local SI affects self-reported overall physical and 
+mental health (CCHS), and the size and strength of social networks (CSS); [i.e., overall health, 
+social networks] 
+O2: Investigate how the quality and prevalence of local SI predicts drug and alcohol use and 
+smoking behaviours (CCHS), as well as engagement in healthy and help-seeking behaviours
+
+4 
+ 
+(SMHSE); [i.e., unhealthy and healthy behaviour] and incidences of chronic conditions 
+(SMHSE/CCHS) and causes of mortality (CVSD). [i.e., chronic conditions, health trajectories, 
+mortality] 
+O3: Investigate how residents of two distinct RoW neighbourhoods regarding their SI quality 
+(i.e., low-quality SI, high-quality SI), as determined by the measure developed in O1-O2, 
+perceive, access, and make use of their local SI apropos of their health/illness. 
+2 RESEARCH METHODS & TIMELINES: 
+This research aligns with CIHRs Institute of Population and Public Health (IPPH) mandate, and 
+specifically the areas structural determinants of health and public health systems, and will 
+proceed via three sequential studies that, collectively, quantify the influence of SI as component 
+of both the structural determinants and public health system in Canada. 
+2.1 SI and Overall Health, Social Support (O1): Explore SI and self-reported overall physical 
+and mental health, and the size and strength of social networks (April 26/July 26). 
+2.1.1 Data Linking: Google Maps Places API + 2021 Census + 2021 CSS + 2021 CCHS 
+2.1.2 Variables:  
+Independent Variables: quality of local social infrastructure (derived from Google Maps Places 
+API: map libraries, community centers, city hall facilities, places of worship, cafes, bookstores, 
+parks, squares, fountains, and gardens). 
+Dependent Variables:  
+Self-reported health (CCHS): overall health assessment, life satisfaction, mental health 
+assessment, life stress assessment, work stress assessment, difficulties with personal care, and 
+mobility limitations.  
+Social networks (CSS): sense of belonging to local community, sense of belonging in Canada, 
+someone to count on, loneliness, number of peopled trusted in neighbourhood, and total number 
+of acquaintances. 
+Covariates (all in the 2021 Census): age, family structure, citizenship, dwelling types, ethnic or 
+cultural origin, gender, highest certificate/diploma/degree, household low-income status, 
+immigrant status, household after-tax income groups, labour force status (3), marital status 
+2.1.3 Data Analysis: 
+2.2 SI and Daily Health Behaviours, Long-Term Health  (O2): Investigate SI and drug and 
+alcohol use and smoking behaviour, engagement in healthy and help-seeking behaviours (Aug 
+26/Nov 26). 
+2.2.1 Data Linking: Google Maps Places API + 2021 Census + 2021 SMHSE & CCHS + 2021 
+CVSD 
+2.2.2 Variables: 
+Independent Variables: quality of local social infrastructure (derived from Google Maps Places 
+API: map libraries, community centers, city hall facilities, places of worship, cafes, bookstores, 
+parks, squares, fountains, and gardens). 
+Dependent Variables:
+
+5 
+ 
+Alcohol Use (CCHS): ever had a drink, drink in last 12 months, frequency of drinking in last 12 
+months, frequency of drinking more than 4/5 drinks in last 12 months. 
+Drug Use (CCHS): ever used hard drugs, hard drug use in last 12 months, ever use of 
+amphetamines/methamphetamines, amphetamines/methamphetamines use in last 12 months, 
+ever use of intravenous drug use, intravenous drug use in last 12 months 
+Stressful Events (CSS): any experience of highly stressful or traumatic events, worst event 
+experienced, age at worst event experienced, contemplated suicide, contemplated suicide as a 
+result of worst experience, social impacts of stressful events 
+Healthy: Physical Activity (18+) (CCHS): physical activity in last 7 days, time spent in physical 
+activity in last 7 days, MVPA last 7 days, time spent in MVPA in last 7 days 
+Healthy: Healthy Behaviours (CSS): type of activities engaged in to maintain or improve health 
+Healthy: Mental Health Services (CSS): any use of resources to management emotions/mental 
+health/alcohol/drugs, type of resource used 
+Covariates (all in the 2021 Census): age, family structure, citizenship, dwelling types, ethnic or 
+cultural origin, gender, highest certificate/diploma/degree, household low-income status, 
+immigrant status, household after-tax income groups, labour force status (3), marital status 
+2.2.3 Data Analysis: 
+2.3 SI and Long-Term Health (O3): Comparative investigation of RoW residents perceptions, 
+access, and usage of local SI regarding health/illness (Dec 26/Mar 27). 
+2.3.1 Data Collection:  
+2.3.2 Variables: 
+Independent Variables: quality of local social infrastructure (derived from Google Maps Places 
+API: map libraries, community centers, city hall facilities, places of worship, cafes, bookstores, 
+parks, squares, fountains, and gardens). 
+Dependent Variables: Chronic condition measures will be taken from the 2021 SMHSE and 2021 
+CCHS. Measures from the SMSHE will include assessments of mood disorders (e.g., depression, 
+bipolar), anxiety disorders (e.g., OCD, panic disorder), and PTSD. Items from the CCHS will be 
+evaluations of sleep apnea, arthritis, high blood pressure, heart disease, stroke, diabetes, cancer, 
+Alzheimer's Disease, and chronic fatigue syndrome.  
+Health trajectory assessments will be assessed for both tails of the lifecourse using multiple items 
+from the 2021 CVSD. ‘Infancy and childhood’ life trajectory measures will include perinatal 
+death of population, birth weight of infant, and health-adjusted life expectancy of person. With 
+respect to ‘late adulthood’ measures included in the analyses will be probability of survival of 
+person, potential years of life lost of person, and potentially avoidable mortality of person. 
+Mortality measures will also be taken from the 2021 CVSD and will include age at time of death 
+of person, cause of death of person (type), and premature mortality of person (type).
+
+6 
+ 
+Covariates (all in the 2021 Census): age, family structure, citizenship, dwelling types, ethnic or 
+cultural origin, gender, highest certificate/diploma/degree, household low-income status, 
+immigrant status, household after-tax income groups, labour force status (3), marital status 
+2.3.3 Data Analysis: 
+3 CHALLENGES & MITIGATION PLANS: 
+ This project will involve the creation of a national dataset quantifying the nature and 
+quality of SI in Canada’s largest municipalities. There are two important challenges to note about 
+this task. Fist, while we plan to operationalize SI in accordance with current literature (i.e., 
+places and spaces that help build/maintain community and social life12), we recognize that there 
+are other outlines of SI that introduce features such as SI being the “system of organizations … 
+that enable people to connect24” that are difficult to quantify. Unable to quantify larger, more 
+abstract notions of ‘systems’ in the analysis, our approach uses a fairly broad definition of SI that 
+makes room for the inclusion of as many important spatial influences including green and blue 
+spaces (gardens, parks, pools, ponds), communal gathering sites (plazas, pedestrian malls, public 
+easements), pedestrian infrastructure (trails, multi-modal paths, sidewalks), educational resources 
+(libraries, schools), leisure sites (community centres, sports facilities), and social settings (pubs, 
+restaurants). And second, we elected to create a database of SI for XX municipalities in Canada 
+where the average population is XXX,XXX and spatial size is XXX.X km2 (per publicly 
+available StatCan information). Consequently, we recognize that our analyses are not 
+generalizable to smaller population or more compact communities. Intending to publish our 
+results in open access journals and provide evidence briefs on our Team’s new open access 
+policy platform (www.CivicInquire.com), we will encourage future research to use or adapt out 
+method and explore the community typologies we were unable to investigate in this research. 
+Other potential challenges include … Linking issues? Coarse quantifications of SI due to API?  
+4 RESEARCH TEAM:  
+NPA Leia Minaker is an Associate Professor in the School of Planning at UW. She is also the 
+Director of the Future Cities Institute (FCI) at UW and has expertise in public health research, 
+urban planning, epidemiological risk assessment analyses, SDoH (esp. built environment, health 
+disparities), dataset linking, and knowledge mobilization (KMb) strategies and resource 
+development for health and planning practitioners. She will lead the team across O1-O3, as well 
+as help organize the KMb activities. Co-I Troy Glover is a Professor in the Department of 
+Recreation and Leisure Studies at UW. He is also the Director of the Healthy Communities 
+Research Network and with expertise in social infrastructure, municipal policy analysis, the 
+social impacts of urban planning, and qualitative methods. He will help lead the qualitative 
+components of the proposed research (O3) and assist in the data collection and analysis of O1 
+and O3, and will also be involved in the recruitment for and running of the KMb activities. Co-I 
+Rob Feick is an Associate Professor in the School of Planning at UW. He has expertise in 
+methods for using geospatial information technology and data to support municipal decision 
+making, GIS for infrastructure evaluations and assessments, and geospatial data visualization 
+KMb tool development. He will lead the analysis and contribute to the write-up for O1 and O2, 
+as well as support the KMb activities. Co-I Adrian Buttazzoni is an SSHRC postdoctoral fellow 
+in the School of Planning at UW who has expertise with health policy, community health 
+promotion, urban design and human health/social outcomes, SDoH (esp. housing, built 
+environment, community social well-being), and urban planning. He will assist with the project
+
+7 
+ 
+coordination, data collection and cleaning, analysis, and writing tasks associated with O1-O3 
+and support the KMb activities. PKU Eric Avner is the President & CEO of the Waterloo 
+Region Community Foundation (WRCF)… Collaborator Derek Phillips …   
+5 KNOWLEDGE MOBILIZATION: 
+NPA Minaker is Director of the University of Waterloo’s Future Cities Institute (FCI). The FCI’s 
+purpose is to foster healthy, prosperous future cities through applied, interdisciplinary research. 
+The FCI has strong and extensive networks, including municipalities, planners, developers, and 
+elected officials. Working closely with PKU Avner and Collaborator Phillips, the NPA and Co-
+Is will organize two local city sprints (i.e., group meetings for action planning, timelines). City 
+sprints will be organized around the theme of ‘building and promoting social infrastructure to 
+support community cohesion and well-being’. Our team, which includes the Waterloo Region 
+Community Foundation, will engage other relevant community partners (e.g., local planners, 
+local municipal officials) and research members (e.g., healthcare system, social welfare system 
+researchers) to participate in the two city sprints. Specifically, we use a 2-day design where both 
+sprints are developed and facilitated by the FCI and invited partners are instructed to focus on 
+identifying potential solutions and developing prototypes to address challenges found in O1-O3. 
+6 ANTICIPATED IMPACTS:  
+This will be one of the first national-level spatial analyses of the relationships between local SI 
+quality and prevalence and a multitude of health outcomes that capture perceptions of health, 
+daily health behaviours, and long-term chronic condition and mortality trends. Our intersectional 
+analyses, which will explore the extent to which SI potentially uniquely affects the health of 
+several equity-deserving groups (e.g., low-income families), will help identify how structural 
+determinants of health (e.g., urban design) and public health system (e.g., access to services) in 
+Canadian cities contribute to disparate assessments of individual health trajectories and, risks for 
+unhealthy behavioural habits, and long-term health outcomes. By leveraging FCI support and our 
+professional links associated with the WRCF, our findings will contribute to supporting equity-
+focused health policy recommendations for local health units and health care service providers.
+
+8 
+ 
+REFERENCES 
+ 
+1. Office of Disease Prevention and Health Promotion. Social Determinants of Health - Healthy 
+People 2030. Accessed July 17, 2025. https://odphp.health.gov/healthypeople/priority-
+areas/social-determinants-health 
+2. World Health Organization. Social determinants of health. 2025. Accessed July 17, 2025. 
+https://www.who.int/news-room/fact-sheets/detail/social-determinants-of-health 
+3. National Collaborating Centre for Aboriginal Health. Access to Services as Social 
+Determinants of First Nations, Inuit, and Metis Health. University of Northern British 
+Columbia; 2011. Accessed April 7, 2019. https://www.ccnsa-nccah.ca/docs/determinants/FS-
+AccessHealthServicesSDOH-EN.pdf 
+4. Public Health Agency of Canada. Report - Inequalities in mental health, well-being and 
+wellness in Canada | Public Health Infobase - Public Health Agency of Canada. September 10, 
+2024. Accessed July 17, 2025. https://health-infobase.canada.ca/mental-
+health/inequalities/report.html#fn15 
+5. Public Health Agency of Canada. Key Health Inequalities in Canada: A National Portrait – 
+Executive Summary. May 15, 2018. Accessed July 17, 2025. 
+https://www.canada.ca/en/public-health/services/publications/science-research-data/key-
+health-inequalities-canada-national-portrait-executive-summary.html 
+6. Lim KL, Jacobs P, Ohinmaa A, Schopflocher D, Dewa CS. A new population-based measure 
+of the economic burden of mental illness in Canada. Chronic Dis Can. 2008;28(3):92-98. 
+7. Janssen I. Health care costs of physical inactivity in Canadian adults. Appl Physiol Nutr 
+Metab. 2012;37(4):803-806. doi:10.1139/h2012-061 
+8. Chaput JP, Janssen I, Lang JJ, Sampasa-Kanyinga H. Economic burden of excessive sedentary 
+behaviour in Canada. Can J Public Health. 2023;114(2):165-174. doi:10.17269/s41997-022-
+00729-2 
+9. Flowers L, Houser A, Noel-Miller C, et al. Medicare Spends More on Socially Isolated Older 
+Adults. AARP . doi:10.26419/ppi.00016.001 
+10. Michaelson J, Jeffrey K, Abdallah S. The cost of loneliness to UK employers. New 
+Economics Foundation. 2017. Accessed July 17, 2025. 
+https://neweconomics.org/2017/02/cost-loneliness-uk-employers 
+11. Meisters R, Westra D, Putrik P, Bosma H, Ruwaard D, Jansen M. Does Loneliness Have 
+a Cost? A Population-Wide Study of the Association Between Loneliness and Healthcare 
+Expenditure. Int J Public Health. 2021;66:581286. doi:10.3389/ijph.2021.581286 
+12. Joshi A, Aldrich DP. Corralling a chimera: a critical review of the term social 
+infrastructure. Sustainable and Resilient Infrastructure. 2025;10(3):284-294.
+
+9 
+ 
+13. Lee J, Aldrich DP, Kiyota E, Yasuhiro T, Sawada Y . Social capital building interventions 
+and self-reported post-disaster recovery in Ofunato, Japan. Sci Rep. 2022;12(1):10274. 
+doi:10.1038/s41598-022-14537-8 
+14. Aldrich DP, Kyota E. Creating Community Resilience Through Elder-Led Physical and 
+Social Infrastructure. Disaster Medicine and Public Health Preparedness. 2017;11(1):120-
+126. doi:10.1017/dmp.2016.206 
+15. Bryndin E, Bryndina I. Natural and spiritual aspects of health and social infrastructure of 
+public health care on base of healthy lifestyle. Medical Open Journal Gerontology & 
+Geriatrics. 2018;3(6):404-408. 
+16. Marwell NP, McQuarrie M. People, Place, and System. The ANNALS of the American 
+Academy of Political and Social Science. Published online April 5, 2013. 
+doi:10.1177/0002716212474795 
+17. Klinenberg E. Palaces for the People: How to Build a More Equal and United Society. 
+Random House; 2018. 
+18. Klinenberg E. Heat Wave: A Social Autopsy of Disaster in Chicago. University of 
+Chicago press; 2002. 
+19. Davern M, Gunn L, Whitzman C, et al. Using spatial measures to test a conceptual model 
+of social infrastructure that supports health and wellbeing. Cities & Health. Published online 
+April 6, 2017. Accessed July 17, 2025. 
+https://www.tandfonline.com/doi/abs/10.1080/23748834.2018.1443620 
+20. Collins H. Mermaids, knitted costumes and pink carbolic soap: making meaning and 
+translating social space in community-led pools. Language and Intercultural Communication. 
+Published online January 2, 2021. Accessed July 17, 2025. 
+https://www.tandfonline.com/doi/abs/10.1080/14708477.2020.1833899 
+21. Lauer S, Wong KLY , Yan MC. Social infrastructure, community organizations, and 
+friendship formation: a scoping review. Community Development Journal. 2025;60(2):267-
+285. doi:10.1093/cdj/bsae023 
+22. Hollis H, Skropke C, Smith H, Harries R, Garling O. Social Infrastructure: International 
+Comparative Review. Institute for Community Studies; 2023. Accessed July 17, 2025. 
+https://eprints.icstudies.org.uk/id/eprint/414/1/Social_infrastructure_international_comparativ
+e_review.pdf 
+23. Enneking G, Custers G, Engbersen G. The rapid rise of social infrastructure: Mapping the 
+concept through a systematic scoping review. Cities. 2025;158:105608. 
+doi:10.1016/j.cities.2024.105608 
+24. Waterloo Region Community Foundation. Social Infrastructure. 2025. Accessed August 
+18, 2025. https://www.wrcf.ca/socialinfrastructure
+
+10
+
+11 
+ 
+Other Stuff (From two page proposal) 
+ 
+Dataset Information 
+Discussed in group conversation: *Canadian Community Health Survey (2021) - CCHS | 
+*Canadian Social Survey (2021) - CSS | *Canadian Census (2021) | *Survey on Mental Health 
+and Stressful Events (2021) – SMHSE | Canadian Vital Statistics - Death database (2021) - 
+CVSD 
+*2021 datasets can be linked via postal codes 
+Variables of Interest (Operationalizing the DVs) 
+Bonding capital: various CSS, CCHS, and SMHSE items 
+Dataset Variable Item/Details 
+CSS 2021 
+ 
+Sense of belonging to local 
+community (SBL) - SBL_Q100 
+How would you describe your sense of belonging to 
+your local community? 
+ 
+1: Very strong 
+2: Somewhat strong 
+3: Somewhat weak 
+4: Very weak 
+5: No opinion 
+Trust in different groups of people (TIP) 
+TIP_Q10 
+... what is your level of trust in each of the following 
+groups of people? 
+People in your family 
+CCHS 
+2021 
+Social provisions (SPS) - Question 
+identifier:SPS_Q035 
+I feel part of a group of people who share my 
+attitudes and beliefs. 
+SMHSE 
+2021 
+Healthy behaviours (BH) - BH_Q35 Are you currently doing any of the following 
+activities to maintain or improve your health? 
+(possibly dichotomize?) 
+ 
+01: Communicating with friends or family 
+02: Communicating with health professionals (e.g., 
+counsellor or therapist) 
+03: Communicating through social media 
+04: Meditating or seeking spiritual guidance 
+05: Exercising 
+06: Participating in hobbies (e.g., gardening, 
+journaling or crafts) 
+07: Ensuring adequate sleep (e.g., avoiding screen 
+time before sleep, avoiding caffeinated drinks or 
+maintaining regular sleep cycle) 
+08: Other 
+09: None of the above 
+PTS_Q35M – Stressful Events Keeping your worst event in mind, over the past 
+month, how much have you been bothered by the 
+following problems? 
+ 
+Feeling distant or cut off from other people
+
+12 
+ 
+ 
+1: Not at all 
+2: A little bit 
+3: Moderately 
+4: Quite a bit 
+5: Extremely 
+SPS_Q05G – Social Provisions Please indicate to what extent each statement 
+describes your current relationships with other 
+people. 
+ 
+I feel part of a group of people who share my 
+attitudes and beliefs 
+ 
+1: Strongly agree 
+2: Agree 
+3: Disagree 
+4: Strongly disagree 
+SPS_Q05B Please indicate to what extent each statement 
+describes your current relationships with other 
+people. 
+ 
+There are people who enjoy the same social 
+activities I do 
+ 
+1: Strongly agree 
+2: Agree 
+3: Disagree 
+4: Strongly disagree 
+ 
+Bridging capital: trust in different groups of people from CSS  
+Dataset Variable Item/Details 
+CSS 2021 
+ 
+TIP_Q20 ... what is your level of trust in each of the following 
+groups of people? 
+People you work with 
+TIP_Q21 ... what is your level of trust in each of the following 
+groups of people? 
+TIP_Q22 ... what is your level of trust in each of the following 
+groups of people? 
+People who speak a different language than you 
+TIP_Q23 ... what is your level of trust in each of the following 
+groups of people? 
+People with a different religion than you 
+TIP_Q24 ... what is your level of trust in each of the following 
+groups of people? 
+People with a different ethnic or cultural 
+background than you 
+TIP_Q25 ... what is your level of trust in each of the following 
+groups of people? 
+Strangers
+
+13 
+ 
+Trust in others, institutions, and government: trust in different groups of people AND/OR 
+confidence in institutions from CSS 
+Dataset Variable Item/Details 
+CSS 2021 
+ 
+Trust in different groups of people (TIP) 
+TIP_Q10 
+... what is your level of trust in each of the following 
+groups of people? 
+People in your family 
+TIP_Q15 ... what is your level of trust in each of the following 
+groups of people? 
+People in your neighbourhood 
+TIP_Q20 ... what is your level of trust in each of the following 
+groups of people? 
+People you work with 
+TIP_Q21 ... what is your level of trust in each of the following 
+groups of people? 
+TIP_Q22 ... what is your level of trust in each of the following 
+groups of people? 
+People who speak a different language than you 
+TIP_Q23 ... what is your level of trust in each of the following 
+groups of people? 
+People with a different religion than you 
+TIP_Q24 ... what is your level of trust in each of the following 
+groups of people? 
+People with a different ethnic or cultural 
+background than you 
+TIP_Q25 ... what is your level of trust in each of the following 
+groups of people? 
+Strangers 
+Confidence in institutions (CII) 
+CII_Q10 
+... How much confidence do you have in the 
+following institutions? 
+The police 
+CII_Q15 ... How much confidence do you have in the 
+following institutions? 
+The justice system and courts 
+CII_Q30 ... How much confidence do you have in the 
+following institutions? 
+The school system 
+CII_Q40 ... How much confidence do you have in the 
+following institutions? 
+The Federal Parliament
+
+14 
+ 
+Size and strength of social network and connections: trust in neighbourhood people from CSS 
+AND/OR number of connections from GSS 
+Dataset Variable Item/Details 
+CSS 2021 
+ 
+Trust in neighbourhood people (TNP) 
+ 
+How many people do you trust in your 
+neighbourhood? 
+1: Most of the people 
+2: Many of the people 
+3: A few of the people 
+4: Nobody 
+ the total number of acquaintances a person has. 
+This number excludes relatives and close friends. 
+ 
+ 
+Shared values: shared values from CSS 
+Dataset Variable Item/Details 
+CSS 2021 
+ 
+Shared values (SVR) 
+SVR_Q01 
+... To what extent do you personally agree with the 
+following values? 
+Human rights 
+SVR_Q02 ... To what extent do you personally agree with the 
+following values? 
+Respect for the law 
+SVR_Q03 ... To what extent do you personally agree with the 
+following values? 
+Gender equality 
+SVR_Q04 ... To what extent do you personally agree with the 
+following values? 
+English and French as Canada's official languages 
+SVR_Q05 ... To what extent do you personally agree with the 
+following values? 
+Ethnic and cultural diversity 
+SVR_Q06 ... To what extent do you personally agree with the 
+following values? 
+Respect for Indigenous (First Nations, Métis or Inuit) 
+culture 
+ 
+Perceived social support and belonging: social provisions scale from CCHS AND/OR sense of 
+belonging from CSS 
+Dataset Variable Item/Details 
+CCHS 
+2021 
+ 
+Social provisions (SPS) - Question 
+identifier:SPS_Q015 
+I have close relationships that provide me with a 
+sense of emotional security and wellbeing. 
+Social provisions (SPS) - Question 
+identifier:SPS_Q020 
+There is someone I could talk to about important 
+decisions in my life. 
+Social provisions (SPS) - Question 
+identifier:SPS_Q025 
+I have relationships where my competence and skill 
+are recognized.
+
+15 
+ 
+Social provisions (SPS) - Question 
+identifier:SPS_Q035 
+I feel part of a group of people who share my 
+attitudes and beliefs. 
+Social provisions (SPS) - Question 
+identifier:SPS_Q050 
+There are people I can count on in an emergency. 
+Work family balance (WLB) - Question 
+identifier:WLB_Q75 
+My involvement in my family helps me acquire skills 
+and this helps me be a better worker. 
+Work family balance (WLB) - Question 
+identifier:WLB_Q80 
+My involvement in my family puts me in a good 
+mood and this helps me be a better worker. 
+Work family balance (WLB) - Question 
+identifier:WLB_Q85 
+My involvement in my family encourages me to use 
+my work time in a focused manner and this helps 
+me be a better worker. 
+CSS 2021 
+ 
+Sense of belonging (SBL) - Question 
+identifier:SBL_Q100 
+How would you describe your sense of belonging to 
+your local community? 
+Sense of belonging (SBL) - Question 
+identifier:SBL_Q400 
+How would you describe your sense of belonging to 
+Canada? 
+Trust in people (PCT) - Question 
+identifier:PCT_Q10 
+Generally speaking, would you say that most people 
+can be trusted or that you cannot be too careful in 
+dealing with people? 
+ 
+Variables of Interest (Operationalizing the IVs*) 
+Family demographics: age, gender, ethnicity, household income, job status, educational 
+attainment, marital status all available in the 2021 Census.

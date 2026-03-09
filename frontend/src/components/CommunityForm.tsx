@@ -38,6 +38,7 @@ export function CommunityForm({
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm<CommunityFormValues>({
     resolver: zodResolver(schema),
@@ -52,6 +53,22 @@ export function CommunityForm({
       requested_budget: 250000,
     },
   });
+
+  const loadDemoData = () => {
+    reset({
+      community_name: "Kinngait",
+      region: "Nunavut",
+      local_priority: "Improve reliable year-round access to clean drinking water",
+      timeline: "Planning in Q2 2026, implementation Q3-Q4 2026, evaluation Q1 2027",
+      challenges:
+        "Aging infrastructure causes service disruptions and boil-water advisories. Seasonal logistics increase maintenance delays and cost.",
+      strengths:
+        "Strong local leadership, experienced public works team, and strong resident participation in planning sessions.",
+      partners:
+        "Hamlet council (project oversight), regional technical advisors (design review), local health team (outcomes tracking).",
+      requested_budget: 350000,
+    });
+  };
 
   return (
     <Card>
@@ -80,7 +97,7 @@ export function CommunityForm({
               <Input
                 id="community_name"
                 {...register("community_name")}
-                placeholder="e.g. Kinngait"
+                placeholder="Enter community name."
               />
               {errors.community_name && (
                 <p className="text-sm text-destructive">{errors.community_name.message}</p>
@@ -88,7 +105,11 @@ export function CommunityForm({
             </div>
             <div className="space-y-2">
               <Label htmlFor="region">Region / Province *</Label>
-              <Input id="region" {...register("region")} placeholder="e.g. Nunavut" />
+              <Input
+                id="region"
+                {...register("region")}
+                placeholder="Enter province, territory, or region."
+              />
               {errors.region && (
                 <p className="text-sm text-destructive">{errors.region.message}</p>
               )}
@@ -100,7 +121,7 @@ export function CommunityForm({
             <Input
               id="local_priority"
               {...register("local_priority")}
-              placeholder="e.g. Water infrastructure"
+              placeholder="Describe the top local priority this project addresses and why it matters now."
             />
             {errors.local_priority && (
               <p className="text-sm text-destructive">{errors.local_priority.message}</p>
@@ -109,7 +130,11 @@ export function CommunityForm({
 
           <div className="space-y-2">
             <Label htmlFor="timeline">Timeline (optional)</Label>
-            <Input id="timeline" {...register("timeline")} placeholder="e.g. Apr–Dec 2026" />
+            <Input
+              id="timeline"
+              {...register("timeline")}
+              placeholder="Enter expected project timing, including key phases or milestones."
+            />
           </div>
 
           <div className="space-y-2">
@@ -133,7 +158,7 @@ export function CommunityForm({
               id="challenges"
               {...register("challenges")}
               rows={3}
-              placeholder="Describe current challenges the grant would address."
+              placeholder="Please enter the biggest challenges your community is facing and include specific examples."
             />
           </div>
 
@@ -143,7 +168,7 @@ export function CommunityForm({
               id="strengths"
               {...register("strengths")}
               rows={2}
-              placeholder="Assets, capacity, partnerships."
+              placeholder="Describe assets, existing capacity, and strengths that increase project success."
             />
           </div>
 
@@ -152,7 +177,7 @@ export function CommunityForm({
             <Input
               id="partners"
               {...register("partners")}
-              placeholder="Key partners and their roles"
+              placeholder="List partner organizations and briefly describe each partner's role."
             />
           </div>
 
@@ -164,6 +189,9 @@ export function CommunityForm({
           )}
 
           <div className="flex gap-3">
+            <Button type="button" variant="secondary" onClick={loadDemoData} disabled={isSubmitting}>
+              Load demo data
+            </Button>
             <Button type="button" variant="outline" onClick={onBack} disabled={isSubmitting}>
               Back
             </Button>
@@ -171,7 +199,7 @@ export function CommunityForm({
               {isSubmitting ? (
                 <>
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                  Generating proposal…
+                  Generating proposal...
                 </>
               ) : (
                 "Generate proposal"

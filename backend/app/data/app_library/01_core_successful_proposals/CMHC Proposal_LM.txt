@@ -1,0 +1,496 @@
+1 
+ 
+Land-Use Regulation, Municipal Infrastructure Financing, and Housing Supply and 
+Affordability in Canada 
+Proposal Submitted to Canada Mortgage and Housing Corporation (CMHC) 
+1. Introduction and Purpose 
+Housing supply shortages and worsening affordability remain among Canada’s most 
+pressing public policy challenges. Municipal land-use regulations, planning and approval 
+processes, and municipal infrastructure financing mechanisms—such as development 
+charges and permit fees—play a critical role in shaping the cost, speed, and feasibility of 
+new housing delivery. While these tools fall largely within municipal jurisdiction, they are 
+enabled and constrained by provincial and territorial legislation and operate within 
+Canada’s system of fiscal federalism. 
+A central feature of Canadian municipal finance is the long-standing “growth pays for 
+growth” approach, whereby new development is expected to fund a substantial share of 
+growth-related infrastructure and services. While this model is intended to protect existing 
+taxpayers, it may also contribute to higher development costs, slower project delivery, and 
+reduced housing affordability. Policymakers at all orders of government are increasingly 
+questioning whether current regulatory and financing models strike the right balance 
+between accountability, fiscal sustainability and housing outcomes. 
+This research project builds on existing work by CMHC. For example, in 2022, CHMC 
+conducted 10 virtual roundtables with key stakeholders (planners, developers, affordable 
+housing professionals) to identify barriers to affordable housing in land use planning 
+systems, and to identify potential solutions.1 In 2025, CMHC published a review on the 
+price impacts of development charges, and found that while new homebuyers bear the 
+direct burden of development charges, spillover effects include increasing prices even for 
+existing homes.2 The proposed research builds on both of these reports by deeply 
+exploring where and how municipalities in Canada are overcoming these established 
+barriers to creating affordable housing supply. 
+The proposed research will broadly examine how land-use regulation and municipal 
+infrastructure financing in Canada affect housing supply and affordability, explore the 
+implications of the “growth pays for growth” model, and identify Canadian best and 
+emerging practices that could support increased housing supply while remaining 
+institutionally and fiscally realistic. The study is designed to inform federal, provincial, 
+territorial, and municipal decision-making.
+
+2 
+ 
+2. Research Questions 
+The project will address the following key research questions: 
+1) As a country, are we comfortable with the implications of using a “growth pays for 
+growth” approach in municipal development financing? And what are the 
+alternatives? 
+This includes exploring the origins of the approach in Canada, its implications for housing 
+supply and affordability, and potential alternative models within Canada’s 
+intergovernmental context. 
+2) What is the state of knowledge regarding the design of land-use regulation and 
+municipal infrastructure financing in Canada to effectively facilitate increased 
+housing supply and affordability for Canadians? 
+a) How do different types of land-use regulations observed across Canada impact 
+housing supply and affordability? 
+b) How do different types of municipal infrastructure financing mechanisms observed 
+in Canada impact housing supply and affordability? 
+c) What best practices in land-use regulation and municipal infrastructure financing 
+can facilitate housing supply and affordability while supporting fiscally sustainable 
+growth? 
+Across all questions, the research will consider: 
+• Differences between market and non-market housing 
+• Provincial and territorial enabling frameworks 
+• Variation across municipal size, geography, and governance structures 
+• Equity and inclusion considerations 
+The primary outcomes of interest are housing supply (including speed of delivery) and 
+housing affordability. Notably, Questions 2a, 2b, and 2c will be answered within the context 
+of the state of knowledge existing in Canada, rather than to empirically evaluate these 
+questions on their own.  
+3. Conceptual and Analytical Framework 
+The project is grounded in an applied policy framework that links: 
+• Land-use regulation (e.g., planning policies, zoning, as-of-right development, 
+approval timelines)
+
+3 
+ 
+• Municipal infrastructure financing mechanisms (e.g., development charges, permit 
+fees, and related tools) 
+• Developer costs, risk, and timelines 
+• Housing supply and affordability outcomes 
+ 
+The analysis situates municipal decision-making within Canada’s system of fiscal 
+federalism, recognizing municipalities as constitutionally subordinate to provinces and 
+territories, with limited revenue tools and varying degrees of regulatory autonomy. This 
+context is essential for understanding both the “growth pays for growth” approach and the 
+constraints on reform. 
+To support comparative analysis, the study will make systematic use of CMHC’s Municipal 
+Land Use and Regulation Index,3 which captures the relative degree of land-use regulation 
+across Canadian cities. The Index provides a consistent, CMHC-developed metric that 
+allows municipalities to be compared along a continuum of regulatory intensity, 
+normalized relative to the Greater Toronto Area (GTA = 100). This Index will be used as an 
+organizing tool for case selection and interpretation, not as a causal estimator. 
+4. Research Design and Methods 
+The project will be completed over ~ 10 months using five integrated workstreams. 
+4.1 Advisory Team Engagement 
+We will establish a Research Project Advisory Team (hereafter, Advisory Team, see 
+Appendix A for a list of anticipated members), comprising senior leaders from municipal 
+government, provincial initiatives, industry, planning, and non-profit housing to provide 
+strategic guidance throughout the project. The Advisory Team will: 
+• Validate emerging findings 
+• Identify promising and problematic practices 
+• Recommend key informants and municipalities for interviews 
+• Provide real-world policy and implementation perspectives 
+Engagement will occur at key project milestones (likely monthly meetings) rather than 
+through intensive governance structures. 
+4.2 Scoping Literature Review  
+We will directly address Research Question 2 (What is the state of knowledge regarding the 
+design of land-use regulation and municipal infrastructure financing in Canada to 
+effectively facilitate increased housing supply and affordability for Canadians?) using a
+
+4 
+ 
+structured scoping review.4,5 We will synthesize Canadian academic literature published 
+since 2000 on the extent to which and how 1) land use regulations and 2) municipal 
+infrastructure financing impact new housing supply, housing affordability, and adequacy of 
+community infrastructure and amenities.  
+Table 1 outlines the Scoping Review research question according to the PICOT criteria6 
+(population, intervention, comparison, outcome, timeline). The PICOT criteria begin to 
+define the inclusion and exclusion criteria for the scoping review.  
+Table 1: PICOT Criteria for Scoping Review 
+Criteria Explanation 
+Population Municipalities in Canada  
+Intervention Land-use regulations and planning processes; municipal infrastructure 
+financing mechanisms 
+Comparison Comparing outcomes over time or between municipalities 
+Outcome Housing affordability, housing supply, community infrastructure and 
+amenities 
+Timeline Published since 2000 
+ 
+The review will identify: 
+• Intergovernmental activities and provincial differences 
+• Common regulatory and financing typologies 
+• Evidence on impacts and trade-offs 
+• Municipal variability  
+• Differences between market and non-market housing 
+• Gaps in current knowledge 
+This workstream will establish the analytical foundation for subsequent empirical 
+components. 
+4.3 Environmental Scan of Canadian Municipal Practices  
+An environmental scan will examine how municipalities across selected provinces are 
+currently designing and implementing: 
+• Land-use regulation and planning tools (e.g., zoning as-of-right, missing middle 
+policies, approval processes) 
+• Municipal infrastructure financing mechanisms (e.g., development charges, 
+permitting fees)
+
+5 
+ 
+We will not attempt a comprehensive scan across all Canadian municipalities. Instead, to 
+explore differences and to set the stage for understanding where and how municipalities in 
+Canada are overcoming established barriers to creating affordable housing supply, we will 
+leverage CMHC’s Municipal Land Use and Regulation Index3 to:  
+• Classify municipalities along a spectrum of regulatory intensity 
+• Support transparent and consistent selection of municipalities across jurisdictions 
+• Inform the selection of municipalities for deeper qualitative analysis 
+ 
+The Index will be used in combination with contextual information (municipal size, growth 
+pressures, governance structure, and provincial context) to ensure balanced and policy-
+relevant case selection. In addition, our team will ensure municipality inclusion from the 
+following regions: British Columbia, Alberta, Ontario, Quebec, Nova Scotia, and selected 
+Prairie municipalities for additional diversity.  
+The scan will rely on publicly available municipal plans, by-laws, policies, and official 
+documentation. The objective is to map variation in approaches and identify emerging 
+patterns, not to rank or score municipalities. 
+Results from the Environmental Scan will directly inform the selection of key informants in 
+both sections 4.4 and 4.5.  
+4.4 Key Informant Interviews – Thought Leaders 
+Approximately 20 semi-structured interviews will be conducted with thought leaders from: 
+• Academia 
+• Industry 
+• Municipal, provincial, and territorial governments 
+• Non-profit housing organizations 
+ 
+Interviews will be semi-structured, one-on-one virtual interviews that will build on CMHC’s 
+existing work (e.g., the Barriers to Affordable Housing in Land Use Planning Systems Round 
+Table Summary Report1) by structuring interview questions around the themes identified in 
+the Summary Report and asking about emerging best practices in Canadian municipalities. 
+The interviews will explore:  
+• The effectiveness and limitations of current regulatory and financing tools 
+• Experiences with and perspectives on “growth pays for growth”, and whether this 
+perspective still holds merit 
+• Intergovernmental dynamics and enabling conditions 
+• Emerging Canadian innovations and alternatives
+
+6 
+ 
+The research team will obtain University of Waterloo’s Research Ethics Board approval 
+prior to undertaking key informant interviews described in sections 4.4 or 4.5.  
+ 
+4.5 Key Informant Interviews – Municipal Case Studies 
+A purposeful sample of approximately 35 participants from 7 municipalities will be 
+selected for in-depth interviews. Selection will be informed by: 
+• Findings from the scoping literature review 
+• Environmental scan findings 
+• CMHC’s Municipal Land Use and Regulation Index 
+• Advisory Team input 
+• Thought leader key informant interviews  
+• Collaboration with CMHC 
+ 
+The sample will reflect variation in region, municipal size, urban, rural, and Northern 
+contexts, and regulatory intensity and financing approaches. We anticipate conducting 
+several interviews within selected municipalities to obtain a variety of perspectives from 
+within each municipality. For example, some triangulation between developers, Chief 
+Financial Officers/Treasurers/Directors of Finance, planners’ , and non-profit housing 
+providers is warranted to tell a complete story and identify complex interactions between 
+land use regulations, municipal financing mechanism, and the outcomes of housing 
+affordability and supply. We will start with an initial list of potential participants, and use 
+snowball sampling7 to identify additional participants within each municipality who could 
+provide relevant information. 
+ 
+Interviews will focus on: 
+• Design and implementation of land-use and financing tools 
+• Observed impacts on housing supply and affordability 
+• Trade-offs, bottlenecks, and unintended consequences 
+• Transferability to other municipal contexts 
+• Implications for non-market housing providers 
+5. Equity, Inclusion, and Non-Market Housing 
+Equity and inclusion considerations will be integrated across all workstreams, with specific 
+attention to the impact of regulatory and financing tools on non-profit and non-market 
+housing developers, differential effects across regions and community types, and barriers 
+faced by smaller municipalities and capacity-constrained actors.
+
+7 
+ 
+6. Synthesis, Deliverables, and Knowledge Mobilization 
+Findings from all workstreams will be synthesized to address the core research questions, 
+identify best practices and trade-offs, and highlight policy-relevant lessons for all orders of 
+government.  
+Deliverables: 
+For CMHC, our team commits to the following deliverables:  
+• A final research report (maximum 40 pages), with a 2-3 page executive summary 
+• Interim briefings aligned with quarterly milestones 
+ 
+Given that the research team is comprised of academics, we also anticipate three peer-
+reviewed publications arising from this project (scoping review, key informant thought 
+leader paper, key informant municipality paper). We welcome a conversation with CMHC 
+to discuss CMHC staff interest in co-authorship (according to ICMJE standards8). 
+Final outputs will be provided in both official languages. CMHC will undertake translation, 
+with an expert accuracy review conducted by the project team. 
+7. Project Team and Expertise 
+This team is comprised of four researchers from the University of Waterloo. Leia Minaker is 
+Director of the Future Cities Institute founded by CAIVAN (FCI), and an associate professor 
+in the School of Planning. As Director, she interacts regularly with provincial and municipal 
+leaders, developers and builders, real estate associations, and non-profit leaders from 
+across Canada. She has expertise in both qualitative and quantitative methods relevant to 
+public policy, and has extensive experience with scoping reviews. Katherine Perrott is an 
+Assistant Professor in the School of Planning, an FCI member and a Registered 
+Professional Planner. [MORE ABOUT KP’S EXPERTISE: re: housing policy, municipal 
+finance, planning, methods expertise, anything else of relevance]. Anna Esselment is 
+Political Scientist and a specialist in Canadian politics, Canadian institutions, federalism 
+and intergovernmental relations. [MORE ABOUT AE’S EXPERTISE]. Adrian Buttazzoni is a 
+postdoctoral fellow in the School of Planning, with a PhD in planning and a focus on 
+housing and health. Buttazzoni has published a number of scoping reviews and works 
+closely with the FCI team.  
+An experienced Advisory Team (Appendix A) will complement the core team, ensuring the 
+research remains grounded, credible, and policy-relevant.
+
+8 
+ 
+8. Timeline and Budget 
+Timeline: January – November 2026 
+ January  February March April May  June July August September October November 
+4.1 Advisory Team Engagement 
+Invite and confirm Advisory Team 
+members             
+Advisory Team Meetings  Mtg 1 Mtg 2 Mtg 3 Mtg 4 Mtg 5 Mtg 6 Mtg 7 Mtg 8 Mtg 9 Final Mtg 
+4.2 Scoping Literature Review: Academic literature 
+Academic Literature Review                
+4.3 Environmental Scan of Canadian Municipal Practices  
+Environmental Scan            
+4.4 Key informant interviews – Thought Leaders 
+Ethics              
+Recruitment             
+Data Collection               
+Data Analysis              
+Synthesis and report writing            
+4.5 Key informant interviews – Municipalities 
+Ethics              
+Recruitment             
+Data Collection               
+Data Analysis              
+Synthesis and report writing            
+Synthesis 
+Synthesis of all workstreams and 
+report writing
+
+9 
+ 
+Budget 
+Full cost of project: $127,500 
+Overhead of 15%: $22,500 
+Total Cost: $150,000 
+Tasks and Activities Deliverables and 
+Milestones 
+Timeline Payment 
+Schedule 
+4.1 Advisory Team Engagement 
+Contractor to confirm advisory 
+team members 
+Advisory Team 
+members confirmed  
+By Feb 1  
+Contractor to set up monthly 
+advisory team meetings 
+Advisory Team 
+meetings set 
+By Feb 15  
+Contractor to lead monthly 
+advisory team meetings 
+Monthly meeting 
+organization and 
+participations 
+Ongoing  
+4.2 Scoping Literature Review 
+Research Questions confirmed 
+with CMHC 
+Confirmed Research 
+Questions 
+By Feb 1  
+Search strategy tested and 
+refined  
+Completed search 
+strategy 
+By Feb 6  
+Relevant literature identified  Initial literature 
+identified 
+By Feb 13  
+Title and abstract review (stage 
+1) 
+Stage 1 review 
+completed 
+By Feb 20  
+Full text review (stage 2)  Stage 2 review 
+completed 
+By March 6  
+Data extraction Data extracted By March 20  
+Results Synthesized and tested 
+with Advisory Team 
+Results synthesis By March 27  
+Final Review Draft 1 completed Review Draft 1 
+submitted to CMHC 
+By March 31 $42,500 
+Revisions in response to CMHC 
+initial feedback 
+   
+Scoping review completed.  Final scoping review 
+submitted to CMHC 
+By April 17  
+4.3 Environmental Scan of Canadian Municipal Practices 
+Environmental scan sample of 
+municipalities identified using 
+CMHC’s Municipal Land Use 
+and Regulation Index, other data 
+(demographics, size, region, 
+Municipalities 
+identified 
+By Feb 20
+
+10 
+ 
+etc.), and input from Advisory 
+Team and CMHC 
+Available municipal plans, by-
+laws, policies, and official 
+documentation related to 
+municipal infrastructure 
+financing collected for each 
+municipality  
+Data collected By March 6  
+Document data extraction 
+according to land-use regulation 
+and municipal infrastructure 
+financing mechanisms of 
+relevance  
+Data extracted By March 27  
+Data synthesized  Data synthesized By April 10  
+Synthesis table submitted to 
+CMHC 
+Environmental scan 
+synthesis table 
+submitted to CMHC 
+By April 24  
+4.4 Key informant interviews – Thought Leaders 
+Ethics application submitted to 
+University of Waterloo REB 
+Ethics application 
+submitted 
+By March 6  
+Potential participant list 
+developed with guidance from 
+Advisory Team and CMHC 
+Participant list 
+developed 
+By March 30  
+Participants invited to take part 
+in interviews 
+Participant recruitment  By April 17   
+All interviews scheduled and 
+completed 
+Data collected By May 29  
+Qualitative data analyzed using 
+the Framework Method9 
+Data analyzed By June 26  
+Project 4.4 synthesized and 
+written up 
+Results report 
+submitted to CMHC for 
+feedback 
+By July 31 $42,500 
+4.5 Key informant interviews – Municipalities 
+Ethics application submitted to 
+University of Waterloo REB 
+Ethics application 
+submitted 
+By May 29  
+Potential participant list 
+developed with guidance from 
+Advisory Team, project 4.4 
+results, and CMHC 
+Participant list 
+developed 
+By June 19  
+Participants invited to take part 
+in interviews 
+Participant recruitment  By July 31   
+All interviews scheduled and 
+completed 
+Data collected By Sept 4
+
+11 
+ 
+Qualitative data analyzed using 
+the Framework Method9 
+Data analyzed By Oct 2  
+Project 4.4 synthesized and 
+written up 
+Results report 
+submitted to CMHC for 
+feedback 
+By Oct 30  
+Synthesis  
+Results from all workstreams 
+synthesized into a 40 page 
+report with a 2-3 page executive 
+summary 
+Final report submitted By November 
+15 
+$42,500
+
+12 
+ 
+References 
+1.  Barriers to Affordable Housing in Land Use Planning Systems.  
+2.  Who Bears the Cost of Growth? A Review on the Price Impacts from Development 
+Charges.  
+3.  Approval Delays Linked with Lower Housing Affordability | CMHC [Internet]. [cited 
+2026 Jan 13]. Available from: https://www.cmhc-schl.gc.ca/observer/2023/approval-
+delays-linked-lower-housing-affordability 
+4.  Munn Z, Peters MDJ, Stern C, Tufanaru C, McArthur A, Aromataris E. Systematic 
+review or scoping review? Guidance for authors when choosing between a 
+systematic or scoping review approach. BMC Med Res Methodol [Internet]. 2018 Nov 
+19 [cited 2023 Sep 3];18(1):1–7. Available from: 
+https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-018-
+0611-x 
+5.  Teare G, Taks M. Extending the scoping review framework: a guide for 
+interdisciplinary researchers. https://doi.org/101080/1364557920191696092 
+[Internet]. 2019 May 3 [cited 2023 Sep 3];23(3):311–5. Available from: 
+https://www.tandfonline.com/doi/abs/10.1080/13645579.2019.1696092 
+6.  Riva JJ, Malik KMP , Burnie SJ, Endicott AR, Busse JW. What is your research question? 
+An introduction to the PICOT format for clinicians. J Can Chiropr Assoc [Internet]. 
+2012 Sep [cited 2026 Jan 13];56(3):167. Available from: 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3430448/ 
+7.  Biernacki P , Waldorf D. Sampling Snowball Sampling: Problems and Techniques of 
+Chain Referral. [cited 2026 Jan 13]; Available from: 
+http://smr.sagepub.com/http://smr.sagepub.com/content/10/2/141http://www.sage
+publications.comhttp://smr.sagepub.com/cgi/alertsEmailAlerts:http://smr.sagepub.
+com/ 
+8.  ICMJE | Recommendations | Defining the Role of Authors and Contributors [Internet]. 
+[cited 2026 Jan 13]. Available from: 
+https://www.icmje.org/recommendations/browse/roles-and-
+responsibilities/defining-the-role-of-authors-and-contributors.html 
+9.  Gale NK, Heath G, Cameron E, Rashid S, Redwood S. Using the framework method 
+for the analysis of qualitative data in multi-disciplinary health research. BMC Med 
+Res Methodol. 2013;13(1).
+
+13 
+ 
+  
+Appendix A: Initial list of Advisory Team members 
+Michael Brooks, CEO of REALPAC 
+Benjamin Dachis, Vice President of Research and Outreach, Clean 
+Prosperity  
+Scott Higgins, President at HIP Developments 
+Ene Underwood, CEO, Habitat for Humanity, GTA 
+Lisa Helps, Executive Lead, BC Builds (former 2-term Mayor of 
+Victoria, BC) 
+Karen Redman, Regional Chair, Region of Waterloo 
+Bill Williams, Senior Executive Director of Municipal Infrastructure 
+and Planning at the City of Iqaluit.  
+Steve Willis, Senior Principal Planner, Stantec

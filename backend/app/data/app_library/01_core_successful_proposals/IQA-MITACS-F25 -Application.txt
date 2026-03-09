@@ -1,0 +1,507 @@
+Last Update : October 2024 
+ 
+BIS – Project Proposal Template 
+ 
+V3 
+Business Strategy Internship 
+Proposal Template 
+ 
+ 
+             INSTRUCTIONS 
+ 
+DECLARATIONS 
+Mitacs  will not approve  a BSI application  if the intern listed on the proposal has a position of ownership, employment, or influence over the 
+daily operations of the partner organization. Interns with close family or intimate relationships with academic supervisors o r employees of the 
+partner orga nization are also ineligible.  Any other real or perc eived conflict of interest (COI) - for example, past intern employment at the 
+partner organization  - must be disclosed to Mitacs during the application process  using the Intern Eligibility and Conflict of Interest 
+Declaration Form. Academic supervisors  must disclose any COIs through the  Academic Institution Acknowledgement of COI(s) Form, and 
+submit this documentation on behalf of their post -secondary institution  when applying through the Registration and Application Portal (RAP).  
+ 
+Mitacs will first determine if BSI program rules are satisfied, and if so  Mitacs will then review the COI to determine whether mitiga tions can be 
+enacted to manage the COI.  If a COI does exist, we suggest that you contact your Mitacs Advisor prior to starting an application to ensure that the 
+participants in this project are eligible for the program. Please view the Mitacs Conflict of Interest Policy for more information.    
+ 
+PLEASE NOTE : Failure to disclose a COI will :  
+• Delay the project evaluation process. 
+• Require submission of a  COI mitigation approach  satisfactory to Mitacs before project work initiates  or continues . 
+• Risk forced withdrawal from the BSI program , should a satisfactory mitigation plan not be reached.  
+ 
+Have any applicants declared a COI via the appropriate documentation?        ☐  Yes, an intern        ☐  Yes, an academic supervisor        ☒  No                     
+Please indicate if any of the below statements are true. 
+☐ One or more named interns self-declares as an Indigenous person. 
+☐ The partner organization is a for-profit organization with self-identifying Indigenous persons who hold 50% or greater ownership shares. 
+☐ The partner organization is a not-for-profit with board membership consisting of 50% or greater self-identifying Indigenous persons. 
+☒ The partner organization is a not-for-profit whose core mandate includes Indigenous community impact or serving Indigenous communities. 
+ 
+* If any of the above statements are true, your organization may be eligible for enhanced leveraging via the Mitacs Indigenous Pathways 
+Initiative. Please check with your Mitacs Advisor for more information.  
+Please select all the types of innovation you will significantly impact through your project. Refer to the following definition of innovation for further 
+information: Defining innovation - OECD. 
+    ☐  Product innovation                    ☐  Process innovation                    ☐  Marketing innovation                    ☐  Organizational innovation 
+ 
+ 
+1. To fill out this template, download a copy to your computer and save as a Word document. You may need a copy of your completed 
+proposal in Word format if your proposal requires any revisions, so make sure to save two versions: a Word version alongside a PDF copy.  
+2. Your project content should be at least 3-5 pages in length for one 4-6 month internship unit. Larger projects may exceed this page count.  
+3. Once complete, upload the PDF version of your completed proposal to the Mitacs online Registration and Application Portal (RAP). 
+4. Do not modify or remove  text or instructions  in each section/subsection or reformat this form in any way. A modified form will result in a 
+delay in the internship evaluation process. 
+5. All sections of the proposal form must be complete to be considered for the program. 
+6. Read the Application Guide (Appendix A) starting on page 4 and Appendix B on page 6 to learn more about the selection criteria that will 
+be used to evaluate your proposal.
+
+Last Update : October 2024 
+ 
+BSI – Project Proposal Template 
+2 
+ 
+Business Strategy Internship 
+Proposal Template 
+2. Project Details 
+2.1 PROJECT DESCRIPTION 
+2.1.a. Background (What problem needs to be solved?) 
+Provide an overview and describe the main activities of the partner organization . Explain the innovation challenge or improvement 
+priority that the partner needs to solve. Specify how this project will help the partner organization address those challenges in a way 
+that goes beyond day-to-day business operations/activities. Describe what kind of expertise is required to solve the problem.  
+ 
+Overview of partner organization  
+The City of Iqaluit’s Municipal Infrastructure & Planning Office of the SED manages the long-range strategic 
+planning that establishes the community’s future land use, growth, and municipal investment. Their work 
+includes.... this process includes....  
+ 
+Description of current challenge 
+The municipal Infrastructure and Planning office is responsible for a number of services, such as [x, y, and 
+z]. Currently, the departments within the City of Iqaluit are facing challenges with service delivery as the city 
+grows. The existing process has proved to be inefficient, outdated, and is struggling to meet the workload of 
+a modern-day municipality in Canada.  
+ 
+This funding will support a student for four months to develop a solution that tackles outdated systems 
+responsible for facilitating collaboration and service delivery between city departments. The placement 
+student will work through a multi-step modernization process consisting of mapping, automating, optimizing, 
+and tracking the integration of tools essential for timely service delivery.  
+ 
+The solution will be designed to streamline interdepartmental processes, with an automated integration 
+capable of balancing input from a network of collaborators and responding appropriately. The culmination of 
+the intern’s work will be used to train present and future employees in workload management and effective 
+collaboration, improving the lives of municipal workers and the community members they serve.  
+ 
+Impact of project  
+The Digital Integration and Automation intern will transfer the Infrastructure and Planning Office’s service 
+delivery from a reactive, manual process to a process optimized for employee ease-of-use and 
+communication, moving the projects impact beyond day-to-day activities.  
+ 
+One key role the intern will play in their placement is developing API connections between applications to 
+automate the complex interplay of routine tasks. By doing this, the student will massively increase the 
+capacity of the city’s workforce by reducing the tedious and unnecessary manual work of its employees. This 
+shift will allow the city to improve its operational efficiency in the long-term, which, in turn, will foster a 
+healthy and satisfied workplace.   
+ 
+Expertise required to solve the problem 
+Specialized expertise required to develop this solution include:  
+• Skill A
+
+Last Update : October 2024 
+ 
+BSI – Project Proposal Template 
+3 
+ 
+Business Strategy Internship 
+Proposal Template 
+• Skill B 
+• Skill C 
+2.1.b. Objectives and Approach (How will the problem be solved?) 
+State the objectives for this project and explain how you plan to accomplish them. Enough detail should be provided so that it is clear 
+whether the described approach is appropriate to achieve each objective. For projects with more than one intern, clearly explain 
+which objective(s) each intern will work on.  
+ 
+The primary objective of the intern’s student placement is to modernize how the City of Iqaluit’s departments 
+collaborate and deliver services. This tech-focused role supports the integration of essential tools like 
+Asana, Outlook, SharePoint, Laserfiche, CloudPermit, Fleetio, and Geotab into the Municipal Infrastructure 
+& Planning Office’s workflow. The developed solution will utilize API connections between applications to 
+automate routine tasks, and will be accompanied by informational documentation to support training present 
+and future employees at the City of Iqaluit.  
+This will be accomplished by first mapping the existing digital workflow across city systems and marking 
+junctions that can be optimized. Once this is completed, the student will move to designing API connections 
+capable of communicating between digital tools to facilitate the automation of tasks. Then, the student will 
+be charged with testing their solution with departmental teams within the city‘s staff, and finally, will create 
+documentation and training materials to support system adoption.   
+2.1.c. Timeline (Who will solve the problem and how much effort will be required?) 
+Insert a timeline showing which task(s) will be performed when, and by which intern in order to achieve the objectives stated above 
+(consider breaking this down by week for shorter projects or by month for longer projects via a Gantt chart) . Ensure there are no 
+gaps in the timeline and that the effort required to complete each task matches the amount of time allocated for each intern. 
+ 
+ Months covered by 
+current proposal 
+ 
+TASK 1 2 3 4 RESPONSIBLE 
+Mapping Digital Workflow      Mitacs Intern 
+Workflow Process Improvement     Mitacs Intern 
+Modeling Solution Research and Testing     Mitacs Intern 
+Modeling Solution Implementation      Mitacs Intern 
+Creation of API Connections     Mitacs Intern 
+ Pilot Testing with Department X     Mitacs Intern 
+Feedback and Revision Implementation     Mitacs Intern 
+System Process Documentation     Mitacs Intern 
+System Training Documentation     Mitacs Intern 
+Knowledge Mobilization Efforts     Mitacs Intern 
+ 
+2.1.d. Deliverables (What does success look like?) 
+List the deliverables or tangible results you expect from the project and identify which intern is responsible for it. For example, will 
+you develop a new patent/prototype/product/service, business model, business process, or will you access new markets? Will th e 
+intern be expected to produce a report, evaluation, presentation, etc.?  
+ 
+DELIVERABLE ASSOCIATED OUTPUT INTERN RESPONSIBLE
+
+Last Update : October 2024 
+ 
+BSI – Project Proposal Template 
+4 
+ 
+Business Strategy Internship 
+Proposal Template 
+A fully developed and functional 
+workflow process. 
+A series of API connections capable of 
+automating task flow between a host of 
+digital applications utilized by the city of 
+Iqaluit 
+Necessary process overview and system 
+training documentation necessary for 
+operationalization and integration into 
+existing City of Iqaluit services.  
+INTERN NAME 
+ 
+2.2 INTERNSHIP BENEFITS 
+2.2.a. Benefits and Impacts to Canada 
+If this project potentially impacts broader challenges that society or the  industry faces, please describe how the project will help 
+address these challenges. Why are these contributions important? 
+ 
+The challenge of efficient workflow is not unique to the City of Iqaluit– it is a challenge that is prevalent in 
+municipalities, offices, and all other workspaces across Canada. Along with all-encompassing digitization of 
+many day-to-day work tasks has come a host of management-related applications, each with their own 
+unique functionality and process. For large-scale operations such as those conducted by municipalities like 
+the City of Iqaluit, shifting, updating, and synching information between project management applications eats 
+up unnecessary time in employee‘s workdays.    
+Knowing how prevalent this issue is across the Canadian workforce, the developed, implemented, and 
+evaluated solution will be... [information about the intended outcome of knowledge mobilization work with the 
+FCI] 
+Successful implementation of this solution is expected to yield several key benefits, including enhanced 
+operational efficiency, improved employee productivity, and increased job satisfaction. Adopting an 
+automated workflow API such as the one being developed through this internship can lead to economic, 
+health, and social benefits by ensuring that staff’s work time is fulfilling and productive. Considering the City 
+of Iqaluit's responsibility to its community, this benefit is doubled. From a health perspective, the timely 
+delivery of critical municipal services can improve the quality of life for Iqaluit’s community members, 
+providing social benefit in turn by improving trust in the local government.  
+2.2.b. Benefits to the Intern(s) 
+Explain how participating in this project aligns with the academic studies  of the intern(s) . How is participating in the project 
+expected to benefit their future career(s)? For example, will they expand their professional network, gain knowledge in a business 
+context, or develop skills in problem-solving, communication, project management, creative thinking, etc.? 
+An intern's participation in automating the City of Iqaluit’s workflow processes aligns with their academic 
+studies by providing invaluable practical application of theoretical concepts, such as software interface, 
+system design, and API development to real-world, complex municipal challenges.
+
+Last Update : October 2024 
+ 
+BSI – Project Proposal Template 
+5 
+ 
+Business Strategy Internship 
+Proposal Template 
+ 
+For their student’s future careers, this experience will significantly expand their professional network by 
+creating connections to workers across multiple municipal departments. The intern will also gain 
+crucial knowledge of public sector operations and develop problem-solving and critical thinking skills 
+by tackling novel issues with no pre-existing solution.  
+ 
+Furthermore, a student-led initative will foster project management skills, experience in stakeholder 
+communication, ethical data handling, and the critical ability to operationalize solutions from ideation to 
+deployment, providing a unique and highly sought-after portfolio of practical experience. 
+2.3 INTERNSHIP ENVIRONMENT 
+2.3.a. Description of the Academic Internship Environment 
+i. Please describe the nature of academic supervision during the internship period. Explain the type and frequency of interactions  
+(e.g., meetings, phone calls, etc.) between the intern and academic supervisor. 
+ii. Will the project make use of the resources and/or facilities of the academic institution? If so, please describe.  
+Academic Internship Environment 
+The Future Cities Insitute (FCI), founded by CAIVAN is committed to fostering healthy, prosperous cities and 
+communities in Canada and beyond through interdisciplinary partnerships, action-oriented research, and data-
+informed decision-making. The Infrastructure & Planning Office at the City of Iqaluit is one of FCI’s core partners 
+due to their innovative approach to Iqaluit’s growth and development and dedication to creating a strong and 
+healthy community rooted in culture and sustainability.  
+ 
+Nature of academic supervision 
+The intern will meet virtually with Dr. Leia Minaker (Director, Future Cities Institute, Faculty of Environment) at 
+least once a month to ensure ongoing alignment with the goals and objectives of the Future Cities Institute and 
+to discuss progress towards knowledge mobilization outcomes. 
+ 
+Use of UWaterloo resources and/or facilities 
+The initial development, implementation and evaluation of the solution wil l use ver y few  resources from  
+UWaterloo. However, members of the FCI staff ( Director and Research Coordinator and Communications 
+Officer) will be engaged throughout the internship to support academic knowledge mobilization and/or 
+communication activities.  
+ 
+2.3.b. Description of the Partner Internship Environment 
+i. Please state the nature of the partner interaction:     ☐  Onsite     ☒  Virtual     ☐  Hybrid 
+ii. Describe the working environment at the partner  organization and the type  and frequency of interactions between the 
+intern(s) and employees. For example, what resources, facilities /equipment, and specialized training will the intern (s) have 
+access to? If the intern(s) will work virtually, how will they be exposed to the activities and culture of the partner organization?  
+The Placement Student will regularly connect with the Infrastructure & Planning Office’s dynamic, innovative, 
+and highly collaborative environment in the City of Iqaluit virtually.
+
+Last Update : October 2024 
+ 
+BSI – Project Proposal Template 
+6 
+ 
+Business Strategy Internship 
+Proposal Template 
+ 
+The student is expected to map and optimize digital workflow across city systems, and thus will be required to 
+test integrations across departments within the organization. By doing this, the student will be exposed  to the 
+culture of the broader organization. The student will further be tasked with the creation and documentation of 
+training materials to support the adoption of their innovative solutions . This task will overlap with academic 
+knowledge mobilization activities facilitated by the FCI, allowing the intern to experience additional workplace 
+cultures.    
+ 
+2.4 PAST/OTHER MITACS PROJECTS  
+Is this application related to, or a continuation of, any previous or current Mitacs projects?     ☐  Yes     ☒  No 
+If Yes, provide specifics about the relationship(s), including relevant project IT#(s). If the current project is a continuation of  prior 
+work, briefly describe how it meaningfully furthers what has been previously achieved. 
+N/A 
+2.5 ENGAGEMENT WITH INDIGENOUS COMMUNITIES OR PARTNERS (IF APPLICABLE) 
+Projects that involve or impact Indigenous communities must comply with the Mitacs Indigenous Research Policy . Describe (1) 
+Indigenous community support for the project, and their role in shaping its objectives/approach, (2) plans for Indigenous community 
+access, use, and governance of resulting knowledge/data, and (3) the team background in Indigenous research, including planned 
+training/mentorship the intern(s) will receive to address deficits in experience. 
+You may also submit 1-2 letter(s) of support from Indigenous Elders who are members of the partner community/communities and 
+possess the authority to speak on community interests.    
+N/A 
+2.6 INTELLECTUAL PROPERTY (IF APPLICABLE) 
+Explain how this project supports the creation and/or ownership of IP for the partner organization. If the project provides 
+education or training about IP for any of the participants, explain here.  
+Any intellectual property created by a Placement Student during their participation in the Program or 
+performance of the Work will be the exclusive property of the City of Iqaluit(the "Intellectual Property"). 
+ 
+The City of Iqaluit may, at its discretion, provide advance written consent to a Placement Student for their use 
+of the Intellectual Property for non-commercial purposes. 
+ 
+The City of Iqaluit also agrees to facilitate the reasonable use of the Intellectual Property by the University of 
+Waterloo for academic purposes related to the administration of a Placement Student’s education, where 
+applicable.
+
+Last Update : October 2024 
+ 
+BSI – Project Proposal Template 
+7 
+ 
+Business Strategy Internship 
+Proposal Template 
+Subject to the protection of any confidential information of the City of Iqaluit or information otherwise 
+protected under applicable legislation, including the Freedom of Information and Protection of Privacy Act 
+(RSA 2000, c F-25), as amended, this reasonable use by the University of Waterloo will include posting each 
+Placement Student’s final reports and presentations related to the Work on the University's website. 
+2.7 REFERENCES / SOURCES (IF APPLICABLE) 
+List any references you have cited in your proposal.  
+N/A
+
+Last Update : October 2024 
+ 
+BSI – Project Proposal Template 
+8 
+ 
+Business Strategy Internship 
+Proposal Template 
+Appendix A: Application Guide 
+Introduction 
+All applicants must complete all sections of the application form. Please contact your Mitacs Advisor if you have questions.  The 
+approval criteria can be found in  Appendix B . I ndividual projects are not expected to meet all the criteria . As you write your 
+application, be sure to include information about those criteria that do apply to your project. 
+Application checklist (what you need to apply) 
+✓ This application form completed and uploaded to the RAP. 
+▪ All participants (intern, partner organization, academic supervisor) must create accounts in RAP and sign off on the project 
+within RAP. 
+✓ Office of Research Services (ORS) or equivalent signature on the proposal. 
+▪ A signature template is provided as part of the RAP application process . The lead applicant on the proposal will be 
+responsible for collecting the ORS or equivalent signature and uploading the signature page to RAP. 
+▪ Your academic institution must sign off on this proposal once all sections of the RAP are complete and all participants have 
+signed off on the application. Instructions are provided in RAP.  
+ 
+Eligibility 
+Mitacs funds research and innovation projects. The BSI program focuses on innovation projects. Innovation projects are expected 
+to lead to change s or improvements for the partner and/or community through exploration, design , and implementation of 
+efficiencies in business models, products, processes , or services. Proposals should describe how the project will lead to economic, 
+health and/or social benefits for the partner organization and/or the community and society at large. 
+Intern eligibility  
+Eligible interns for projects involving non-academic (industry or NFP) partners are:   
+▪ college students (any program) who may do up to three four- to six-month internships  
+▪ undergraduate students (any program) who may do up to three four- to six-month internships  
+▪ university master’s students who may do up to six four- to six-month internships  
+▪ PhD students who may do up to twelve four- to six-month internships  
+▪ postdoctoral fellows (at colleges or universities)  who may do up to nine four- to six-months internships (a full three years 
+of funding) 
+  
+Academic supervisor eligibility  
+Eligible academic supervisors are: 
+▪ professors at Canadian universities who are eligible to receive Tri-Agency funds  
+▪ faculty or appropriate research staff at Canadian colleges 
+ 
+The academic supervisor who signs the proposal may choose to involve other qualified staff individuals at the academic institution, 
+such as program or research staff or senior graduate students and/or postdocs in the hands -on supervision of interns. Any su ch 
+collaborators or informal co-supervisors do not need to be listed on the application form as supervisors, but their roles in supporting 
+the intern(s) should be described in the proposal.
+
+Last Update : October 2024 
+ 
+BSI – Project Proposal Template 
+9 
+ 
+Business Strategy Internship 
+Proposal Template
+
+Last Update : October 2024 
+ 
+BSI – Project Proposal Template 
+10 
+ 
+Business Strategy Internship 
+Proposal Template 
+ 
+Partner organization eligibility  
+Eligible partner organizations are:  
+▪ for-profit corporations in Canada  
+▪ NFP organizations in Canada  
+o Eligible NFPs include charities, economic development organizations, industry associations, social welfare 
+organizations, health organizations, foundations, and research centers/institutes.  
+o Projects with an NFP partner must demonstrate an economic or productivity orientation, which must be described 
+in the proposal.  
+▪ municipalities  
+▪ hospitals  
+ 
+Collaboration 
+Collaboration is an essential feature of many Mitacs projects. BSI projects may involve a collaboration between:  
+▪ an academic institution  and a  non-academic partner  organization that participates in and contributes funds to the 
+project.  
+▪ These projects may be built in four- to six-month internship units, each valued at:  
+o $10,000 with a $5,000 contribution from the partner organization; or 
+o $15,000 with a $7,500 contribution from the partner organization. 
+ 
+Collaboration with non-academic organizations 
+Projects involving non-academic partner organizations (i.e., companies, eligible not -for-profits [NFPs]) require a true collaboration 
+between the intern, their academic supervisor and institution, and the partner organization. The non-academic partner organization 
+is not just a financial sponsor of the project; they are expected to participate in the  development and completion of the  project 
+alongside the intern(s). In -person interaction at the partner’s location is required when feasible, but we recognize that due to 
+pandemic restrictions, many organizations began working virtually, and that this mode of wo rk continues in some fields as part of 
+the new normal. If the non-academic partner organization does not have a physical location where the intern can interact with their 
+staff, be sure to clearly describe plans for virtual interaction. It is also important to note that Mitacs projects are not work placements 
+or traditional co-ops. Academic supervisors (and/or other members of the supervisory team at the academic institution) are 
+expected to play an active role in advising the intern throughout the project.
+
+Last Update : October 2024 
+ 
+BSI – Project Proposal Template 
+11 
+ 
+Business Strategy Internship 
+Proposal Template 
+ 
+Appendix B: Selection Criteria 
+ 
+Mitacs will review applications to ensure that minimum requirements for completeness and project eligibility are met. For 
+information about this, please refer to the submission checklist below.  
+Mitacs will also assess the benefits of the project in terms of: the economic and societal impact; the development and deployment 
+of talent; and the establishment and support of collaborations. A project does not need to demonstrate benefits in each category 
+(project, talent, and collaboration) since strength in one category can make up for weakness in another. Projects that demonstrate 
+little or no benefit across all categories will not be approved by Mitacs. 
+In addition to assessing the benefits of a project, each project will also be reviewed to ensure that it does not contain any 
+unmanageable risks in the categories of: feasibility, loss of talent or international assets from Canada, economic and nation al 
+security risks, and adverse effects on humans, animals, and/or the environment. Projects with high risks must demonstrate 
+correspondingly high benefits to Canada and risk mitigation measures should be included in the proposal to justify approval by 
+Mitacs. 
+While the selection process is not currently competitive, if funding does become limited, Mitacs will prioritize approval bas ed on 
+the potential cumulative benefits of the project. 
+Requirements for all projects 
+❑ The description of the why (the background), the what (the objectives), the how (the approach), the when (the timelines), 
+and the project outputs (the deliverables), must be clear for all projects. 
+ 
+Requirements for all collaborations 
+❑ Objectives must be aligned with the knowledge, skills, expertise, and needs of all participants. 
+❑ Each party’s roles and responsibilities must be clear to all signatories on the application. 
+❑ Each party’s expectations on deliverables, priorities, and time sensitivities must be clear to all signatories on the application. 
+❑ Agreement on intellectual property rights, ownership, royalties must be clear to all signatories on the application. 
+ 
+Requirements for all internships 
+❑ A structure must be in place to provide academic support that is appropriate to the level of the intern(s). 
+❑ There must be sufficient support / supervision from the internship host at the partner organization. 
+❑ There must be sufficient capacity at the internship host to manage the planned number of interns. 
+ 
+Requirements for all projects involving Indigenous peoples or communities 
+❑ Project must have the support of the affected communities and those who have rights or a stake in the endeavor. 
+❑ Indigenous communities must have been involved in shaping the project from inception, and Elders and Knowledge Holders 
+must have been directly engaged. 
+❑ There must be clear agreement on Indigenous communities’ access, use, and governance of resulting knowledge and data.
+
+Last Update : October 2024 
+ 
+BSI – Project Proposal Template 
+12 
+ 
+Business Strategy Internship 
+Proposal Template 
+❑ The project team must demonstrate the capacity to engage with Indigenous communities or partners in line with 
+appropriate guidelines, principles, and policies (for more information please refer to our Indigenous Research Guidelines).
+
+Last Update : October 2024 
+ 
+BSI – Project Proposal Template 
+13 
+ 
+Business Strategy Internship 
+Proposal Template 
+ 
+Project 
+Examples of how a project can demonstrate potential economic and societal impacts include, but are not limited to: 
+▪ creating or commercializing Canadian technology/intellectual property 
+▪ discovering new and broadly applicable knowledge 
+▪ enhancing Canadian productivity by developing new and improved processes 
+▪ supporting the entry of Canadian businesses into new domestic/international markets 
+▪ developing new business models for Canadian companies 
+▪ improving public services (e.g. transportation infrastructure, utilities, healthcare) in Canada 
+▪ contributing new solutions to community challenges in Canada 
+▪ addressing social or environmental issues important to Canadian society 
+▪ advancing new approaches to include under-represented groups in the knowledge economy 
+▪ working towards a more equal and equitable Canada 
+▪ implementing evidence-informed strategies to address a specific challenge 
+ 
+Talent 
+Examples of how a project can demonstrate the potential for supporting the development of a talented and skilled population include, 
+but are not limited to: 
+▪ interns gaining specialized technical skills through access to and training on the use of specialized equipment and facilities 
+▪ training interns in research skills 
+▪ training interns in interdisciplinary teamwork 
+▪ training interns in community-based methodologies 
+▪ training interns in entrepreneurial/professional skills through structured activities 
+▪ creating opportunities for interns to apply their knowledge / skills and solve industry/real-world problems 
+▪ re-skilling/up-skilling interns to pursue new and emerging opportunities in Canada 
+▪ placing interns in positions (at Canadian companies or organizations) appropriate to their training/skills 
+▪ interns being introduced to new professional experiences/environments/contacts/networks in Canada 
+▪ supporting individuals from under-represented groups in the knowledge economy 
+ 
+Collaboration 
+Examples of how a project can demonstrate the anticipated benefits associated with collaboration include, but are not limited to: 
+▪ bringing people together to solve problems through complementary skills and expertise 
+▪ sharing access to data, facilities, instruments for mutual benefit 
+▪ exchanging knowledge among academia, industry, communities 
+▪ moving tacit knowledge into practice through interdisciplinary teamwork 
+▪ supporting long-term relationships between academia, industry, communities 
+▪ establishing new collaborations between academia, industry, communities 
+▪ attracting foreign investment, talent, and innovative companies to Canada
+
+Last Update : October 2024 
+ 
+BSI – Project Proposal Template 
+14 
+ 
+Business Strategy Internship 
+Proposal Template 
+ 
+▪ creating partnerships with communities that are under-represented in the knowledge economy 
+▪ linking Canadian researchers to prominent research groups globally

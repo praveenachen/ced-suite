@@ -1,0 +1,360 @@
+1 
+ 
+Full Title: “Urban density and the loneliness epidemic: Developing and validating a tool to 
+assess the role of housing type and design in social connection/isolation” 
+ 
+ 
+Summary
+
+2 
+ 
+Lay Title: Density and the loneliness epidemic: Developing a tool to assess housing impacts 
+ 
+Lay Abstract
+
+3 
+ 
+1 BACKGROUND & OBJECTIVES 
+Roughly one in five Canadians report experiencing social isolation (20%) and loneliness 
+(19%),1 while nearly 60% indicate experiencing a lack of community connection, of which 16% 
+report that they feel ‘no sense of community at all.’2 Of those experiencing social isolation, close 
+to half (49%) say they feel their health is either ‘fair’ or ‘poor,’ while those reporting feeling 
+frequently lonely rate their overall life satisfaction lower when compared to those who says they 
+felt lonely less frequently.3 Presently in 2025, social isolation, the absence of meaningful and 
+supportive relationships with other individuals,4 and loneliness, the “awareness of being 
+fundamentally separated from other people and from the universe ... [via feelings of] sadness, 
+hopelessness, grief, meaninglessness or anguish,”5(p1322) are a policy priorities in Canada.e.g., 6,7 
+By some accounts, isolation and are an expanding “epidemic” that threatens health and society,8,9 
+and one that in Canada is particularly consequential for sex/gender minority, disabled, and older 
+populations, as well as those living with long-term conditions.10 Collectively, the associated 
+health care costs of loneliness and isolation are significant as these conditions are leading 
+contributors to Canadians’ poor mental, which the Canadian Mental Health Association estimates 
+costs $50 billion annually in direct health care, lost productivity, and lost quality of life.11 
+ Canadians spend almost 90% of their daily time indoors, the considerable majority of 
+which is at home (69.9%).12 While 35.9% of time at home is spent sleeping,12 the centrality of 
+the home environment with respect to health, well-being, early life development, and later life 
+aging is increasingly well documented as a leading social determinant of health (SDoH) across 
+the life course.13,14 For instance, the condition of housing (i.e., good condition v. need minor 
+repairs v. need major repairs) can have disparate impacts on mental and physical health outcomes 
+for residents,15 while the level of artificial lighting in the home can negatively affect indicators 
+such as sleep health.16 Beyond physical and mental health implications, it is increasingly 
+understood that housing can play a key role in social well-being, with reported links being noted 
+to sense of community belonging,17 sense of pride,18 and social/community integration.19 
+In Canada, the national housing stock has diversified across low-, mid-, and high-density 
+models in recent years20 in response to urban sustainability measures (e.g., limiting sprawl), 
+concerns pertaining to the loss of productive agricultural land,21 and the promotion of more 
+compact and accessible economies of scale.22 However, despite the growing evidence of housing 
+as a consequential SDoH with links to social health and well-being, and Canada’s diversifying 
+housing mix, little is currently known about what distinct built, natural, and social designs of the 
+home environment affect social health and well-being (i.e., depth, quality of one’s relationships 
+with others, their neighbourhood, and their community23) as existing evidence has ostensibly 
+only tracked health and well-being indicators across housing types (e.g., single family home, 
+apartment) in the limited reviewed comparative studies.24 Moreover, there is a dearth of extant 
+evidence-supported housing strategies to support health, and especially those that consider 
+achieving key metrics of health and equity.25 The aim of this research is to support effective 
+evidence-based planning and public health practice via the development of a novel, 
+interdisciplinary, expert informed, and psychometrically validated ‘pro-social’ housing design 
+tool for practitioners and researchers. This research seeks to achieve three/four objectives: 
+Objective 1 (O1): Examine which social, built, and natural structures and features of the home 
+environment among low- (i.e., 1-2 storey buildings; e.g., single family home), medium- (i.e., 3-8 
+storey buildings; e.g., condos, townhomes), and high-rise (i.e., >9 storey buildings; e.g., high-rise 
+apartments) dwelling residents (N=1,500) perceive as most important to their social health.
+
+4 
+ 
+Objective 2 (O2): Conduct a comparative multi-city (i.e., N=15/Waterloo, N=15/Edmonton, 
+N=15/Montreal) photovoice study investigating resident perspectives of low-, medium-, and 
+high-density housing regarding pro-/anti-social environmental design in/around their home. 
+Objective 3a (O3a): Triangulate the findings of O1-O2 via expert audits to develop the ‘socially 
+connective housing/home environment design – universal evaluation’ (SCHEDule) tool to 
+evaluate the social design quality of different housing environments. 
+Objective 3b (O3b): Validate the SCHEDule tool with community surveys featuring visuals of 
+different housing models and design quality as identified in the O3.1 expert audits.  
+2 RESEARCH METHODS & TIMELINES 
+2.1 Network Analysis of Home Env. Influences of Social Health in Low-, Mid-, & High-Rise 
+Dwellings (O1: May/26-Feb/27): What social (e.g., friendly neighbours, cultural 
+designs/artifacts, security cameras), built (e.g., courtyards, wide sidewalks, narrow adjacent 
+streets), and natural (e.g., property soft edges, tall trees, gardens) environment features do low-, 
+mid-, and high-rise dwelling residents connect the most to their perceived sense of community, 
+social well-being, sense of belonging, sense of security, and life satisfaction? 
+Data Collection: ... 
+Data Analysis: social network analysis (SNA) of a sample of high-rise dwellers (i.e., 18+ years 
+living in a building ≥8 storeys; N=X,XXX) in the 10 largest municipalities in Canada. 
+In the SNA, nodes will be individuals (i.e., CCHS participant IDs) … edges will be social 
+provisions (i.e., ) …  
+Analyses will control for age, sex, ethnicity, socioeconomic status (i.e., education + income), and 
+size of building (# of storeys). 
+2.2 Multi-City Photovoice Study of Social Health and Housing Design (O2: Mar/27-Sept/27): 
+A three-city (i.e., RoW, XXX, XXX) ... 
+Recruitment: Purposive sampling26 focused on recruiting participants living in low- (i.e., single 
+family home), medium- (i.e., townhomes, duplexes, mid-rise apartments/condos 2-8 storeys), 
+and high-density (i.e., 9 or more storey apartments/condos) housing environments will be 
+conducted in each city resulting in a collective sample of 45 (15 per site).  
+Data Collection: Photovoice 
+Data Analysis: Thematic  
+2.3 Development of the ‘SCHEDule’ tool (O3a: Oct/27-Apr/28): Synthesizing the findings 
+from the O1-O3 studies will be used to create a list of assessment items reflecting pro-social and 
+anti-social housing designs. For example, measures of pro-social designs may include aesthetics 
+(e.g., natural amenities or spaces,27 attractive housing model or historical architecture28), active 
+travel infrastructure,29 safety/crime prevention design,30 and visibility, while anti-social measures 
+may feature physical hazards (e.g., narrow sidewalks,31 hard edge property designs32), social 
+disconnection/lack of cleanliness (e.g., few fourth [informal] spaces33), motorized traffic/parking 
+infrastructure,28 and tall fences/property dividers. The list of items will be the initial model of the 
+‘socially connective housing/home environment design – universal evaluation’ (SCHEDule) tool 
+which will be assessed for reliability (O4) and validity (O5) (see analytical plan in Figure X).
+
+5 
+ 
+Figure X. Flow Chart for the Development and Validation of the SCHEDule Tool 
+ 
+Recruitment: Independent raters who will test the tool will be recruited as urban planning and 
+design professionals (N=15-20). In addition to being topic experts, we will aim to recruit a 
+sample with an average career length of at least 5 years. Experts will be invited to complete an 
+online survey wherein they will be instructed to assess the social connectivity/pro-social design 
+quality—according to the developed list of items—of 45 photos featuring low-, medium-, and 
+high-density housing environments (15 images per density). Participants will be given the initial 
+SCHEDule tool featuring the initial pro- and anti-social design categories with descriptions of 
+each item. Participants will be instructed to do their best to avoid rating the quality of image, 
+weather conditions in the image, or their personal preferences about the content of the image. 
+Housing Environment Images: To ensure the contemporary validity of the analysis, 45 images 
+will be collected from the O3 study to represent real world examples of the pro- and anti-social 
+design themes generated from the O1-O3 findings (i.e., anti-social low/medium/high-density, 
+pro-social low/medium/high-density). Thus, 15 images representing housing in three densities 
+from varied municipalities will be assessed by each independent rater. Raters will be instructed 
+to evaluate each image for its social connectivity quality across the developed categories on a 6-
+point Likert (1: Strongly Disagree, 2: Disagree, 3: Slightly Disagree, 4: Slightly Agree, 5: Agree, 
+6: Strongly Agree). The rating scale will not feature a ‘neutral’ option in order to mitigate 
+acquiescence bias—evaluator reluctance to respond with more extreme options which can 
+contribute to central tendency biases that result in systematic error during the evaluation.34 
+Reliability Analysis: Intraclass coefficients (ICC) tests will be calculated first to measure the 
+homogeneity between experts when rating housing environments. ICCs indicate whether, and the 
+extent to which, the scores given by raters are correlated35 (i.e., to which extent their ratings of 
+the social connectivity of the housing environment increase/decrease in the same direction from 
+one context to the next). ICC models will be considered as raters being picked randomly from 
+the population of topic experts (random effect), and the reliability measures being based on the 
+profile of their ratings. Thus, a Two-Way Random model will be used to evaluate the consistency 
+of rankings (i.e., ICC, 95% Confidence Intervals) across both single items and averages per rater. 
+Any items with an ICC < 0.5035 will be dropped before final evaluations of the tool structure.
+
+6 
+ 
+Assessments of the reliability of the structure of the initial SCHEDule tool will then be 
+completed via exploratory factor analyses (EFA) and computing McDonald’s Omegas (ω). First, 
+a latent variable modelling for a two-factor SCHEDule tool (pro-social, anti-social housing 
+designs) will be run to collect standardized loadings (λ) and error variances (θ).36 Second, ω 
+coefficients will be computed using the formula ω = (Σλᵢ)² / [(Σλᵢ)² + Σθᵢ], where: λᵢ = 
+standardized factor loading for item I and θᵢ = error variance for item i. Cutoffs for factor 
+loadings will be ω ≥ 0.70-0.80 (good-to-excellent) reliability37 to finalize the structure of the 
+tool. McDonald’s Omegas are widely recognized as one of the most trustworthy estimates of 
+reliability.38 Omegas have been favourably argued against more traditional Cronbach’s alpha (α) 
+due to having fewer assumptions (e.g., unlike α, ω doesn’t require tau-equivalence [equal factor 
+loadings]) and more analytical flexibility (i.e., α assumes a unidimensional factor [one factor] 
+and can underestimate reliability in multidimensional scales, while ω is grounded in latent 
+variable modeling which is more powerful for multidimensional scales/tools).39,40 All analyses 
+will be performed in SPSS and the AMOS package. 
+2.4 Validation of the ‘SCHEDule’ tool (O3b: Jan/28-Apr/28): Using anonymized visuals (i.e., 
+all address and street name info blurred/removed) of low-, medium, and high-density 
+environments from the O3 study, visual assess will be conducted by members of the public 
+(N=XXX)  ... 
+Data Collection: online survey (N=XXX) 
+Validity Analysis: perceived stress questionnaire ,  
+Confirmatory factor analysis (CFA) ... 
+Predictive validity analysis ... linear regressions  
+3 CHALLENGES & MITIGATION PLANS 
+ Limited relevance to rural communities ...  
+ 
+4 RESEARCH TEAM 
+Our interdisciplinary team comprises strategically chosen experts who work closely with 
+knowledge users to help lay the foundation for future urban population health intervention 
+research (PHIR). NPA Minaker will oversee all aspects of the project. Minaker is an Associate 
+Professor in Canada’s largest urban planning school and FCI Director. The proposed research 
+builds directly on her research program exploring health and urban design.31,41–43  
+Co-PA Cooke is a demographer working in the area of public health and social inequities. He 
+has experience using Statistics Canada data and linked datasets including multiple years of 
+CCHS.  
+Co-A Perrott is an ECR and Registered Professional Planner with expertise in urban design for 
+public spaces in densifying cities. She will supervise Co-op1 and co-lead the KMb activities 
+given her role as Associate Director, Professional Practice at Waterloo’s School of Planning.  
+Co-A Glover ... 
+Co-A ... in ‘Berta 
+Co-A ... in Monty
+
+7 
+ 
+Co-A Buttazzoni is a postdoctoral fellow (PDF) at Waterloo. This research builds on his 
+PHIR,44–46 methodological and psychometric tool development,47–49 and his emerging research 
+on universal design to support health.50,51  
+Collaborator Happy Cities is an urban planning, research, and engagement firm with extensive 
+experience in health and social well-being and serve in an advisory capacity on KMb activities. 
+See Participant Table for more details. 
+PKU ... 
+5 KNOWLEDGE MOBILIZATION 
+ 
+6 ANTICIPATED IMPACTS 
+This will be the first national study in Canada to explore how high-rise location, urban 
+greenness, and ALE are associated with social isolation/connectedness in a national sample of 
+Canadians ≥18 years. Our intersectional SGBA+ approach will help identify intersectional 
+identities for whom urban design interventions might be most effective. By leveraging FCI 
+support and our multi-sector city-building networks, our findings will directly inform realistic, 
+equity-focused municipal policy recommendations for Canadian municipalities.
+
+8 
+ 
+REFERENCES 
+1. MNP. Canadians grapple with inflation isolation: rising costs impacting mental health, 
+increasing loneliness, isolation, stress, and anxiety. 2023. Accessed July 23, 2025. 
+https://mnpdebt.ca/en/resources/mnp-debt-blog/canadians-inflation-isolation-rising-costs-
+mental-health-loneliness-isolation-stress-anxiety 
+2. YMCA of Southern Interior BC. Six in Ten Canadians Surveyed Have Little or No Sense of 
+Community, New YMCA Research Reveals. 2024. Accessed July 23, 2025. 
+https://www.ymcasibc.ca/news/loneliness-survey-results 
+3. Statistics Canada. The Daily — Canadian Social Survey: Loneliness in Canada.; 2021. 
+Accessed July 4, 2024. https://www150.statcan.gc.ca/n1/daily-quotidien/211124/dq211124e-
+eng.htm 
+4. Veazie S, Gilbert J, Winchell K, Paynter R, Guise JM. Addressing Social Isolation To Improve 
+the Health of Older Adults: A Rapid Review. Agency for Healthcare Research and Quality 
+(AHRQ); 2019. doi:10.23970/AHRQEPC-RAPIDISOLATION 
+5. Bolmsjö I, Tengland PA, Rämgård M. Existential loneliness: An attempt at an analysis of the 
+concept and the phenomenon. Nursing Ethics. 2019;26(5):1310-1325. 
+doi:10.1177/0969733017748480 
+6. Gouvernement du Québec. Tackling Social Isolation and Loneliness Among Seniors in a 
+Pandemic Context.; 2020. Accessed July 24, 2025. 
+https://www.inspq.qc.ca/sites/default/files/publications/3033-social-isolation-loneliness-
+seniors-pandemic-covid19.pdf 
+7. Canadian Coalition for Seniors’ Mental Health. Social Isolation and Loneliness - Clinical 
+Guidelines. 2025. Accessed July 24, 2025. https://ccsmh.ca/areas-of-focus/social-isolation-
+and-loneliness/clinical-guidelines/ 
+8. Killeen C. Loneliness: an epidemic in modern society. J Adv Nurs. 1998;28(4):762-770. 
+doi:10.1046/j.1365-2648.1998.00703.x 
+9. U.S. Surgeon General’s Advisory on the, Healing Effects of Social Connection and 
+Community. Our Epidemic of Loneliness and Isolation. Published online 2023. 
+10. Statistics Canada. You’ve got a friend in me. July 30, 2024. Accessed July 24, 2025. 
+https://www.statcan.gc.ca/o1/en/plus/6735-youve-got-friend-me 
+11. Canadian Mental Health Association. Making Mental Health Part of Canada’ s Universal 
+Health Care System. Canadian Mental Health Association; 2022. Accessed July 24, 2025. 
+https://www.ourcommons.ca/Content/Committee/441/FINA/Brief/BR11979299/br-
+external/CanadianMentalHealthAssociation-National-e.pdf
+
+9 
+ 
+12. Matz CJ, Stieb DM, Davis K, et al. Effects of Age, Season, Gender and Urban-Rural 
+Status on Time-Activity: Canadian Human Activity Pattern Survey 2 (CHAPS 2). Int J 
+Environ Res Public Health. 2014;11(2):2108-2124. doi:10.3390/ijerph110202108 
+13. Rolfe S, Garnham L, Godwin J, Anderson I, Seaman P, Donaldson C. Housing as a social 
+determinant of health and wellbeing: developing an empirically-informed realist theoretical 
+framework. BMC Public Health. 2020;20(1):1138. doi:10.1186/s12889-020-09224-0 
+14. Fenelon A. Housing as a Determinant of Health: A Population-Level Approach. American 
+Journal of Public Health. Published online April 9, 2025. doi:10.2105/AJPH.2025.308053 
+15. Palacios J, Eichholtz P, Kok N, Aydin E. The impact of housing conditions on health 
+outcomes. Real Estate Economics. 2021;49(4):1172-1200. doi:10.1111/1540-6229.12317 
+16. Osibona O, Solomon BD, Fecht D. Lighting in the Home and Health: A Systematic 
+Review. International Journal of Environmental Research and Public Health. 2021;18(2):609. 
+doi:10.3390/ijerph18020609 
+17. Leviten-Reid C, Matthew R, Wardley L. Sense of community belonging: exploring the 
+impact of housing quality, affordability, and safety among renter households. Journal of 
+Community Practice. Published online January 2, 2020. Accessed July 24, 2025. 
+https://www.tandfonline.com/doi/abs/10.1080/10705422.2020.1718050 
+18. Sho K. From Stigma to Pride: New Practices of Housing-Based Welfare for Regenerating 
+Disadvantaged Communities in Taipei City, Taiwan. In: Mizuuchi T, Kornatowski G, 
+Fukumoto T, eds. Diversity of Urban Inclusivity: Perspectives Beyond Gentrification in 
+Advanced City-Regions. Springer Nature; 2023:321-336. doi:10.1007/978-981-19-8528-7_19 
+19. Quilgars D, Pleace N. Housing First and Social Integration: A Realistic Aim? Social 
+Inclusion. 2016;4(4):5-15. doi:10.17645/si.v4i4.672 
+20. Statistics Canada. Type of Dwelling Reference Guide, Census of Population, 2021. 2022. 
+Accessed October 25, 2023. https://www12.statcan.gc.ca/census-recensement/2021/ref/98-
+500/001/98-500-x2021001-eng.cfm 
+21. Statistics Canada. Land-use change. May 30, 2024. Accessed July 24, 2025. 
+https://www.canada.ca/en/environment-climate-change/services/environmental-
+indicators/land-use-change.html 
+22. Government of Ontario. Provincial Planning Statement, 2024. 2024. Accessed July 24, 
+2025. https://www.ontario.ca/files/2024-10/mmah-provincial-planning-statement-en-2024-10-
+23.pdf 
+23. Keyes CLM. Social well-being. Social psychology quarterly. Published online 1998:121-
+140. 
+24. Alidoust S, Huang W. A decade of research on housing and health: a systematic literature 
+review. Reviews on Environmental Health. 2023;38(1):45-64. doi:10.1515/reveh-2021-0121
+
+10 
+ 
+25. Hernández D, Swope CB. Housing as a Platform for Health and Equity: Evidence and 
+Future Directions. Am J Public Health. 2019;109(10):1363-1366. 
+doi:10.2105/AJPH.2019.305210 
+26. Denzin NK, Lincoln YS. The Sage Handbook of Qualitative Research. sage; 2011. 
+27. Huang W, Lin G. The relationship between urban green space and social health of 
+individuals: A scoping review. Urban Forestry & Urban Greening. 2023;85:127969. 
+doi:10.1016/j.ufug.2023.127969 
+28. Park K, Ewing R, Sabouri S, Larsen J. Street life and the built environment in an auto-
+oriented US region. Cities. 2019;88:243-251. doi:10.1016/j.cities.2018.11.005 
+29. Egli V , Mackay L, Jelleyman C, Ikeda E, Hopkins S, Smith M. Social relationships, 
+nature, and traffic: Findings from a child-centred approach to measuring active school travel 
+route perceptions. Children’ s Geographies. 2020;18(6):667-683. 
+30. Cozens PM, Saville G, Hillier D. Crime prevention through environmental design 
+(CPTED): a review and modern bibliography. Property Management. 2005;23(5):328-356. 
+doi:10.1108/02637470510631483 
+31. Buttazzoni A, Dean J, Minaker L. Urban design and adolescent mental health: A 
+qualitative examination of adolescent emotional responses to pedestrian- and transit-oriented 
+design and cognitive architecture concepts. Health & Place. 2022;76:102825. 
+doi:10.1016/j.healthplace.2022.102825 
+32. Gehl J. Cities for People. Island Press; 2010. 
+33. Simões Aelbrecht P. ‘Fourth places’: the contemporary public settings for informal social 
+interaction among strangers. Journal of Urban Design. 2016;21(1):124-152. 
+doi:10.1080/13574809.2015.1106920 
+34. Albaum G. The Likert Scale Revisited. Market Research Society Journal. 1997;39(2):1-
+21. doi:10.1177/147078539703900202 
+35. Koo TK, Li MY . A guideline of selecting and reporting intraclass correlation coefficients 
+for reliability research. Journal of chiropractic medicine. 2016;15(2):155-163. 
+36. Jackson DL, Gillaspy JA, Purc-Stephenson R. Reporting practices in confirmatory factor 
+analysis: An overview and some recommendations. Psychological Methods. 2009;14(1):6-23. 
+doi:10.1037/a0014694 
+37. Lance CE, Butts MM, Michels LC. The Sources of Four Commonly Reported Cutoff 
+Criteria: What Did They Really Say? Organizational Research Methods. 2006;9(2):202-220. 
+doi:10.1177/1094428105284919
+
+11 
+ 
+38. Goodboy AK, Martin MM. Omega Over Alpha for Reliability Estimation of 
+Unidimensional Communication Measures. Annals of the International Communication 
+Association. 2020;44(4):422-439. doi:10.1080/23808985.2020.1846135 
+39. Hayes AF, Coutts JJ. Use Omega Rather than Cronbach’s Alpha for Estimating 
+Reliability. But…. Communication Methods and Measures. Published online January 2, 2020. 
+Accessed June 19, 2025. 
+https://www.tandfonline.com/doi/abs/10.1080/19312458.2020.1718629 
+40. Lai MHC. Composite reliability of multilevel data: It’s about observed scores and 
+construct meanings. Psychological Methods. 2021;26(1):90-102. doi:10.1037/met0000287 
+41. Menko P, Olstad D, Buttazzoni A, Minaker L. Food deserts, food mirages, and 
+gentrification in Toronto, Canada. Health & Place. 2025;94:103490. 
+42. Minaker LM, Shuh A, Olstad DL, Engler-Stringer R, Black JL, Mah CL. Retail food 
+environments research in Canada: A scoping review. Can J Public Health. 2016;107(S1):eS4-
+eS13. doi:10.17269/CJPH.107.5344 
+43. Minaker L, Fisher P, Raine K, Frank L. Measuring the Food Environment: From Theory 
+to Planning Practice. JAFSCD. Published online December 21, 2011:65-82. 
+doi:10.5304/jafscd.2011.021.021 
+44. Buttazzoni A, Doherty S, Minaker L. How do Urban Environments Affect Young 
+People’s Mental Health? A Novel Conceptual Framework to Bridge Public Health, Planning, 
+and Neurourbanism. Public Health Reports. 2022;137(1):48-61. 
+45. Buttazzoni AN, Clark AF, Seabrook JA, Gilliland JA. Promoting active school travel in 
+elementary schools: A regional case study of the school travel planning intervention. Journal 
+of Transport & Health. 2019;12:206-219. 
+46. Buttazzoni A, Brar K, Minaker L. Smartphone-Based Interventions and Internalizing 
+Disorders in Youth: Systematic Review and Meta-analysis. J Med Internet Res. 2021;23(1). 
+doi:10.2196/16490 
+47. Buttazzoni A, van Rompay T, Minaker L. Operationalizing “place immersion” as a spatial 
+neuropsychosocial phenomenon: Development and validation of the Place Immersion Scale 
+(PLIMS). Journal of Environmental Psychology. Under Review. 
+48. Buttazzoni A, Pham J, Clark A, Romanelli-Baird E, Gilliland J. Validating the Perceived 
+Active School Travel Enablers and Barriers–Child (PASTEB–C) questionnaire. Public Heath. 
+2023;223:117-127. 
+49. Clark AF, Thomas M, Buttazzoni A, et al. Validating the Perceived Active School Travel 
+Enablers and Barriers–Parent (PASTEB–P) Questionnaire to Support Intervention 
+Programming and Research. International Journal of Environmental Research and Public 
+Health. 2023;20(10):5874. doi:10.3390/ijerph20105874
+
+12 
+ 
+50. Buttazzoni A, Minaker L. Exploring the relationships between specific urban design 
+features and adolescent mental health: The case of imageability, enclosure, human scale, 
+transparency, and complexity. Landscape and Urban Planning. 2023;235:104736. 
+doi:10.1016/j.landurbplan.2023.104736 
+51. Buttazzoni A, Minaker L. Associations between real-time, self-reported adolescent 
+mental health and urban and architectural design concepts. Cities & Health. 2023;8(3):1-16. 
+doi:10.1080/23748834.2023.2286741

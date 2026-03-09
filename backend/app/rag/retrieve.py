@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import os
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional
 
 from backend.app.rag.store import get_collection
 
@@ -22,6 +22,7 @@ def retrieve(
     top_k: int = 6,
     persist_dir: Optional[str] = None,
     collection_name: str = "grant_library",
+    where: Optional[Dict[str, Any]] = None,
 ) -> str:
     """
     Returns a single string of top_k snippets + citations.
@@ -38,6 +39,7 @@ def retrieve(
         query_embeddings=[q_emb],
         n_results=top_k,
         include=["documents", "metadatas", "distances"],
+        where=where,
     )
 
     docs = (res.get("documents") or [[]])[0]

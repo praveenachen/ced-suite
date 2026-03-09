@@ -8,10 +8,14 @@ import {
   FileUp,
   Sparkles,
   ArrowRight,
+  Database,
+  Mic,
+  Cpu,
 } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const container = {
   hidden: { opacity: 0 },
@@ -28,15 +32,16 @@ const item = {
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen">
+    <div className="relative min-h-screen overflow-hidden">
       {/* Header */}
-      <header className="border-b border-border bg-card/80 backdrop-blur-sm">
-        <div className="container mx-auto flex h-14 items-center px-4">
+      <header className="relative z-10 border-b border-border bg-card/80 backdrop-blur-sm">
+        <div className="container mx-auto flex h-14 items-center justify-between px-4">
           <span className="font-semibold text-foreground">Community Grant Assistant</span>
+          <ThemeToggle showLabel />
         </div>
       </header>
 
-      <main className="container mx-auto max-w-5xl px-4 py-12">
+      <main className="relative z-10 container mx-auto max-w-5xl px-4 py-12">
         <motion.div
           variants={container}
           initial={false}
@@ -53,6 +58,12 @@ export default function HomePage() {
           <motion.h1 variants={item} className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             Community Grant Assistant
           </motion.h1>
+          <motion.h2
+            variants={item}
+            className="mt-3 max-w-4xl bg-gradient-to-r from-fuchsia-500 via-cyan-400 to-blue-500 bg-clip-text text-4xl font-semibold tracking-tight text-transparent sm:text-6xl"
+          >
+            Funding-Ready Proposals, Faster
+          </motion.h2>
           <motion.p variants={item} className="mt-2 max-w-xl text-muted-foreground">
             AI-powered grant proposal builder for communities. Get expert guidance through
             voice conversations and intelligent document analysis.
@@ -65,6 +76,7 @@ export default function HomePage() {
             Powered by RAG, GPT-4o & ElevenLabs Voice AI
           </motion.div>
         </motion.div>
+        <div className="mx-auto mt-10 h-px w-full max-w-4xl bg-gradient-to-r from-fuchsia-500/0 via-cyan-400/80 to-blue-500/0" />
 
         {/* Two main cards */}
         <motion.div
@@ -77,8 +89,8 @@ export default function HomePage() {
           <motion.div variants={item}>
             <Card className="h-full border-2 transition-shadow hover:shadow-md">
               <CardHeader>
-                <div className="mb-2 flex h-12 w-12 items-center justify-center rounded-xl bg-amber-100">
-                  <ArrowUpFromLine className="h-6 w-6 text-amber-700" />
+                <div className="mb-2 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/15">
+                  <ArrowUpFromLine className="h-6 w-6 text-primary" />
                 </div>
                 <CardTitle className="text-xl">Improve Existing Draft</CardTitle>
                 <CardDescription>
@@ -157,27 +169,27 @@ export default function HomePage() {
             {
               title: "RAG Technology",
               desc: "Upload your community documents for context-aware proposal generation",
-              icon: "ðŸ“",
-              color: "bg-blue-100 text-blue-700",
+              icon: Database,
+              color: "bg-cyan-500/15 text-cyan-400",
             },
             {
               title: "Voice & Text",
-              desc: "Speak naturally or type â€” powered by ElevenLabs voice AI",
-              icon: "ðŸ’¬",
-              color: "bg-violet-100 text-violet-700",
+              desc: "Speak naturally or type - powered by ElevenLabs voice AI",
+              icon: Mic,
+              color: "bg-fuchsia-500/15 text-fuchsia-400",
             },
             {
               title: "GPT-4o Powered",
               desc: "Advanced AI understands Indigenous and Northern community context",
-              icon: "âš¡",
-              color: "bg-primary/15 text-primary",
+              icon: Cpu,
+              color: "bg-blue-500/15 text-blue-400",
             },
           ].map((f) => (
             <motion.div key={f.title} variants={item}>
               <Card>
                 <CardHeader>
-                  <div className={`mb-2 flex h-10 w-10 items-center justify-center rounded-lg text-lg ${f.color}`}>
-                    {f.icon}
+                  <div className={`mb-2 flex h-10 w-10 items-center justify-center rounded-lg ${f.color}`}>
+                    <f.icon className="h-5 w-5" />
                   </div>
                   <CardTitle className="text-base">{f.title}</CardTitle>
                   <CardDescription>{f.desc}</CardDescription>

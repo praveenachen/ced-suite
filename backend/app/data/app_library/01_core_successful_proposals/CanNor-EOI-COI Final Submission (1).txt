@@ -1,0 +1,769 @@
+PROTECTED B (When completed) 
+ 
+ 
+INTER 51-003E 2020-12-30 (A)      
+  
+GCDOCS # 128689029 
+EXPRESSION OF INTEREST APPLICATION 
+2025-2026 
+ 
+Privacy Statement 
+ 
+The information collected in this application will be used, and may be disclosed, for the purposes of assessing the 
+merits  of  the application. As part of the assessment process, the information may be shared with external 
+consultants, review committee members, officials in other departments, federal, provincial and/or territorial 
+governments or Members of Parliament. It may also be used and/or disclosed for policy analysis, research, and/or 
+evaluation purposes. In order to conduct these activities, various  sources  of  information under the  custody  and  
+control of the Canadian Northern Economic Development Agency (CanNor) may be linked. However, these 
+additional uses and/or disclosures of information will not impact the project. In the event that the application 
+contains personal information, the personal information will be administered in accordance with the Privacy Act 
+(https://laws-lois.justice.gc.ca/eng/acts/P-21/index.html). The application is also subject to the Access to 
+Information Act (https://www.canada.ca/en/treasury-board-secretariat/services/access- information-privacy.html) 
+provides every person with a right of access to information under the control of  the department, subject to  a  
+limited set of exemptions. Instructions for obtaining access to this information are outlined  in the  government  
+publication entitled Info Source (https://www.cannor.gc.ca/eng/1395919423905 
+ 
+ 
+ 
+ 
+Applicant and Contact Information    
+Applicant legal name 
+City of Iqaluit 
+ 
+Project name 
+Primary contact name 
+Bill Williams 
+Telephone number 
+867.975.8521 
+Email address 
+w.williams@iqaluit.ca 
+ 
+Applicant business number (CRA 9 digit identifier) 
+ 
+ 
+ 
+ 
+        
+ 
+Applicant mailing address 
+ 
+ 
+Applicant type (select one option that applies) 
+ 
+ For-Profit business  
+ Non-Profit Association 
+ Indigenous Government   
+ Territorial government   
+X     Municipal Government 
+ Other (please specify):  
+ 
+ 
+Sector type (see EOI Guide Section 4.8 for more information) 
+ 
+Applicant Sector:  
+913 Local, municipal and regional public administration - City of Iqaluit  
+ 
+ 
+Describe your organization or business and its mandate: 
+The City of Iqaluit,( COI) is responsible for providing essential municipal services and infrastructure to support the 
+well-being and growth of the community. Its mandate includes delivering essential infrastructure and services while 
+promoting economic development and enhancing the quality of life for its residents.
+
+PROTECTED B (When completed) 
+ 
+ 
+INTER 51-003E 2020-12-30 (A)      
+  
+GCDOCS # 128689029 
+ 
+Project information    
+Project Location Address: 
+(Community, Territory) 
+Iqaluit, Nunavut  
+ 
+Expected start date (YYYYMMDD) 
+ 
+2025/06/01 
+Expected end date (YYYMMDD) 
+ 
+2028/03/31 
+Project Description: the focus of the project should be clear and demonstrate how an existing opportunity or 
+challenge will be addressed. Please provide answers to the following questions. Please refer to Section 4.14 of 
+the EOI Guide before answering questions. 
+ 
+• Overview:  
+• Describe the project. 
+• Outline key activities required to complete the project. 
+• Outline the proposed project timeline. 
+See EOI Guide for more details and examples. 
+ 
+Since October 2024, the City of Iqaluit began working on a series of impactful projects with University of 
+Waterloo students to address critical municipal needs through innovative research and technology. These initial 
+projects—focusing on software optimization for asset management, AI-driven predictive scheduling for water 
+and sewer services, and AI-powered land use planning—are just the beginning of a long-term partnership aimed 
+at tackling real-world infrastructure projects in Iqaluit utilizing large-language models. The City of Iqaluit aims to 
+set a pioneering example for all of Nunavut by demonstrating how AI can be effectively leveraged to address 
+municipal challenges, fostering innovation and resilience across the territory. Through these projects, Iqaluit 
+strives to lead the way in AI-driven solutions for northern communities. 
+ 
+Our goal is to continue this collaboration in the future, building on the momentum and insights gained in these 
+early stages. By working closely with students and researchers, we envision expanding these efforts and 
+identifying new project areas that align with Iqaluit's evolving priorities. This sustained partnership will not only 
+benefit the City but will also offer students invaluable hands-on experience in developing AI/ML and LLM 
+solutions for specifically for northern, remote, and uniquely challenging environments. Through continuous 
+engagement, we hope to drive lasting change and further Iqaluit’s goals for sustainable growth and efficient city 
+management. 
+ 
+Outlined below are descriptions of the AI-focused projects currently underway with the University of Waterloo. 
+To expand the impact of these initiatives and support future projects, we are seeking funding from CanNor. This 
+support would enable us to drive these developments further, ensuring sustained progress and innovation in our 
+work. 
+ 
+Software Stack Analysis and Recommendation for Municipal Asset Management and Works Tasking 
+This project aims to evaluate and improve Iqaluit's current software solutions for municipal asset management. 
+Key objectives include analyzing existing tools, identifying system inefficiencies, and recommending an 
+integrated software stack tailored to the city’s needs. The scope includes reviewing best practices, conducting 
+an environmental scan, and developing a prototype solution. Expected deliverables are a comprehensive report 
+on software gaps, a prototype stack or architecture plan, and a presentation summarizing findings and 
+recommendations. 
+ 
+AI/ML-Powered Trucked Water and Sewer Service Predictive Scheduling 
+Focused on enhancing the efficiency of Iqaluit's trucked water and sewer services, this project seeks to 
+minimize fuel usage and improve service reliability. Key objectives include developing predictive AI/ML models 
+for household water consumption and optimizing delivery routes in real-time. The work involves data collection, 
+algorithm development, and the creation of an app-based route guide. Deliverables include a predictive model, 
+an optimized scheduling algorithm, a routing app, and a proof-of-concept demonstration with a technical report. 
+ 
+AI/ML-Powered Land Use Planning 
+This project addresses the need for optimized land use planning in Iqaluit by incorporating AI/ML to support 
+sustainable urban growth. Objectives include creating AI-driven tools that analyze topography, geotechnical 
+data, zoning laws, and community needs to develop optimized land use plans. The project entails data 
+gathering, algorithm development, and generating actionable land use proposals. Deliverables include an 
+AI/ML-powered land use planning tool, detailed land use plans with supporting analysis, and a presentation on 
+methodology and results. 
+ 
+Timelines
+
+PROTECTED B (When completed) 
+ 
+ 
+INTER 51-003E 2020-12-30 (A)      
+  
+GCDOCS # 128689029 
+Start of Project  
+ 
+City of Iqaluit Sprint: The Sprint will be a focused, multi-day workshop designed to identify and address the 
+City of Iqaluit’s pressing needs in housing, mobility, sustainable infrastructure, integrated future city modeling, 
+and AI/ML applications within municipal operations. This collaborative session will bring together city 
+representatives, University of Waterloo students, researchers, and industry experts to analyze existing 
+challenges, pinpoint key gaps, and co-develop innovative solutions. 
+ 
+This session will explore strategies for resilient infrastructure, cold-climate mobility, and sustainable growth, all 
+tailored to Iqaluit's unique context. Participants will also examine how AI/ML can enhance delivery of municipal 
+services, creating a roadmap for technology integration in areas like predictive maintenance and resource 
+management. By the end of the Sprint, actionable recommendations and project outlines will be established, 
+paving the way for impactful, community-centered advancements in Iqaluit’s municipal operations.  
+ 
+Key Deliverables of the City of Iqaluit Municipal Sprint: 
+ 
+- Comprehensive Needs Assessment: A detailed report capturing the identified needs in core areas such as 
+housing, mobility, and sustainable infrastructure, tailored to the unique challenges of Iqaluit. 
+   
+- Strategic Action Roadmap: A prioritized plan with specific, scalable actions for each focus areas. 
+ 
+- AI/ML Integration Strategy: A targeted plan for implementing AI/ML tools within municipal operations, 
+enhancing efficiency, data-driven decision-making, and service delivery. 
+ 
+ 
+Year 1 Initiatives 
+ 
+1. Capstone Collaboration with the City of Iqaluit: Building on insights from the Municipal Sprint, the City of 
+Iqaluit will collaborate with the University of Waterloo’s Capstone program to harness UW students’ skills in 
+advancing key projects. Over a 4-8 month period, 1-4 teams of 4-5 students will work closely with the City, co-
+developing innovative solutions through hands-on work in data analytics, AI integration, and prototyping. This 
+partnership will foster impactful change for Nunavut communities. 
+ 
+2. Knowledge Exchange Workshop: This dynamic workshop will unite representatives from the City of Iqaluit 
+with UW students and researchers for collaborative brainstorming and project planning. City representatives will 
+outline pressing community challenges and share insights into local priorities and cultural contexts. Students will 
+present their initial ideas and approaches, receiving direct feedback to refine their concepts. This iterative, two-
+way dialogue will help shape projects that are both innovative and deeply rooted in Iqaluit’s unique needs, laying 
+the groundwork for meaningful, community-driven outcomes. 
+ 
+3. AI/ML Research Network Engagement: The City of Iqaluit’s project proposals will be shared in a 
+competitive call across a network of over 200 AI-focused researchers. Within 2-3 weeks, the University of 
+Waterloo will collect submissions from principal investigators, each detailing research methodologies, timelines, 
+budgets, and graduate student support requirements. The Future Cities Institute will fund selected graduate and 
+post-doctoral students to work on these projects, driving forward Iqaluit-directed initiatives with cutting-edge 
+research. 
+ 
+Year 2 Initiatives 
+ 
+1. Ongoing Research and Capstone Projects: Building on the successes of Year 1, Year 2 will focus on 
+advancing AI-driven tools, resources, and data tailored specifically for the City of Iqaluit and with broader 
+applicability to the entire North. By continuously integrating feedback from city representatives, these tools will 
+undergo iterative refinements, ensuring they remain relevant, effective, and closely aligned with the priorities 
+and evolving needs of the Iqaluit community. This ongoing development will deepen the partnership's impact 
+and create more robust solutions that address local challenges. 
+ 
+2. Identification of New UW Capstone Projects: Leveraging insights from the Municipal Sprint and priority 
+feedback from the City of Iqaluit, new project opportunities will be identified for University of Waterloo students 
+to explore. These projects will reflect the unique goals of the City and give students meaningful opportunities to 
+apply their knowledge in real-world settings, driving forward practical innovations that serve Iqaluit’s needs. 
+ 
+3. City of Iqaluit Problem-Statement Hackathon: In an intensive, two-week hackathon, over 100 University of 
+Waterloo students from diverse disciplines will collaborate in teams to address 1-2 critical problem areas defined 
+by the City of Iqaluit. This event will foster innovative thinking and allow students to develop creative solutions, 
+providing Iqaluit with a range of actionable ideas to tackle local challenges. The hackathon will also foster skill-
+
+PROTECTED B (When completed) 
+ 
+ 
+INTER 51-003E 2020-12-30 (A)      
+  
+GCDOCS # 128689029 
+building and creative problem-solving among participants, adding value to both the City and the students 
+involved. 
+ 
+4. AI Training and Continuing Education Program: To support the integration and effective use of the 
+developed AI tools, the University of Waterloo will offer a specialized 2-3 session course for representatives of 
+the City of Iqaluit. Led by leading AI instructors, this program will provide hands-on, practical training in using AI 
+applications tailored to community-focused projects. Participants will gain technical expertise, best practices, 
+and confidence to integrate these tools into their work, enabling impactful, informed decision-making that 
+supports community-driven outcomes. 
+ 
+5. Municipal Sprint 2.0: With a strong foundation of established research projects, this second Municipal Sprint 
+will introduce new problem statements that aim to foster sustainable economic growth, enhance community 
+capacity, and support long-term well-being in Iqaluit and the northern territories. This sprint will serve as a 
+launchpad for fresh ideas, collaborative opportunities, and research-backed solutions, all centered on building 
+resilience and sustainability for northern communities. 
+ 
+Potential projects emerging from Municipal Sprint 2.0: 
+ 
+The Municipal Sprint 2.0 will serve as a catalyst for identifying impactful, community-focused projects that 
+address Iqaluit’s unique challenges and priorities. Key areas of potential project development include, but are 
+not limited to: 
+ 
+- Workforce Development: Projects to enhance the availability and quality of job skills training in AI/ML that 
+align with current industry demands. These initiatives will help build a skilled workforce, equipped to meet the 
+growing needs of both the city and its evolving job market. 
+ 
+- Food Security Innovations: Initiatives aimed at bolstering food sovereignty and security in Iqaluit through 
+innovative food production methods, such as hydroponics and greenhouses, as well as the development of 
+regional food supply chains. These projects will explore sustainable and resilient approaches to food production 
+that reduce dependency on external sources. 
+ 
+- Sustainable Construction Methods: Projects focused on implementing and scaling advanced construction 
+techniques, including modular or net-zero housing, 3D printing, and the development of sustainable building 
+materials. Additionally, these projects may incorporate automation and efficiency improvements in residential 
+construction to address housing shortages and reduce costs. 
+ 
+Through Municipal Sprint 2.0, these potential projects will be mapped out in detail, creating a structured 
+roadmap for actionable, community-driven solutions that support long-term resilience and growth. 
+ 
+6. AI/ML Research Network Engagement: Following Municipal Sprint 2.0, identified projects from the City of 
+Iqaluit will be shared within a network of over 200 AI-focused researchers in a competitive call for proposals. 
+This process will attract top research talent, with FCI funding provided to graduate and post-doctoral students 
+working on these initiatives, further advancing project goals and strengthening AI-driven solutions for the City. 
+ 
+ 
+Year 3 Initiatives 
+ 
+By the end of Year 3, all research projects initiated through the partnership between the City of Iqaluit and the 
+University of Waterloo will reach completion, resulting in a comprehensive suite of practical solutions tailored to 
+Iqaluit’s unique needs and serving as a model for other communities across Nunavut. Each project will produce 
+targeted, actionable outcomes—such as refined tools, data-driven reports, and validated prototypes—that 
+support the City’s sustainable development goals and demonstrate the potential of AI-driven municipal solutions 
+throughout the North. 
+ 
+Key outcomes include: 
+ 
+- Finalized AI Tools and Solutions: The collaboration will deliver a suite of advanced AI-driven tools, such as 
+optimized municipal asset management software, predictive scheduling systems for essential services, and 
+enhanced land use planning models. These tools will empower the City of Iqaluit with cutting-edge capabilities 
+for data-informed decision-making, operational efficiency, and sustainable urban management that can also be 
+utilized in other Hamlets. 
+ 
+- Implementation Roadmaps: Each project will conclude with a comprehensive roadmap, detailing steps for 
+real-world implementation. These roadmaps will include timelines, resource requirements, and scalable 
+solutions, ensuring each innovation can be seamlessly integrated into Iqaluit's municipal systems and readily
+
+PROTECTED B (When completed) 
+ 
+ 
+INTER 51-003E 2020-12-30 (A)      
+  
+GCDOCS # 128689029 
+adapted by other northern communities. 
+ 
+- Capacity-Building Resources and Community Workshops: To support long-term impact, the initiative will 
+produce capacity-building resources—such as training guides, best practices, and implementation workshops. 
+In collaboration with the University of Waterloo, we will host workshops that bring together Iqaluit officials, local 
+stakeholders, and representatives from other Nunavut communities to explore how AI/ML and Large Language 
+Models (LLMs) can be effectively utilized in northern municipal settings. These workshops will foster cross-
+community knowledge sharing, enabling broader application and adaptation of the tools developed through this 
+partnership. 
+ 
+Overall, Year 3 marks a transformative phase, delivering a robust portfolio of innovations and strategies that are 
+practical, implementable, and aligned with Iqaluit’s and Nunavut’s unique challenges and opportunities. The 
+successful completion of these projects will establish a strong foundation for ongoing collaboration and future 
+initiatives that continue to advance sustainable development across the North. 
+A. Need:  
+• Describe the need for the project. 
+• Explain which sector of the economy the project supports. 
+• Explain why this sector needs this support.  
+• Identify gaps that you believe the project will address. 
+See EOI Guide for more details and examples. 
+ 
+A. Need for the Project 
+ 
+Description of Need:   
+The City of Iqaluit is addressing critical gaps in municipal infrastructure management, essential service delivery, 
+and urban planning to meet the growing Economic development demands of its residents while navigating the 
+unique challenges of a northern, remote environment. Efficient municipal operations, particularly for essential 
+services like water and sewer delivery, asset management, and sustainable land use planning, are v ital to 
+fostering resilience and long term sustainable growth. Incorporating advanced AI/ML technologies into these areas 
+presents a unique opportunity for Iqaluit to improve operational efficiency, reduce environmental impact, and 
+optimize planning decisions tailored to the city's specific context. 
+ 
+Supported Sector of the Economy:   
+The project supports economic development and growth in the City of Iqaluit, particularly through enhancing 
+municipal governance, public infrastructure, and urban planning. 
+ 
+Why This Sector Needs Support:   
+Economic growth in Iqaluit is hindered by unique logistical, environmental, and economic challenges associated 
+with its northern and remote location. Limited resources, high transportation costs, harsh environmental 
+conditions, and a growing population strain the city’s ability to deliver essential services and develop infrastructure 
+effectively. Addressing these challenges is critical to creating a foundation for sustainable economic development. 
+ 
+By integrating advanced AI/ML technologies, this initiative enables Iqaluit to optimize resource allocation, improve 
+service efficiency, and make data-driven decisions. These advancements support the growth of local businesses, 
+enhance workforce capacity, and attract investment in innovative solutions tailored to the city’s needs. Ultimately, 
+these improvements strengthen Iqaluit's infrastructure and governance, providing a stable platform for long -term 
+economic development and resilience 
+ 
+Identified Gaps the Project Will Address: 
+ 
+1. Asset Management and Tasking (IQA -02): Currently, Iqaluit’s asset management lacks a unified, efficient 
+system. This project will analyze existing software, identify inefficiencies, and recommend an integrated software 
+stack to streamline municipal asset management and tasking processes. This will improve operational efficiency, 
+reduce redundancies, and ensure effective resource allocation. 
+ 
+2. Trucked Water and Sewer Services Optimization (IQA -03): Developing predictive algorithms to optimize 
+routing and scheduling will reduce fuel usage, minimize operational costs, and enhance service reliability for 
+residents, addressing both financial and environmental concerns. Additionally, this approach will su pport 
+economic growth by enabling the expansion of trucked water and sewer services, ensuring that development is 
+not constrained by the limited capacity of utilidor systems. By improving efficienc y and scalability, the project will 
+empower Iqaluit to meet the demands of a growing population and facilitate sustainable urban development.
+
+PROTECTED B (When completed) 
+ 
+ 
+INTER 51-003E 2020-12-30 (A)      
+  
+GCDOCS # 128689029 
+3. AI/ML-Driven Land Use Planning (IQA-04): Iqaluit’s land use planning must account for unique factors such 
+as permafrost, zoning requirements, and limited development space. The current time required to review these 
+factors impacts the approval of development permits and land use plans, which can slow economic development 
+in the community. This project will develop AI/ML tools to streamline the analysis of planning data and create 
+optimized land use plans, enabling faster and more efficient reviews. These tools will support sustainable growth 
+by helping the city make informed decisions that balance community needs with environmental constraints while 
+accelerating the development process to foster economic growth. 
+ 
+4. Capacity Building for Sustainable Urban Planning:  This initiative also provides a platform for knowledge 
+transfer and capacity building by engaging Iqaluit’s municipal officials with leading experts and researchers in AI, 
+urban planning, and infrastructure management. It will create resources like traini ng guides and workshops, 
+fostering a culture of data-driven, sustainable development and building skills for the long term. 
+ 
+By addressing these gaps, this project will enhance the City of Iqaluit’s operational capabilities, support 
+sustainable development, and serve as a model for how northern municipalities can leverage AI to improve 
+efficiency and resilience. This initiative will also engage academics, planners, and community members in a 
+collaborative, cross-disciplinary approach, ensuring that solutions are evidence -based and relevant to the city’s 
+day-to-day needs. 
+ 
+Rationale for CanNor Investment 
+ 
+Investing in this project aligns directly with CanNor's mandate to foster sustainable economic growth, community 
+resilience, and innovation in Canada’s northern communities and specifically to look at projects that fill the AI skills 
+gap and acquiring high-cost talent . By supporting the collaboration between the City of Iqaluit and the University 
+of Waterloo, CanNor can play a pivotal role in demonstrating how northern communities can leverage advanced 
+AI and ML technologies to address municipal challenges and improve essential services. The project focuses on 
+training local representatives, ensuring capacity -building and a lasting impact on the community. Funding from 
+CanNor would accelerate the deployment of AI -driven solutions and provide a replicable model for sustainable 
+development across Nunavut, directly contributing to northern innovation and capacity. 
+ 
+Lack of Comparable Services in Nunavut and Iqaluit 
+ 
+Currently, there are no comparable AI and ML-driven municipal services available in Nunavut or specifically within 
+the City of Iqaluit. This project is pioneering the integration of AI solutions for municipal management, a domain 
+that has historically relied on conventional and labor-intensive processes that lack data optimization. The absence 
+of similar initiatives in the North presents an opportunity for Iqaluit to set a precedent for AI -driven infrastructure 
+management, benefiting not only local residents but also serving as a replicable framework for other communities 
+in Nunavut. The project will provide the city with tools uniquely adapted to northern needs, such as cold -climate 
+resilience and sustainable growth, positioning Iqaluit as a leader in advanced municipal services in the Arctic. 
+ 
+B. Outcomes:  
+• Describe what will be accomplished or produced at the end of the project. 
+• Explain why these outcomes are important to your business or organization.  
+See EOI Guide for more details and examples. 
+ 
+Outcomes: 
+ 
+At the end of this multi -year project, the collaboration between the City of Iqaluit and the University of Waterloo 
+will produce a comprehensive suite of AI -driven solutions tailored specifically to the unique municipal needs of 
+Iqaluit and the northern environment. Key outcomes will include: 
+ 
+1. Finalized AI Tools and Solutions: These tools will include optimized software for municipal applicability. Each 
+tool will enable data -informed decision -making, significantly enhancing operational efficiency and supporting 
+sustainable urban growth in Iqaluit. 
+ 
+2. Implementation Roadmaps: Detailed roadmaps for integrating these innovations into Iqaluit’s municipal 
+systems will be developed. These roadmaps will outline steps for real -world implementation, including timelines 
+and resource requirements, ensuring these solutions are readily ada ptable and scalable to meet evolving 
+community needs. 
+ 
+3. Capacity-Building Resources and Community Workshops: To ensure lasting impact, training guides, best 
+practices, and community workshops will be created. These resources will enable Iqaluit representatives and local 
+stakeholders to fully utilize the new AI tools, empowering them with knowledge and skills for  sustained success. 
+The workshops will also support cross-community knowledge sharing, fostering further application of these tools 
+in other northern communities.
+
+PROTECTED B (When completed) 
+ 
+ 
+INTER 51-003E 2020-12-30 (A)      
+  
+GCDOCS # 128689029 
+ 
+4. Cross-Community Knowledge Network : By connecting over 200 AI -focused researchers through the 
+University of Waterloo’s network, this project will establish a knowledge -sharing platform that supports ongoing 
+learning and innovation in northern infrastructure management. 
+ 
+5. Final Project Report with Documentation and Recommendations : A concluding report that details the 
+development process, key insights, challenges encountered, and future recommendations to improve and scale 
+AI/ML for other communities with similar needs. 
+ 
+ 
+Importance of These Outcomes 
+ 
+These outcomes are crucial for the City of Iqaluit and Nunavut at large, as they lay the foundation for a more 
+resilient, data-driven approach to municipal management. By adopting AI-powered solutions, Iqaluit can address 
+critical challenges, such as resou rce constraints, cold -climate logistics, and rapid urbanization. The enhanced 
+efficiency in infrastructure management and predictive scheduling will reduce operational costs and environmental 
+impact, which are essential for sustainable development in remote areas. 
+ 
+Moreover, these outcomes align with the Future Cities Institute’s mission to equip communities with advanced 
+research and tools that support sustainable municipal futures. For the City of Iqaluit, this project not only improves 
+local service delivery but also positions the city as an innovative leader in AI -driven municipal solutions, creating 
+a model for other northern communities to follow. Ultimately, this projec t will drive meaningful improvements in 
+community resilience, economic development, and quality of life for residents in Iqaluit and beyond. 
+ 
+C. Benefits:  
+• Describe the expected measurable economic benefits of the project. 
+• Identify benefits for your business/organization and for the broader economy (these could include your 
+sector, community and/or territory).  
+• Identify additional other benefits of your project. 
+See EOI Guide for more details and examples. 
+ 
+Expected Measurable Economic Benefits 
+ 
+This project will deliver measurable economic benefits in several areas critical to Iqaluit’s municipal operations 
+and the broader economy of Nunavut. These include: 
+ 
+Benefits for the City of Iqaluit 
+ 
+1. Reduced Dependency on External Consultants: By equipping Iqaluit and other Nunavut communities 
+with AI tools and training, the project enhances local capacity for autonomous operation. This shift to 
+self-sufficiency means communities can manage and optimize their infrastructure without  as much 
+reliance on costly external consultants, retaining more economic value within the community. 
+ 
+2. Increased Productivity:  By automating complex municipal tasks (like route optimization and data 
+analysis for infrastructure management , as examples), the project will free up time and resources that 
+can be redirected to other high-priority municipal needs, leading to higher overall productivity and more 
+effective service delivery for Iqaluit residents. 
+ 
+3. Enhanced Data-Driven Decision-Making: The AI tools will provide reliable, real-time data, empowering 
+municipalities to make strategic, evidence -based decisions in areas like resource management, 
+employment, and infrastructure. This informed approach will enhance the effectiveness and impact of 
+development plans on community well-being. 
+ 
+4. Enhanced Workforce Capacity:  By building capacity through training programs and hands -on 
+experience with AI tools, Iqaluit will cultivate a skilled local workforce better equipped to manage and 
+sustain municipal operations. This will reduce dependency on external resources and create  local 
+employment opportunities in tech-focused municipal roles.  
+ 
+Benefits for the Broader Northern Economy 
+ 
+1. Scalability and Replication for Broader Impact: The project is designed as a scalable model that can 
+be adapted to other remote and Indigenous communities across Canada. By establishing a replicable 
+framework for AI -ML integration in a northern municipal context , the project lays the foundation for 
+widespread application and further economic development in similar contexts.
+
+PROTECTED B (When completed) 
+ 
+ 
+INTER 51-003E 2020-12-30 (A)      
+  
+GCDOCS # 128689029 
+ 
+2. Advancement in Northern AI and Technology Sectors : For the Future Cities Institute, this project 
+advances its mandate of addressing real-world municipal challenges through technology. It strengthens 
+FCI’s expertise in AI applications for municipal operations and showcases the University of Waterloo as 
+a leader in AI solutions for cold -climate environments. This will open doors for future research 
+partnerships, funding opportunities, and student enrollment in related programs. 
+ 
+3. Job Creation and Skill Development: The project will create high-skill job opportunities in both research 
+and municipal settings. The engagement of University of Waterloo students and AI researchers will lead 
+to the development of a talent pipeline, contributing skilled workers in Nunavut.  
+ 
+Additional Benefits 
+ 
+1. Positioning Iqaluit as an AI- Municipal Innovation Leader : The project establishes Iqaluit as a 
+pioneering model for how remote northern municipalities can successfully adopt AI-driven solutions. This 
+demonstration of innovation and resilience will inspire and serve as a blueprint for other Indigenous and 
+remote communities across Canada, amplifying its impact across the North.  We intend to showcase 
+these municipal solutions at key national municipal events, such as the Federation of Canadian 
+Municipalities conference. This project showcases how municipalities can innovate despite geographic 
+and resource constraints, establishing Iqaluit as a leader in sustainable and resilient urban management 
+in Canada’s North. 
+ 
+ 
+D. Prior work: Explain and/or attach any work that has been completed in preparation for this project (e.g. 
+business cases, feasibility studies, design studies).  See EOI Guide for more details and examples. 
+ 
+University of Waterloo 
+The University of Waterloo's Future Cities Institute (FCI) collaborates with a diverse range of partners, from large 
+multinational corporations and municipalities to smaller Indigenous communities and hamlets, focusing on critical 
+areas such as housing, mobility, sustainable infrastructure, and the integration of artificial intelligence within 
+municipal and hamlet settings. Through operational, applied research, FCI leverages its expertise to address 
+complex, real-world challenges defined by city or community representatives, and other partners. By engaging 
+students in interdisciplinary capstone projects, FCI fosters hands -on learning that directly benefits its partners. 
+Current projects, in collaboration with municipalities and community partners, showcase a commitment to 
+impactful research and development, enhancing sustainable growth and resilience through practical, innovative 
+solutions. This approach not only drives forward -thinking advancements but also ensures that students and 
+partners work together to co-create solutions that are meaningful and effective within the unique context of each 
+community. 
+ 
+City of Iqaluit 
+ 
+The relationship between the City of Iqaluit and the University of Waterloo is grounded in a collaborative effort to 
+address municipal infrastructure, management, growth, and technology challenges specific to Arctic conditions. 
+This partnership has led to several foundational projects, each contributing to the broader aim of building 
+sustainable and efficient systems tailored to Iqaluit’s needs. 
+ 
+1. Software Stack Analysis and Recommendation for Municipal Asset Management and Works Tasking 
+(early development) 
+   Through this initiative, the University of Waterloo team has worked with Iqaluit to analyze and recommend 
+software solutions that improve municipal asset management and optimize tasking for public works. The goal is 
+to implement a system that streamlines operations, enhances data management, and increases efficiency 
+across municipal departments. 
+ 
+2.  AI/ML-Powered Trucked Water and Sewer Service Predictive Scheduling (early development) 
+   Given the challenges of delivering water and sewer services in remote regions, this project uses AI/ML 
+technology to develop predictive scheduling for trucked water and sewer services. This approach aims to 
+optimize delivery schedules, reduce operational costs, and ensure timely service for Iqaluit residents to support 
+economic growth by enabling the expansion of trucked water and sewer services, ensuring that development is 
+not constrained by the limited capacity of utilidor systems. 
+ 
+3.  AI/ML-Powered Land Use Planning (early development)  
+This project leverages AI/ML to create a data-driven approach to land use planning that directly supports 
+economic development in Iqaluit. By analyzing current and projected data, the project aims to develop tools that 
+facilitate sustainable and efficient land development, enabling the city to unlock new economic opportunities. 
+These tools will address the unique spatial and environmental constraints of Arctic planning while accelerating
+
+PROTECTED B (When completed) 
+ 
+ 
+INTER 51-003E 2020-12-30 (A)      
+  
+GCDOCS # 128689029 
+development timelines, attracting investment, and fostering a resilient and growth-oriented local economy. 
+ 
+4. AI/ML Finance ERP Integration for Budgeting (proposed) 
+This project will integrate AI/ML into Iqaluit's financial ERP system to automate budgeting, streamline financial 
+processes, and improve fiscal forecasting. By enhancing efficiency and enabling data-driven decision-making, it 
+supports economic development by optimizing resource allocation and fostering financial sustainability. 
+ 
+5.AI/ML-Supported HR Onboarding and Training (proposed) 
+This project will use AI/ML tools to streamline onboarding and training for municipal staff, tailoring processes to 
+individual roles and improving skill development. By building a more skilled and efficient workforce, it supports 
+economic growth by enhancing service delivery and workforce retention. 
+ 
+Through these projects, the University of Waterloo and the City of Iqaluit have established a strong foundation 
+for impactful municipal projects that are scalable to other Arctic communities. This groundwork, including staff 
+training, pilot initiatives, and technology assessment, enables Iqaluit to serve as a model for other Nunavut 
+communities seeking tailored infrastructure and asset management solutions. 
+ 
+E. Partners/supporters: List partners and/or supporters in the project (including their involvement). See EOI 
+Guide for more details and examples. 
+ 
+1. University of Waterloo Future Cities Institute (FCI):  The Future Cities Institute at UWaterloo, founded by 
+CAIVAN, will support this project by integrating resources from a global network of interdisciplinary researchers, 
+industry leaders, students, and community members focused on sustainable municipal development. FCI will 
+provide access to UWaterloo’s advanced computing resources with AI/ML capabilities, specialized software for AI 
+and language model development, and powerful data analysis tools. Ranked as Canada’s #1 comprehensive 
+research university  (Research Information 2023), UWaterloo also brings expertise from Canada Excellence  
+Research Chairs in Human -Centred Robotics, Machine Intelligence, Developmental Science, and Data 
+Intelligence to advance project goals. 
+ 
+2. Waterloo Data and Artificial Intelligence Institute (Waterloo.AI):  Waterloo.AI offers participants intensive, 
+short courses (3 -4 days) led by top instructors in AI, allowing project team members to deepen their technical 
+expertise. These courses are tailored to bridge academic AI knowledge with practical applications, pr oviding 
+participants the skills to integrate new AI techniques directly into industry contexts. 
+ 
+3. UWaterloo Faculty of Engineering:  As the largest engineering faculty in Canada, UWaterloo’s Faculty of 
+Engineering supports the project by providing resources, expertise, and tools required for AI -driven urban 
+solutions. The faculty fosters opportunities for students to engage with AI thr ough applied design projects, 
+educational workshops, and hackathons, directly contributing to innovative project outcomes. 
+ 
+4. UWaterloo Faculty of Mathematics:  The Faculty of Mathematics, home to the largest Computer Science 
+department in Canada, offers additional resources and support for complex computational projects. With 
+advanced capabilities in data science and AI, the faculty is integral in applying rigor ous data intelligence 
+approaches to urban challenges. 
+ 
+Forecasted Project Costs and Funding Sources 
+Forecasted total project cost ($) 
+ 
+$667,000 
+Amount requested from CanNor ($) 
+ 
+$400,000 
+Forecasted Budget and Anticipated Sources of Funds 
+Funding Partners Total budget Year 1 Year 2 Year 3 Year 4 Year 5 
+ 
+CanNor 
+ 
+$400,000 $125,000 $130,000 $145,000   
+ 
+Applicant 
+ 
+$60,000 $20,000 $20,000 $20,000   
+ 
+Future Cities 
+Institute at the 
+University of 
+Waterloo 
+$207,000 $65,000 $69,000 $73,000
+
+PROTECTED B (When completed) 
+ 
+ 
+INTER 51-003E 2020-12-30 (A)      
+  
+GCDOCS # 128689029 
+Additional funders 
+(please specify)  
+ 
+ 
+Additional funders 
+(please specify)  
+ 
+      
+ 
+Additional funders 
+(please specify)  
+ 
+      
+ 
+Total 
+ 
+      
+Have you already incurred costs or made legal commitments to the project?   
+Yes           No 
+ 
+If yes, please describe 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Diversity and Inclusion 
+The Government of Canada recognizes that many under -represented groups face unique economic challenges. 
+Understanding that participation of underrepresented groups is an integral part of building strong and inclusive 
+communities, and helps the Government of Canada provide inclusive programming to support all groups.   
+ 
+Priority may be given to applications that can demonstrate how they support inclusive growth. 
+ 
+Is your business owned or majority-owned or is your organization led or majority-led by one or more of the following 
+under-represented groups (check all that apply)? 
+ 
+ Women 
+ Indigenous Peoples (First Nations) 
+ Visible Minorities 
+X     Indigenous Peoples (Inuit) 
+ Indigenous Peoples (Metis) 
+ Members of Official French Language Minority Communities 
+ Youth (30 years or less) 
+ Persons with Disabilities 
+ Newcomers to Canada 
+ Black Communities 
+ Other Racialized Communities 
+ 2SLGBTQI+Others (list): 
+ 
+If applicable, please indicate if your project includes or supports one or more of the following underrepresented 
+groups:  
+ 
+X     Women 
+ Indigenous Peoples (First Nations) 
+ Visible Minorities 
+X     Indigenous Peoples (Inuit) 
+ Indigenous Peoples (Metis) 
+ Members of Official French Language Minority Communities 
+X     Youth (30 years or less) 
+ Persons with Disabilities 
+ Newcomers to Canada 
+ Black Communities
+
+PROTECTED B (When completed) 
+ 
+ 
+INTER 51-003E 2020-12-30 (A)      
+  
+GCDOCS # 128689029 
+ Other Racialized Communities 
+ 2SLGBTQI+ 
+ Others (list): 
+ 
+ 
+ 
+Authorization 
+This section is to be completed by a representative of the applicant duly authorized to make this declaration in 
+submission of a funding application to the Canadian Northern Economic Development Agency. 
+Representative’s legal name 
+Bill Williams 
+ 
+ 
+Title 
+Senior Executive Director of 
+Municipal Infrastructure and 
+Planning 
+Date (YYYYMMDD) 
+ 
+Project Submission and CanNor Contact Information 
+To submit the application and for general inquiries, send an email to: operations@cannor.gc.ca  
+ 
+In the subject line, use the following format to assist CanNor in processing your application. 
+ 
+Email Subject Line Format: 2025-2026 EOI – [Territory (i.e. NU, NWT or YT)] – [Organization Name] 
+ 
+Example: 2025-2026 EOI – NU – ABC Enterprises 
+ 
+ 
+CanNor Regional Offices 
+ 
+Nunavut Region 
+Iqaluit, Nunavut 
+Telephone : 867-975-3757 
+ 
+ 
+ 
+Yukon Region 
+Whitehorse, Yukon 
+Telephone: 867-667-3346 
+Northwest Territories Region 
+Yellowknife, Northwest Territories 
+Telephone: 867-669-2592

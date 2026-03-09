@@ -1,0 +1,1060 @@
+PROTECTED B when completed 
+ 
+Page 1/20 
+ 
+ 
+CLEAN ENERGY IN INDIGENOUS, RURAL AND REMOTE COMMUNITIES 
+   
+FUNDING APPLICATION 
+ 
+Instructions 
+ 
+1. This application is for federal funding for activities and projects related to reducing diesel 
+reliance for heat and power, including capacity building, renewable energy and energy 
+efficiency. Your application will be shared with Natural Resources Canada (NRCan), Crown-
+Indigenous and Northern Affairs Canada (CIRNAC), Indigenous Services Canada (ISC), 
+Environment and Climate Change Canada (ECCC) and Infrastructure and Communities 
+Canada (INFC).  
+2. Program staff are available to assist you in the application development and submission 
+process. If you have any questions or require assistance, please contact the program at 
+remoteenergy-energieadistance@nrcan-rncan.gc.ca or you can follow up with your existing 
+point of contact within the program. 
+3. If you have any project documentation that addresses any or all of the Application Form 
+question(s), you may attach and reference these documents instead of filling out these 
+sections. This can include a recently submitted application form or proposal to another 
+funding program, feasibility studies, engagement plans, project governance descriptions, 
+work scope descriptions, project schedules, project budgets, etc.  
+4. The level of detail in the application should be proportional to the size and complexity of 
+the project. Please indicate if a section does not apply to your project or if you do not have 
+a response to a section. For example, indicate “not applicable” or “This is a project idea and 
+has not been developed further”. There will be opportunities to further provide information 
+throughout the development and assessment process. 
+5. If any part of this Application contains confidential or proprietary information, please write 
+it in red font.
+
+PROTECTED B when completed 
+ 
+Page 2/20 
+ 
+CLEAN ENERGY IN INDIGENOUS, RURAL AND REMOTE COMMUNITIES 
+ 
+FUNDING APPLICATION 
+ 
+1. Applicant Information 
+Applicant 
+Organization Energy And More Consulting 
+Organization Type Indigenous for-profit organization  
+Mailing Address 6 Aishihik Road, Whitehorse, YT, Y1A 3R7 
+Business Number 
+(if applicable) N/A 
+Primary Contact 
+ 
+Grant Sullivan President 
+Grant_sullivan@hotmail.com 867-678-5732 
+Secondary Contact 
+ 
+ Phone 
+  
+Is this the first time your organization has applied for federal 
+clean energy funding? 
+☒ Yes     ☐ No     ☐ Unsure 
+If no, please specify 
+program(s)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2. Project Information 
+Project Title Remote Community Energy & Building Infrastructure Planning AI Model 
+Project 
+Location 
+Whitehorse, Yukon 
+ 
+Project 
+Timeline (2025-04-01) to (2027-03-31)
+
+PROTECTED B when completed 
+ 
+Page 3/20 
+ 
+Total Project 
+Cost $600,000 Total Funding 
+Requested $600,000 
+Project Province/Territory (select all that apply) 
+☐BC   ☐AB   ☐SK   ☐MB   ☐ON   ☐QC   ☐NB   ☐NS   ☐PEI   ☐NL   ☒NT   ☒YT   ☒NU 
+Please specify region, sub-region and/or nation territory  ___ 
+Project Description 
+Provide a full description of the project and key activities. Indicate the work that has been 
+completed, is currently underway, and planned activities to advance the project. Additionally, 
+include the following information based on type of project: 
+ 
+If this is a capacity-building project, please identify how it will help reduce diesel or fossil fuel 
+reliance for power and/or heat and advance community-led clean energy opportunities. 
+ 
+If this is a clean energy project, please identify (if known): 
+• the technology being proposed (e.g. wind, solar, hydro, biomass, energy storage, 
+energy efficiency, combinations, etc.); 
+• how it will help improve energy usage within the community and reduce reliance on 
+fossil fuels for heat and power; 
+• the proposed system size including anticipated heat load and/or electricity demand; 
+• whether the project has revenue generating potential; 
+• the proposed plan for managing operation and maintenance costs and maintaining 
+the renewable energy asset throughout its life cycle; and, 
+• whether this is a novel application of the technology, and whether it has been done 
+elsewhere in a similar climate or remote site. 
+ 
+If this is a research and development project, please identify (if applicable): 
+• the generation technology being studied (e.g. small wind, marine, municipal waste 
+conversion, combinations, etc.) and its deployment readiness for Canadian remote 
+communities (e.g. theoretical, prototype, experimental, demonstration, etc.) 
+• scope of the study (e.g. community or industrial scale, estimating heating or 
+electricity loads, energy storage, microgrid reliability, development of a test facility, 
+etc.) 
+• non-technology project considerations (e.g. health or climate implications from 
+diesel, barriers to uptake of renewables, use of traditional knowledge, cultural 
+development models, etc.)
+
+PROTECTED B when completed 
+ 
+Page 4/20 
+ 
+ 
+Project Overview 
+The Remote Community Energy and Building Infrastructure Planning AI Model Project (the “Project”) seeks to 
+address the challenges faced by remote communities in Canada transitioning to net -zero by leveraging AI  to 
+create a self-sustaining tool for energy and infrastructure planning while advancing community-led clean energy 
+initiatives. Northern remote communities across Canada are struggling to transition to a net -zero way of life 
+while southern regions develop comprehensive strategies for achieving this goal. Remote communities are not 
+only facing the challenges of transitioning to a net -zero future, but also the direct impacts of climate change 
+such as the impacts of extreme weather on energy access. Limited capacity often requires these communities 
+to rely on external contractors to  develop energy of infrastructure plans, which can be expensive and time 
+consuming given the communities’ remoteness.  
+ 
+The development of a n AI-powered application to help remote communities create their own energy and 
+infrastructure plans would reduce their reliance on outside experts and provide solutions specifically tailored to 
+each community that uses the application. The Project seeks to not only address the immediate energy planning 
+needs of remote communities, but also aims to create a scalable, replicable model that could be adapted and 
+deployed across other remote communities in Canada, potentially amplifying the impact of the tool nationwide. 
+ 
+ 
+Project Scope and Components 
+Task 1: Planning and Research 
+Task 1 of the Project will lay the groundwork by conducting in -depth research and strategic planning. This will 
+involve an evaluation of existing AI programs to determine how they may be adapted to develop community 
+energy plans at the remote Canadian community level. Feasibility studies and cost -benefit analyses will be 
+conducted to review the development of a standalone AI application.  Task 1 will also involve the development 
+of an EOI to gain an understanding of costs related to AI application development.  
+ 
+The development of Community Energy Profiles (CEP) for select communities will take place, to act as inputs 
+for the AI application. A demonstration version of the application will also be developed, to assist in engagement 
+and showcase the technology.  Community consultations and stakeholder will be integral during this phase to 
+ensure the AI application is aligned with the community’s values, priorities, and unique needs. 
+ 
+Task 2: Development and Testing 
+Task 2 of the Project will center on the technical development of the full-scale AI application and related testing. 
+During Task 2 , AI developers, data scientists, and energy consultants will be engaged to assist in the 
+development of the application and populate it with the necessary data and resources.  During Task 2 , a 
+comprehensive library consisting of various energy, housing, and community planning resources will be built for 
+the AI application to draw from. These documents may include but are not limited to: 
+• The Arctic Energy Toolkit; 
+• The Arctic Remote Energy Networks Academy Program; 
+• Northern community energy plans; 
+• Federal funding strategies, reporting, and policies; 
+• Ministerial mandate letters; 
+• Territorial energy strategies; 
+• Electricity and energy strategies; 
+• General Rate Applications, Power Purchase Agreements; and 
+• Relevant reports from think tanks and universities; 
+ 
+Once developed, the full-scale application will undergo initial pilot testing in select communities to assess its 
+adaptability to various environments, climates, and community sizes . Once the pilot is complete, feedback will 
+be incorporated into the application to ensure it is ready for real-world use. 
+ 
+Phase 3: Launch and Community Engagement 
+The final phase of the Project will involve its deployment of the application in target communities, alongside
+
+PROTECTED B when completed 
+ 
+Page 5/20 
+ 
+ongoing support to ensure its successful adoption.  The launch will be accompanied by various training and 
+supporting materials to help guide the communities in using the tool effectively. In addition to training materials, 
+the launch will include the establishment of local energy champions who can assist in continued education and 
+serve as in -community facilitators to ensure ongoing success. Post -launch, a system for ongoing support, 
+updates, and troubleshooting will be established to ensure the application  remains relevant and functional as 
+communities’ needs evolve. 
+ 
+ 
+Project Benefits  
+Provide a description of the project overall result(s) and expected outcome(s). Include details like:   
+ 
+How the project is addressing community, national and/or regional electricity/renewable energy 
+challenges. 
+• You may wish to include how the project responds to community needs and/or fits into a 
+community vision/plan. 
+• Examples of challenges: a lack of tools or training for community action, frequent blackouts, 
+end of equipment life, high costs of heat and power, community accessibility.
+
+PROTECTED B when completed 
+ 
+Page 6/20 
+ 
+Describe the overall benefits and expected results of the project, including who will benefit and 
+how. Please include the expected environmental, social and economic benefits of the project. 
+What would be considered a successful project by the community? 
+• Examples: estimated reduction of diesel fuel (litres/year), estimated reduction in greenhouse 
+gas emission (tonnes CO2/year), health benefits (e.g. improved air quality), number and 
+types of jobs created and improved human resource capacity, community energy 
+independence and resiliency, improved reliability of electricity and heat, economic/ financial 
+benefits (e.g., operating savings, lower energy costs).  
+• Describe how the project will contribute to increased capacity within the community and/or 
+region, such as increased institutional capacity and community involvement, improved 
+energy literacy, knowledge and skills development, supporting energy champions, etc. 
+ 
+If relevant, please describe any past or proposed work related to the project that advances 
+equity, diversity and inclusion in electricity/renewable energy in Canada. 
+ 
+The Project will address critical challenges in remote Canadian communities as they strive toward achieving 
+energy sovereignty and sustainability. These communities often lack the tools and resources to effectively 
+transition to clean energy and face issues such as high energy costs, outdated infrastructure, and limited local 
+expertise. The Project seeks to empower these communities using the AI Application that supports energy and 
+infrastructure planning, while fostering a self-sustaining and community-led approach to the energy transition. 
+ 
+The Project responds to several challenges faced by remote communities, including: 
+• Energy sovereignty: by enabling communities to develop their own energy plans, the Project fosters 
+energy independence by reducing reliance on external contractors. 
+• Energy choice: the Application will give communities greater control over the types of energy sources 
+they wish to explore and incorporate in their own unique systems. 
+• Real-time updates: the Application will function as a dynamic, evolving tool that is reflective of real -
+time inputs such as changing energy needs, local resources, local priorities, and updated policies. 
+• Time and cost savings: by reducing the reliance on external contractors, the community will save on 
+both time and money that would otherwise be spent on lengthy and expensive external consultation 
+processes. 
+ 
+The Project is expected to result in several benefits, including: 
+• Environmental benefits: the adoption of energy -efficient systems and renewable energy solutions is 
+expected to reduce the reliance on diesel and other fossil fuels in northern remote communities. 
+• Economic benefits: the Project expects to reduce energy costs for remote communities, which face 
+high costs due to various transportation and infrastructure challenges. The Project will improve human 
+resource capacity by developing new skills in energy management, AI tools, and infrastructure planning. 
+Long-term, communities are expected to see savings on energy expenditures. 
+• Social benefits: the Project will strengthen community ownership and experience with energy transition 
+initiatives. It will give communities the tools and agency to direct their own energy futures, fostering a 
+sense of empowerment and resilience. Increased energy literac y and skills development will allow for 
+community members to become energy champions, improving local, territorial, and national leadership.  
+Project Governance and Team 
+Provide a summary of the ownership and governance structure of the project. If applicable, include 
+details of Indigenous ownership/partnership of the project and their role in decision-making 
+processes.  
+ 
+Energy and More Consulting,  is a northern, wholly Indigenous owned and operated company established under
+
+PROTECTED B when completed 
+ 
+Page 7/20 
+ 
+the laws of Canada.  
+ 
+Grant Sullivan, President of Energy and More Consulting, has expertise and experience in project management, 
+finance, and community liaison. He has a Bachelor of Management Degree (Finance) and has lived in the 
+Beaufort Delta for the majority of his life. He has been active in several Gwich’in organizations as a Gwich’in 
+beneficiary where he gained extensive experience and knowledge of the business community, arctic logistics, 
+and Indigenous governments in the Beaufort Delta region.  Grant was a 20/20 Catalyst (2016) and is currently 
+participating as an Energy Champion in the Indigenous Off-grid Diesel Initiative (IODI).  
+ 
+Grant has served as the overall Project Lead/Coordinator for the development and operation of numerous clean 
+energy alternatives and energy efficiency projects across the Beaufort Delta region, as well as other areas in 
+Canada. Grant’s experience has involved work on the following projects: 
+• Inuvik Battery Energy Storage System (BESS) and Birch Wind Project (2022 to Present). 
+• Inuvik 1 MW Solar Farm (2021 to Present); 
+• Inuvik High Penetration Renewables Study (2020 to 2021); 
+• Inuvik Biomass Boiler Installations (2020 to 2022); and 
+• Biomass Supply Chain Optimization Study (2019); 
+• Inuvik Satellite Station Facility Solar PV Installation (2018 to 2021); 
+• Inuvik Commercial Solar PV Installation at Mackenzie Hotel (April 2018 to 2020); 
+• Inuvik Commercial Solar PV Installation at North Mart (April 2018 to November 2019); 
+• Inuvik Multi-Residential Solar Net Metering Demonstration (January 2018 to 2020); 
+• Inuvik High Point Wind Study [for GNWT] (2016 to 2018). 
+ 
+Grant has extensive experience working on studies relating to the development and integration of renewable 
+energy projects in both the Beaufort Delta region and in remote northern communities. Notable studies and 
+related work include: 
+• Diverging from Diesel for GCI (2016) 
+• Fossil Fuel Thermal Power Generation Cost in Northern Communities for GCI (2017) 
+• Arctic Remote Energy Networks Academy (co-lead) for Arctic Council (2016 to 2018) 
+• Arctic Sustainable Energy Futures Toolkit for Arctic Council (2017 to 2019) 
+• Beaufort Delta Community Energy Profiles (2017 to 2020) 
+ 
+More information on Grant Sullivan is provided below. 
+ 
+Energy and More Consulting is focused on studying clean energy alternatives and energy efficiency projects in 
+the Beaufort Delta region of Northwest Territories (NWT) as well as in other areas of northern Canada. Energy 
+and More Consulting  is focused on working with Indigenous and other northern stakeholders to create 
+sustainable, environmentally responsible and meaningful economic opportunities across the north. 
+ 
+Energy and More Consulting  will be responsible for management and coordination of the Project Team and 
+providing oversite for research, engagement, and coordination activities.  Energy and More Consulting  will be 
+supported by InterGroup Consultants (Project Management Support, Business Case Development) and the 
+University of Waterloo (Technical support related to technical and engineering assessments). 
+ 
+For further details regarding Energy and More Consulting  recent project experience see summary for Grant 
+Sullivan, Indigenous Off-Diesel Initiative Champion, provided below. A firm profile and CV can be provided on 
+request. 
+ 
+Provide a summary of the project team. E.g. Who is leading the project? Who will be hired to 
+complete the work (project manager, local project champion, project adviser, consulting engineer, 
+contractors, technology providers, etc.)? 
+ 
+Overall project work will be directed by Energy and More Consulting  (Grant Sullivan, Indigenous Off -Diesel
+
+PROTECTED B when completed 
+ 
+Page 8/20 
+ 
+Initiative Champion).  Grant will be supported by InterGroup (project management support) and the Future Cities 
+Institute at the University of Waterloo (technical/ engineering assessments). 
+ 
+Key members of the project team have experience working together over a number of projects since 2018/19, 
+including the Inuvik BESS/Birch Wind Project; planning for and installation of solar projects in Inuvik (three 
+commercial developments and 29 residential developments); and completion of a wind feasibility design basis 
+study for the High Point Wind Project.  
+ 
+InterGroup 
+InterGroup Consultants Ltd (InterGroup) specializes in multi-discipline team management dealing with resource 
+planning and development, project licensing and rate regulation, with a focus on the following activities:   
+• Coordinating and managing environmental assessment studies and providing expert technical services 
+related to socio-economic impact assessment and public engagement, and also facilitating coordination 
+across multiple technical discipline experts, as required. 
+• Assisting clients with the planning and development of major resource projects, including providing 
+project management and coordination, planning and economic feasibility studies, and negotiation and 
+facilitation  
+• Providing expert advice and support related to the development and review of rates for regulated 
+utilities. This includes extensive and ongoing experience providing economic and financial and other 
+advice to Crown utilities in Yukon (working with Yukon Ene rgy Corporation since 1987), Northwest 
+Territories (working with Northwest Territories Power Corporation since 2000) and Nunavut (working 
+with Qulliq Energy Corporation since 2009).  
+InterGroup’s team has acquired extensive knowledge regarding fuel costs related to generating electricity and 
+heating in northern communities, including communities connected to predominantly hydro-electric grid power, 
+as well as isolated or off -grid communities that rely on diesel or natural gas generation. InterGroup has also 
+provided ongoing senior advice, technical and project management support with Grant Sullivan’s assessments 
+for the residential solar net metering development in Inuvik, NT; the devel opment of two commercial solar 
+projects in Inuvik; the 60 kW ISSF site solar development near Inuvik; the 150 kW solar development  IPP in 
+Aklavik; and the 1 MW solar development IPP in Inuvik. InterGroup also provided business case and project 
+management support for the Inuvik High Point Wind Project Design Basis and Business Case study; the Inuvik 
+High Penetration Renewables Study; and the Inuvik BESS/Birch Wind Project.  
+ 
+InterGroup will provide Energy and More Consulting with support and strategic guidance in the following areas:  
+• Project management support; 
+• Support for negotiation of agreements; 
+• Business case development/ review of project economics and strategic planning/ approach.  
+ 
+Future Cities Institute, University of WaterlooThe University of Waterloo's Future Cities Institute (FCI) 
+collaborates with a diverse range of partners, from large multinational corporations and municipalities to 
+smaller Indigenous communities and hamlets, focusing on critical areas such as housing, mobility, 
+sustainable infrastructure, and the integration of artificial intelligence within municipal and hamlet settings. 
+Through operational, applied research, FCI leverages its expertise to address complex, real-world 
+challenges defined by city or community representatives and other partners. Current projects, in 
+collaboration with municipalities and community partners, showcase a commitment to impactful research 
+and development, enhancing sustainable growth and resilience through practical, innovative solutions. This 
+approach not only drives forward-thinking advancements but also ensures that researchers, students and 
+partners work together to co-create solutions that are meaningful and effective within the unique context of 
+each community. 
+ 
+The FCI will support this project by integrating resources from a global network of interdisciplinary 
+researchers, industry leaders, students, and community members focused on sustainable municipal 
+development.  
+ 
+More specifically FCI will provide access to UWaterloo’s advanced computing resources with AI/ML
+
+PROTECTED B when completed 
+ 
+Page 9/20 
+ 
+capabilities, specialized software for AI and language model development, and powerful data analysis tools. 
+Ranked as Canada’s #1 comprehensive research university (Research Information 2023), UWaterloo also 
+brings expertise from Canada Excellence Research Chairs in Human-Centred Robotics, Machine 
+Intelligence, Developmental Science, and Data Intelligence to advance project goals. 
+ 
+In addition, the FCI will develop a team of world-class researchers, post-doctoral scholars, graduate 
+students and undergraduate students to lead the technical and engineering components of this important 
+project. Members of this team may include (but are not limited to) representatives from the following 
+faculties and institutes across campus: 
+ 
+• Waterloo Data and Artificial Intelligence Institute (Waterloo.AI): Waterloo.AI offers participants 
+intensive, short courses (3-4 days) led by top instructors in AI, allowing project team members to 
+deepen their technical expertise. These courses are tailored to bridge academic AI knowledge with 
+practical applications, providing participants the skills to integrate new AI techniques directly into 
+industry contexts. 
+• UWaterloo Faculty of Engineering: As the largest engineering faculty in Canada, UWaterloo’s 
+Faculty of Engineering supports the project by providing resources, expertise, and tools required for 
+AI-driven urban solutions. The faculty fosters opportunities for students to engage with AI through 
+applied design projects, educational workshops, and hackathons, directly contributing to innovative 
+project outcomes. 
+• UWaterloo Faculty of Mathematics: The Faculty of Mathematics, home to the largest Computer 
+Science department in Canada, offers additional resources and support for complex computational 
+projects. With advanced capabilities in data science and AI, the faculty is integral in applying 
+rigorous data intelligence approaches to urban challenges. 
+ 
+In tables below, describe key team members involved in the project (e.g., their experience, role and 
+expertise they will bring). If applicable, describe any legal background and who will retain any 
+intellectual property for the project. 
+ 
+Provide sufficient detail for the program to assess whether the team has the necessary capability 
+and capacity (e.g., management, technical, etc.) for the proposed work, but do not include resumés. 
+ 
+Add/delete rows as needed. 
+Team Member Organizatio
+n Role Phone 
+Number Email 
+1 Grant 
+Sullivan 
+Energy and 
+More 
+Consulting 
+Energy 
+Corporation 
+President, Indigenous Off-Diesel 
+Initiative Champion (867)678-5732 grant_sullivan@h
+otmail.com 
+Grant Sullivan (President, Energy and More Consulting ) will be the Project Manager, and responsible for 
+management and coordination of the Project Team and providing oversite for design, procurement, 
+permitting, installation and commissioning activities, as well as ongoing maintenance and reporting 
+activities. Key areas of responsibility include:  
+• Main point of contact providing direction to Project Team Members & overall team coordination.   
+• Lead discussions with relevant parties related to negotiation of agreements; determining contract 
+approach/ framework; and contract/ agreement finalization.  
+• Lead interactions with federal and other funding partners; including reporting as required.  
+Mr. Sullivan has expertise and experience in project management, finance and community liaison. He has a 
+Bachelor of Management Degree (Finance), and has lived in the Beaufort Delta region for the majority of his 
+life. He has been active in several Gwich’in organizations as a Gwich’in beneficiary where he gained extensive 
+experience and knowledge of the business community, arctic logistics and Indigenous governments in the 
+Beaufort Delta region.
+
+PROTECTED B when completed 
+ 
+Page 10/20 
+ 
+ 
+Mr. Sullivan has served as overall Project Lead/Coordinator for a number of renewal energy projects advanced 
+by either Nihtat Corporation  or Nihtat Energy Ltd (NEL) since 2018 (see below for summary focused on Beaufort 
+Delta projects).  Work on each of these projects was initially advanced by Nihtat Corporation and then 
+undertaken by NEL starting in May 2019. Key relevant projects are noted below. 
+ 
+• Inuvik High Point Wind Study [for GNWT] (2016 -2018): Feasibility study for the Government of 
+Northwest Territories (August 2016 to April 2017). Feasibility work for GNWT towards development of 
+a Business Case and Design Basis for the Inuvik Wind Project. Mr. Sullivan provided oversight for work 
+related to the geotechnical survey in Inuvik, site preparation and installation of a met tower at the 
+proposed project site, environmental baseline data acquisition and review, two GNWT Workshops and 
+two community engagement sessions, followed by completion of the design basis and presentation of 
+the business case. 
+ 
+• Inuvik High Penetration Renewables Study (2020 -2021): Pre -feasibility assessment for potential 
+addition to the Inuvik grid of up to 1-3 MW of wind generation; up to 1 MW of solar; and energy storage 
+(the “Inuvik Grid High Penetration Renewable Pre-feasibility Study”).   
+ 
+• Inuvik BESS/Birch Wind Project (2022 to Present). Feasibility assessment of an 8-11 MWh battery/ 
+microgrid and the 4.2 MW Birch Wind Project, and related opportunity for a renewable hydrogen 
+development project. 
+ 
+• Commercial Solar Developments in Inuvik: Planning, design, procurement  and installation of 250 kW 
+DC of ground mounted solar PV at the North Mart Store (2019); 144 kW DC of ground mounted solar 
+PV at the Mackenzie Hotel (2020); 60 kV of ground mounted solar PV at the ISSF facility near Inuvik 
+(2021); and 1 MW Solar Farm IPP (2021 to Present) for sale of electricity to Northwest Territories Power 
+Corporation through a Power Purchase Agreement. 
+ 
+• 150 kV Solar IPP in Aklavik: design, procurement and installation of up to 265 kW DC (restricted to 150 
+kw AC) of solar PV capacity to the Aklavik community grid in 2020 -2021, for sale of electricity to 
+Northwest Territories Power Corporation through a Power Purchase Agreement (completed in 
+September 2020). The project has been constructed and is in the process of being commissioned 
+(expected in service in 2024). 
+ 
+Grant has extensive experience working on studies relating to the development and integration of renewable 
+energy projects in both the Beaufort Delta region and in remote northern communities. Notable studies and 
+related work include: 
+• Diverging from Diesel for GCI, as Executive Director of GCI (2016) 
+• Fossil Fuel Thermal Power Generation Cost in Northern Communities for GCI, as Executive Director of 
+GCI (2017) 
+• Arctic Remote Energy Networks Academy (co -lead) for Arctic Council, as Executive Director of GCI 
+(2016 to 2018) 
+• Arctic Sustainable Energy Futures Toolkit for Arctic Council, as Executive Director of GCI (2017 to 
+2019) 
+• Beaufort Delta Community Energy Profiles for NEL, as President of NEL (2017 to 2020) 
+ 
+A firm profile and CV can be provided on request. 
+ 
+2 Cam Osler 
+InterGroup 
+Consultants 
+Ltd 
+Project Management Support, 
+Business Case Development 204-942-0654 Cam@intergroup
+.ca  
+Mr. Osler will provide senior project management support and lead business case development.  
+He has over 50 years of experience in regulatory economics, including revenue requirement, cost of service, 
+and rate design providing case management support during regulatory review processes and providing expert
+
+PROTECTED B when completed 
+ 
+Page 11/20 
+ 
+testimony before regulatory tribunals. Other experience includes team leadership on multidisciplinary 
+management teams, socio-economic and environmental assessment and related public consultation, strategic 
+planning and assessment, and participation in neg otiation of compensation agreements for First Nations.  He 
+has provided ongoing senior advice, technical and project management support regarding Mr. Sullivan’s  
+assessments for the residential solar net metering development in Inuvik, NT; the development o f two 
+commercial solar projects in Inuvik; the 60 kW ISSF site solar development near Inuvik; and the 150 kW solar 
+development in Aklavik. He also provided business case and project management support for the Inuvik High 
+Point Wind Project Design Basis and Business Case study; the Inuvik High Penetration Renewables Study; and 
+the Inuvik BESS/Birch Wind Project. 
+ 
+3 Mona Pollitt-
+Smith 
+InterGroup 
+Consultants 
+Ltd 
+Project Management Support, 
+Business Case Development 204-942-0654 mona@intergrou
+p.ca  
+Ms. Pollitt-Smith will provide project management support and support business case development.  
+Mona has over fifteen years of experience with InterGroup working on regulatory, resource planning and 
+development projects, and environmental assessment and licencing reviews; and has experience coordinating 
+and leading preparation of a variety of complex regulatory filings and providing support throughout the 
+regulatory review process, as well as experience supporting negotiation of power purchase agreements and 
+project agreements with First Nations. She has provided ongoing advice, technical and project management 
+support regarding Mr. Sullivan’s assessments for the residential solar net metering development in Inuvik, NT; 
+the development of two commercial solar projects in Inuvik; the 60 kW ISSF site solar development near 
+Inuvik; and the 150 kW solar development in Aklavik; as well as project management support for the Inuvik 
+High Point Wind Project Design Basis and Business Case study; the Inuvik High Penetration Renewables 
+Study; and the Inuvik BESS/ Birch Wind Project. 
+ 
+4 Eryn Stewart  
+Future 
+Cities 
+Institute, 
+University 
+of Waterloo 
+Technical Lead (905) 531-
+4114 
+eryn.stewart@uw
+aterloo.ca 
+ 
+Eryn Stewart serves as the Managing Director of the Future Cities Institute (FCI) at the University of Waterloo 
+where she provides overall strategic leadership, management and administration for all FCI programs and 
+services across the University of Waterloo. She has been instrumental in the development of FCI’s growing 
+member network which includes academic collaborators from across UWaterloo’s six faculties.  
+ 
+Before joining the FCI, Eryn was the co-founder and Managing Director of Indigenous Clean Energy (ICE), a 
+community-driven enterprise advancing Indigenous inclusion in Canada’s clean energy future. At ICE, she 
+played a transformative role in fostering partnerships and empowering Indigenous communities to lead 
+sustainable energy projects across the country. In 2017, Eryn was one of twenty emerging leaders selected by 
+the Arctic Council to participate in the Arctic Remote Energy Network Academy – a program to promote 
+information sharing across the Arctic on the integration of renewable energy in remote communities. 
+Recognized as a Top 30 Under 30 Sustainability Leader and a recipient of the University of Waterloo Young 
+Alumni Inspiration Award, Eryn brings a proven track record of driving impactful change to her leadership at 
+FCI, along with expertise in community energy planning, community engagement, and energy efficiency in 
+northern and remote communities. 
+ 
+5
+
+PROTECTED B when completed 
+ 
+Page 12/20 
+ 
+ 
+ 
+ 
+ 
+3. Project Engagement 
+Indigenous and Community Engagement 
+Describe which communities will participate in the project, the level of community involvement 
+both during the project and beyond, the ongoing relationship between you as the applicant 
+organization with the communities, and completed and/or planned community engagement 
+efforts. Indicate the level of support from the community(ies) and alignment with community plans 
+and values. Include any confirmed written support, funding, leadership, etc. 
+ 
+What opportunities will be made to allow the views of under-represented groups (e.g. women, 
+gender-diverse people, youth, Elders, 2SLGBTQ+, people with disabilities, etc) to be shared and 
+incorporated into the project? 
+ 
+The proposed project will actively engage with key Indigenous communities and local 
+governments, including the City of Iqaluit, the Council of the Haida Nation, and the Town of Inuvik. 
+These communities will play a vital role in shaping the project’s development by providing input, 
+sharing local knowledge, and ensuring that outcomes align with community priorities. Engagement 
+efforts will focus on reviewing the AI model as it progresses, incorporating relevant grid data, and 
+ensuring the integration of existing energy plans with community-specific needs. The collaborative 
+review process will also serve as a foundation for planning implementation activities tailored to 
+each community’s unique energy landscape. 
+Commitment to Meaningful and Ongoing Engagement 
+Energy and More Consulting prioritizes fostering strong, respectful, and mutually beneficial 
+relationships with Indigenous governments, community organizations, and residents. Engagement 
+will go beyond information-sharing by ensuring communities have an active voice in decision-
+making. Our approach includes: 
+• Early and Continuous Engagement: Community input will be sought at key stages of the 
+project to ensure alignment with local priorities, traditional knowledge, and long-term 
+sustainability goals. 
+• Transparent Communication: Regular updates, workshops, and community meetings will 
+provide opportunities for meaningful dialogue and collaboration. 
+• Local Capacity Building: Training initiatives, workshops, and knowledge-sharing sessions 
+will be developed to enhance community energy literacy and build local expertise in clean 
+energy solutions. 
+• Economic Opportunities: The project will prioritize Indigenous-led businesses and 
+contractors to maximize local employment and economic benefits. 
+Community Support and Alignment with Local Plans 
+The project aligns with local energy strategies, sustainability goals, and community visions for 
+energy independence. Support letters from Indigenous governments, local leadership, and
+
+PROTECTED B when completed 
+ 
+Page 13/20 
+ 
+relevant stakeholders will be sought to demonstrate community buy-in. Engagement efforts will 
+also leverage existing partnerships and explore new collaborations to strengthen community 
+participation. 
+ 
+ 
+ 
+Anticipated Partners and Supporters 
+Please list the names of any relevant partner organizations or individuals and indicate their role in 
+the project. This would include potential funders, governments, utilities, etc.  
+ 
+For projects involving the demonstration or deployment of a clean energy technology, describe the 
+partnerships with Provincial/Territorial Government and Utility, who has been engaged and their 
+level of support.  
+ 
+Example: are there memorandums of understanding (MOUs), joint ventures (JVs) or power/energy 
+purchase agreements under development; is the project outlined in a community energy plan; are 
+environmental assessments/permits underway; if no engagement has occurred is there an 
+engagement plan in place? 
+ 
+ 
+ 
+Partner/Supporter Description of Role 
+City of Iqaluit Attached letter of support 
+Haida Nation Attached letter of support 
+Town of Inuvik Attached letter of support 
+  
+4. Project Workplan 
+Workplan Details 
+Please attach any detailed project plan documents (e.g. project timeline, project budget). You may 
+reference these documents instead of filling out this section. 
+ 
+Using the table below, describe how the project will be carried out including; a list of project tasks; 
+a high-level description for each; who is expected to complete them; what are the anticipated 
+outputs or results (e.g. milestones); what is the timeline for each task; and the estimated cost.  
+ 
+If applicable, please include details on the required permits, environmental assessments and/or 
+regulatory approvals for construction and operation of the project.  
+ 
+Add/delete rows as needed.
+
+PROTECTED B when completed 
+ 
+Page 14/20 
+ 
+The Workplan below reflects the three identified tasks with each Task’s related deliverables and timeline; 
+within each task, responsibilities and estimated costs are described separately for Energy and More 
+Consulting, InterGroup and University of Waterloo. 
+ 
+Project Task Description 
+Team 
+Member or 
+Organization 
+Responsible 
+Output/result 
+Start and 
+Completion 
+Date 
+Estimated 
+Cost ($) 
+Task 1: 
+Planning and 
+Research 
+  
+Energy and 
+More 
+Consulting 
+    $50,000 
+Review of existing 
+AI applications 
+Research and 
+evaluate available AI 
+solutions that could 
+be tailored to energy 
+and infrastructure 
+planning. 
+Energy and 
+More Consulting     $10,000 
+Review Intellectual 
+property governance 
+issues 
+Review University 
+of Waterloo 
+Intellectual property 
+guidelines 
+Energy and 
+More Consulting     $20,000 
+Develop 
+Community Energy 
+Plans and Related 
+Community 
+engagement 
+Development of 
+Community Energy 
+Plans and initial 
+community 
+engagement to 
+gather inputs into 
+application 
+Energy and 
+More Consulting     $20,000 
+            
+            
+Task 2: 
+Development and 
+Testing 
+        $340,000 
+Contract services 
+for application 
+Engagement of AI 
+developers, data 
+scientists, and energy 
+consultants to help 
+develop the 
+application. 
+University of 
+Waterloo     $190,000 
+Build library and 
+populate application 
+Compilation of 
+energy planning 
+resources, strategies, 
+and policy guidelines 
+and integration into 
+the application. 
+University of 
+Waterloo     $50,000 
+Testing & 
+revisions 
+Conduct pilot 
+testing in select 
+communities and 
+incorporation of 
+feedback into 
+application. 
+University of 
+Waterloo     $100,000 
+            
+Task 3: Launch 
+and Community 
+Engagement 
+        $210,000
+
+PROTECTED B when completed 
+ 
+Page 15/20 
+ 
+Launch application  
+Deployment of AI 
+application in 
+communities, 
+accompanied by 
+training and support 
+materials. 
+Energy and 
+More Consulting     $30,000 
+Community 
+engagement 
+Engagement 
+associated with 
+various communities 
+to develop 
+communities’ 
+relationships with the 
+application and 
+showcase how it can 
+be used. 
+Energy and 
+More Consulting     $60,000 
+Project 
+Management & 
+Reporting 
+Associated project 
+management (salary 
+dollars for Grant 
+Sullivan over 2 years) 
+and reporting. 
+Energy and 
+More Consulting 
+and InterGroup 
+    $120,000 
+ 
+             
+Total All Tasks         $600,000  
+ 
+ 
+5. Project Risks and Mitigation   
+Using the table below, please describe any risks associated with the project (e.g., financial, scope, 
+timeline, technical, consultation, market, etc.) and include the estimated likelihood (high, medium, 
+low) and impact of the risk, as well as the mitigation measure that will be taken. 
+Description of Risk Likelihood and Project Impact Mitigation Measure 
+Technical Feasibility of AI 
+Model: The AI model may 
+face challenges in 
+integrating diverse energy 
+and infrastructure data 
+sources across different 
+remote communities, 
+leading to limitations in its 
+effectiveness. 
+Medium Likelihood, High 
+Impact: AI-based energy 
+planning tools require 
+reliable data inputs, and 
+variations in data 
+availability and quality 
+across different 
+communities may impact 
+performance. 
+A phased development approach will 
+be used, starting with pilot testing in 
+select communities. Continuous 
+refinement through feedback loops 
+will ensure the model adapts to 
+different data inputs and improves 
+its predictive accuracy. 
+Collaborations with the university 
+and AI experts will enhance model 
+robustness. 
+Community Adoption and 
+Engagement: Communities 
+may be hesitant to adopt the 
+Medium Likelihood, High 
+Impact: Limited digital 
+literacy and unfamiliarity 
+The project will include extensive 
+community consultations, user-
+friendly training materials, and
+
+PROTECTED B when completed 
+ 
+Page 16/20 
+ 
+AI-based planning model due 
+to concerns about digital 
+literacy, local energy priorities, 
+and skepticism about AI-
+driven decision-making. 
+with AI tools may slow 
+adoption and reduce 
+engagement from 
+Indigenous and remote 
+communities. 
+dedicated capacity-building 
+initiatives. Local energy champions 
+will be identified to provide in-
+community support and promote 
+adoption. Training workshops will 
+be held to ensure ease of use. 
+Data Security and Privacy 
+Concerns: The AI model 
+requires sensitive 
+community energy data, 
+raising concerns about 
+data privacy, security, 
+and ownership. 
+Low Likelihood, High Impact: 
+If data governance is not 
+properly managed, 
+communities may be 
+reluctant to share critical 
+energy information, reducing 
+the model’s effectiveness. 
+Data protection policies and 
+governance frameworks will be 
+implemented, ensuring communities 
+retain ownership and control over 
+their data. Secure cloud storage, 
+encryption protocols, and 
+compliance with federal privacy 
+regulations will be prioritized. 
+Project Funding and Long-
+Term Sustainability: Securing 
+full funding and ensuring 
+long-term operational 
+sustainability of the AI model 
+beyond the project’s initial 
+implementation phase. 
+Medium Likelihood, 
+Medium Impact: Without 
+sustained funding, future 
+updates, maintenance, 
+and expansion of the AI 
+model to additional 
+communities may be at 
+risk. 
+The project team will actively 
+pursue diverse funding sources, 
+including private sector 
+partnerships, government grants, 
+and Indigenous-led investment 
+opportunities. A revenue model will 
+be explored for long-term 
+sustainability, including potential 
+licensing to other communities. 
+ 
+Description of Risk Likelihood and project impact Mitigation measure 
+Describe the risk to the 
+successful execution of 
+the project 
+Describe the estimated 
+likelihood of the risk occurring 
+and the impact to the project 
+should it occur 
+Describe the mitigation measure 
+taken and estimate the residual risk 
+to project (low, medium, or high)
+
+PROTECTED B when completed 
+ 
+Page 17/20 
+ 
+ 
+ 
+Residual Risk Level 
+Low  The residual risk has little potential for impact on project success. The Applicant is 
+confident the mitigation measures in place effectively manage the risk.  
+Medium The residual risk has some potential for impact on the project. With mitigation 
+measures in place, the potential impact is not critical to project success or is very 
+unlikely to occur.  
+High The residual risk has significant potential to impact project success with outlined 
+mitigation measures in place. 
+ 
+ 
+ 
+ 
+6. Additional Information (optional) 
+☒  Yes         ☐  No       Supporting documents have been attached to this Application. 
+ 
+List file names of attached documents, for example, permits, land access approvals, environmental 
+assessments, support letters, studies, etc.  
+ 
+• Attachment 1 – Relevant Inuvik Experience Summary
+
+PROTECTED B when completed 
+ 
+Page 18/20 
+ 
+ 
+7. Project Financials: 
+ 
+Please provide sources of funding of the proposed project. Leave blank any sections that do not apply to you. Insert additional rows as needed. Organize by 
+fiscal years (i.e. 2022-23 is April 1, 2022 to March 31, 2023). Please note there will be an additional Budget Template to complete at a later stage to indicate 
+cost categories of the proposed project.  
+ 2022-2023 2023-2024 2024-2025 2025-2026 2026-2027 Total 
+Contributions       
+Program funding sought: 
+   500,000 100,000  600,000 
+Other Government of 
+Canada Funding: 
+• Impact Canada – 
+Indigenous Off-Diesel 
+Initiative 
+Please indicate the status of funding 
+(applied, pending, confirmed).  
+      
+Other Provincial, Municipal, 
+Territorial or Indigenous 
+government funding: 
+      
+Applicant Organization  
+       
+Funding from other sources:  
+• Please identify source 
+ 
+      
+In-Kind: 
+• List organization(s) 
+ 
+      
+Total contributions per year:   500,000 100,000  600,000
+
+PROTECTED B when completed 
+ 
+Page 19/20 
+ 
+8. Applicant Attestation 
+By submitting this project application, the Applicant:  
+ 
+1. Attests that they have read and agree to the terms and conditions in the Applicant Guide. 
+2. Attests that it is legally registered or incorporated in Canada (does not apply to governments). 
+3. Attests that the information provided is true and accurate to the best of their knowledge. 
+4. Understands that any costs incurred for the submission of the Application Form are at the 
+Applicant’s own risk. 
+5. Understands that CIRNAC and NRCan reserve the right to alter the currently envisaged process, 
+and deadlines, or to cancel the entire application process at its sole discretion.   
+6. Understands that project funding decisions will only be made following receipt, review, and 
+selection of projects and the successful completion of due diligence. 
+7. Understands and acknowledges that no liability, commitment or obligation exists on the part of 
+CIRNAC and NRCan to make a financial contribution to the project until a written funding 
+agreement is signed by both parties. 
+8. Attests that it is the owner of all information - proprietary, confidential or otherwise - provided 
+as part of the proposal submission, or, if the information belongs to another party, that it has 
+obtained written consent to disclose the information to CIRNAC and NRCan. 
+9. Understands that federal reviewers are bound by the requirements of the Access to Information 
+Act and the Privacy Act regarding the treatment of confidential information.   
+ 
+By checking below, the Applicant agrees that the Government of Canada may share this application and 
+any other information provided as supplemental material with other potential funding entities in an 
+effort to better support projects. Please indicate which of the following you consent to having your 
+proposal shared with: 
+a) Other Government of Canada Departments or 
+Agencies;       ☒ Yes  ☐ No 
+b) Provincial, Territorial and Municipal 
+Governments;                                            ☒ Yes  ☐ No 
+d) Local and/or Regional Utility; and                                                                                     ☒ Yes  ☐ No 
+e) Not-for-profit sector or foundations (e.g., 
+Federation of Canadian Municipalities) ☒ Yes  ☐ No 
+ 
+ 
+9. Conflict of Interest Attestation 
+Definition: A person is in a conflict of interest when they exercise an official power, duty or function that 
+provides an opportunity to further their private interests or those of their relatives or friends or to 
+improperly influence another person’s private interests. 
+ 
+The following questions are to be used as guidelines to help you assess if a real, potential or perceived 
+conflict of interest exists. If “Yes” for any of the below, the Program will contact you to discuss further
+
+PROTECTED B when completed 
+ 
+Page 20/20 
+ 
+(i.e. not an automatic project disqualification). To the best of your knowledge: 
+ 
+Are any current or former Government of Canada employees, excluding 
+your current point of contact within the program, working or associated 
+with the development of this proposal or project? 
+No 
+Will a current or former public servant or any of their relatives or friends 
+be receiving any personal or financial benefit of any kind as a result of 
+the Government of Canada entering into an agreement with your 
+organization? 
+No 
+Have you, any individual working in your organization, your partners’ 
+organizations, or any individual working in their organization, formerly 
+provided consultancy services to the Minister or departments that are 
+related to this project, particularly any services associated with 
+developing the proposal? 
+No 
+Please sign below to confirm having read and understood the statements above 
+ Signature: 
+ 
+Date: 2025-03-04 
+Name of Duly 
+Authorized Officer: Grant Sullivan 
+Title: President

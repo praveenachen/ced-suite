@@ -1,0 +1,969 @@
+Application - Insight Development Grants
+Identification (mandatory)
+Applicant
+Family Name: Minaker  First Name: Leia
+Middle Names: M
+Current Position: Director
+Primary Affiliation: University of Waterloo
+Department/Division: Future Cities Institute
+Application
+Application Title
+ 
+ Enabling evidence-based policymaking and interdisciplinary social change research for
+homelessness: Developing and evaluating CivicInquire, Canada’s first intersectional AI-
+powered social science platform
+Language of the
+Application
+ English French  
+Committee 23 - Multidisciplinary or interdisciplinary social sciences 
+Joint or Special Initiative 
+Is this a research-
+creation project?
+ Yes No  
+Does your proposal
+involve Indigenous
+research as defined by
+SSHRC?
+ Yes No  
+Scholar type
+Research Portal
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+Are you an Emerging
+Scholar or Established
+Scholar? 
+Established
+Confirmed Scholar type Established
+Established scholars: proposed versus ongoing research (mandatory)
+I am an interdisciplinary social sciences researcher with expertise in disease prevention, epidemiology, health policy, public 
+health, social determinants of health, and urban health. Using methods and theories from these fields, my research 
+program has previously investigated food retail environments, food marketing, population dietary risk, public health 
+surveillance for chronic diseas risk, youth health behaviours and beliefs, healthy city planning, smart cities and health 
+inerventions, and equity in social policy and local and regional planning processes. 
+The proposed project builds on this work of my research program but, importantly, expands into several new areas of 
+interdisciplinary social science research and knowledge dissemination activities. This can be illustrated in multiple aspects 
+of the project. First, the propsoed project requires the development of a new research team that features expertise in 
+areas that I do not have extensive previous collaboration with, notably bioinformatics, digital health, 
+housing/homelessness, housing policy, and policy intensity analysis (esp. AI in policy reviews). Second, the proposed 
+project applies an intersectional lens to AI methods in social science research and planning policy analysis, both of which 
+reflect novel applications of intersectional theory. As a result, the proposed project will generate some of the first 
+intersectional planning policy analyses quantifying meulti-level government alignment (O2) and critically investigating the 
+state of housing and homelessness policy (O3) in Canada. And third, the proposed project aims to create an enduring 
+open-access resource for any individual (e.g., academia, advocacy, housing developer, public sector) to use. This aim, 
+however, will require ongoing maintenance and oversight. Such support will be provided by the Future Cities Institute, of 
+which I am the director. The FCI is a new institute on the University of Waterloo and, as a part of its mission statement, is 
+committed to producing public education resources, which this project will represent one of the first such resources created 
+and maintained by the FCI. Therefore, this project is also intended to become a template for future public education 
+resources that the FCI will develop in the coming years. 
+This project is in the early stages of the research process. To date, we have developed a prototype of the CivicInquire 
+platform (www.civicinquire.com) via a small working group of collaborators involved this application. We have not collected, 
+reviewed, or analyzed any data related to the objectives of the proposed project. 
+Administering organization (individual grants) or lead organization (institutional grants)
+Organization University of Waterloo
+Department/Division Planning
+Invitations
+RoleRole Last NameLast Name First NameFirst Name OrganizationOrganization DepartmentDepartment
+Co-
+applicant
+Butt Zahid University of Waterloo School of Public Health Sciences
+Co-
+applicant
+Buttazzoni Adrian University of Waterloo Planning
+Co-
+applicant
+Chen Helen University of Waterloo School of Public Health Sciences
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+RoleRole Last NameLast Name First NameFirst Name OrganizationOrganization DepartmentDepartment
+Co-
+applicant
+Da Silva E
+Souza
+Miranda
+Pedro
+Augusto
+University of Waterloo Health
+Co-
+applicant
+Glover Troy University of Waterloo Recreation and Leisure Studies
+Co-
+applicant
+Layton Anita University of Waterloo Mathematics
+Co-
+applicant
+Mazumder Robin University of Waterloo Planning
+Collaborator Gash Leslie No Primary Affiliation No Department/Division
+Collaborator McEvoy Chris No Primary Affiliation No Department/Division
+Activity details
+Certification requirements (mandatory)
+Does the proposed
+research involve
+humans as
+research
+participants?
+ Yes No  
+Impact assessment (mandatory)
+Will any phase of the
+proposed research take
+place outdoors?
+ Yes No  
+Sensitive Technology Research Areas
+Will the proposed
+research and related
+activities funded by this
+grant aim to advance any
+of the listed STRAs?
+(required)
+ Yes No  
+Note: If you answered "Yes" to the above question, you must complete and attach Attestation for Research Aiming to
+Advance Sensitive Technology Research Areas forms to your grant application — in the STRAC Attestation Attachment
+section — to comply with the policy.
+If you answered “No”, you will not need to take any further steps under this policy.
+Keywords (mandatory)
+ 
+Housing, Homelessness, Social Policy, Policy Analysis, Planning, Mixed Methods, Digital
+Infrastructure, AI, Intersectional Theory, Knowledge Mobilization
+Disciplines (mandatory)
+ 
+1. Urban and Regional Studies, Environmental Studies  Urban Planning 
+2. Natural Sciences and Engineering Computer and Information Science and
+Operations Research 
+3. Geography Urban Geography 
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+Areas of research (mandatory)
+ 
+1. Housing 
+2. Social development and welfare
+3. Science and technology
+Temporal periods
+ 
+FromFrom ToTo
+YearYear PeriodPeriod YearYear PeriodPeriod
+1. 2026     AD 2028     AD
+2.                   
+ 
+Geographical regions
+ 
+1. North America
+2. 
+3. 
+Countries
+ 
+1. Canada
+2. 
+3. 
+4. 
+5. 
+Revisions since previous application
+Over the past eight months our team has developed an initial version of the CivicInquire platform 
+(www.civicinquire.uwaterloo.ca/search) and have been beta testing the performance and functionality of the platform and 
+some of its core features (e.g., policy database search engine). However, work to-date has only resulted in our team 
+creating a proof-of-concept for the CivicInquire platform. CivicInquire has not yet been comprehensively or formally 
+reviewed for its comprehensiveness, communication clarity, information relevance, or user experience, nor has it been used 
+for academic research. These activities are the primary focus and objectives of this proposed project.
+Summary of proposal
+Homelessness, a downstream result of structural inequity across multiple systems including housing, healthcare, and
+planning, has major impacts on community cohesion, development, justice, and health, and is growing in Canada. Recent
+polling has reported that Canadians view the country’s current direction regarding homelessness as being overwhelmingly
+negative, with >70% indicating homelessness is ‘a growing issue.’ In response, all levels of government have mobilized to
+combat homelessness; for instance, federal spending on homelessness programs has increased 374% over the past 10
+years, while municipalities across the country have begun developing and implementing various types of homelessness
+prevention and affordable housing policies. Despite these efforts, Canadian cities continue to grapple with homeless
+encampments while trying to provide services for local unhoused populations. Given the extreme diversity of Canadian
+municipalities (e.g., large metropolitan cities, growing mid-sized municipalities, rural/northern/remote communities), the
+absence of shared tools and infrastructure to systematically examine, compare, and learn from homelessness policies
+across Canada’s highly diverse municipal contexts represents a serious challenge that warrants attention. 
+The proposed multi-methods research uses machine learning (ML), artificial intelligence (AI), and qualitative key informant
+interviews to develop and evaluate a novel online, interactive platform for homelessness policy across Canada (i.e.,
+CivicInquire). CivicInquire will leverage web-crawling and web-scraping capabilities to create a national homelessness
+policy database, a national policy dashboard, and multiple interactive visualization tools to present policy information for
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+academics, advocates, planners and health practitioners, municipal decision-makers, and the public. The proposed project
+has three research objectives. First (Objective 1; O1), we will evaluate and build upon a prototype of the CivicInquire
+platform (www.civicinquire.com) that our team has developed in recent months by conducting a global quality evaluation to
+assess its content, design, organization, and user-friendliness. Second (O2), we will construct a web scraping tool to
+identify and download all homelessness and housing policies and strategies from Canadian municipalities (N~1000) using
+the CivicInquire platform. Here, we will develop an ML algorithm designed to analyze the policy intensity (e.g., alignment in
+scope, strategies, goals/outcomes) of the collected data. Third (O3), we will conduct a critical discourse analysis of how key
+municipal stakeholders interpret the current state of homelessness and housing policy development, implementation, and
+impact in Canada with ~40 participants from diverse municipal contexts. 
+The CivcInquire platform will serve as a foundation for accelerating Canadian leadership in homelessness and housing
+policy research and action. Specifically, the open-access policy database, data visualization tools, and national dashboard
+will make CivicInquire the leading platform to support well-aligned, multisectoral, and effective policy approaches to the
+structural and systems-level prevention of homelessness in diverse Canadian communities. We anticipate that Canadian
+municipalities will use our platform to inform the development of their own policies, while researchers can use our platform
+and its open-access database to conduct future cutting-edge research exploring homelessness and/or housing policy
+impacts on multiple important outcomes. Our partners will help to facilitate our KMb plan in diverse municipal contexts
+including Toronto (large metro city), the Region of Waterloo (mid-sized, rural municipalities) and Nunavut (northern,
+remote communities). 
+Roles and responsibilities
+Our interdisciplinary team possess expertise and experience in homelessness policy and action, public health research, 
+urban planning (O1-O3), machine learning and quantitative methods (O2), and qualitative and interview methods (O3), 
+and health and social policy (O1-O3).  
+NPA Minaker (20% contribution) is an Associate Professor in the School of Planning (SoP) and is the Director of the Future 
+Cities Institute (FCI) at the University of Waterloo (UW). As the nominated principal applicant (NPA), she will schedule and 
+chair monthly meetings with the collective research team to discuss ongoing work and updates, as well as future directions 
+and project milestones; oversee the team’s progress toward the achievement of project objectives (O1-O3) with respect to 
+agreed upon work timelines, deliverables, and trainee supervision; assist in the writing/reviewing of the manuscripts and 
+dissemination of the findings (O2-O3); and advise on the recruitment, data collection, data analysis for O2-O3. She will 
+also lead the supervision of all co-op students on the project. 
+Collaborator Gash (5% contribution; Toronto Shelter Network, TSN) is Executive Director of the TSN and a Registered 
+Professional Planner with >30 years experience in stakeholder engagement and community development in the non-profit 
+and public housing sectors. As a collaborator, Ms. Gash will contribute through participating in monthly team meetings, 
+assisting the research team in capturing relevant criteria in the development of the policy intensity machine learning (ML) 
+algorithm (O2), facilitating the recruitment of participants for the qualitative interviews through her existing work networks 
+(O3), advising on interpretation of qualitative data (as appropriate) (O3), and support the knowledge mobilization (KMb) 
+plan.  
+Collaborator McEvoy (5% contribution; Region of Waterloo, RoW) is the Manager of Housing Policy & Homelessness 
+Prevention at the RoW and is responsible for implementing the Region’s Plan to End Chronic Homelessness. He will 
+participate in monthly team meetings to advise and guide the research team on refining research questions (O1), as well 
+as elements of homelessness policy that are most relevant to capture from the perspective of mid-sized and rural 
+municipalities (O2-O3). Additionally, he will support the recruitment of participants for the qualitative interviews (O3) 
+through connecting the team with the Canadian Alliance to End Homelessness, and be involved in the KMb plans. 
+Co-A Butt (5% contribution) is an Assistant Professor at UW and a Canada Research Chair with expertise in digital and 
+spatial epidemiology, homelessness, and health informatics. He will contribute to the project primarily though participating 
+in monthly research team meetings, assisting in student supervision on O2, as well as advising and supporting the 
+quantitative methods and analyses of O2 (e.g., development of the policy intensity ML algorithm (O2)) and O3 (e.g., 
+interview topic). He will also advise on specifics of the tool development of O3 (i.e., interview guide questions, probes) and 
+assist with manuscript writing/reviewing.  
+Co-A Buttazzoni (15% contribution) is an SSHRC PDF in the SoP at UW with expertise in qualitative methods, health policy, 
+and urban planning. He will principally contribute to O1 and O3 via supporting the platform testing and evaluation analysis 
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+(O1) and co-leading O3 and thus overseeing tool development (i.e., interview guide), recruitment, data collection and 
+analysis, and manuscript writing. He will also assist with O2 through advising on policy intensity analysis matters related to 
+data collection and aggregation (O2), as well as provide secondary supervision of the co-op students working on O1 and 
+O3. 
+Co-A Chen (15% contribution) is an Associate Professor in Public Health Sciences at UW with expertise in AI for public and 
+population health, AI learning for health systems, and information systems design and management. Her primary 
+contributions will be delivered through serving as the co-lead researcher for O1 and O2, and a primary supervisor of all 
+involved trainees. She will also lead the team in the development and implementation of the policy intensity ML algorithm, 
+supervise and advise all team members involved in the data scraping and aggregating, the policy intensity analysis (O2), 
+and writing/reviewing of academic articles (O2-O3). She will also help with the supervision of students working on O1 and 
+O3. 
+Co-A Glover (8% contribution) is a Professor in the Department of Recreation and Leisure Studies at UW and the Director 
+of the Healthy Communities Research Network. He has expertise concerning social infrastructure, placemaking, municipal 
+policy analysis, the social impacts of urban planning, and advancing healthy communities through evidence-informed policy 
+recommendations. His primary contributions will be attending monthly team meetings and supporting all research activities 
+related to O3 (e.g., advising on data collection, participant recruitment, interpretation of findings), as well as helping to 
+supervising the co-op student helping on O3.  
+Co-A Layton (7% contribution) is the Canada 150 Research Chair in Mathematical Biology and Medicine, and Professor of 
+Applied Mathematics, Computer Science, Pharmacy and Biology at UW. She has expertise in the development and 
+application of data-driven models to understand physiology and pathophysiology health outcomes. She will contribute 
+through participating in monthly research team meetings, advising on the quantitative methods and analyses of O2, 
+providing supervisory support for trainees working on O1 and O2, in addition to assisting in manuscript writing/reviewing. 
+She will also help with supervision of students in O1 and O2. 
+Co-A Mazumder (5% contribution) is a PDF at the FCI at UW, and a former occupational therapist with direct experience 
+working with vulnerable populations, including PEH. Leveraging this experience, as well as his expertise with ML 
+applications for urban analytics, he will contribute through co-leading O2 (e.g., development of the policy intensity ML 
+algorithm), supporting research activities related to O1 and O3 (e.g., interpretation of findings, manuscript 
+writing/revising), and the supervision of co-op students working on O2.  
+Co-A Miranda (10% contribution) is a PhD candidate in the School of Public Health Sciences at UW with expertise in 
+bioinformatics, digital health, and software engineering. He will be the lead designer and engineer that will co-lead all O1 
+activities (e.g., policy database search engine updated, embedding of interactive policy maps). He will also support all 
+aspects of the data collection and analyses for O2 (e.g., framing/interpretation of findings). He will also help with academic 
+article writing/reviewing and the supervision of co-op students working on O1 and O2.
+Roles and training of students
+Pursuant to the methodological outline in the main application, one upper-year Math co-op student with experience in web 
+development will assist with O1, two upper-year Math co-op students with experience in machine learning will assist with 
+O2, and one upper-year co-op Planning student with expertise in qualitative methods will support all research activities 
+related to O3. All hired trainees will serve as co-op students hired by the FCI, be directly supervised by FCI faculty 
+associates (i.e., NPA, Co-As), and will be provided one-term (i.e., 4 month) co-op education opportunities that will be 
+centred on gaining real-world work experiences related to urban planning, public health, data analytics for decision-
+making, policy analyses, and/or research methods. As such, our team will afford these students a number of opportunities 
+to develop different applied research (e.g., qualitative data collection and analysis in O3), technical (e.g., digital platform 
+development, evaluation in O1), knowledge mobilization (e.g., KMb tool/resource and digital infrastructure development in 
+O1, partnership development across all stages) and communication (e.g., site/platform updates to the team during 
+meetings) skills that they can use during their future academic endeavours.  
+More specifically, regarding O1, the co-op student will be tasked with undertaking several technical tasks that will 
+intellectually challenge them with respect to evolving their initiative, time management, problem solving, and programming 
+skills. Importantly, these two co-op students will be involved in developing and implementing programming strategies to 
+support search engine optimization for the policy database (e.g., advanced search functions/MeSH term options), as well as 
+adding suggested search filters (e.g., dropdown boxes for year-specific results, exclusion/inclusion features related to 
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+source material) to the platform’s database search; improving web crawling and web scraping ML tools that are central to 
+the collection and aggregation of policy information from online sources, in addition to the completion of monthly updates 
+to keep the policy database current; and creating and implemented requested resource-specific aides (e.g., FAQ tab, 
+search result export functions) that seek to improve user experience. Such experiences should complement their academic 
+training through providing multiple tasks that will develop their technical and problem-solving skills in direct relation to 
+data and computational methods being leveraged for local decision-making processes. 
+Concerning O3, this co-op student will be foremost responsible for fulfilling duties related to academic research and 
+knowledge mobilization (KMb) to varied target audiences (e.g., planners, local economic development officials, public 
+health practitioners). Particular tasks will involve data collection via interviews and qualitative analysis via inductive 
+thematic methodologies, advising on interview guide legibility/suitability, and developing article/study brief findings to 
+disseminate to participants and collaborators. Subsequent KMb activities related to the objective will involve the student 
+interacting with and presenting data visualizations and interactive tool (e.g., policy maps on the platform) overviews to 
+interdisciplinary audiences of planners, public health practitioners, and municipal decision-makers.  
+This work will be intended to complement the co-op student’s academic training through providing them ‘real world’ 
+research experiences that will familiarize them with primary research process, the process and limitation of knowledge 
+generation, and examples of applied (i.e., working directly with knowledge users) KMb strategies.
+Knowledge mobilization plan
+CivicInquire serves as our central knowledge mobilization vehicle and features an open-access policy database, interactive 
+maps, data visualizations, and a national dashboard. We commit to updating CivicInquire annually for at least five years 
+post-grant, ensuring sustained impact as policies evolve. Primary audiences include municipal policymakers and planners 
+using CivicInquire for evidence-based policy development; researchers accessing our database for interdisciplinary 
+research; and non-governmental organizations advocating for homelessness prevention. 
+Our broader knowledge mobilization strategy emphasizes a bidirectional process of sustained engagement and iterative 
+communication between our research team and knowledge users (KUs) and prioritizes co-creation throughout all phases to 
+ensure research results are accessible, actionable and align Canada's homelessness and housing policy across diverse 
+municipalities. 
+In O1, KUs (researchers, advocates, planners, and municipal representatives) will provide feedback on platform design. In 
+O2, we will collaborate with partners from Toronto, Waterloo Region, and Nunavut to develop the ML algorithm driving 
+policy intensity analyses. In O3, we will engage KUs through interviews exploring policy gaps and opportunities.  
+Traditional outputs include peer-reviewed manuscripts and academic conferences. Non-traditional dissemination targets 
+decision-makers through presentations to the Federation of Canadian Municipalities and the Association of Municipalities of 
+Ontario, with partners' networks amplifying reach across diverse contexts. 
+By grounding platform development in iterative co-design with KUs, CivicInquire will be more meaningful and responsive to 
+real-world needs, ultimately supporting vulnerable Canadians through evidence-informed, multisectoral approaches to 
+preventing chronic homelessness.
+Expected outcomes
+Scholarly benefits
+ 
+1. Enhanced research collaboration 
+2. Enhanced research methods
+3. Knowledge creation/intellectual outcomes 
+Summary of expected scholarly outcomes
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+Our team will develop a sustainable AI-powered, data-aggregating, online homelessness policy platform (i.e., CivicInquire) 
+with a national policy database and dashboard, which will be updated with new reviews, data visualization tools, and other 
+knowledge mobilization (KMb) materials for researchers across the social sciences. The CivicInquire policy database will be 
+updated on a monthly basis (via web-crawling, data-scraping tools) and maintained on an ongoing basis to ensure its 
+accuracy, relevance, and timeliness for researchers and advocates in the knowledge-generating space. The analyses of O2 
+(policy intensity review) and O3 (policy discourse analysis) will offer researchers a novel quantification of homelessness 
+policy alignment in reference to multiple intersectional considerations, and which will be relevant to communities across 
+Canada (O2), and critical discussions of multisectoral contributions to current policy gaps and opportunities to remedy such 
+shortfalls (O3).
+Societal benefits
+ 
+1. Enhanced policy 
+2. New or enhanced collaborations, partnerships
+3. Enriched public discourse
+Summary of expected societal outcomes
+The developed CivicInquire platform is being intentionally designed as a free-to-use resource such that any individual or 
+organization interested in or working on homelessness issues in Canada may use it. Working with the Future Cities 
+Institute, who will maintain and update the platform, this project is intended to facilitate improved study of homelessness 
+in Canada, as well as inform public discussion and knowledge on this issue. Additionally, dissemination about the 
+CivicInquire platform and its features, tools, and KMb resources will be promoted by our collaborators through their 
+professional networks, resulting in knowledge of this project among actors in large metropolitan, mid-size, small city, rural, 
+and remote/northern communities. Conference presentations to non-academic (e.g., Federation of Canadian Municipalities) 
+and academic (e.g., Association of Collegiate Schools of Planning) groups will encourage multisector teams to leverage the 
+platform for their future work.
+Audiences
+ 
+1. Canadian government 
+Municipal government 
+2. Practitioner/professional/industrial associations
+3. Academic sector/peers
+4. Not-for-profit/community organizations
+5. General public
+Summary of benefits to potential target audiences
+CivicInquire will be a free-to-use platform available to users from all relevant fields across Canada. Multisector 
+collaborations of policymakers, practitioners, and advocates can leverage CivicInquire to develop suitably aligned, 
+comprehensive, and effective policy that address the multilevel governance barriers to the prevention of homelessness in 
+diverse Canadian communities. Researchers may use CivicInquire to identify novel social change policy topics for study, or 
+to build interdisciplinary research teams investigating relevant wellbeing and support issues, such as recurrent 
+homelessness experience prevention or effective affordable housing solutions that stabilize PEH living circumstances. 
+Collaborations between policymakers, practitioners, and researchers may also use the research (e.g., O3) and reviews 
+(e.g., O2) to identify local topics in need of further study and/or to deliberate on with respect to addressing policy 
+alignment (e.g., consistency in objectives).
+Funds requested from SSHRC
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+Year 1
+Personnel Costs
+Student Salaries and
+Benefits/Stipends Number Amount Justification
+Undergraduate
+3 $61,050.00 Includes 3 upper year math co-op students at $30/h x
+35h/week x 17 weeks + 14% vacation pay =
+$20,350/student. CO-OP 1 (Sept-Dec 26) will support
+activities related to O1 (See detailed description, Section
+2.1). CO-OP 2 (Jan-Apr 27) and CO-OP 3 (May-Aug 27)
+will support activities related to O2 (See detailed
+description, section 2.2).
+Masters
+Doctoral
+Subtotal $61,050.00
+Non-Student Salaries Number Amount Justification
+Postdoctoral
+Professional/Technical
+Services
+1 $15,000.00 Includes the cost of a software developer (0.1 FTE) to
+oversee maintenance and continuous development of the
+data server and supporting infrastructure.
+Other
+Subtotal $15,000.00
+Travel and
+Subsistence Costs
+for Research
+Number Amount Justification
+Applicant/Team
+Members
+Student(s)
+Subtotal $0.00
+Travel and
+Subsistence Costs
+for Dissemination
+Number Amount Justification
+Applicant/Team
+Members
+Student(s)
+Subtotal $0.00
+Other Expenses Amount Justification
+Supplies
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+Non-disposable
+equipment
+Subtotal $0.00
+Grand Total Year 1 $76,050.00
+Year 2
+Personnel Costs
+Student Salaries and
+Benefits/Stipends Number Amount Justification
+Undergraduate
+1 $17,000.00 Includes 1 upper year planning co-op students at $25/h x
+35h/week x 17 weeks + 14% vacation pay =
+$17,000/student. CO-OP 4 (Sept-Dec 27) will support
+activities related to O3 (See detailed description, Section
+2.3).
+Masters
+Doctoral
+Subtotal $17,000.00
+Non-Student Salaries Number Amount Justification
+Postdoctoral
+Professional/Technical
+Services
+Other
+Subtotal $0.00
+Travel and
+Subsistence Costs
+for Research
+Number Amount Justification
+Applicant/Team
+Members
+2 $5,000.00 Money will be used to cover partial costs for 2 team
+members to attend either the Federation of Canadian
+Municipalities conference and/or the Association of
+Municipalities of Ontario conference. The remainder of
+costs will be covered by researchers on the team as per
+agreements and previous practice.
+Student(s)
+Subtotal $5,000.00
+Travel and
+Subsistence Costs
+for Dissemination
+Number Amount Justification
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+Applicant/Team
+Members
+1 $1,950.00 Money will be used to cover the fees associated with
+submitting/publishing scholarly manuscripts. The request
+for funds associated with Open Access Publication fees are
+minimal, given that researchers on our team will
+contribute additional funds as per our team's agreements
+and previous practice.
+Student(s)
+Subtotal $1,950.00
+Other Expenses Amount Justification
+Supplies
+Non-disposable
+equipment
+Subtotal $0.00
+Grand Total Year 2 $23,950.00
+Grand Total $100,000.00
+Funds from other sources
+Funding SourceFunding Source Contribution TypeContribution Type ConfirmedConfirmed Year 1Year 1 Year 2Year 2 TotalTotal
+$0.00
+DetailsDetails
+$0.00
+DetailsDetails
+$0.00
+DetailsDetails
+Grand TotalGrand Total $0.00$0.00
+Reviewer exclusion (if applicable)
+Excluded reviewers
+Exclusion TypeExclusion Type Family Name /Family Name /
+CollaborationCollaboration First NameFirst Name InitialsInitialsOrganizationOrganization DepartmentDepartment EmailEmail
+No records to display.
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+1. CONTEXT & OBJECTIVES: 
+Lifetime data indicate more than one in ten (11.2%) Canadians—or approximately 1.7 
+million people—have experienced some form of homelessness,1 with annual estimates 
+suggesting roughly 235,000 Canadians are affected each year .2 These numbers are projected to 
+grow3 with profound consequences for individual health, public systems, and community 
+wellbeing. As multiple structural systems (e.g., economic, health, political, planning) struggle to 
+effectively respond,4 Canadians view the country’s current direction negatively, with >70% 
+recognizing homelessness as ‘a growing issue.’5 People experiencing homelessness (PEH) face 
+substantially elevated risks of depression, drug use,6 external cause mortality, and infections 
+(e.g., Hep C) from intravenous drug use,7 and also report greater emergency department usage.8 
+These risks generate significant social and economic costs for municipalities and healthcare 
+systems alike. In Toronto alone, the healthcare costs of homelessness are an estimated $69.8-99.7 
+million annually.9 
+In response, all levels of government have mobilized to address homelessness. Federally, 
+the National Housing Strategy Act was passed in 201910 with the aim to support and monitor the 
+right to housing in Canada,11 while Infrastructure Canada has spent an estimated $561 million 
+annually on homelessness programs, an increase of 374% over the prior 10 years.12 Provincially, 
+Manitoba has developed a new initiative for vulnerable populations,13 while New Brunswick has 
+established a “Housing for All” strategy centered on supporting low-income populations and 
+reducing housing waitlists.14 Locally, communities of all sizes have implemented affordable and 
+public housing strategies, as is the case in New Westminster,15 Saskatoon,16 and Vancouver.17 
+Despite the proliferation of policy responses, Canada lacks a systematic way to examine, 
+compare, and learn from homelessness policies across jurisdictions. Commonly cited issues 
+include poor coordination,18 a lack of long-term commitment from central institutions, 
+inadequate targets,19 and a dearth of resources/strategies designed to stabilize PEH and/or reduce 
+their risk of recurrent experiences.20 As homelessness is estimated to cost the national economy 
+~$7 billion annually,21 and long-term analyses argue that the relative inaction over recent decades 
+has cost Canada nearly $50 billion,22 there is a pressing need to develop effective and 
+coordinated homeless policy in Canada.  
+The multi-scale, -system, and -causal nature of homelessness in Canada presents a 
+‘wicked problem’—a vast and complex issue lacking a clear solution23—for policymakers, 
+practitioners, and researchers. Effectively addressing ‘wicked problems’ like homelessness (i.e., 
+“the situation of an individual, family or community without stable, safe, permanent, appropriate 
+housing, or the immediate prospect, means and ability of acquiring it”24) requires policy 
+precision and responsiveness, as well as coordination across multiple fields and services.25 In 
+Canada, a central and underexamined challenge is the absence of tools and infrastructure to 
+systematically understand the nation’s homelessness policy landscape. To support such policy 
+precision and alignment, coordinated action, and a more comprehensive long-term vision for 
+homelessness in Canada, this project aims to build and optimize Canada’s first publicly 
+accessible, interdisciplinary, and artificial intelligence- (AI) powered digital homelessness 
+infrastructure (i.e., CivicInquire). Our project will develop this platform to encourage evidence-
+based, aligned, and effective social policymaking, as well as interdisciplinary social science 
+research on homelessness through three objectives: 
+Objective 1 (O1): develop and optimize an interactive digital platform (CivicInquire) that web-
+crawls, aggregates, and presents data from homelessness policies, strategies, and webpages. This 
+objective will establish the foundational research infrastructure necessary to make homelessness 
+policy visible, comparable, and analyzable across jurisdictions, which is a necessary to enable 
+theory-informed governance research. 
+Objective 2 (O2): develop a machine learning (ML) tool to analyze the policy intensity of the 
+Canadian municipal policies and strategies related to homelessness/housing as collected in O1, 
+thereby enabling comparative analysis across municipal types. This objective will translate 
+policy intensity from an abstract concept into a measurable construct that allows social scientists 
+to examine variation, alignment, and institutional commitment in homelessness governance. 
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+Objective 3 (O3): conduct a critical discourse analysis of stakeholder views on homelessness 
+policy and its in/direct role(s) in creating, sustaining, and growing/lessening inequities to 
+examine not only what homelessness policies do across Canada, but how they are understood, 
+justified, and enacted by those responsible for them. This objective will situate the computational 
+findings of O2 within lived policy interpretation to reveal how governance actors understand, 
+justify, and enact homelessness policy in practice. 
+2. METHODOLOGY & TIMELINES: 
+2.1 CivicInquire Development, Testing, and Optimization (O1: Sep/26-Dec/26): Having 
+developed a prototype online policy platform (www.civicinquire.com), the aim of O1 will be to 
+optimize (i.e., technical functionality, efficiency of the web-crawling, data aggregation, and data 
+visualization tools) the platform. In partnership with the Future Cities Institute (FCI) at the 
+University of Waterloo (UW), which will host, maintain, and annually update the platform for a 
+period of at least 5 years, NPA Minaker, and Co-As Chen, Miranda, Layton, and Buttazzoni, will 
+oversee this objective and supervise one upper-year Math co-op student with experience in web 
+development and computer programming via a two-step process.  
+CivicInquire Platform Performance Testing, Launch (Step 1): We will ensure functionality, 
+usefulness, performance, responsiveness, and security of the CivicInquire prototype platform 
+before officially making it publicly accessible. Prior to evaluation, CivicInquire will be 
+implemented as a modular, service-oriented platform that separates data acquisition, processing, 
+and user-facing services to support iterative improvement without disrupting live access. The 
+core pipeline will include ethical, rate-limited acquisition of publicly available policy documents 
+and related municipal artifacts; automated text normalization, deduplication, and metadata 
+enrichment; storage in an open-format analytics layer following a “lakehouse” pattern to support 
+both BI and research workloads26; and indexed services that power search, filtering, and analytic 
+views for knowledge users. To strengthen transparency, reproducibility, and re-use, CivicInquire 
+will implement machine-readable metadata and provenance tracking at the document and 
+transformation level. Core metadata fields will include source jurisdiction, publication date, 
+retrieval timestamp, canonical URL, document type, language, and a version identifier that 
+captures updates to the source content. Provenance will be recorded using a standardized 
+provenance model so that downstream analyses can be traced to specific inputs and processing 
+steps.27 
+Our evaluation will use an established global quality evaluation framework for digital platforms 
+to assess the content, design, organization and user-friendliness of our prototype.28 Specifically, 
+we will measure our prototype against the following criteria in each of these four domains: (a) 
+content (i.e., characteristics of platform information; e.g., ensuring up-to-date information, and 
+accuracy of sources, establishing the credibility of the platform29), (b) design (i.e., platform 
+design and ability to attract and engage users; e.g., appropriateness of site for users, 
+multimedia/varied data sources/data visualization30), (c) organization (i.e., platform grouping, 
+categorization, or structure of information; e.g., clear indexing/easy navigation of information, 
+functional links/tools29), and (d) user-friendliness (i.e., platform responsiveness, reliability; e.g., 
+consistent usability, trusted security, cross-browser support31). Web-crawler development, web 
+scraping tool (content), data aggregation, visualization (content, design, organization), and policy 
+database search functionality and filtering (organization), and embedding the platform (i.e., our 
+host website; design, organization, user-friendliness) will also be completed during step 1.  
+During optimization and evaluation, accessibility will be integrated into front-end design and 
+testing to ensure the platform is usable by diverse stakeholders, including people with disabilities 
+and varying levels of digital literacy. The interface will be evaluated against Web Content 
+Accessibility Guidelines (WCAG) 2.2, including keyboard navigation, meaningful headings and 
+labels, sufficient color contrast, and error prevention and recovery patterns.32 Accessibility issues 
+will be tracked as part of quality assurance so that improvements are measurable and sustained 
+across releases. Additionally, all web collection activities will follow an ethics- and compliance-
+informed protocol tailored to social science research. The crawler will implement explicit rate 
+limiting, exponential backoff, and operational safeguards to minimize load and reduce the 
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+likelihood of access disruption. The protocol will include systematic documentation of source 
+constraints (including terms of service and redistribution limitations where applicable), and 
+internal checks to avoid collection of personal data unless explicitly required and ethically 
+justified. This approach reflects evidence-informed guidance for legally and ethically responsible 
+web scraping and the role that platform governance (including terms of service) plays in 
+regulating data collection methods.33,34 
+CivicInquire Platform Knowledge User Group Review (Step 2): Once the reviewed and 
+updated prototype website has met the global quality evaluation and features a working database 
+of policies and with associated knowledge mobilization (KMb) tools, our team and collaborators 
+will share the platform via our networks (e.g., FCI community partners) to encourage 
+researchers, advocates (N=50), planners, health practitioners,  municipalities (N=>100) across 
+Canada to use the platform and provide feedback. Access to the platform’s policy database, 
+infographics, data visuals (e.g., comparative radar charts), and mapping tools (e.g., choropleth 
+maps showing spatial variation in policy intensity) will be provided to all user groups to solicit 
+feedback that will be collected and analyzed alongside the global evaluation framework and used 
+to further update the platform prior to the ensuing objectives (i.e., O2 and O3).  
+2.2 CivicInquire Homelessness Policy Intensity Review (O2: Jan/27-Aug/27): To build the 
+credibility of the platform as a source of information (from O1), we will complete a policy 
+intensity analysis and publish results on CivicInquire. Quantitative policy analyses can allow 
+municipalities to monitor policy effectiveness and improve systems.35 Relative to manual 
+methods, machine learning (ML)-assisted policy analysis have been found to be more efficient 
+and objective.36 O2 will develop a ML algorithm to conduct an evaluation of “policy intensity,” 
+which is a core determinant of policy effectiveness and can serve as a foundation for policy 
+impact evaluation. Policy intensity indicates the extent of regulatory intervention in a specific 
+policy area, assessing the extent to which policies are enforced (highly relevant to homelessness 
+policies). High policy intensity is achieved when a policy is specialized and has detailed 
+measures. Policy intensity is considered a continuous indicator, providing insights into policies 
+and enabling policymakers to make necessary adjustments for more effective goal attainment, an 
+important functionality to assess progress on addressing homelessness.36 NPA Minaker and Co-
+As Chen, Miranda, Mazumder, Layton, and Butt will supervise two upper-year Math students 
+with ML expertise during O2.  
+Policy intensity is a framework35, that that weighs complex policy instruments according 
+to criteria (e.g., measurable policy targets, budgets, clear objectives and timelines, policy 
+monitoring35–39). We will work with partners from three diverse municipal contexts engaged in 
+homelessness prevention and action to ensure we capture relevant criteria in the development of 
+the policy intensity ML algorithm for municipalities across Canada: the Toronto Shelter Network 
+(large metropolitan city) and the Region of Waterloo Community Services (mid-sized and rural 
+municipalities). We are also working with the City of Iqaluit on a number of projects and look 
+forward to engaging them in this process (remote, northern communities – partnership pending). 
+Our team will apply an intersectional lens40 to the ML algorithm to examine the extent to which 
+and how policies address diverse components of homelessness policy (e.g., sex/gender). 
+Responsible AI documentation will be produced for both specific data and large language policy 
+models. The curated corpus will be accompanied by a structured dataset datasheet describing 
+policy or strategy objective motivation, composition, collection processes, recommended uses, 
+and limitations.41 Each model will include a model card documenting, for each web-crawled 
+policy or strategy, the stated objective(s), evaluation procedure(s), performance by relevant 
+subgroups, and known risks or failure modes, supporting transparent communication to partners 
+and decision-makers and reducing the risk of misuse in contexts for which the model is not well 
+suited.42 
+Policy Data Collection and Aggregation (Step 1): Using our prototype platform hosted on 
+www.civicinquire.com and our developed web-scraping tool (run by beautifulsoup4 in Python), 
+we will collect and aggregate publicly available homeless/housing policy and strategy data (e.g., 
+from municipal websites, legal databases, regulatory repositories [e.g., by-laws, housing 
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+strategies related to homelessness]) from 2000-2026 from municipalities (N=3,573) and 
+provincial/territorial governments (N=13) across Canada. Based on our pilot work, we estimate 
+retrieving at least 1000 relevant municipal documents. Policies will subsequently be categorized 
+by title (specialized [e.g., “Homelessness Reduction Plan”] or comprehensive [e.g., “Urban 
+Development Strategy”]), by document type (based on legal status - legislation, municipal 
+regulations) and by theme (e.g., emergency shelters, transitional housing, services).   
+Policy Intensity Structure and Machine Learning Integration (Step 2): The policy intensity 
+dimensions will be co-created with our partners who have extensive knowledge and experience 
+related to homelessness in Canada. Intensity dimensions (e.g., measurable targets) will first be 
+selected. Our team will then create scoring metrics specifically for the: i) policy title (using a 
+regular expression algorithm, keywords related to homelessness and affordable housing will be 
+identified; titles with certain terms will receive higher intensity scores), ii) document type (scores 
+based on the types of the document [e.g., laws, guidelines]; higher scores assigned to legally 
+binding documents), iii) policy measures (ML tools will evaluate how detailed measures are 
+within a policy; documents with precise plans, timelines, and specific goals will receive higher 
+scores), iv) implementation (scores based on the extent to which a document details a 
+implementation plan; more detailed plans receive higher scores), and v) level of alignment 
+(municipal policies will be assessed for relevant provincial/territorial and federal 
+homelessness/housing strategy/policy links; more aligned policies receive higher scores). Next, 
+we will further integrate ML into the policy intensity process to assist with text processing, 
+scoring policy measures, and classifiers. During text processing, policy texts are cleaned by 
+removing irrelevant content; in this step, we will create an ML that will develop a homelessness-
+specific lexicon (e.g., “supportive housing”). Regarding policy measures, documents will be 
+scored using Latent Dirichlet Allocation (LDA)43 to extract key topics (e.g., housing, health, 
+shelters) and evaluate the specificity of measures. The LDA will provide a transparent baseline 
+for discovering recurring policy themes and their evolution over time.44  Where topic coherence 
+or interpretability is limited by short texts or technical language, transformer-based sentence 
+embeddings will be evaluated to support clustering and semantic retrieval that better reflects 
+policy meaning rather than surface word overlap.45 
+Finally, to train the model, we will use Extreme Gradient Boosting (XGBoost46), a powerful 
+classifier that combines several basic classifiers with varying weights into a strong classifier, and 
+outperforms other classifiers in policy intensity research.36 We will use common metrics, 
+including accuracy, precision, recall, and F1-score (the harmonic average of recall and precision) 
+to evaluate the performance36 of our classifier models. Interpretability will be integrated to 
+support trust, policy relevance, and error diagnosis. Feature attribution methods based on 
+Shapley values will be used to explain which inputs drive classification decisions, to identify 
+spurious signals (e.g., jurisdiction-specific boilerplate), and to inform targeted improvements to 
+both the codebook and the feature engineering strategy.47 
+Policy Intensity Calculation (Step 3): Last, we will calculate policy intensity by combining the 
+scores from the three dimensions, where: intensityt = ∑( typej × titlej × measurej), j=1. As policy 
+intensity is associated with policy impact in prior research,35–38 O2 activities will result in a large 
+and state-of-the-art dataset of policy intensity scores for homelessness policies in Canada.  
+2.3 Homelessness Policy Discourse Analysis (O3: Sep/27-Jun/28): To encourage 
+interdisciplinary research, create novel and relevant information for practitioners and policy-
+makers, an upper-year co-op Planning student with expertise in discourse analysis will work 
+under the supervision of NPA Minaker, and Co-As Glover and Buttazzoni. The aim of O3 will be 
+to examine how stakeholders discursively construct homelessness as a policy problem, assign 
+responsibility across sectors and scales, and define what constitutes ‘effective’ or ‘aligned’ policy 
+action. Here, O3 does not simply contextualize policy intensity scores; it reveals how 
+homelessness policy is interpreted, justified, and contested by actors operating within different 
+institutional and professional logics. 
+Recruitment and Eligibility (Step 1): Purposive sampling methods will be used to recruit an 
+information-rich48 multisectoral sample of stakeholders (n=~40) representing five sectors: 
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+municipal decision makers, planning or public health practitioners, advocates, scholars, and 
+developers. Eligible participants will be currently involved in addressing homelessness and/or 
+providing affordable housing in Canada. To discuss homelessness in rural/remote, mid-sized, and 
+metropolitan contexts, we will stratify recruitment through collaborator networks. 
+Data Collection (Step 2): We will conduct ~40 (~8 participants per sector: municipal decision 
+makers, planning and public health practitioners, advocates, scholars, and developers) 30–60-
+minute semi-structured virtual interviews with key stakeholders from across Canada. Semi-
+structured interviews allow for comparability across conversations (e.g., consistent framing 
+questions) and capturing specific insights in response to participant-specific probes.49 Our 
+interview guide will be informed by the results of O2. For example, framing questions will 
+inquire about the types of homelessness policies present in the respective communities of, or the 
+current state of sectoral knowledge germane to, participants; the extent to which local policies 
+align with provincial, territorial, federal policies and/or strategies that participants are familiar 
+with; and the participants’ perspectives of the different role(s) and responsibilities of diverse 
+sectors in contributing to effective, evidence-based, and aligned homelessness policies.  
+Data Analysis (Step 3): After the interviews, our analysis will be guided by intersectional 
+theory40 to conduct a critical discourse analysis (i.e., analyzing role(s) of discourse in the 
+(re)production and challenge of social power via institutions/elites/groups that result in 
+disparities).50 Our discourse analysis will aim to systematically and comparatively investigate51  
+the distinct ways stakeholders from multiple sectors: i) understand homelessness in their 
+jurisdiction and sector, and the primary contributing policy factors that have created, maintained, 
+and/or exacerbated or reduced the conditions (e.g., social, political, economic) contributing to 
+priority contemporary homelessness/housing issues; ii) express shared assumptions (implicit, 
+explicit) about the roles and responsibilities of their sector’s professional beliefs and practices 
+with respect to current policy gaps/limitations (esp. intersectional topics e.g., mental health); and 
+iii) propose actions and initiatives to promote aligned effective policy to end homelessness. 
+Findings will be compared to the results of O2 (quantitative policy intensity analysis) to examine 
+how current municipal, provincial, and federal homelessness policy in Canada is perceived by 
+key stakeholders across housing/homelessness fields to create structures and systems that affect 
+action51 on ending chronic homelessness across Canadian communities. Comparative analysis 
+will examine points of convergence and divergence between measured policy intensity and 
+stakeholder interpretations of policy alignment to reveal where technical robustness and 
+perceived effectiveness diverge. 
+3 Social Science Impacts: CivicInquire will be a free-to-use platform available to users from all 
+relevant fields across Canada. The Future Cities Institute (FCI) at the University of Waterloo is 
+committed to maintaining and updating the platform and its developed resources on an ongoing 
+basis. The FCI will promote the use of the CivicInquire platform among homelessness advocates, 
+practitioners, policymakers, and researchers to improve the study of homelessness in Canadian 
+communities, encourage the formation of multisectoral teams addressing local practice and 
+policy deficiencies, and enhance public discussion and knowledge pertaining to this issue. 
+Objective 1 will take several steps to establish the foundational research, data visualization, and 
+KMb infrastructure required to make homelessness policy accessible, searchable, and usable to 
+multisector audiences and improve homelessness governance practice and research. The policy 
+intensity review findings of O2 will provide a novel quantification of homelessness policy 
+alignment in reference to multiple intersectional considerations across Canadian cities of varied 
+sizes. Objective 2 will therefore produce a novel example of translating policy intensity from a 
+theoretical frame into a measurable construct for homelessness policy in Canada, consequently 
+providing social scientists new information to analyze policy variation, alignment, and 
+institutional commitment pertaining to homelessness. Lastly, the critical policy discourse 
+findings of O3 will situate the quantitative policy intensity findings of O2 within the lived policy 
+interpretations of stakeholders with academic, advocacy, municipal, and practitioner 
+backgrounds to illuminate the different ways in which government, development, and political 
+actors understand, justify, and enact homelessness policy in their professional fields. 
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+Figure 1. Project TIMELINES by Objective (July 2026 to June 2028) 
+ 
+The primary activities of this project will proceed as follows:  
+ 
+ 
+ 
+Objective 1: CivicInquire Development, Testing, and Optimization (Sept-Dec 2026) 
+• Step 1: CivicInquire Platform Performance Testing, Launch (Sept-Oct 2026) 
+• Step 2: CivicInquire Platform Knowledge User Group Review (Oct-Dec 2026)  
+ 
+ 
+Objective 2: CivicInquire Homelessness Policy Intensity Review (Jan-Aug 2027) 
+• Step 1: Policy Data Collection and Aggregation (Jan-Apr 2027) 
+• Step 2: Policy Intensity Structure and Machine Learning Integration (Apr-Jun 2027) 
+• Step 3: Policy Intensity Calculation (Jun-Aug 2027) 
+ 
+ 
+Objective 3: Homelessness Policy Discourse Analysis (Sep 2027 – Mar 2028) 
+• Step 1: Ethics Application Process, Recruitment (Sep-Oct 2027) 
+• Step 2: Data Collection and Analysis (Oct-Dec 2027) 
+• Manuscript Writing and Development of Knowledge Mobilization Materials (Dec 2027 – 
+Mar 2028) 
+ 
+ 
+Knowledge Mobilization Activities 
+• Conference presentations (Mar-Jun 2028) 
+• Refining Knowledge Mobilization Materials (Mar-Jun 2028) 
+ 
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+LIST OF REFERENCES 
+1. Statistics Canada. Homelessness: How does it happen? December 6, 2023. Accessed 
+September 17, 2024. https://www.statcan.gc.ca/o1/en/plus/5170-homelessness-how-does-it-
+happen 
+2. Government of Canada. A review of Canadian homelessness data, 2023. June 16, 2023. 
+Accessed September 16, 2024. 
+https://www150.statcan.gc.ca/n1/pub/75f0002m/75f0002m2023004-eng.htm 
+3. Government of Canada. Everyone Counts 2020-2022 – Results from the Third Nationally 
+Coordinated Point-in-Time Counts of Homelessness in Canada. December 20, 2023. Accessed 
+September 17, 2024. https://housing-infrastructure.canada.ca/homelessness-sans-abri/reports-
+rapports/pit-counts-dp-2020-2022-results-resultats-eng.html 
+4. Gaetz S, Gulliver T, Richter T. The State of Homelessness in Canada 2014. Canadian 
+Homelessness Research Network; 2014. Accessed September 17, 2024. 
+https://yorkspace.library.yorku.ca/bitstream/10315/29368/1/SOHC2014.pdf 
+5. ResearchCo.ca. Seven-in-Ten Canadians See Homelessness as a Growing Problem. March 18, 
+2024. Accessed June 9, 2025. https://researchco.ca/2024/03/18/homelessness-canada/ 
+6. Guirguis-Younger M, Hwang SW, McNeil R. Homelessness & Health in Canada. University 
+of Ottawa Press / Les Presses de l’Université d’Ottawa; 2014. doi:10.26530/OAPEN_515362 
+7. Fornaro M, Dragioti E, De Prisco M, et al. Homelessness and health-related outcomes: an 
+umbrella review of observational studies and randomized controlled trials. BMC Medicine. 
+2022;20(1):224. doi:10.1186/s12916-022-02423-z 
+8. Mitchell E, Waring T, Ahern E, O’Donovan D, O’Reilly D, Bradley DT. Predictors and 
+consequences of homelessness in whole-population observational studies that used 
+administrative data: a systematic review. BMC Public Health. 2023;23(1):1610. 
+doi:10.1186/s12889-023-16503-z 
+9. HomelessHub. The Cost of Inaction: Healthcare Expenses Associated with Homelessness in 
+Toronto. October 17, 2024. Accessed June 9, 2025. https://homelesshub.ca/blog/2024/the-
+cost-of-inaction-healthcare-expenses-associated-with-homelessness-in-toronto/ 
+10. Government of Canada. National Housing Strategy Act. September 20, 2024. Accessed 
+September 18, 2024. https://laws-lois.justice.gc.ca/eng/acts/n-11.2/FullText.html 
+11. Canadian Human Rights Commission. About the National Housing Strategy Act. May 3, 
+2022. Accessed September 18, 2024. https://www.housingchrc.ca/en/about-act/about-national-
+housing-strategy-act 
+12. Segel-Brown B. Federal Spending to Address Homelessness. Office of the Parliamentary 
+Budget Officer; 2024. Accessed September 18, 2024. https://www.pbo-
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+dpb.ca/en/publications/RP-2425-005-S--federal-spending-address-homelessness--depenses-
+federales-matiere-itinerance 
+13. Manitoba Housing and Renewal Corporation. Three Year Action Plan. Published online 
+2025. 
+14. Province of New Brunswick. NB Housing Strategy: Housing for All. Published online 
+2025. Accessed June 9, 2025. 
+https://www2.gnb.ca/content/dam/gnb/Corporate/Promo/housing-habitation/housing-for-
+all.pdf#page=8.22 
+15. City of New Westminster. City of New Westminster Affordable Housing Strategy 
+Framework for the Future. Published online 2010. Accessed June 9, 2025. 
+https://www.newwestcity.ca/database/rte/126941.PDF 
+16. City of Saskatoon. Attainable Housing Strategy and Resources. 2025. Accessed June 9, 
+2025. https://www.saskatoon.ca/services-residents/housing-property/attainable-
+housing/attainable-housing-strategy-and-resources 
+17. City of Vancouver. Housing Vancouver Strategy. 2024. Accessed June 9, 2025. 
+https://vancouver.ca/people-programs/housing-vancouver-strategy.aspx 
+18. Calgary Homeless Foundation. Causes of Homelessness. Calgary Homeless Foundation. 
+Accessed June 9, 2025. https://www.calgaryhomeless.com/discover-learn/learn-about-
+homelessness/homelessness-in-calgary/causes/ 
+19. Canadian Centre for Housing Rights. Canada is failing to tackle its housing and 
+homelessness crisis, and the international community is watching. March 27, 2024. Accessed 
+June 9, 2025. https://housingrightscanada.com/canada-is-failing-to-tackle-its-housing-and-
+homelessness-crisis-and-the-international-community-is-watching/ 
+20. Gaetz S, Dej E. A New Direction: A Framework for Homelessness Prevention. Canadian 
+Observatory on Homelessness Press; 2017. 
+21. Government of Canada. Final report of the Advisory Committee on Homelessness. 2022. 
+Accessed June 9, 2025. https://housing-infrastructure.canada.ca/homelessness-sans-
+abri/reports-rapports/advisory-com-consultatif-eng.html#fn2 
+22. Laird G. Homelessness in a Growth Economy: Canada’ s 21st Century Paradox A Report 
+for the Sheldon Chumir Foundation for Ethics in Leadership. Sheldon Chumir Foundation for 
+Ethics in Leadership; 2007. 
+23. Rittel HW, Webber MM. Dilemmas in a General Theory of Planning. Policy sciences. 
+1973;4(2):155-169. 
+24. Gaetz S, Barr C, Friesen A, et al. Canadian Definition of Homelessness. Canadian 
+Observatory on Homelessness Press; 2012. Accessed September 17, 2024. 
+www.homelesshub.ca/homelessdefinition 
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+25. Fowler PJ, Hovmand PS, Marcal KE, Das S. Solving Homelessness from a Complex 
+Systems Perspective: Insights for Prevention Responses. Annual Review of Public Health. 
+2019;40(V olume 40, 2019):465-486. doi:10.1146/annurev-publhealth-040617-013553 
+26. Armbrust M, Ghodsi A, Xin R, Zaharia M. Lakehouse: a new generation of open 
+platforms that unify data warehousing and advanced analytics. In: Proceedings of CIDR. V ol 
+8. 2021:28. Accessed January 18, 2026. 
+https://15721.courses.cs.cmu.edu/spring2023/papers/02-modern/armbrust-cidr21.pdf 
+27. W3C. PROV-DM: The PROV Data Model (W3C Recommendation). Accessed January 
+18, 2026. https://www.w3.org/TR/prov-dm/ 
+28. Hasan L, Abuelrub E. Assessing the quality of web sites. Applied Computing and 
+Informatics. 2011;9(1):11-29. doi:10.1016/j.aci.2009.03.001 
+29. Mich L, Franch M, Gaio L. Evaluating and designing Web site quality. IEEE MultiMedia. 
+2003;10(1):34-43. doi:10.1109/MMUL.2003.1167920 
+30. Yoo S, Jin J. Evaluation of the Home Page of the Top 100 University Websites. Allied 
+Academies International Conference Academy of Information and Management Sciences 
+Proceedings. 2004;8(2):57-60. 
+31. Gledec G. Evaluating web site quality. In: Seventh Internet Users Conference 
+(CUC2005), Croatia. 2005. Accessed June 9, 2025. 
+https://cuc.carnet.hr/2005/program/presentations/b1_gledec.pdf 
+32. W3C. Web Content Accessibility Guidelines (WCAG) 2.2. 2023. Accessed January 17, 
+2026. (W3C Recommendation). https://www.w3.org/TR/WCAG22/ 
+33. Brown MA, Gruen A, Maldoff G, Messing S, Sanderson Z, Zimmer M. Web scraping for 
+research: Legal, ethical, institutional, and scientific considerations. Big Data & Society. 
+2025;12(4):20539517251381686. doi:10.1177/20539517251381686 
+34. Fiesler C, Beard N, Keegan BC. No robots, spiders, or scrapers: Legal and ethical 
+regulation of data collection methods in social media terms of service. In: Proceedings of the 
+International AAAI Conference on Web and Social Media. V ol 14. 2020:187-196. Accessed 
+January 20, 2026. https://ojs.aaai.org/index.php/icwsm/article/view/7290 
+35. Zhang G, Gao Y , Li J, Su B, Chen Z, Lin W. China’s environmental policy intensity for 
+1978–2019. Scientific Data. 2022;9(1):75. 
+36. Xie S, Xiong H, Shang L, Bao Y . Machine Learning-Facilitated Policy Intensity Analysis: 
+A Proposed Procedure and Its Application. Social Indicators Research. Published online 
+2024:1-24. 
+37. Schmidt TS, Sewerin S. Measuring the temporal dynamics of policy mixes–An empirical 
+analysis of renewable energy policy mixes’ balance and design features in nine countries. 
+Research Policy. 2019;48(10):103557. 
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED
+
+38. Clinton JD, Lapinski JS. Measuring Legislative Accomplishment, 1877–1994. American 
+J Political Sci. 2006;50(1):232-249. doi:10.1111/j.1540-5907.2006.00181.x 
+39. Dong X, Wang C, Zhang F, Zhang H, Xia C. China’s low-carbon policy intensity dataset 
+from national- to prefecture-level over 2007–2022. Sci Data. 2024;11(1):213. 
+doi:10.1038/s41597-024-03033-5 
+40. Ghasemi E, Majdzadeh R, Rajabi F, et al. “Applying Intersectionality in designing and 
+implementing health interventions: a scoping review.” BMC Public Health. 2021;21(1):1407. 
+doi:10.1186/s12889-021-11449-6 
+41. Gebru T, Morgenstern J, Vecchione B, et al. Datasheets for datasets. Commun ACM. 
+2021;64(12):86-92. doi:10.1145/3458723 
+42. Mitchell M, Wu S, Zaldivar A, et al. Model Cards for Model Reporting. In: Proceedings 
+of the Conference on Fairness, Accountability, and Transparency. ACM; 2019:220-229. 
+doi:10.1145/3287560.3287596 
+43. Moody CE. Mixing Dirichlet Topic Models and Word Embeddings to Make lda2vec. 
+arXiv. Preprint posted online May 6, 2016. Accessed September 25, 2024. 
+http://arxiv.org/abs/1605.02019 
+44. Blei DM, Ng AY , Jordan MI. Latent dirichlet allocation. Journal of machine Learning 
+research. 2003;3(Jan):993-1022. 
+45. Reimers N, Gurevych I. Sentence-BERT: Sentence Embeddings using Siamese BERT-
+Networks. arXiv. Preprint posted online August 27, 2019. doi:10.48550/arXiv.1908.10084 
+46. Friedman JH. Greedy function approximation: a gradient boosting machine. Annals of 
+statistics. Published online 2001:1189-1232. 
+47. Lundberg SM, Lee SI. A unified approach to interpreting model predictions. Advances in 
+neural information processing systems. 2017;30. Accessed January 18, 2026. 
+https://proceedings.neurips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-
+Abstract.html 
+48. Patton MQ. Qualitative Evaluation and Research Methods, 2nd Ed. Sage Publications, 
+Inc; 1990:532. 
+49. Axinn W, Pearce L. Mixed Method Data Collection Strategies. Cambridge University 
+Press; 2006. 
+50. Van Dijk TA. Principles of critical discourse analysis. Discourse & society. 
+1993;4(2):249-283. 
+51. Hodges BD, Kuper A, Reeves S. Discourse analysis. BMJ. 2008;337(aug07 3):a879-
+a879. doi:10.1136/bmj.a879 
+Personal information will be stored in the Personal Information Bank for the appropriate program.
+PROTECTED B WHEN COMPLETED

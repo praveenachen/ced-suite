@@ -1,0 +1,500 @@
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Acting Locally, Leading Globally with Build Now: An 
+interdisciplinary, collaborative research and training 
+program focused on affordable housing innovation in 
+Waterloo Region 
+ 
+Draft Prepared by Leia Minaker 
+April 21, 2025
+
+2 
+ 
+Executive Summary:  
+Background: Canada faces a growing housing affordability crisis. Average home prices have 
+surged 77% in a decade, now exceeding $710,000—far outpacing median incomes and locking 
+many younger Canadians out of ownership. This erosion of generational equity has even been 
+flagged by the RCMP as a national security concern. The crisis is driven by multiple factors, 
+including rapid population growth, limited land and housing supply, regulatory constraints, and 
+rising construction costs exacerbated by labour shortages. 
+Despite the long-term benefits of home ownership—financial security, social mobility, 
+health, and well-being—Canadian housing policy remains focused primarily on rentals. 
+Meanwhile, housing development has major environmental consequences, from habitat loss and 
+emissions during construction to long-term transportation impacts. 
+Pitch: Addressing the challenge of creating affordable, suitable, and sustainable home ownership 
+in Canada requires a fundamental shift in how we think about and build housing. The Future Cities 
+Institute proposes a world-class Living Lab in Waterloo Region to advance a transformational 
+affordable housing model. This initiative leverages the Build Now Waterloo Region initiative, a 
+$500-million initiative led by Habitat for Humanity to build 10,000 new “missing middle” homes—
+70% for ownership—by 2030.  
+Through interdisciplinary research, experiential learning, and local and international 
+partnerships, the Build Now Living Lab will assess and amplify the economic, health, 
+sustainability, technological and societal impacts of community-led housing — creating local 
+solutions with global relevance. 
+Global Futures Funds will leverage at least $500,000 in external funding to support 
+research, training, and partnership development. Research activities include the Global Futures 
+Seed Funding competitions and FCI Postdoctoral research pilot funds. Training activities include 
+future cities capstones, CIVIC co-op positions, and Build Now Innovation Challenges. Finally, 
+service and partnership development activities include City Sprints, and Capacity Development 
+through the European Network of Living Labs (ENoLL).  
+Currently, over 40 faculty members from all six Faculties are participating in our proposal. External 
+partners include local (e.g., the Waterloo Region Community Foundation, the Build Now team), 
+and international experts (e.g., ENoLL).  
+The Build Now Living Lab directly addresses a nationally urgent, socially complex challenge 
+with the potential for real and lasting impact. It proposes a novel model of interdisciplinary, data-
+informed, and community-embedded research within a large-scale real-world development. It 
+brings together academia, civil society, industry, and government in a true partnership, positioning 
+our Region as a global leader in housing innovation. The Living Lab will provide the evidence, tools, 
+and scalable models needed to fundamentally reshape how communities are built—transforming 
+housing from a source of crisis to a platform for prosperity, well-being, and sustainability.
+
+3 
+ 
+VISION: The Future Cities Institute envisions a world-class Living Lab in Waterloo Region that 
+advances a new model of attainable and affordable housing. Through interdisciplinary research 
+and training, collaborative “Quadruple Helix” partnerships, and data-driven urban decision-
+making, the Living Lab will assess and amplify the economic, health, sustainability, technological 
+and societal impacts of community-led housing — creating local solutions with global relevance. 
+ 
+LIVING LABS: Living Labs are real-world research and innovation environments where end-
+users are active participants in co-creating and testing solutions to the world’s most pressing 
+issues. Living Labs foster innovation among main actors in the Quadruple Helix Model: citizens, 
+government, academia, and industry. As a core principle, our Living Lab is committed to open 
+data, knowledge mobilization, experiential learning opportunities for students, authentic 
+community partnerships and democratization of the tools and recommendations we generate.  
+CONTEXT: Build Now Waterloo Region is a community-led housing initiative that plans to build 
+10,000 new “missing middle” homes in Waterloo Region, Ontario by 2030 (70% ownership, 30% 
+rental). Home ownership has been one of the most important wealth building and economic 
+prosperity engines for families in North America for decades. However, in the past decade, home 
+ownership has become out of reach for many young Canadians, and represents a national 
+security threat, according to the RCMP . However, to date, attempts to create affordable home 
+ownership opportunities have been limited to small developments led by Habitat for Humanity. 
+Affordable housing projects in Canada are overwhelmingly focused on rentals, which do not 
+confer the same economic or health and well-being related benefits as home ownership. Build 
+Now is led by Habitat for Humanity but represents a strong coalition between two local 
+developers, a local construction association, the municipalities, a local housing cooperative, and 
+the Future Cities Institute. To date, the team has two parcels of land entrusted by Kitchener and 
+Waterloo and they are actively seeking other municipal partnerships for additional parcels. The 
+first parcel on which they will build over 1000 units of housing is a 25-acre/$20 million parcel in 
+north Waterloo, with the first 50 units needing to be approved and permitted by December 2025. 
+They have not yet broken ground.  
+No urban problem is unique. Problems facing the Region of 
+Waterloo are facing Canadian communities from Vancouver to St. 
+John’s, and from Windsor to Iqaluit. Although we are using Build Now 
+as a case study in this proposal, findings will have relevance to all 
+cities in Canada. The FCI is deeply committed to knowledge 
+mobilization, and will create a repository of open access reports, tools, 
+and recommendations accessible for all Canadian communities.
+
+4 
+ 
+ALIGNMENT WITH ENVIRONMENT 2035: 
+1. How does the initiative outlined in your LOI contribute to Environment 2035 and/or 
+Environment’s role in Global Futures Networks? 
+By co-creating affordable housing solutions with Habitat for Humanity, we aim to: 
+• Accelerate innovation in urban sustainability and climate adaptation  
+• Strengthen research connections both within ENV and with other faculties 
+• Train the next generation of interdisciplinary leaders 
+• Showcase solutions that are scalable across municipalities  
+• Foster strong, transparent partnerships between academia, industry, and community 
+ 
+In terms of alignment with Environment 2035, the following are examples of how this project 
+aligns with each of the four priority areas.  
+1. Climate Change Adaptation and Mitigation 
+• Heat and flood risk mitigation 
+• Climate-resilient design and natural infrastructure 
+• Renewable energy integration 
+2. Cities of the Future 
+• Housing innovation 
+• Livability and inclusive urban design 
+• Smart, sustainable infrastructure and digital planning 
+3. Natural Resources and Environment 
+• Urban biodiversity and water management 
+• Green and blue infrastructure in residential developments 
+• Land use for resilience and sustainability 
+4. Sustainable Transitions: Energy and Finance 
+• Green infrastructure financing models 
+• Business models and economic assessment for municipal sustainability investments 
+• Distributed energy load interventions in residential settings 
+ 
+2. What resources/supports (if any) do you anticipate needing from the Faculty of 
+Environment should your project move ahead? 
+None beyond what the Faculty is already doing to support the Future Cities Institute.
+
+5 
+ 
+INNOVATION: Build Now represents a $500 million investment in our Region that is moving 
+quickly. Table 1 describes housing innovations unique to the Build Now initiative within the realm 
+of affordable housing projects in North America.  
+Table 1. Build Now innovation compared to standard practice for affordable housing projects  
+ Standard Practice Build Now  
+Affordable 
+housing focus 
+Rentals Predominantly ownership (70% of 
+units) 
+Initiative 
+partners 
+Governments, social enterprises 
+or not-for-profits 
+Developers, governments, social 
+enterprises and not-for-profits, 
+construction association, and 
+academia 
+Trust Lack of trust between 
+municipalities/not-for-profits and 
+for-profit developers 
+Building trust between all partners 
+has been a key component of the 
+work to date 
+Procurement Municipality-led affordable 
+housing projects require 
+procurement practices that result 
+in a cost of development for well 
+above market prices.  
+Opening the procurement pipeline 
+through partnership with the 
+Grand Valley Construction 
+Association means that cost of 
+development can be procured for 
+fair market prices.  
+ 
+Figure 1 shows the conceptual site plan presented to the City of Waterloo for the 25 acre parcel. 
+Buildings range from stacked townhomes to 12 storey buildings, with greenspace and “plaza” or 
+“public square” space prioritized.  
+ 
+Figure 1. Conceptual Site Plan for Build Now 25-acre build (1010 units at 2025 University Ave. E)
+
+6 
+ 
+BUDGET 
+Global Futures Funding will leverage over $500,000 in external funding. The team is also submitting an NFRF Transformation 
+proposal in the amount of approximately $20 million, and will be actively pursuing NSERC, CIHR and SSHRC funding over the 
+next five years, as well as other governmental and industry sponsored research aligned with the project.   
+Table 2: Budget  
+CATEGORY  TOTAL PROJECT 
+BUDGET  
+GFF Request 
+Year 1 
+(2024-2025) 
+GFF Request 
+Year 2 
+(2025-2026) 
+GFF  Request 
+Year 3 
+(2026-2027) 
+FUNDED BY 
+OTHERS 
+RESEARCH            
+GFN  Coordinator  $275,436.00 $90,000.00 $91,800.00 $93,636.00 $0.00 
+Global Futures Seed Funds  $990,000.00 $90,000.00 $90,000.00 $90,000.00 $60,000.00 
+TRAINING                                                                                                                  
+Interdisciplinary Capstone PLUS 
+Projects  $150,000.00 $25,000.00 $25,000.00 $25,000.00 $75,000.00 
+CIVIC $302,400.00 $10,800.00 $10,800.00 $10,800.00 $270,000.00 
+Build Now Innovation Challenge  $126,000.00 $25,000.00 $25,000.00 $25,000.00 $51,000.00 
+Build Now Problem Lab  $30,000.00 $0.00 $0.00 $0.00 $30,000.00 
+SERVICES AND PARTNERSHIP 
+DEVELOPMENT                                                                                                                   
+City Sprints  $45,000.00 $5,000.00 $5,000.00 $5,000.00 $30,000.00 
+European Network of Living Labs 
+(ENoLL) In-Person Supports  $6,600.00 $4,200.00 $2,400.00     
+TOTAL $1,265,436.00 $250,000.00 $250,000.00 $249,436.00 $516,000.00
+
+7 
+ 
+GFN Coordinator (Coordinator). The Coordinator, working at the FCI and reporting to 
+the Managing Director, provides overall coordination to the research, training and service 
+activities described below. The Coordinator will be a USG 8, and would be a net new staff 
+member to the FCI (contingent on funding). The Coordinator will have experience in 
+coordinating large interdisciplinary research teams with large budgets. (~$90,000/year) 
+Research 
+Global Futures Seed Funds. FCI will coordinate seed funding for interdisciplinary project 
+ideas aligned with Build Now activities. To obtain funding, research projects must be based 
+on questions that have been co-created with Build Now and/or other external community 
+partners. Each research team must include at least two faculty members from different 
+faculties, and must include a Build Now team member or community member. Eligible 
+proposals will include applied research that directly addresses issues of importance to 
+external partners.   
+We are allocating $15,000 per year for each of the five global futures plus the Emerging 
+Opportunities Team. ($90,000/year) 
+Training 
+Interdisciplinary Capstone Plus (i-Cap+). The FCI helped coordinate the University’s first 
+fully interdisciplinary capstones that included approximately 120 students from all six 
+faculties, with the theme of Future Cities. The FCI leveraged its relationships with 
+municipalities, industry and NGO partners to elicit project ideas, which were presented to 
+students. The Provost’s Interdisciplinary Funding was awarded to Dean Wells for 
+2024/2025 and 2025/2026 to establish and set up processes for the i-Cap. $37,500 per 
+year of the budget was allocated to the FCI, which paid for existing staff time to a) engage in 
+business development with municipal, industry and civil-society partners to submit project 
+ideas; b) organize the launch and the final i-Cap event; c) coordinate meetings between 
+external partners and student groups.  
+In 2025/2026 and beyond, the FCI will build on the i-Cap success by undertaking the i-Cap 
+PLUS. Briefly, the i-Cap PLUS will coordinate Future Cities-related projects both for i-Cap 
+students but also for other capstone projects around the campus. For example, in 2025, 
+fourth year Urban Planning students had their standard 4-month capstone project, did not 
+participate in the Future Cities i-Cap. The FCI will seek to engage other capstone 
+instructors and students across the Faculties to engage in projects related to Build Now 
+and/or other future cities-related projects. ($25,000 per year)
+
+8 
+ 
+CIVIC Response Team. FCI recently launched the CIVIC initiative: City/Community 
+Innovation via Internships & Co-op. Industry partners and municipalities fund CIVIC 
+positions, and financial resources are matched via MITACS and other sources to maximize 
+value of external partner contributions. This collaborative framework benefits both the 
+partner and the broader research community. Between September 2024 and September 
+2025, the FCI will have hired 9 co-op students to support research projects driven by 
+external partners. As we continue to build our networks with municipalities, it is becoming 
+clearer that solid partnerships rely on our timely responses to city needs. Therefore, the FCI 
+is investing in a continuous stream of talented co-op students who can push projects 
+forward quickly.  
+The FCI will hire two senior-year co-op students per term to respond to research and 
+training needs identified by both internal and external partners. The co-op students each 
+term will be from different faculties, but they will work together on emerging issues to 
+increase their interdisciplinary training experience at Waterloo. The FCI will leverage 
+external partner funding (at $45,000/year), MITACS funding (at $45,000 per year) and Global 
+Futures Funds (at $11,000 per year) to cover the cost of six co-op students per year.  
+($11,000 per year). 
+Build Now Innovation Challenge. Over the course of two weeks, University of Waterloo 
+students will team up across disciplines to take on real-world challenges through the Build 
+Now Innovation Challenge. Focused on accelerating local housing solutions, this challenge 
+invites students to develop bold, creative ideas that tackle some of the most urgent issues 
+in housing and community development. The Innovation Challenge creates a fast-paced, 
+low-risk environment where students can apply classroom learning and cutting-edge 
+research to tangible, place-based problems. By working closely with municipal staff, 
+housing experts, and community partners, students receive rapid feedback and valuable 
+insights, learning how to turn their ideas into practical, scalable solutions. ($25,000 per 
+year) 
+Future Builders Tour: Exploring Circularity, Community & Construction. The Future 
+Builders Tour is an immersive, multi-stop experience designed to introduce students to 
+real-world affordable housing projects across Waterloo Region. Open to students from all 
+faculties with an interest in impact-driven community housing innovation, this annual 
+experience connects participants with three key sites: 
+• Habitat for Humanity ReStore (Waterloo) – Learn how circular economy principles 
+are applied through reclaimed materials, resale strategies, and community 
+programming.
+
+9 
+ 
+• Habitat for Humanity Build Sites (Cambridge/Kitchener/Waterloo) – Visit active 
+construction sites and see how accessible housing is being built with volunteers, 
+students, and sustainable materials. 
+• BUILD NOW Innovation Site (Waterloo) – Explore the frontlines of modular and net-
+zero housing innovation. Learn how rapid, scalable solutions are being developed to 
+address Canada's housing crisis. 
+This tour will be first piloted in Summer 2025 in partnership with the Engineering Ideas 
+Clinic’s Sustainability Fellowship, including participation from first year We Accelerate 
+students, international capstone students, and upper-year engineering students. After the 
+initial pilot, we would like to expand access and offer the Future Builders Tour to a broader 
+range of students through a recurring annual program. 
+Build Now Problem Lab. At the intersection of Training and Partnership Development, the 
+Problem Lab at the University of Waterloo will host two Build Now Problem Labs per year. 
+Students, external partners, and faculty will engage in three-hour workshops to more 
+deeply understand a particular problem related to affordable housing innovation. The 
+Problem Lab will provide in-kind contributions for the first Build Now problem lab ($5000 
+in-kind contribution), with our team raising external funds of $5000 per Problem Lab 
+thereafter.   
+Service and Partnership Development  
+City Sprints. City Sprints are an FCI initiative, adapted from Google Ventures’ Design Sprint 
+Methods, that bring together municipal, industry, and civil society partners to focus on 
+problem solving over a 1-2 day time frame. Participants are given reading materials and 
+problem statements in advance of the Sprint, and move through activities from Mapping 
+the Problem to Sketching Solutions, Storyboarding Solutions and Next Steps. The FCI will 
+co-host the meetings with the Waterloo Region Community Foundation, which will 
+contribute $10,000/year towards the organization and creation of work packages that result 
+from these workshops. ($5000 per year)  
+ENoLL Capacity Development. To set up our Living Lab, we will leverage the supports 
+provided by the European Network of Living Labs (ENoLL), a global leader in fostering user-
+centered, real-world innovation environments. We plan to participate in ENoLL’s capacity-
+building programs, including the Virtual Learning Lab and their foundational toolkits like the 
+Living Lab Handbook, to strengthen our team’s capabilities in co-creation and applied 
+research. Through ENoLL’s global network, we will access a vibrant community of Living 
+Labs, enabling knowledge exchange and potential collaboration on international projects. 
+ENoLL will guide our development from concept to implementation, ensuring our Living 
+Lab is both impactful and future-focused.
+
+10 
+ 
+Organization: This project will be led by five Global Futures Teams led by faculty from 
+across campus, plus one “Emerging Opportunities” Team. Given that housing is a critical 
+and urgent priority in Canada, the Emerging Opportunities Team will be responsible for 
+identifying and supporting pilot research and partnership development with municipalities 
+and organizations aligned with Build Now objectives.  
+University Constituents/Partners 
+Faculty members from all six Faculties are involved, as are both research stream faculty, 
+teaching stream faculty, and Associate Deans work-integrated learning. External to the 
+university, our local partners include government, industry, and civil society organizations. 
+Partners are described in Table 3.  
+Table 3. University team leads 
+Role Faculty Name 
+University of Waterloo – Research Leads 
+Lead – Health Futures Cluster Health Troy Glover 
+Lead – Technological Futures Cluster Math David Del Rey Fernandez 
+Lead – Sustainability Futures Cluster Environment Michael Drescher 
+Lead – Economic Futures Cluster Arts Anindya Sen 
+Lead – Societal Futures Environment Katherine Perrott 
+Lead – Emerging Opportunities Team Environment Leia Minaker 
+University of Waterloo – Training Leads 
+Co-Lead – Training Engineering Derek Rayside 
+Co-Lead – Training Environment Michael Wood 
+ 
+IMPACT: Natural experiments in city building are rare and precious opportunities. Unlike 
+simply observing change in one location over time, a longitudinal study with multiple 
+interventions (or land parcel developments) in diverse locations will allow our team to use 
+a rigorous study design (that allows us to approach causal attributions) to create world-
+class data on how health, economic outcomes, societal goods and policy, technology, and 
+sustainability change over time as more homes get built. 
+Habitat for Humanity has 50 active affiliates across Canada, serving almost 400 
+communities. This is a once-in-a-generation opportunity to come in at the ground floor and 
+measure everything that happens – relevant to all Global Futures – over time. Being the 
+academic partner on this first-of-its-kind home-building partnership between civil society, 
+government, and industry before the first shovel has broken ground allows for an 
+unprecedented, huge, collaborative research undertaking that will be interdisciplinary, 
+efficient (researchers can leverage the project to apply for additional funding), and globally
+
+11 
+ 
+relevant. FCI’s current partnerships with the Horizon Europe team and African cities mean 
+that we can share learnings and learn from global partners.  
+Global Futures Alignment 
+Aligned with Waterloo at 100, Waterloo has identified five Global Futures: Technological 
+futures, Economic futures, Societal futures, Health futures, and Sustainable futures. Each 
+of the Global Futures intersects with the others in complex ways. Table 1 shows how the 
+Build Now Living Labs either directly or indirectly align with the Global Futures.  
+Table 1. Direct and indirect alignment Build Now Living Lab Network and Global Futures 
+Global 
+Future 
+Build Now LL 
+Technological Futures 
+   Direct Tech innovations born and tested at Waterloo LL can be scaled up in Build Now 
+communities 
+   
+Indirect 
+Social acceptance of tech innovations tested over 10 years 
+Economic Futures 
+   Direct Cost and benefits of Build Now developments are rigorously evaluated 
+   
+Indirect 
+Impact of Build Now on Regional housing affordability; 10 year longitudinal study of 
+residents identifies multiple household economic outcomes  
+Societal Futures 
+   Direct Build Now negotiations with municipalities and trust building are carefully 
+documented, including changes to policy and new regulations  
+   
+Indirect 
+10 year longitudinal study of residents identifies multiple societal outcomes 
+associated with Build Now developments 
+Health Futures 
+   Direct 10 year longitudinal study of residents identifies multiple health outcomes associated 
+with Build Now development features (e.g., urban design, mixed land use, mobility) 
+   
+Indirect 
+Assessment of healthy built environment and transportation options 
+Sustainable Futures 
+   Direct Prototyping and testing community energy use and mobility interventions, sustainable 
+infrastructure, green and blue infrastructure in residential developments.  
+   
+Indirect 
+How are sustainability-related behaviors of residents tied to other pro-social 
+behaviors?
+
+12 
+ 
+Appendix A 
+ Global Futures | Waterloo at 100 
+ Health Economic Societal Technological  Sustainable 
+Phase 1 • Neighbourhood-level 
+measures 
+• Neighbourhood-level 
+measures 
+• Neighbourhood-level 
+measures 
+• Planning policy 
+assessment and 
+changes 
+• Neighbourhood-level 
+measures 
+• Sensors; land images; 
+soil quality? Water 
+quality? Air quality? 
+(other stuff to ask 
+Chris or others about) 
+• Biodiversity 
+Phase 2 • Noise pollution • Jobs created through 
+construction 
+• Construction worker 
+safety 
+ • New technology to 
+optimize concrete 
+usage 
+• Pipe-network sensors  
+• Sustainability 
+outcomes related to 
+housing construction 
+• Water quality 
+treatment (?) 
+• RISE scorecard? 
+• Infrastructure 
+Phase 3 • Baseline surveys of 
+residents with 
+residential history; 
+health history, etc.  
+  • Sensors to monitor all 
+other outcomes (e.g., 
+traffic,  
+• Ecological resilience 
+• Assess built/natural 
+environments   
+Phase 4 • Ongoing residential 
+surveys 
+• Aging in place 
+• Child health 
+• Mental health and 
+addictions – System 
+transformation work 
+• Return on investment 
+• Quantifying and 
+monetizing health 
+outcomes (Larry 
+Frank) 
+• Local GDP  
+• Business starts or 
+entrepreneurship  
+• Insurance (Jason T) 
+• Housing market 
+changes in cities 
+ 
+• Fertility 
+• Children’s 
+educational 
+attainment 
+• Political polarization 
+• Social inclusion 
+• Residential 
+satisfaction 
+• Planning policy 
+changes 
+• Culture and 
+entertainment 
+• Crime rates 
+• Using technology and 
+data for data-driven 
+decision making.  
+• Linking and modeling 
+complex data 
+• Effective feedback 
+loop to feed 
+information back to 
+city 
+• Transportation 
+modeling 
+• Biodiversity 
+• Change in energy, 
+water use over time

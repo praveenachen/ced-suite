@@ -1,0 +1,1054 @@
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 1 of 22 
+ 
+Mitacs BSI Application Template 
+Template version: 2025-11-26 
+ 
+ 
+Upon submitting your application, you are agreeing that Mitacs can post the title of your project, 
+the public project overview, the name of the partner organization (if applicable), the name of the 
+intern, the name of the academic supervisor, and the involved academic institution 
+on www.mitacs.ca/en/projects and this information may be used by Mitacs to publicize its 
+programs. Mitacs Privacy Policy can be found at www.mitacs.ca/en/privacy-policy. 
+ 
+ 
+ 
+Section 1: Project Overview 
+ 
+P-1.1 Title (255 characters max)  
+Note: This can be changed later 
+ 
+LAP Link: Optimizing the Leisure Access Program Application Process 
+ 
+ 
+P-1.2 Size of application 
+☒   Small (1-3 internships) 
+Expert review should take no more than 6 weeks for the majority of proposals. 
+Please plan for additional review time should revisions be requested. Your project 
+start date will only be confirmed once the proposal is approved, intern(s) identified, 
+and partner organization funds received at Mitacs.  
+☐   Medium (6-10 internships)  
+Expert review should take no more than 8 weeks for the majority of proposals. 
+Please plan for additional review time should revisions be requested. Your project 
+start date will only be confirmed once the proposal is approved, intern(s) identified, 
+and partner organization funds received at Mitacs. 
+ 
+ 
+P-1.3 Public Project Overview (100-200 words) 
+Using simplified language, please provide a general one-paragraph description of the proposed 
+project including the expected benefit to the partner organization. 
+ 
+The Leisure Access Program (LAP) supports low-income Edmontonians by providing access to 
+recreation and transit services. Currently, LAP program staff manually process over 44,000 
+applications every year to verify income and eligibility. This manual process has created a large and 
+growing backlog, meaning people are waiting too long to receive the support they need.  The “Lap 
+Link” project will automate much of this review process by developing intelligent systems that can 
+automatically verify income and check eligibility, similar to how online systems can instantly verify 
+information. By significantly reducing the amount of manual work required, this solution will help 
+the City of Edmonton process new applications and renewals much more efficiently, clear the
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 2 of 22 
+ 
+existing backlog, and ensure that eligible residents can access essential recreation and transit 
+services without unnecessary delays, while also reducing the workload pressure on staff. 
+ 
+ 
+P-1.4 Academic discipline 
+Please highlight the academic discipline (1 only) that most closely aligns with the project.  
+ 
+☐   Business  
+☒   Computer Science 
+☐   Earth Science 
+☐   Engineering 
+☐   Life Science 
+☐   Mathematical Science 
+☐   Physical Science 
+☐   Social Science, Arts and Humanities 
+ 
+ 
+P-1.5 Keywords to identify reviewers 
+Please specify five to ten keywords to help identify proper reviewers and to accelerate the review 
+process. Please provide both technically and/or conceptually related (50%) and discipline related 
+keywords (50%). 
+ 
+Conceptually/technically-related 
+keywords (50%) Discipline-related keywords (50%) 
+• Workflow optimization 
+• Automated application processing 
+• Backlog reduction 
+• Intelligent systems 
+• Digital transformation 
+• Data Science 
+• Machine Learning 
+• Operations Research 
+• Human Services 
+• Public Policy
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 3 of 22 
+ 
+Section 2: Academic Supervisor details 
+ 
+P-2.1a Academic Supervisor details 
+Please complete the following table for each academic supervisor included on the project (copy the 
+table as necessary). 
+ 
+ACADEMIC SUPERVISOR 
+FULL NAME 
+First name: Leia 
+Last name: Minaker 
+Email: lminaker@uwaterloo.ca 
+Re-type email: lminaker@uwaterloo.ca 
+Contact phone: 519-888-4567 
+Extension: 45615 
+Academic institution: University of Waterloo 
+Department: School of Planning 
+Address: 200 University Avenue West 
+City: Waterloo 
+Province: Ontario 
+Country: Canada 
+Postal code: N2L 3G1 
+ 
+ 
+P-2.1b  Academic Supervisor Policy on Sensitive Technology Research and Affiliations of 
+Concern Declaration 
+ 
+1. Are you currently affiliated with, or in receipt of funding or in-kind support from any of the 
+listed Named Research Organizations (NROs)? 
+☐  Yes  ☒ No 
+ 
+Any applicant who is currently affiliated with, or in receipt of funding or in-kind 
+support from one or more of the institutions on the list of NROs is not eligible to 
+participate in a Mitacs-funded project involving research that aims to advance 
+a Sensitive Technology Research Area (STRA). Mitacs will also screen a sample of 
+applications, selected at its sole discretion, and validate the accuracy of the 
+completed declarations. Mitacs reserves the right to decline funding, at any point, 
+for a project that advances a sensitive technology research area because of 
+affiliations of concern. 
+ 
+ 
+P-2.1c Academic supervisor CV 
+The academic supervisor must upload a CV/resume for any application that will involve 6 or more 
+internships. Please note by uploading your Resume/CV you are granting all participants in this 
+application and Mitacs staff access to this document.
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 4 of 22 
+ 
+Not required for this application. 
+ 
+ 
+ 
+Section 3: Partner Organization Information 
+ 
+P-3.1 Organizational Profile 
+Please complete the following table for each partner organization included on the project (copy the 
+table as necessary) 
+ 
+PARTNER ORGANIZATION 
+Organization Name (Primary contact) 
+Partner Contact Information 
+First name: Zehra Last name: Shah 
+Email: zehra.shah@edmonton.ca Re-type email: zehra.shah@edmonton.ca 
+Department: Data Science and Research 
+Contact phone: MISSING Extension: MISSING 
+Business Information 
+Legal Organization 
+Name: 
+City of Edmonton 
+Organization URL: www.edmonton.ca 
+Industry code 
+(NAICS): 
+913: Local, municipal and regional public administration 
+Legal Status:  
+(For Canadian 
+Organizations only) 
+☐ For Profit Canadian Corporation 
+☐   Not for Profit Canadian Corporation 
+☐   Crown Corporation 
+☒   Municipality 
+Organization Size: 
+(Number of 
+employees in 
+Canada) 
+☐ 1 – 49 
+☐   50 – 99 
+☐ 100 – 499 
+☐  500 – 999 
+☒ 1000+ 
+Address: 1 Sir Winston Churchill Square 
+City: Edmonton Province: AB 
+Country: Canada Postal code: T5J 2R7 
+Organizational Structure and Activities 
+Is the organization 
+incorporated? 
+☒ Yes 
+☐ No 
+ 
+If yes, please include the date (YYYY/MM/DD) of 
+incorporation: 
+1904-10-06 
+Is the organization a 
+parent company? 
+☐ Yes 
+☒ No 
+ 
+If yes, please describe (e.g., main subsidiaries, name of 
+the parent company/holding company, city and country 
+where the headquarters of the parent company/holding 
+company are located):  
+n/a
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 5 of 22 
+ 
+PARTNER ORGANIZATION 
+Organization Name (Primary contact) 
+Is the organization a 
+subsidiary company? 
+☐ Yes 
+☒ No 
+If yes, please describe (e.g., main subsidiaries, name of 
+the parent company/holding company, city and country 
+where the headquarters of the parent company/holding 
+company are located):  
+n/a 
+Does the 
+organization have an 
+R&D department in 
+Canada? 
+☐ Yes 
+☒ No 
+ 
+If yes, what is the exact number of research and 
+development (R&D) staff in Canada? 
+n/a 
+ 
+If no, is R&D conducted on the organization’s premises in 
+Canada? 
+No 
+Is this the first time 
+the partner has 
+collaborated with the 
+academic 
+institution? 
+☐ Yes 
+☒ No 
+ 
+Funds Declaration 
+Have the funds 
+committed by the 
+Organization been 
+leveraged against 
+other federal or 
+provincial programs? 
+☐ Yes 
+☐ No 
+ 
+If yes, Please contact your Mitacs Advisor before you 
+proceed with the application. 
+ 
+If yes, please identify the Program Name(s): 
+RESPONSE 
+ 
+If yes, please indicate the Total Program(s) Contribution: 
+RESPONSE 
+Invoicing Information 
+How often will the 
+partner organization 
+be invoiced? 
+☐ Every 4 months 
+☐ Annually 
+☒ Single payment 
+Net invoice term 
+(Days >=30) 
+30 days 
+Accounts payable 
+attention to: 
+ 
+ First name: Zehra 
+ Last name:
+  
+Shah 
+ Email: 
+  
+zehra.shah@edmonton.ca 
+ Phone: 
+  
+780-508-9527 
+ Extension:  
+Please describe any 
+applicable invoice 
+requirements: 
+n/a
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 6 of 22 
+ 
+Section 4: Project details 
+ 
+4.1  PROJECT DESCRIPTION 
+ 
+A-4.1a Background (What problem needs to be solved?) 
+Provide an overview and describe the main activities of the partner organization. Explain the 
+innovation challenge or improvement priority that the partner needs to solve. Specify how this 
+project will help the partner organization address those challenges in a way that goes beyond day-
+to-day business operations/activities. Describe what kind of expertise is required to solve the 
+problem. 
+ 
+Overview of partner organization  
+The City of Edmonton’s Data Science and Research Team (DSRT) acts as a central problem-solving 
+hub, collaborating with diverse internal municipal teams by accepting projects based on a 
+structured evaluation process. It is dedicated to leveraging data and technology to enhance 
+municipal services and improve quality of life for residents. This team leads initiatives in open data, 
+artificial intelligence and predictive analytics, and collaborates with various stakeholders to drive 
+innovation and transparency. Their work includes developing predictive models for emergency 
+events, optimizing urban planning through data-driven insights, and fostering a culture of open 
+government through accessible data portals.  
+ 
+The team acts as a central problem-solving hub, collaborating with diverse internal municipal 
+teams by accepting projects based on a structured evaluation process. This process scores 
+requests against the City’s Corporate Business Plan and their potential to generate value 
+(make/save money, reduce risk, save operationalizing the results, projects are prioritized and 
+initiated. 
+ 
+The DSRT emphasizes strong relationships, a well-defined problem, willing stakeholders, clarity on 
+expected changes, and comfort with unpredictable results as critical for project success, all while 
+maintaining a strong focus on data privacy and ethics. 
+ 
+ 
+Current challenge 
+The City of Edmonton’s Leisure Access Program (LAP) is experiencing a critical capacity crisis in its 
+application processing system. The program, which provides essential recreation and transit 
+services to low-income Edmontonians, is unable to keep pace with a growing demand using its 
+current manual review processes. This represents a fundamental equity challenge in service 
+delivery that requires urgent innovation to be solved. 
+ 
+The core challenge lies in the highly inefficient and time-consuming nature of manually verifying 
+various eligibility requirements (e.g, income verification) which currently demands considerable 
+human resources for each application. This has resulted in significant processing delays, a 
+substantial and growing backlog, and has extended wait times for eligible low-income 
+Edmontonians who need to access essential recreation and transit services. The current process 
+simply cannot scale with the dramatic increase in demand, and automation efforts are needed to 
+manage demand and ensure timely service delivery.
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 7 of 22 
+ 
+ 
+Impact 
+This project represents a fundamental transformation in how the Leisure Access Program 
+operates, moving far beyond incremental improvements to daily workflows. By partnering with the 
+Data Science and Research team to implement intelligent automation systems, the LAP Link will 
+support the shift from a reactive, manual processing model to a proactive, data-driven approach 
+that fundamentally reimagines service delivery. 
+ 
+The implementation of an automated income verification and eligibility checking system will 
+enable LAP to scale sustainably with growing demand—something impossible under current 
+operational constraints. Rather than simply adding more staff to handle volume increases (a 
+traditional operational response), this solution builds organizational capacity through 
+technological innovation, creating a scalable infrastructure that can accommodate future growth 
+without proportional increases in resources. 
+ 
+The project also creates opportunities for future enhancements that could transform other city 
+services. The data science infrastructure and methodologies developed through LAP Link could be 
+adapted to streamline other eligibility-based programs, creating a replicable model for modernizing 
+social service delivery across the City of Edmonton. This represents an investment in 
+organizational capacity that delivers value far beyond the immediate application processing 
+challenge. 
+ 
+ 
+Expertise required to solve the problem 
+Specialized expertise required to develop this solution includes (but is not limited to): 
+• Programming and Databases: Experience with programming languages and relational 
+databases, particularly SQL. 
+• Data Analysis and Visualization: Proficiency in data analysis and visualization tools (e.g., 
+R or Python). 
+• Computer Vision: Experience with Optical Character Recognition (OCR) tools and 
+techniques for extracting information from documents is an asset. 
+ 
+ 
+A-4.1b Objectives and Approach (How will the problem be solved?) 
+State the objectives for this project and explain how you plan to accomplish them. Enough detail 
+should be provided so that it is clear whether the described approach is appropriate to achieve 
+each objective. For projects with more than one intern, clearly explain which objective(s) each 
+intern will work on. 
+ 
+Objectives 
+The primary objective of the LAP Link project is: 
+ 
+1. To develop and implement an intelligent automation system that significantly reduces 
+reliance on manual review for LAP applications (new and renewals), with particular focus
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 8 of 22 
+ 
+on income verification and other eligibility checks while maintaining accuracy and fairness 
+in eligibility determinations. 
+ 
+Plan to accomplish objectives 
+The primary objectives of the LAP Link project are:  
+• To improve current review process and reduce time for processing each form; and   
+• To reduce workload from 311 team.   
+  
+This process begins with understanding the current workflow, specifically the steps from paper 
+submission to sending the result to the applicant. The next stage involves implementing an OCR 
+solution to extract information from documents and automatically cross-check this information 
+against existing data sources. The final step is to review and verify the new automated process with 
+the 311 teams. 
+ 
+ 
+Indicators of success 
+Success may be measured through indicators such as: 
+• Reduction in average processing time for renewals and new applications 
+• Decrease in volume of backlog over the implementation period 
+• Accuracy of automated reviews/decisions 
+• Staff satisfaction with the system 
+• Wait-times for access to essential recreation and transit services for eligible low-income 
+Edmontonians 
+ 
+ 
+A-4.1c Timeline (Who will solve the problem and how much effort will be required?) 
+Insert a timeline showing which task(s) will be performed when, and by which intern in order to 
+achieve the objectives stated above (consider breaking this down by week for shorter projects or by 
+month for longer projects via a Gantt chart). Ensure there are no gaps in the timeline and that the 
+effort required to complete each task matches the amount of time allocated for each intern. 
+ 
+The project will proceed as follows: 
+ 
+TASK PROJECT MONTHS RESPONSIBLE 1 2 3 4 5 6 7 8 
+Coordinate business activities and 
+gather project requirements 
+        
+Mitacs intern 
+Research current workflow and 
+design system for automation 
+        Mitacs intern 
+ 
+Implement OCR system and 
+automation of application review 
+        
+Mitacs intern
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 9 of 22 
+ 
+Controlled Testing         Mitacs intern 
+ 
+Deploy developed solution         Mitacs intern 
+ 
+Operationalize the developed 
+system/features. 
+        
+311 Team 
+Iterative testing -- Gather feedback 
+and implement necessary 
+revisions.   
+        Mitacs intern 
+ 
+Create comprehensive 
+documentation for all new 
+features and improvements. 
+        Mitacs intern 
+ 
+ 
+ 
+A-4.1d Deliverables (What does success look like?) 
+List the deliverables or tangible results you expect from the project and identify which intern is 
+responsible for it. For example, will you develop a new patent/prototype/product/service, business 
+model, business process, or will you access new markets? Will the intern be expected to produce a 
+report, evaluation, presentation, etc.? 
+ 
+Deliverables for this project include (but are not limited to):  
+ 
+• Development of new products or services: The project will deliver an intelligent 
+automation system that transforms LAP application processing from a manual, labor-
+intensive service into a streamlined, data-driven operation capable of automatically 
+verifying income eligibility and processing applications at scale. This new service 
+infrastructure will incorporate machine learning algorithms, automated document 
+processing capabilities, and integrated decision-making systems that represent a 
+fundamental advancement in how the City of Edmonton delivers equitable access to 
+recreation and transit programs for low-income residents. 
+ 
+• Comprehensive reports and presentations for the partner organization: These will 
+document methodologies, findings, and recommendations related to automated 
+application processing and eligibility verification while effectively communicating technical 
+developments, analytical results, and practical implications for program efficiency and 
+service delivery improvements. 
+ 
+ 
+ 
+A-4.2  INTERNSHIP BENEFITS
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 10 of 22 
+ 
+A-4.2a Benefits and Impacts to Canada 
+If this project potentially impacts broader challenges that society or the industry  faces, please 
+describe how the project will help address these challenges. Why are these contributions important? 
+ 
+This project addresses several critical challenges that extend far beyond the LAP, touching on 
+fundamental issues in public service delivery, equity, and the responsible application of 
+automation to social programs. 
+ 
+• Scaling Social Services in an Era of Growing Demand: Across Canada and globally, social 
+service programs face mounting pressure as demand increases while resources remain 
+constrained. By developing a replicable model for automating verification processes, this 
+project contributes a practical blueprint that other organizations can adapt to their own 
+contexts, helping the broader public sector modernize service delivery while maintaining 
+accessibility and fairness. 
+ 
+• Ensuring Equitable Access to Essential Services: Processing delays in eligibility-based 
+programs disproportionately impact vulnerable populations who depend on timely access 
+to services. By reducing processing times and eliminating backlogs, this project addresses 
+the broader societal challenge of ensuring that administrative processes don't become 
+barriers to equity, offering an approach that other organizations can use to ensure their 
+modernization efforts enhance rather than hinder equitable access. 
+ 
+• Responsible AI Implementation in Public Services : As governments increasingly explore 
+automation and artificial intelligence, there's urgent need for models that demonstrate how 
+these technologies can be deployed responsibly in contexts affecting vulnerable 
+populations. This project contributes to the broader conversation about ethical AI by 
+prioritizing accuracy, fairness, transparency, and human oversight—establishing important 
+precedents for how public sector organizations can harness data science while maintaining 
+accountability and trust. 
+ 
+• Building Organizational Capacity for Digital Transformation: Many public sector 
+organizations struggle to move beyond pilot projects to achieve meaningful digital 
+transformation. By establishing infrastructure for continuous improvement and future 
+enhancement, this project demonstrates how to build sustainable data science capabilities 
+within government operations that persist beyond individual projects or funding cycles. 
+ 
+These contributions are important because they demonstrate that technology can enhance the 
+human elements of social service delivery, showing how data science can be applied responsibly to 
+improve outcomes for vulnerable populations. As municipalities across Canada face similar 
+pressures of growing demand and limited resources, the methodologies and lessons learned from 
+this project can accelerate innovation elsewhere, contributing to a shared knowledge base that 
+strengthens the entire public sector's capacity to serve citizens effectively and equitably while 
+addressing the fundamental question of how to ensure timely access to essential services 
+regardless of demand volume.
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 11 of 22 
+ 
+A-4.2b Benefits to the Intern(s) 
+Explain how participating in this project aligns with the academic studies of the intern(s). How is 
+participating in the project expected to benefit  their future career(s)? For example, will they expand  
+their professional network, gain knowledge in a business context, or develop  skills in problem -
+solving, communication, project management, creative thinking, etc.? 
+ 
+By participating in this project, the intern will: 
+ 
+• Apply their academic expertise to real-world problems to systematically enhance the City of 
+Edmonton's LAP application processing system, ultimately contributing to the creation of 
+an intelligent automation infrastructure that ensures timely access to essential recreation 
+and transit services for low-income Edmontonians; 
+• Use and develop creative problem-solving skills by thinking on their feet and solving 
+problems in real time; 
+• Foster management, leadership, and communication abilities by working with an 
+experienced team and ensuring the end product delivers a functional automated 
+verification system that seamlessly meets the needs of both citizens and municipal staff for 
+efficient, accurate, and equitable processing of LAP applications; 
+• An intern leading a data science project for the City of Edmonton will gain hands-on 
+experience applying theoretical concepts—such as machine learning, statistical modeling, 
+and programming—to complex municipal challenges. This opportunity will expand their 
+professional network within a leading municipal data science team, deepen understanding 
+of public sector operations, and enhance problem-solving skills by addressing novel issues; 
+and  
+• build skills in project management, stakeholder communication, ethical data practices, 
+and the ability to operationalize data science solutions from concept to deployment.  
+ 
+A-4.3 INTERNSHIP ENVIRONMENT 
+ 
+A-4.3a Description of the Academic Internship Environment 
+a. Please describe the nature of academic supervision during the internship period. Explain 
+the type and frequency of interactions (e.g., meetings, phone calls, etc.) between the 
+intern and academic supervisor. 
+b. Will the project make use of the resources and/or facilities of the academic institution? If so, 
+please describe.  
+ 
+Academic internship Environment 
+The Future Cities Institute (FCI), founded by CAIVAN is committed to fostering healthy, prosperous 
+cities and communities in Canada and beyond through interdisciplinary partnerships, action-
+oriented research, and data-informed decision-making. The Data Science and Research Team at 
+the City of Edmonton is one of FCI’s core partners due to their focus on developing data-driven 
+solutions to municipal challenges and their commitment to the democratization of tools and 
+resources. 
+ 
+Nature of academic supervision
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 12 of 22 
+ 
+The intern will meet virtually with Dr. Leia Minaker (Director, Future Cities Institute, Faculty of 
+Environment) at least once a month to ensure ongoing alignment with the goals and objectives of 
+the Future Cities Institute and to discuss progress towards knowledge mobilization outcomes.  
+ 
+Use of UWaterloo resources and/or facilities 
+The initial development, implementation and evaluation of the solution will use very few UWaterloo 
+resources and/or facilities since the intern is physically located in Edmonton. However, the FCI staff 
+team (primarily Research Coordinator and Communications Officer) will be engaged throughout 
+the internship to support knowledge mobilization and/or communication activities. 
+ 
+ 
+A-4.3b Description of the Partner Internship Environment 
+a. Please state the nature of the partner interaction:     ☒  Onsite     ☐  Virtual     ☐  Hybrid 
+b. Describe the working environment at the partner organization and the type and frequency of 
+interactions between the intern(s) and employees. For example, what resources, 
+facilities/equipment, and specialized training will the intern(s) have access to? If the 
+intern(s) will work virtually, how will they be exposed to the activities and culture of the 
+partner organization?  
+ 
+Partner Internship Environment 
+The intern will immerse themselves in the Data Science and Research team's dynamic, pragmatic, 
+and highly collaborative environment at the City of Edmonton. Interactions will be frequent and 
+direct, involving continuous engagement with senior data scientists for mentorship and active 
+collaboration with partner teams across various city departments, from project intake through 
+operationalization, to define problems and ensure solutions meet real-world needs. 
+  
+Access to resources, facilities/equipment and specialized training 
+For resources, the intern will access state-of-the-art centralized infrastructure, including Google 
+Cloud Platform services (BigQuery, Dataflow, Dataproc, GPU support) and GitLab for project 
+management and version control. Specialized training will be hands-on, provided through direct 
+guidance from experienced public sector data scientists, ensuring practical skill development. 
+ 
+Organizational culture 
+Cultural exposure will stem from direct team integration, participating in the team's problem-
+solving ethos, and gaining deep institutional knowledge by observing and contributing to the 
+operational realities and diverse activities of the partner organizations they support. 
+ 
+ 
+A-4.4  PAST/OTHER MITACS PROJECTS 
+Is this application related to, or a continuation of, any previous or current Mitacs projects?      
+☐  Yes      
+☒  No 
+ 
+If Yes, provide specifics about the relationship(s), including relevant project IT#(s). If the current 
+project is a continuation of prior work, briefly describe how it meaningfully furthers what has been 
+previously achieved.
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 13 of 22 
+ 
+ 
+n/a 
+ 
+ 
+A-4.5  ENGAGEMENT WITH INDIGENOUS COMMUNITIES OR PARTNERS (IF APPLICABLE) 
+Projects that involve or impact Indigenous communities must comply with the Mitacs Indigenous 
+Research Policy. Describe (1) Indigenous community support for the project, and their role in 
+shaping its objectives/approach, (2) plans for Indigenous community access, use, and governance 
+of resulting knowledge/data, and (3) the team background in Indigenous research, including 
+planned training/mentorship the intern(s) will receive to address deficits in experience. 
+You may also submit 1-2 letter(s) of support from Indigenous Elders who are members of the partner 
+community/communities and possess the authority to speak on community interests.    
+ 
+n/a 
+ 
+ 
+A-4.6  INTELLECTUAL PROPERTY (IF APPLICABLE) 
+ 
+Explain how this project supports the creation and/or ownership of IP for the partner organization. 
+If the project provides education or training about IP for any of the participants, explain here.  
+ 
+Any intellectual property created by a Placement Student during their participation in the Program or 
+performance of the Work will be the exclusive property of the City of Edmonton (the “Intellectual 
+Property).  
+ 
+The City of Edmonton may, at its discretion, provide advance written consent to a Placement Student 
+for their use of the Intellectual Property for non-commercial purposes. 
+ 
+The City of Edmonton also agrees to facilitate the reasonable use of the Intellectual Property by the 
+University of Waterloo for academic purposes related to the administration of a Placement Student’s 
+education, where applicable. 
+ 
+Subject to the protection of any confidential information of the City of Edmonton or information 
+otherwise protected under applicable legislation, including the Freedom of Information and 
+Protection of Privacy Act (RSA 2000, c F -25), as amended, this reaso nable use by the University of 
+Waterloo will include posting each Placement Student’s final reports and presentations related to 
+the Work on the University’s website. 
+ 
+ 
+A-4.7  REFERENCES / SOURCES (IF APPLICABLE) 
+ 
+List any references you have cited in your proposal.  
+ 
+n/a
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 14 of 22
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 15 of 22 
+ 
+Section 5: Internship Budget and Schedule 
+ 
+P-5.1  SUMMARY OF INTERNSHIPS 
+ 
+Please select only one type of internship option per application from the list below. If you want to 
+apply for internships of a different type, you will need to create a separate application. Each of your 
+applications can include up to 10 internships of the same type. If you select an internship option 
+with project costs, you must include a description of how these fundings will be used in your project 
+proposal. 
+ 
+☐  Business Strategy Internship (BSI) Standard Funding:  
+Each BSI internship unit is valued at $10,000 and the partner organization’s financial 
+contribution starts at $5,000 per unit. Each intern receives a minimum of $10,000 
+stipend per unit 
+ 
+☒  Business Strategy Internship (BSI) Standard Funding plus Project Costs:  
+Each BSI internship unit is valued at $15,000 and the partner organization’s financial 
+contribution starts at $7,500 per unit. Each intern receives a minimum $10,000 
+stipend per unit. The additional $5,000 in funds can be used to pay for eligible 
+project costs or can be used to top-up the intern stipend to $15,000. 
+ 
+☐  Business Strategy Internship (BSI) - Indigenous Pathways Reduced Cost 10K:    
+Projects with Indigenous participants are eligible for a reduced partner contribution. 
+Each BSI internship unit is valued at $10,000 and the partner organization’s financial 
+contribution starts at $2,500 per unit. Each intern receives a minimum $10,000 
+stipend per unit. 
+ 
+☐  Business Strategy Internship (BSI) - Indigenous Pathways Reduced Cost 15K:    
+Projects with Indigenous participants are eligible for a reduced partner contribution. 
+Each BSI internship unit is valued at $15,000 and the partner organization’s financial 
+contribution starts at $3,750 per unit. Each intern receives a minimum $10,000 
+stipend per unit. The additional $5,000 in funds can be used to pay for eligible 
+project costs or can be used to top-up the intern stipend to $15,000. 
+ 
+ 
+P-5.2   INTERNSHIP DETAILS 
+ 
+P-5.2a  Intern Name 
+* NOTE: An intern can be named (if known) or TBD 
+TBD 
+ 
+ 
+P-5.2b  Degree Program During Internship 
+NOTE: A recent graduate is an individual who, at the start of the internship, graduated less than 2 
+years ago. “Other University Program” should be used for an individual who is enrolled at a
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 16 of 22 
+ 
+Canadian university in a non-degree program (e.g., diploma, certificate). “Recent Graduate (Other 
+University Program)” should be used for an individual who, at the start of the internship, graduated 
+less than 2 years ago from a non-degree program (e.g., diploma, certificate). 
+ 
+☐  College 
+☒  Bachelors 
+☐  Masters 
+☐  PhD 
+☐  PDF 
+☐  Recent Grad – College 
+☐  Recent Grad - Bachelors 
+ 
+P-5.2c  Internship timing  
+ 
+a. Start date: January 5, 2026  
+b. Duration (months): 8 
+c. # of Consecutive Internships With Same Stipend (see * below): 2  
+d. End date: This auto-generates in the system based on the start date and the duration of the 
+internship 
+ 
+* NOTE: ‘Consecutive internships' refers to sequential internships performed by a 
+specific intern without breaks (gaps) in between each. To create a break between 
+internships, create a new row for that specific intern. To enable each internship for a 
+given intern to have a different stipend value from the other internships for the same 
+intern, please create a new row for that specific intern. 'Same stipend' refers to 
+every internship for that specific intern being assigned the same stipend value. Tip: 
+Use the Duplicate function in the Actions menu to copy internships that are similar 
+then make simple edits (such as modifying the stipend value, internship length, or 
+add a new intern with the same stipend, duration and sequence as previous 
+additions) as outlined above. 
+ 
+  
+P-5.3  ACADEMIC SUPERVISORS 
+ 
+P-5.3a  Participant details  
+ 
+This information will be auto-generated from the “Participants” tab. 
+ 
+P-5.3b  Partner organizations 
+The total minimum required organization contributions are listed in section P-3.1 above. This 
+contribution can be distributed across multiple organizations. 
+ 
+a. Please note that the financial contribution of organizations is subject to applicable Goods 
+and Services Tax (GST), Harmonized Sales Tax (HST) and/or Quebec Sales Tax (QST) 
+(Collectively the value added tax or VAT).
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 17 of 22 
+ 
+b. Partner organizations can contribute additional funding to the project but Mitacs will not 
+provide any additional matching funding outside of the standard awards.  
+c. Additional partner contributions are only allowed with academic institution approval.  
+d. Any additional partner funding must be shown in the proposal/budget and the anticipated 
+use of these funds must be explained so that the academic institution can clearly see and 
+approve the planned budget when they sign-off on the proposal (e.g. will the extra funds be 
+used for stipend top-up, specialized equipment, etc.?).  
+e. Any additional funds associated with a specific internship must be received by Mitacs at the 
+same time as the normal partner contribution.  
+f. The funds will be added to the award and forwarded to the academic institution to be paid 
+out to the intern. 
+ 
+PARTNER NAME IS A PARTICIPANT OF THIS 
+INTERNSHIP (See * below) 
+AMOUNT PER INTERNSHIP 
+(See ** below) 
+Partner A Auto-generated based on 
+“Participants” tab 
+$7,500 
+City of Edmonton Yes $15,000 
+ 
+* Make sure each participant has been entered in the “Participants” tab. 
+** Note this amount does not include the tax component 
+ 
+ 
+P-5.4c  Stipends and Project Expenses: 
+a. Partner organizations can contribute additional funding to the project but Mitacs will not 
+provide any additional matching funding outside of the standard awards.  
+b. Additional partner contributions are only allowed with academic institution approval.  
+c. Any additional partner funding must be shown in the proposal/budget and the anticipated 
+use of these funds must also be shown so that the academic institution can clearly see and 
+approve the planned budget when they sign-off on the proposal.  
+d. Any additional funding associated with a specific internship must be received by Mitacs at 
+the same time as the normal partner contribution.  
+e. The funds will be added to the award and forwarded to the academic institution to be paid 
+out to the intern.  
+f. A minimum of $10,000 per internship must be use for intern stipend. Any additional funding 
+the partner organization provides will be allocated to the intern stipend amount. 
+ 
+ 
+BUDGET ITEM AMOUNT 
+Stipend (must be at least 10,000) $20,000 
+Project Expenses (usually $5,000) $10,000 
+Total $30,000
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 18 of 22 
+ 
+P-5.4d  Details of project expenses. 
+If your internship includes project expenses, you must enter details of these project expenses in the 
+space provided. For example, if you have two four-month internships listed above, please include 
+what expenses will be required for each of these two units. 
+ 
+The project expenses for the 2 IU included in this application will be used to top-up the intern’s 
+stipend.
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 19 of 22 
+ 
+Section 6: Declarations 
+ 
+6.1  DECLARATIONS FROM PORTAL 
+P-6.1 Answer the following questions: 
+a. Will the intern conduct any of the proposed project activities outside of the academic 
+institution or partner premises? 
+ ☐  Yes  ☒  No 
+ 
+b. Does the project involve: 
+ 
+a. Human participants whose data, or responses to interventions, stimuli, or 
+questions by the intern, are relevant to completing the work? 
+  ☐  Yes  ☒  No 
+ 
+b. Secondary use of human data or health information (even if anonymized)? 
+ ☒  Yes  ☐  No 
+  
+c. Human biological materials, as well as human embryos, fetuses, fetal tissue, 
+reproductive materials, and stem cells? This applies to materials derived from living 
+and deceased individuals 
+  ☐  Yes  ☒  No 
+ 
+d. Secondary use of biological materials (even if anonymized)? 
+ ☐  Yes  ☒  No 
+ 
+If Yes was checked for any of the questions above, applicants must contact the ethics 
+offices at all participating academic institutions to determine whether ethics clearance is 
+required. This includes primary/secondary use of human data/biological materials owned 
+by the partner. 
+ 
+c. Will the proposed project require the use of laboratory animals, and/or potentially impact 
+the well-being of wild/domesticated animals?  
+ ☐  Yes  ☒  No 
+ 
+If yes, applicants must contact the animal care committees at all participating academic 
+institutions to determine whether any certifications/authorizations are required. 
+ 
+d. Will the proposed project require the interns to handle or be exposed to biohazards? 
+ ☐  Yes  ☒  No 
+ 
+If yes, please check all that apply: 
+e. Biohazards (e.g., viruses, bacteria, fungi, parasites, toxins, prions, zoonotic 
+pathogens, recombinant DNA, genetically modified organisms, viral vectors, 
+synthetic organisms, cell lines/cultures) 
+ ☐  Yes  ☐  No
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 20 of 22 
+ 
+ 
+f. Radioactive materials 
+ ☐  Yes  ☐  No 
+ 
+g. Restricted substances (e.g., cannabis) 
+ ☐  Yes  ☐  No 
+ 
+h. Other: 
+ ☐  Yes  ☐  No 
+ 
+If one or more options were checked, any necessary documentation must be 
+obtained in accordance with all participating academic institutions’ policies and 
+maintained throughout the duration of the research project. 
+ 
+e. Will the project involve the use of personal data or large datasets that could be considered 
+sensitive (for additional information, see List 2 of Annex A of the National Security 
+Guidelines for Research Partnerships)? 
+ ☐  Yes  ☒  No  
+ 
+If yes, please describe:  
+ 
+f. Will the project involve research related to critical minerals and/or one of the critical 
+infrastructure sectors? 
+ ☐  Yes  ☒  No 
+ 
+If yes, please describe:  
+ 
+g. Will the project involve research related to goods or technology that are included on 
+the Export Control List (ECL) of the Export and Import Permits Act (EIPA)? 
+ ☐  Yes  ☒  No 
+ 
+If yes, please describe:  
+ 
+h. Will background intellectual property (IP) be transferred from Canadian institution(s) to the 
+partner organization(s)? 
+ ☐  Yes  ☒  No 
+ 
+If yes, please describe:  
+ 
+i. Will intellectual property (IP) arising from the project be owned by, assigned to, or licensed 
+to the partner organization(s)? 
+ ☐  Yes  ☒  No 
+ 
+If yes, please describe:
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 21 of 22 
+ 
+j. Does the project aim to advance any of the listed Sensitive Technology Research Areas 
+(STRAs)? 
+ ☐  Yes  ☒  No 
+ 
+If yes, please describe:  
+ 
+If yes, applicants should consider any potential research security risks associated with the 
+nature of the proposed activities. Applicants should also consult the policies, guidelines, 
+and requirements of their participating Canadian academic institution(s) to determine any 
+appropriate research security risk mitigation measures based on federal and provincial 
+government guidelines/policy statements, and to identify any necessary actions to ensure 
+compliance with relevant government regulations and legislation (e.g., import/export laws) 
+ 
+ 
+ 
+ 
+6.2  DECLARATIONS FROM APPLICATION FORM 
+A6.2a Conflict of interest 
+ 
+Mitacs will not approve a BSI application  if the intern listed on the proposal has a position of 
+ownership, employment, or influence over the daily operations of the partner organization. Interns 
+with close family or intimate relationships with academic supervisors or employees of the partner 
+organization are also ineligible. Any other real or perceived conflict of interest (COI) - for example, 
+past intern employment at the partner organization  - must be disclosed to Mitacs during the 
+application process using  the Intern Eligibility and Conflict of Interest Declaration Form. Academic 
+supervisors must disclose any COIs through the Academic Institution Acknowledgement of COI(s) 
+Form, and submit this documentation on behalf of their post -secondary institution when applying 
+through the Registration and Application Portal (RAP) .  
+ 
+Mitacs will first determine if BSI program rules are satisfied, and if so Mitacs will then review the 
+COI to determine whether mitigations can be enacted to manage the COI. If a COI does exist, we 
+suggest that you contact your Mitacs Advisor prior to starting an application to ensure that the 
+participants in this project are eligible for the program. Please view the Mitacs Conflict of Interest 
+Policy for more information.    
+ 
+PLEASE NOTE : Failure to disclose a COI will :  
+• Delay the project  evaluation proces s. 
+• Require submission of a COI mitigation approach  satisfactory to Mitacs before project work 
+initiates or continues.  
+• Risk forced withdrawal from the BSI program , should a satisfactory mitigation plan not be 
+reached. 
+ 
+Have any applicants declared a COI via the appropriate documentation?        
+☐  Yes, an intern         
+☐  Yes, an academic supervisor         
+☒  No
+
+Mitacs BSI Application  
+MITACS-BSI-CED-LAP Link-WS26 | Application form 
+Modified: November 28, 2025 (sgbrown) 
+Page 22 of 22 
+ 
+A-6.2b  Indigenous engagement 
+Please indicate if any of the below statements are true. 
+☐  One or more named interns self-declares as an Indigenous person 
+☐  The partner organization is a for-profit organization with self-identifying Indigenous 
+persons who hold 50% or greater ownership shares 
+☐  The partner organization is a not-for-profit with board membership consisting of 50% of 
+greater self-identifying Indigenous persons 
+☒  The partner organization is a not-for-profit whose core mandate includes Indigenous 
+community impact or serving Indigenous communities           
+ 
+* If any of the above statements are true, your organization may be eligible for enhanced leveraging 
+via the Mitacs Indigenous Pathways Initiative. Please check with your Mitacs Advisor for more 
+information. 
+ 
+A-6.2c Type of innovation 
+Please select all the types of innovation you will significantly impact through your project. Refer to 
+the following definition of innovation for further information: Defining innovation - OECD. 
+ 
+☐  Product innovation                     
+☒  Process innovation                     
+☐  Marketing innovation                     
+☒  Organizational innovation

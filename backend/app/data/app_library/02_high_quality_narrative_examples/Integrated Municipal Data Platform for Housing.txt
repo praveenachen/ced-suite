@@ -1,0 +1,115 @@
+Integrated Municipal Data Platform for Housing, Energy, and Climate Resilience 
+A Proposal for the 2026 NFRF International Joint Initiative for Research Harnessing 
+Disruptive Technologies 
+The Challenge 
+Municipalities across the Global North face an urgent coordination crisis. Departments 
+operate in silos with separate data systems, planning processes, and implementation 
+roadmaps—even when addressing deeply interconnected challenges like housing 
+affordability, energy transition, and climate adaptation. This fragmentation creates 
+systemic inefficiencies: duplicate data collection, conflicting priorities, missed 
+opportunities for integrated solutions, costly misalignment between departments, and 
+delayed decision-making, which are costly for all sectors of society. 
+Recent policy pressures amplify this urgency. Local governments in Canada, the UK, and 
+the Netherlands face budget constraints and mandates to demonstrate cost savings. At the 
+same time, these municipalities grapple with housing crises requiring coordinated 
+responses across planning, infrastructure, and social services, while also struggling to 
+integrate energy, housing, and climate resilience planning at the operational level. Despite 
+shared challenges, no adaptable framework exists to help municipalities of varying 
+capacity and governance structures break down these silos. 
+The cost of inaction is measurable: wasted resources, delayed climate action, housing 
+shortages exacerbated by uncoordinated planning, and energy transitions that ignore 
+housing stock realities. Municipalities need a revolutionary approach—not another rigid 
+platform, but an adaptable toolkit that enables data integration and cross-departmental 
+decision-making within diverse governance contexts. 
+Our Approach: An Adaptable Municipal Integration Toolkit 
+We propose to develop and validate an adaptable digital integration framework that 
+enables municipalities to break down departmental silos and make coordinated decisions 
+across housing, energy, and climate resilience. This is not a one-size-fits-all platform. 
+Instead, we will create a modular toolkit with customizable components that 
+municipalities can configure to their unique governance structures, data maturity levels 
+and municipal capacity, and policy contexts. 
+Three Priority Domains: 
+1. Housing: Our municipal partners identify housing as the most urgent coordination 
+challenge—requiring integration across planning, infrastructure, social services, 
+and climate adaptation
+
+2. Energy: Thermal systems, building performance, and grid planning require 
+coordination between housing, transportation, and climate departments 
+3. Climate Resilience: Adaptation planning demands integrated data on housing 
+vulnerability, energy systems, and infrastructure capacity 
+Technical Innovation: We will develop AI-powered data integration architecture and digital 
+twin capabilities that can ingest heterogeneous municipal data, identify cross-
+departmental dependencies, and surface coordination opportunities. The revolutionary 
+element is not the technology alone—it's how the architecture enables new forms of 
+municipal decision-making that were previously impossible due to siloed systems. 
+Implementation Innovation: Recognizing that municipalities have vastly different 
+capacities for digital transformation, we will develop an implementation framework with 
+three tiers of adoption: lightweight integration for resource-constrained councils, moderate 
+integration for mid-capacity municipalities, and advanced digital twin deployment for well-
+resourced partners. This tiered approach ensures our research produces usable outcomes 
+across diverse municipal contexts. 
+Why This Team, Why Now 
+International Expertise Across Three Countries: 
+• Leia Minaker (Canada - University of Waterloo): Director, Future Cities Institute. Urban 
+environments and housing as social determinants of health and equity, interdisciplinary 
+and multi-sector project management.  
+• Geoff Cox (UK - London South Bank University): Director, Digital x Data Research 
+Centre. AI and computational culture expertise, interdisciplinary research 
+infrastructure 
+• Issa Chaer (UK - London South Bank University): Associate Dean of Research and 
+Innovation. Thermal energy systems expertise, research bridges engineering 
+technologies, environmental control, and well-being. 
+• Rizal Sebastian (Netherlands - The Hague University of Applied Sciences): Professor of 
+Future Urban Systems. His research group enhances and demonstrates ways to 
+accelerate energy transition, climate adaptation and circular economy in 
+neighbourhoods and urban areas by harnessing the power of data analytics and digital 
+transformation. 
+• Dillon Browne (Canada - University of Waterloo): Tier II Canada Research Chair in Child 
+and Family Clinical Psychology. Expertise in developing, applying and disseminating 
+advanced technological solutions, including AI, modeling and visualization tools with 
+municipal stakeholders for program and policy interventions.
+
+Genuine Municipal Partners Committed to Co-Design: 
+• Canada: Kitchener or Ottawa (Ontario) 
+• UK: Oxford or Milton Keynes? 
+• Netherlands: The Hague 
+This geographic spread provides three distinct governance contexts: Canadian single and 
+two-tier municipal governments, UK unitary and two-tier local government systems, and 
+Dutch municipal autonomy within national frameworks. Testing our toolkit across these 
+contexts ensures genuine adaptability and produces research with international relevance. 
+Interdisciplinary Integration: Our team spans natural sciences and engineering (data 
+science, AI, thermal systems), social sciences and humanities (urban planning, 
+governance, implementation research), and health sciences (health and well-being 
+outcomes from housing and energy decisions). This fulfills NFRF requirements while 
+ensuring our technical solutions are grounded in social, political, and health realities. 
+Pathway to Impact and SDG Alignment 
+Direct SDG Contributions: 
+• SDG 11 (Sustainable Cities and Communities): Primary focus—making 
+municipalities more integrated, efficient, and sustainable 
+• SDG 16 (Peace, Justice, and Strong Institutions): Increasing transparency and 
+efficiency in local government decision making through integrated data and 
+processes 
+• Secondary Focus:  
+o SDG 7 (Affordable and Clean Energy): Energy system coordination and 
+building performance 
+o SDG 13 (Climate Action): Integrated climate resilience planning 
+ 
+Long-term Vision: Municipalities across OECD countries face similar silo challenges with 
+housing, energy, and climate. By 2030, our research will produce the first adaptable 
+framework proven across three governance contexts, positioning our partner cities as 
+exemplars and creating a pathway for widespread adoption. We anticipate our toolkit will 
+be particularly valuable for the majority of municipalities that lack resources for bespoke 
+digital transformation but need practical solutions to coordination challenges. 
+Stakeholder Engagement: Municipal partners will co-design the toolkit from inception, 
+ensuring research priorities align with operational needs. We will establish steering 
+committees in each partner city with representatives from housing, energy, climate, and
+
+finance departments—embedding cross-departmental thinking into the research process 
+itself. Non-academic partners will be full collaborators, not just test sites. 
+This proposal directly responds to NFRF's call for disruptive technology addressing 
+global challenges. Our innovation lies in creating adaptable infrastructure for 
+municipal coordination—a capability that doesn't currently exist but which every city 
+needs as they navigate interconnected housing, energy, and climate crises. With 
+proven international expertise, genuine municipal partnerships, and a clear pathway 
+from research to implementation, we are positioned to deliver transformative 
+outcomes for sustainable cities worldwide.

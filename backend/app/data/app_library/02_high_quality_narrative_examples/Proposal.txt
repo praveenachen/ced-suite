@@ -1,0 +1,496 @@
+1 
+ 
+Working Application Title: “Build now or die tomorrow: A Bondian approach to team development for 
+attainable at-scale housing projects in Canada”  
+ 
+OR something like “Building the Build Now Waterloo Region living lab: Developing a national action 
+partnership to create a community resource toolkit” 
+ 
+Abstract 
+ 
+BUILD NOW ... 
+ 
+LEIA’S JOBS:  
+• Who needs to be involved 
+• What are the key activities and what’s the budget 
+• Knowledge mobilization plan
+
+2 
+ 
+Overall Goal and Objectives (3/4 page – based on Cameron’s example) 
+ Since 2000, the price of a home in Canada has quadrupled with the average price now 
+being around $700,000.1 Canada’s resultant and ongoing affordable housing crisis has had 
+several cascading effects at the individual and interpersonal levels, as well as more broadly for 
+society. Regarding the former, if the average household today were to buy the average house it is 
+estimated that they would spend 60% of their disposable income on housing alone in some 
+provinces,2 children in families struggling with housing affordability can experience disrupted 
+development and poorer educational outcomes,3 and that those experiencing housing insecurity 
+are more likely to experience exposure to communicable diseases and violence.4 Concerning the 
+latter, a lack of housing combined with poor public options can precipitate crowding and 
+perpetuate cycles of poverty and crime,5 and exacerbate economic inequality through reducing 
+disposable income for lower socioeconomic classes to spend on other essentials such as food, 
+education, and healthcare.6 Ultimately, the Canadian Mortgage and Housing Corporation 
+(CMHC) estimates that to restore housing affordability in Canada, an additional 3.5 million 
+housing units are needed by 2030.7  
+ At the same time, extant housing strategies in Canada have been panned for applying 
+definitions of ‘core housing need’ that exclude people experiencing homelessness (PEH),8 
+remaining behind on integrating ‘missing middle’ (i.e., medium-density housing such as 
+townhouses, duplexes, mid-rise [4-8 storeys] apartments) solutions,e.g., 9 and failing to adequately 
+address regulatory obstacles.5 Moreover, with recent affordable housing projects in cities such as 
+Edmonton (AB), Coquitlam (BC), and Toronto (ON) reportedly being implemented by financialized 
+corporations ostensibly run by private investment returns,10 there is a need to offer municipalities across the 
+country novel, typologically diverse (i.e., feature multiple types of housing options), community-oriented, 
+and empirically-supported affordable/attainable housing strategies/solutions. Our partnership will answer 
+the question: “How can Canadian municipalities implement an effective evidence-based, community-
+oriented housing strategy that provides typically diverse attainable/affordable homes at-scale for their 
+residents?” To achieve this goal, we will pursue the three following objectives over the next three years: 
+O1: strengthen the impact and vision of our BUILD NOW: Waterloo Region (BNWR) team via ‘city 
+sprint’ meetings to co-create an initial ‘Build Now’: Practical Attainable Housing Solutions toolkit for 
+municipalities.  
+O2: present our initial ‘Build Now’: Practical Attainable Housing Solutions toolkit to audiences across 
+Canada and recruit new members to be involved in the revising and continued development of the toolkit. 
+O3: with our expanded and national team, finalize the co-creation of an open access ‘Build Now’: Practical 
+Attainable Housing Solutions toolkit that municipalities across Canada, and internationally, may to address 
+their local housing issue(s). 
+Originality, Significance and Expected Contribution (1/2 page – based on Cameron’s example) 
+There is significant concern among policymakers and practitioners in Canada that the housing 
+situation is worsening due to incrementalist approaches, bureaucratic obstacles, misaligned government 
+roles, and a lack of ingenuity, resulting in a dearth of effective and timely solutions.11 Exacerbating these 
+worries are the continued demographic pressures contributing to increasing housing demand. Annually, 
+reports from recent years have estimated that >800,000 foreign students (study permit holders),12 >700,000 
+temporary workers,13 and >360,000 new immigrants14 move to Canada. The BUILD NOW: Waterloo 
+Project represents a first-of-its-kind community-led housing initiative that will produce a typologically
+
+3 
+ 
+diverse community of attainable housing units.15 This project will leverage our team’s existing relationship 
+with the Build Now project in the Region of Waterloo to build [something about Canada’s first academic-
+public-developer partnership dedicated to the implementation and evaluation of a 10,000 unit attainable 
+housing project]. Through strengthening our BNWR team in this project, we will create a first-of-its-kind, 
+step-by-step attainable housing solution guide, based on a current project and national expert team’s input, 
+for practitioners and policymakers. The development of this toolkit will also serve as a platform for future 
+research regarding the co-op and mixed housing schemes and various sociopolitical, economic, 
+environmental, and health indicators and topics among our team members.  
+Theoretical Background (1.75-2 pages – based on Cameron’s example) 
+ According to several metrics and indicators Canada is facing both a housing and 
+affordable housing crisis.16 In addition to the estimated 3.5 million housing units that CMHC has 
+suggested are needed by 2030,7 the Royal Bank of Canada (RBC) has observed that ~60,000 
+social housing units need to be created annually to meet demand.17 Subsequently, RBC has 
+recommended more investment in greater housing mix (e.g., affordable, student, rental apartment 
+housing) and the implementation of legislative supports for municipalities using best (e.g., via 
+Ontario’s $1.2-billion Building Faster Fund).17 Recent discussions regarding the creation of 
+effective solutions and strategies from public sector,16 industry,18 academic,19 and 
+nongovernmental20 actors have variously argued in favour of the need for efficiency and 
+responsiveness, improved multi-sector alignment or coordination, and the further diversification 
+and development the of current housing mix. 
+Current ineffective attempts to address the current housing situation have led to several 
+compounding issues for Canadians of many backgrounds. For instance, in the nearer term, Canada’s 
+housing crisis has contributed significant financial strain to families (e.g., sacrificing basic needs like food 
+and clothes),21 reduced homeownership rates and household/family formation,22 and worsened reports of 
+quality of life and well-being among younger cohorts.23 In instances where there is social housing available 
+but is of low-quality, there are several compounded social, economic, and health impacts that can affect 
+residents. As of 2015, approximately 30% of Canadian households live in such substandard housing or core 
+housing need24 where these environments have long been associated with an increased risk of asthma,25 
+injury risks,26 and exposure to environmental toxins such as lead.27 
+In the intermediate term, inadequate housing construction and provision has produced waitlists for 
+affordable and subsidized accommodations that are unrealistic for applicants. Illustratively, in 2022, roughly 
+245,900 households had been placed on social/affordable housing waitlists, with close to two-thirds 
+ultimately waiting two years or longer or placement.28 In Canada’s largest cities the waitlist times are 
+reaching unprecedented levels with reported waits of 15 years for a  3+-bedroom in Toronto29 and over five 
+years for a rental unit in Ottawa.30 In 2025, similar trends are now being documented even in mid-sized 
+cities like Windsor, Ontario where estimated wait times for social housing are five-six years long.31 In the 
+long-term, with fewer younger Canadian households able to buy into the housing market and achieve 
+homeownership, and subsequently build wealth but, concurrently, Canada has the highest household debt to 
+disposable income ratio among G7 nations.32 In response to these many factors, emerging paradigms have 
+suggested that investments in and solutions for housing in Canada need to more thoroughly engage with 
+housing mix, especially as it concerns social/public stock.  
+ Most of Canada’s social housing stock was built by the federal government over six 
+decades ago, and has seen its level of production continue to decline since the 1980s.33 While 
+Canada’s National Housing Strategy (NHS) was passed in 2017 with the mandate of investing
+
+4 
+ 
+$78.5 billion into housing across the country, advocates suggest that the NHS does little to 
+address Canada’s urgent need to build more social housing—social housing in Canada currently 
+represents just 3.5% (655,000) of total housing stock.34 As a result, social housing projects in 
+Canada ostensibly are funded and implemented in a manner according with which communities 
+are able to support them (see Table X for overview of select ongoing projects across Canada).  
+Table X. Overview of Select Ongoing Social & Affordable Housing Projects in Canada 
+Location Project Housing Details Goal(s) 
+35Canmore, AB  
+(Pop: 14,370) 
+Canmore 
+Community 
+Housing 
+119 rental units 
+156 homeownership units 
+Workforce, community populations 
+Re-zoning of target lands to 
+residential land, attract private 
+investment to community 
+36Edmonton, AB 
+(Pop: 1.1 mil.) 
+Ambrose Place 
+Supportive 
+Housing Model 
+42 permanent supportive housing units  
+Homeless Indigenous populations 
+Support co-ownership model 
+with local Indigenous charity 
+35Gibsons, BC  
+(Pop: 4,758) 
+Shaw Road 
+Apartments 
+21 market rentals 
+19 non-market rentals 
+Workforce, family, senior populations 
+Lead community engagement, 
+support for local workforce/ 
+economy families 
+15,37Region of 
+Waterloo, ON  
+(Pop: 700,000) 
+BUILD NOW: 
+Waterloo 
+Region 
+10,000 “missing middle” units38 (e.g., 
+apartments, townhomes) 
+Family, lower-income populations 
+Mixed ownership (70%) and 
+rental (30%) community 
+development model 
+39Toronto, ON  
+(Pop: 3 mil.) 
+Housing Now 
+Initiative 
+918 units (incl. 612 rent-geared-to-
+income & market rent-controlled co-ops) 
+Housing insecure populations 
+Mixed co-op and market 
+ownership building model, 
+resident-run board of directors 
+40Montreal, QC 
+(Pop: 1.8 mil.) 
+Le Christin 114 units 
+Housing insecure populations 
+Socially diverse housing for 
+vulnerable populations 
+The BUILD NOW: Waterloo Region project is a $500-million initiative led by Habitat for 
+Humanity which will build 10,000 new in the region by 2030.41 Of the existing social housing 
+and affordable housing programs, none feature i) a combined housing stock and production scale 
+similar, or ii) diverse housing mix, equal to the BUILD NOW: Waterloo Region project. 
+Regarding the former, the BUILD NOW: Waterloo Region project is a modern version of 
+Canada’s wartime housing program.38 The project explicitly seeks to build affordable units at-
+scale through providing 10,000 units of ‘missing middle’ homes across the Region,37 and is will 
+work with a host of partners to ensure the long-term common interest of housing in the 
+community.38 With respect to the latter and housing mix, as alluded to, BUILD NOW: Waterloo 
+Region will engage the community, private and public sector actors, and not-for-profit 
+organizations37 to help with ensuring specific housing is provided for populations across a wide 
+spectrum of incomes and needs. Notably, the project has identified designing housing for 
+vulnerable populations (e.g. supportive and Indigenous housing), moderate income households, 
+and larger/multigenerational households.41 Ultimately, this approach will result in the 
+construction of 10,000 affordable or attainable housing units that will remain as such in 
+perpetuity; feature a mix of tenure (30% Rental, 70% ownership); and use of local contractors to 
+engage and build capacity in the local non-profit and co-operative housing sector.41 
+Addressing the challenge of creating affordable, suitable, and sustainable home ownership in 
+Canada requires a fundamental shift in how we think about and build housing. The Future Cities Institute 
+proposes a world-class Living Lab in Waterloo Region to advance a transformational affordable housing 
+model. Through interdisciplinary research, experiential learning, and local and international partnerships, the 
+Build Now Living Lab will assess and amplify the economic, health, sustainability, technological and 
+societal impacts of community-led housing — creating local solutions with global relevance. The Build 
+Now Living Lab directly addresses a nationally urgent, socially complex challenge with the potential for
+
+5 
+ 
+real and lasting impact. It proposes a novel model of interdisciplinary, data-informed, and community-
+embedded research within a large-scale real-world development. It brings together academia, civil society, 
+industry, and government in a true partnership, positioning our Region as a global leader in housing 
+innovation. The Living Lab will provide the evidence, tools, and scalable models needed to fundamentally 
+reshape how communities are built—transforming housing from a source of crisis to a platform for 
+prosperity, well-being, and sustainability. The aim of our project is to build and strengthen our 
+existing Region of Waterloo Build Now team into a national collaboration that will develop a 
+novel ‘Build Now’ housing toolkit for municipalities to employ for building attainable housing 
+at-scale in their communities.  
+Methodological Approach and Timeline (1.75-2 pages – based on Cameron’s example) 
+O1 (May/26-April/27): strengthen the impact and vision of our Region of Waterloo Build Now (BNWR) 
+team via ‘city sprint’ meetings to co-create an initial ‘Build Now’: Practical Attainable Housing Solutions 
+toolkit for municipalities. At the outset of this work, the Project Direction (PD) will write ethics 
+applications to the University of Waterloo Office of Research for all team meeting, data 
+collection, and knowledge mobilization (KmB) activities contained within this project, as well as 
+create a partnership Data Management Plan. The PD will work with the Co-Applicants and 
+Collaborators on the BNWR team to establish working groups to guide this project and its component 
+objectives. 
+ 
+O2 (May/27-April/28): present our initial ‘Build Now’: Practical Attainable Housing Solutions toolkit to 
+audiences across Canada and recruit new members to be involved in the revising and continued 
+development of the toolkit. After revising our Regional team’s collaborative and vision statement, 
+we will seek to build a nationally representative Build Now collective through presenting our 
+work and recruiting members at multiple planning, public administration, housing, and industry 
+conferences/meeting. Specifically, our team will be represented at the National Conference of the 
+Canadian Institute of Planners (CIP) 2026/2027, The Ontario Professional Planners Institute 
+(OPPI) 2026/2027 annual conference, the International Conference on Sustainable Urban 
+Development and Spatial Planning (ICSUDSP) in Montreal (Aug 05/2026), the International 
+Conference on Urban Landscape and Urban Planning (ICULUP) in Vancouver (May 20/2027), 
+Federation of Canadian Municipalities annual conference 2026/2027, Canadian Association of 
+Municipal Administrators annual conference 2026/2027, and the Canadian Home Builders' 
+Association annual conference 2026/2027. 
+ 
+(O3: May/28-April/29): with our expanded and national team, finalize the co-creation of an open access 
+‘Build Now’: Practical Attainable Housing Solutions toolkit that municipalities across Canada, and 
+internationally, may to address their local housing issue(s). 
+ 
+European Network of Living Labs (EnoLL): FCI has an emerging partnership with ENoLL, an 
+international non-profit association that promotes and the Living Lab concept around the world 
+by facilitating knowledge exchange, joint actions, and project partnerships. Together with CEE’s 
+International Strategic Initiatives team, FCI will identify international student learning 
+experiences (e.g., co-op terms) with ENoLL members and will reinforce UWaterloo’s global
+
+6 
+ 
+presence by participating F’25 – S’28 in workshops and training opportunities for the duration of 
+the funding.
+
+7 
+ 
+References 
+ 
+1. Schlesinger J. Average home price growth in Canada outpaces affordability. Calgary Herald. 
+https://calgaryherald.com/life/homes/average-home-price-growth-in-canada-outpaces-
+affordability. 2025. Accessed June 11, 2025. 
+2. Canadian Mortgage and Housing Corporation. Housing Market Information - Canada’ s 
+Housing Supply Shortages: Estimating What Is Needed to Solve Canada’ s Housing 
+Affordability Crisis by 2030. Canadian Mortgage and Housing Corporation; 2022. 
+3. Waterston S, Grueger B, Samson L, Society CP , Committee CP. Housing need in Canada: 
+Healthy lives start at home. Paediatr Child Health. 2015;20(7):403-407. 
+doi:10.1093/pch/20.7.403 
+4. Canadian Mental Health Association. Housing and Mental Health. 2025. Accessed June 12, 
+2025. https://ontario.cmha.ca/documents/housing-and-mental-health/ 
+5. Farkhondehpay R. Beyond Shelter: A Multi-Stakeholder Approach to Canada’s Housing 
+Crisis. Urban Reg Plan. 2024;9(3):58-70. doi:10.11648/j.urp.20240903.11 
+6. Walks A. From Financialization to Sociospatial Polarization of the City? Evidence from 
+Canada. Economic Geography. 2013;90(1). doi:10.1111/ecge.12024 
+7. Canadian Mortgage and Housing Corporation. Canada’s Housing Supply Shortage: Restoring 
+affordability by 2030. 2022. Accessed June 12, 2025. https://www.cmhc-
+schl.gc.ca/blog/2022/canadas-housing-supply-shortage-restoring-affordability-2030 
+8. Beer C, McManus T, Rand A, Kundra S, Leon S. Analysis of Affordable Housing Supply 
+Created By Unilateral National Housing Strategy Programs - Research Report. Blueprint 
+ADE and Wellesley Institute; 2022. 
+9. Barrett J, Santos L, Beit-Arie T, et al. Making the Case for the Middle: The Potential of 
+Middle Housing Production in Alberta. Canadian Urban Institute and Alberta Real Estate 
+Foundation; 2024. Accessed June 12, 2025. https://canurb.org/wp-content/uploads/Making-
+the-Case-for-the-Middle.pdf#page=29.07 
+10. Hardwick J. Why the National Housing Strategy failed. Canadian Dimension. October 
+15, 2024. Accessed June 12, 2025. https://canadiandimension.com/articles/view/why-the-
+national-housing-strategy-failed 
+11. C.D. Howe Institute. Housing Policy for a Growing Canada. C.D. Howe Institute; 2024. 
+Accessed June 12, 2025. https://cdhowe.org/publication/housing-policy-for-a-growing-
+canada/ 
+12. Erudera. Canada International Student Statistics 2023. Erudera. 2023. Accessed June 11, 
+2025. https://erudera.com/statistics/canada/canada-international-student-statistics/
+
+8 
+ 
+13. Government of Canada. IRCC Deputy Minister Transition Binder 2024 – Temporary 
+Foreign Workers. May 24, 2024. Accessed June 11, 2025. 
+https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/transition-
+binders/deputy-minister-2024/temp-foreign-workers.html 
+14. Government of Canada. Notice – Supplementary Information for the 2025-2027 
+Immigration Levels Plan. October 24, 2024. Accessed June 11, 2025. 
+https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/supplementary-
+immigration-levels-2025-2027.html 
+15. BUILD NOW: Waterloo Region. Home. BUILD NOW: Waterloo Region. 2025. 
+Accessed June 12, 2025. https://buildnowwr.ca/ 
+16. Infrastructure Canada. Housing, Infrastructure and Communities Canada - Solving the 
+Housing Crisis: Canada’ s Housing Plan. Housing, Infrastructure and Communities Canada; 
+2024. Accessed September 13, 2024. https://housing-infrastructure.canada.ca/housing-
+logement/housing-plan-report-rapport-plan-logement-eng.html# 
+17. Royal Bank of Canada. The Great Rebuild Seven ways to fix Canada’s housing shortage. 
+RBC. 2024. Accessed June 12, 2025. https://www.rbc.com/en/thought-
+leadership/economics/canadianhousing/special-housing-reports/the-great-rebuild-seven-ways-
+to-fix-canadas-housing-shortage/ 
+18. Moffatt M. Baby Needs a New Home: Projecting Ontatio’ s Growing Number of Families 
+and Their Housing Needs. Smart Prosperity Institute; 2021. Accessed June 12, 2025. 
+https://institute.smartprosperity.ca/sites/default/files/Baby-Needs-a-New-Home-Oct-1.pdf 
+19. Gaetz S, Dej E. A New Direction: A Framework for Homelessness Prevention. Canadian 
+Observatory on Homelessness Press; 2017. 
+20. National Housing Council. Shaping the future of housing in Canada through inclusion 
+and participation. 2025. Accessed June 12, 2025. https://nhc-cnl.ca/news/post/new-report-
+from-the-national-housing-council-calls-for-canada-to-double-its-non-market-housing- 
+21. Habitat for Humanity Canada. 2024 survey highlights the ripples effect of the housing 
+crisis. Habitat for Humanity Canada. 2024. Accessed June 11, 2025. 
+https://habitat.ca/en/news/2024housingsurvey 
+22. Lauster N, Bergmann J von. The new rules: housing shortage as an explanation for family 
+and household change across large metro areas in Canada, 1981–2021. The History of the 
+Family. Published online February 14, 2025. Accessed June 11, 2025. 
+https://www.tandfonline.com/doi/abs/10.1080/1081602X.2024.2448986 
+23. Coletto ES David. How the Housing Crisis Is Impacting the Goals and Well-Being of 
+Younger Canadians. Abacus Data. October 6, 2023. Accessed June 11, 2025. 
+https://abacusdata.ca/the-housing-crisis-impact-on-younger-canadians/
+
+9 
+ 
+24. Canada Mortgage and Housing Corporation. 2011 Census/National Household Survey 
+Housing Series: Issue 3 – The Adequacy, Suitability and Affordability of Canadian Housing, 
+1991-2011. 2015. Accessed June 10, 2025. 
+http://publications.gc.ca/collections/collection_2015/schl-cmhc/nh18-23/NH18-23-2015-2-
+eng.pdf 
+25. Krieger JW, Song L, Takaro TK, Stout J. Asthma and the home environment of low-
+income urban children: preliminary findings from the Seattle-King County healthy homes 
+project. Journal of Urban Health. 2000;77(1):50-67. 
+26. Sharfstein J, Sandel M, Kahn R, Bauchner H. Is Child Health at Risk While Families 
+Wait for Housing V ouchers? Am J Public Health. 2001;91(8):1191-1192. 
+doi:10.2105/AJPH.91.8.1191 
+27. Evans GW, Kantrowitz E. Socioeconomic Status and Health: The Potential Role of 
+Environmental Risk Exposure. Annu Rev Public Health. 2002;23(1):303-331. 
+doi:10.1146/annurev.publhealth.23.112001.112349 
+28. Statistics Canada SC. Waitlist status including length of time, by tenure including social 
+and affordable housing. July 21, 2022. Accessed June 13, 2025. 
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4610005801 
+29. City of Toronto. Housing Offer Process. City of Toronto. November 14, 2021. Accessed 
+June 13, 2025. https://www.toronto.ca/community-people/employment-social-
+support/housing-support/rent-geared-to-income-subsidy/choice-based-housing-offer-process/ 
+30. City of Ottawa. Subsidized Housing. May 14, 2025. https://ottawa.ca/en/family-and-
+social-services/housing-and-homelessness/subsidized-housing 
+31. Maru S. Windsor on par with years-long wait for social housing in the province. 
+CTVNews. January 9, 2025. Accessed June 13, 2025. 
+https://www.ctvnews.ca/windsor/article/windsor-on-par-with-years-long-wait-for-social-
+housing-in-the-province/ 
+32. Statistics Canada. Housing, wealth and debt: How are young Canadians adapting to 
+current financial and housing pressures? March 27, 2024. Accessed June 13, 2025. 
+https://www150.statcan.gc.ca/n1/pub/36-28-0001/2024003/article/00004-eng.htm 
+33. School of Cities. Housing Supply Mix Strategy 4a: Social Housing. School of Cities; 
+2024. Accessed June 13, 2025. https://schoolofcities.utoronto.ca/wp-
+content/uploads/2025/04/Housing-Mix-strategy-4a-Social-Housing.pdf 
+34. Young R. Canadian Housing Affordability Hurts. 2023. Accessed June 13, 2025. 
+https://www.scotiabank.com:443/content/scotiabank/ca/en/about/economics/economics-
+publications/post.other-publications.insights-views.social-housing--january-18--2023-.html 
+35. Government of British Columbia. Workforce Housing Case Studies. Government of 
+British Columbia; 2023. Accessed June 13, 2025.
+
+10 
+ 
+https://www2.gov.bc.ca/assets/gov/employment-business-and-economic-
+development/economic-development/find-support-organizations/rural-economic-
+development/workforcehousing_casestudies_combined.pdf#page=2.12 
+36. Right At Home Housing Society. Ambrose Place | Affordable Housing Edmonton. Right 
+at Home Housing Society. 2025. Accessed June 13, 2025. 
+https://rightathomehousing.com/housing/existing/ambrose_place/ 
+37. BUILD NOW: Waterloo Region. About Us. BUILD NOW: Waterloo Region. 2025. 
+Accessed June 11, 2025. https://buildnowwr.ca/about-us/ 
+38. Habitat for Humanity Waterloo Region. BUILD NOW: Waterloo Region Partnership Is 
+Building 10,000 Affordable New Homes. Habitat for Humanity Waterloo Region; 2023. 
+Accessed June 14, 2025. https://www.habitatwr.ca/files/BUILDNOW-NEWSRELEASE-
+Final.pdf 
+39. City of Toronto. City of Toronto and CreateTO announce development partners for one of 
+Ontario’s largest co-operative and affordable housing projects. January 9, 2024. Accessed June 
+13, 2025. https://www.toronto.ca/news/city-of-toronto-and-createto-announce-development-
+partners-for-one-of-ontarios-largest-co-operative-and-affordable-housing-projects/ 
+40. Fondation des jeunes de la DPJ. Le Christin a place of compassion and social diversity. 
+Fondation des jeunes de la DPJ. March 13, 2024. Accessed June 13, 2025. 
+https://www.fondationjeunesdpj.ca/en/blog/le-christin-a-place-of-compassion-and-social-
+diversity/ 
+41. Lee M. 2025 University Ave E – REOI Process and Recommended Proposal. The City of 
+Waterloo; 2024. https://hdp-ca-prod-app-wr-engage-files.s3.ca-central-
+1.amazonaws.com/9017/3752/1434/34492c52612e36c35a54177adc3d4389_CAO2024-032_-
+_2025_University_Ave_E_-_REOI_process_and_recommended_proposal_28129.pdf
+
+11 
+ 
+Previous SSHRC Funding (1 page – based on Cameron’s example ... looks like can include all team 
+members) 
+ 
+Budget Justification (2 pages & tied to the objectives above – based on Cameron’s example) 
+To successfully achieve objective 1
+
+12 
+ 
+Description of Formal Partnership (1/2 page intro – based on Cameron’s example) 
+ The development of our national Build Now team will begin with ...  
+The Partnership Approach (1/2 page – based on Cameron’s example) 
+ 
+Partnership Intellectual Leadership (1/3 page intro – based on Cameron’s example) 
+ 
+Integration of Partner Expertise (1/3 page intro – based on Cameron’s example) 
+ 
+Addressing Anticipated Partnership Challenges (1/3 page intro – based on Cameron’s example) 
+ 
+Benefits to Partner Organizations (1/2 page intro – based on Cameron’s example) 
+ 
+Potential Partner Organizations (1/2 page intro – based on Cameron’s example) 
+ 
+Other Contributors (1/2 page intro – based on Cameron’s example)
+
+13 
+ 
+Participants Involvement (2 pages) 
+ 
+Contribution to the proposed research: 35%; Percentage of research time spent on the project: 
+60%. 
+ 
+Contribution to the proposed research: 30%, Percentage of research time spent on the project: 
+20%.
+
+14 
+ 
+Training and Mentoring (1 page) 
+Research Methods and Theories: 
+Research Communication: 
+Knowledge Mobilization: 
+Digital Literacy: 
+Data Management and Analysis: 
+Interdisciplinary Research: 
+Teamwork: 
+Workshop Facilitation:
+
+15 
+ 
+Knowledge Mobilization Plan (2 pages max) 
+ Outputs of the proposed research project are intended for several audiences, namely those 
+involved in city planning, housing, and land development decision-making processes. To this, 
+end, elected officials (e.g., mayors, councillors, MPPs/MPs), urban design practitioners, 
+community and public health practitioners, housing developers, and researchers (e.g., housing, 
+community development, civil engineering) will be the primary targets for our knowledge 
+mobilization (KMb) plans. Traditional research outputs in the form of academic articles (O2-O3) 
+will be the first focus of our KMb plan. Together, the Research Team will undertake a qualitative 
+studying the development and formalization of our toolkit (O2), and then complete a qualitative 
+process evaluation of the partnership development (O3), which together will result in two 
+manuscripts being published in peer-reviewed academic journals. Leading interdisciplinary 
+social science and housing journals will be targeted for our publications including Cities (5-year 
+IF: 7.5) and Housing Studies (5-year IF: 3.9). Evidence briefs covering and access to the 
+developed toolkit will also be provided through our Team’s free-to-use housing policy platform 
+(www.CivicInquire.com). Beyond traditional KMb plans pertaining to academic output, we will 
+also leverage two additional strategies: i) international living labs partnerships and ii) local 
+community engagement.  
+International Living Labs Partnerships 
+Our Living Lab leverages partnerships between community, government, and industry to foster 
+collaboration in housing innovation. With the Waterloo Region Community Foundation 
+(WRCF), we will co-host four City Sprints, a two-day design sprint developed by FCI where 
+invited partners problem-solve a specific bottleneck. City Sprints will aim to develop solution 
+prototypes funded through a $30K funding commitment from WRCF (no GFF funding ask). 
+Second, FCI leadership meets with Build Now partners bi-weekly to ensure effective Partnership 
+Engagement. Our Build Now partners have connected us to many opportunities to advance FCI 
+impact in our community (in-kind external partner contribution; no GFF ask). 
+Finally, Waterloo’s global presence will be reinforced through our partnership with ENoLL, the 
+world-leading international organization that helps Living Labs around the world incorporate 
+best practices in research and management to expand their impact. We are working with CEE’s 
+International Strategic Initiatives team to identify co-op students work opportunities with ENoLL 
+members. Total GFF ask $7,500 (matched 1:1 GFF:FCI) to participate in ENoLL training 
+opportunities and bring world-class expertise to Waterloo. 
+Community Engagement 
+The research and training undertaken by the Living Lab is embedded in inclusive community 
+engagement and co-creation: community engagement is foundational to research and knowledge 
+mobilization, which ensures the integration of diverse voices. Finally, our team is committed to 
+open data and the democratization of the tools and recommendations that are generated by this 
+project. Municipalities, especially low-resource municipalities, deserve to have access to world-
+class tools and information we will develop and synthesize to their own city building work.
+
+16 
+ 
+ 
+ 
+ 
+The dissemination of findings to the municipal governments in Beira and Puri will primarily rely 
+on the professional networks created in Objective Four via the Steering Committees in each 
+respective city. In order to support the city-specific knowledge mobilization activities in this 
+project, the research team will work with the city-specific Steering Committees to establish 
+cross-sectoral stakeholder networks within each city to translate SDG-VLRs into action.

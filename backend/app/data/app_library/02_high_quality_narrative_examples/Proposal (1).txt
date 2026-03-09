@@ -1,0 +1,56 @@
+CFI-JELF 2025 Proposal 
+Project Title: Future Cities Institute Research Infrastructure: Living Labs and CivicInquire 
+Policy Platform 
+ 
+1 PROJECT BRIEF: Using simple, concise sentences describe in no more than three lines the 
+objective and key elements of this proposal. If the project is approved, this summary description 
+may be used, in whole or in part, in press releases or similar material. 
+This project will result in the development of ...
+
+2 PROJECT ABSTRACT: Describe below, in no more than 250 words and in non-scientific 
+terms, the major equipment to be purchased, the research to be carried out using the new 
+equipment, and how the facility and the research might benefit Ontario. 
+Urban planning research is interdisciplinary ...
+
+3 PARTNERS: Please list below any funding partners and those with whom you may be 
+collaborating in establishing the facility and in conducting the research. 
+Funding Partners: Give names and amounts received or anticipated. 
+1. Canada Foundation for Innovation – John R. Evans Leaders Fund: $XX,XXX, anticipated 
+2. Vendor, In-kind: $XX,XXX, received 
+Research Partners: Give names of individuals and institutions and the nature of the 
+collaborative work. 
+Drs. Minaker (Lead, University of Waterloo), Chen (Co-Applicant, University of Waterloo), and 
+Butt (Co-Applicant, University of Waterloo) will share the infrastructure to establish a secure 
+research and project management server and system to support both current and future 
+interdisciplinary urban research related to the Future Cities Institute (FCI) mandate.
+
+4 EV ALUATION CRITERIA: In determining whether to approve the project for ORF funding 
+support, the Ministry will consider the degree to which the proposal will address specific 
+evaluation criteria. Identify in the sections below how the project will address these objectives: 
+Quality: The proposed research or technology development is of high quality and originality, 
+meets international standards, and will lead to innovation. 
+ 
+Expertise: Researchers must have the expertise and commitment to conduct world-class 
+research or technological development. 
+ 
+Need: The infrastructure is essential and appropriate for the proposed activity. 
+The requested infrastructure is critical to achieve the objectives of this research project. Details 
+are provided below: 
+Equipment Band 1 – Computing Infrastructure 
+Specs include: 
+PowerEdge R7715 Rack Server =~$31,000 (USD) 
+Logitech Rally Bar Mini All-In-One Video Bar for Small to Medium Rooms = =~$4,000 (USD) 
+Website Security Stuff for CivicInquire(?) – Helen/Pedro could help out with this 
+ 
+Equipment Band 2 – Field Data Collection Devices 
+Specs include: 
+Latitude 7350 Detachable (x3) = ~$6,000 (USD) 
+ 
+Training: Creating or strengthening an environment that attracts high quality trainees and 
+imparts the new high-level skills to HQP for research and other careers. 
+ 
+Partnerships: Any required collaborations or partnerships are appropriate and already in place 
+or under development. 
+ 
+Benefits: Research using the proposed infrastructure will have the potential to lead to social or 
+economic benefits.

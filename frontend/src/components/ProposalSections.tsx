@@ -3,20 +3,29 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
 import type { Requirements } from "@/lib/api";
-import { ArrowLeft, ArrowRight, FileText } from "lucide-react";
+import { ArrowLeft, ArrowRight, FileText, PencilLine, Plus, Trash2 } from "lucide-react";
 
 export function ProposalSections({
   requirements,
   onNext,
   onBack,
+  onSectionTitleChange,
+  onSectionDelete,
+  onSectionAdd,
 }: {
   requirements: Requirements;
   onNext: () => void;
   onBack: () => void;
+  onSectionTitleChange: (sectionKey: string, title: string) => void;
+  onSectionDelete: (sectionKey: string) => void;
+  onSectionAdd: () => void;
 }) {
   const sections = requirements.sections || [];
   const count = sections.length;
+  const parseConfidence = requirements.parser_meta?.confidence;
+  const showParseWarning = parseConfidence === "low" || count <= 1;
 
   return (
     <motion.div
@@ -45,7 +54,18 @@ export function ProposalSections({
           </div>
         </CardHeader>
         <CardContent>
+          {showParseWarning && (
+            <div className="mb-4 rounded-lg border border-amber-300 bg-amber-50 p-3 text-sm text-amber-900 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-100">
+              Parse quality looks low ({count} section detected). Consider uploading a cleaner text-based PDF/DOCX, or continue and manually edit section expectations.
+            </div>
+          )}
           <div className="space-y-4">
+            <div className="flex justify-end">
+              <Button variant="secondary" size="sm" onClick={onSectionAdd}>
+                <Plus className="mr-2 h-4 w-4" />
+                Add section
+              </Button>
+            </div>
             {sections.map((sec, i) => (
               <div
                 key={sec.key}
@@ -53,7 +73,15 @@ export function ProposalSections({
               >
                 <div className="h-full w-1 shrink-0 rounded-full bg-primary" />
                 <div className="min-w-0 flex-1">
-                  <h3 className="font-semibold text-foreground">{sec.title}</h3>
+                  <div className="mb-2 flex items-center gap-2">
+                    <PencilLine className="h-4 w-4 text-muted-foreground" />
+                    <Input
+                      value={sec.title}
+                      onChange={(e) => onSectionTitleChange(sec.key, e.target.value)}
+                      className="h-8"
+                      aria-label={`Edit title for section ${i + 1}`}
+                    />
+                  </div>
                   {sec.guidance && (
                     <p className="mt-1 text-sm text-muted-foreground line-clamp-2">
                       {sec.guidance}
@@ -66,7 +94,18 @@ export function ProposalSections({
                   )}
                 </div>
                 <div className="shrink-0">
-                  <FileText className="h-5 w-5 text-muted-foreground" />
+                  <div className="flex items-center gap-2">
+                    <FileText className="h-5 w-5 text-muted-foreground" />
+                    <Button
+                      type="button"
+                      variant="ghost"
+                      size="icon"
+                      onClick={() => onSectionDelete(sec.key)}
+                      aria-label={`Delete section ${sec.title}`}
+                    >
+                      <Trash2 className="h-4 w-4 text-muted-foreground" />
+                    </Button>
+                  </div>
                 </div>
               </div>
             ))}

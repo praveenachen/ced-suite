@@ -1,0 +1,426 @@
+CMHC Proposal 
+ 1 
+Description of the Research Team 
+• Lead Applicant: Joyce Kim 
+• Co-Applicant: Leia Minaker and Fatma Gzara 
+• Collaborators: Caivan/ABIC, NRC, BC Housing’s DASH Initiative 
+Project Title 
+Harmonizing Municipal Development Approvals: A Digital Framework for Accelerating Prefabricated 
+Housing in Canada 
+Section 1: Project Summary/Description (max 500 words) 
+Provide a summary description designed to provide reviewers with a comprehensive understanding 
+of the project purpose/objectives, alignment with Focus Areas and research topics, and its 
+anticipated benefits (in terms of new knowledge, insights, data, or solutions) and significance. 
+Describe the purpose/objectives of the project and expected results in the form of project outputs 
+and outcomes.  
+Canada’s housing affordability crisis requires the rapid adoption of innovative solutions. Meeting 
+these targets, however, is challenged by a construction industry facing critical labour shortages, 
+making an industry-wide transformation in productivity essential. Off-site construction methods 
+such as prefabrication could significantly accelerate housing supply, but its potential is often 
+constrained by municipal approval processes that were designed for conventional, on-site 
+construction timelines. While these legacy processes are well-intended to ensure safety and 
+quality, they are not yet structured to support the parallel, manufacturing-based workflows that 
+make prefabrication efficient. This creates a structural misalignment, resulting in bottlenecks and 
+delays that hinder a key housing innovation. 
+This project will address this critical operational gap by developing a standardized, digitally enabled 
+pathway for the approval of prefabricated housing development. To achieve this, our objectives are: 
+1. To map the current approval journey for prefabricated construction from the applicant's 
+perspective in the cities of Waterloo and Ottawa, documenting key timelines and 
+bottlenecks that prevent parallel work streams. 
+2. To document the municipal approval processes of three BC Housing/DASH Demonstration 
+projects in Prince George, Victoria and Abbotsford (https://www.acceleratedhousing.ca) 
+and validate the identified bottlenecks and assess the time savings achieved by accelerated 
+digital approval methods. 
+3. To identify specific opportunities where digital tools, particularly Building Information 
+Modeling (BIM), can be integrated into municipal workflows to streamline document 
+submission, automate compliance checks, and improve inter-departmental coordination.
+
+CMHC Proposal 
+ 2 
+4. To develop a scalable, best-practice guide and standardized digital workflow that provides 
+municipalities with a clear roadmap for managing the unique challenges of off-site 
+construction approval processes while ensuring regulatory quality. 
+This project directly aligns with the Building Science and Construction Innovation focus area, 
+specifically addressing barriers to adopting innovation and the regulatory conditions necessary to 
+scale prefabricated housing. The anticipated benefits are significant. For developers, it will provide 
+greater predictability and reduced costs. For municipalities, it offers a pathway to increase 
+efficiency and meet housing targets without compromising regulatory quality. For Canada, this 
+research will produce an actionable and scalable model that can be adapted nationwide, helping to 
+unlock the full potential of innovative construction to address the housing crisis. 
+Section 2: Project Justification (maximum 1,250 words)  
+Include:  
+• a description of the background and justification of the project;  
+• a description of how the project aligns with the one or more Focus Areas and topics 
+outlined in this call for proposals;  
+• a description of the current state of knowledge/research gap being addressed;  
+• a description of the overall goal and specific objectives of the endeavour;  
+• a description of the methodology or approach proposed to achieve the research objectives, 
+including key research questions; and  
+• a description of anticipated results, significance and contribution.  
+ 
+2.1 Background and Justification of the Project 
+Canada is facing a critical housing affordability crisis, with the federal government setting 
+ambitious targets to accelerate development. To restore affordability, Canada’s housing starts need 
+to reach 480,000 units annually until 2035 (CMHC 2025). Meeting these targets presents a dual 
+challenge of scale and capacity. The construction industry's existing labour shortages and 
+plateauing productivity mean traditional methods are insufficient to build at the required pace, 
+creating an urgent need for transformative innovations (Haas et al. 2025). Methods such as 
+prefabricated and modular construction are essential for achieving this transformation, offering the 
+potential for faster, higher-quality, and more sustainable housing (Ezcan et al. 2025). 
+Despite this potential, the adoption of these modern construction techniques is severely hampered 
+by a fundamental structural misalignment. Existing municipal review and approval workflows are 
+designed for the linear, sequential timeline of conventional on-site construction. These legacy 
+systems are not yet structured to support the parallel, manufacturing-based workflows that are the 
+hallmark of prefabrication's efficiency. The core challenge is the lack of a standardized pathway 
+that allows off-site factory work to begin concurrently with on-site preparations. This misalignment 
+creates systemic bottlenecks and delays, preventing a key housing innovation from reaching the 
+required scale. Inconsistent approval processes and fragmented code jurisdictions are also key 
+challenges to be overcome (Haas et al. 2025; Altus Group 2022).
+
+CMHC Proposal 
+ 3 
+2.2 Alignment with CMHC Focus Areas 
+This project aligns directly with Focus Area 3: Building Science and Construction Innovation. It 
+addresses several key topics identified in the Call for Proposals by systematically identifying the 
+barriers preventing the adoption of housing innovation. Our central goal is to define the optimal 
+municipal processes necessary to scale prefabricated housing contributing meaningfully to closing 
+the housing supply gap. Furthermore, we directly investigate how BIM can serve as a digital tool for 
+scaling up these innovations within a modernized municipal framework. 
+2.3 Current State of Knowledge/Research Gap 
+The benefits of BIM for coordination and efficiency in the design and construction phases are well-
+documented (Succar et al. 2025; Jia et al. 2018). However, little empirical research has focused on 
+how BIM can be integrated into municipal review and approval workflows for prefabricated housing 
+development. This gap is significant, as municipalities currently rely on 2D-based plan and drawing 
+reviews that are manual, time-consuming, and prone to inconsistent interpretation (Altus Group 
+2022). This project will investigate how BIM can solve these problems by providing a single source 
+of truth for all stakeholders and creating the opportunity to automate compliance verification, 
+moving beyond problem diagnosis to develop a solution-oriented, actionable framework. 
+2.4 Overall Goal and Specific Objectives 
+The overall goal is to address a critical operational gap by developing a standardized, digitally 
+enabled pathway for the approval of prefabricated housing development. Our specific objectives 
+are: 
+1. To map the current approval journey for prefabricated construction from the applicant's 
+perspective in the cities of Waterloo and Ottawa, documenting key timelines and 
+bottlenecks that prevent parallel work streams. 
+2. To document the municipal approval processes of three BC Housing/DASH Demonstration 
+projects in Prince George, Victoria, and Abbotsford (https://www.acceleratedhousing.ca) 
+and validate the identified bottlenecks and assess the time savings achieved by accelerated 
+digital approval methods. 
+3. To identify specific opportunities where digital tools, particularly BIM, can be integrated into 
+municipal workflows to streamline document submission, automate compliance checks, 
+and improve inter-departmental coordination. 
+4. To develop a scalable, best-practice guide and standardized digital workflow that provides 
+municipalities with a clear roadmap for managing the unique challenges of off-site 
+construction approval processes while ensuring regulatory quality. 
+2.5 Methodology 
+To achieve the project's objectives, we will employ a multi-stage, mixed-methods approach. 
+1. Mapping the Approval Journey (M1): We will map the approval journey from the applicant's 
+perspective by first creating detailed swim lane diagrams based on municipal documents 
+(e.g., by-laws, permit applications) that illustrate how applications flow between key
+
+CMHC Proposal 
+ 4 
+departments and identify handoffs and dependencies. Upon receiving ethics approval, 
+these initial maps will be validated through semi-structured interviews with municipal staff 
+and industry applicants to identify specific procedural barriers to parallel construction 
+workflows. 
+2. Analyzing Bottlenecks and Integrating DASH Data (M2): We will integrate process data from 
+the BC Housing/DASH Demonstration projects (Prince George, Victoria, and Abbotsford) to 
+establish real-world performance benchmarks. The validated process maps will be 
+analyzed using Value Stream Mapping (VSM) to pinpoint non-value-added steps, quantify 
+wait times, and identify rework loops. This analysis will be supported by a comparative 
+bottleneck analysis, incorporating time and motion studies and critical path methods to 
+quantify delays and identify timeline dependencies. This integrated analysis will provide the 
+empirical basis for addressing the need for efficiency. 
+3. Developing the Digital Framework and the Proof of Concept (M3):  Using the data from M2, 
+we will determine where BIM can most effectively automate compliance verification and 
+streamline data flow. We will then develop a Proof of Concept (PoC) by using a BIM model 
+and project documentation (sourced from a collaborator or a sand-box model) to test 
+automated digital review. This PoC will validate a critical subset of compliance 
+requirements essential for concurrent off-site approval, generating a concrete, scalable 
+example for the proposed digital framework. 
+4. Synthesizing and Validating the Harmonized Framework (M4): The insights from the previous 
+methods will be synthesized into a draft of the harmonized digital framework and best-
+practice guide. This draft will be developed through iterative consultation with municipal 
+and industry experts to ensure its content is relevant and practical. The final framework will 
+then be validated through focus groups with municipal planners, engineers, and 
+administrators to confirm its implementation feasibility, robustness, and potential for 
+adoption. 
+2.6 Anticipated Results, Significance, and Contribution 
+The project will produce key results: detailed process maps illustrating the procedural 
+dependencies that currently prevent parallel workflows, a comparative bottleneck analysis, a 
+harmonized digital framework, and best-practice guide informed in part by following the DASH 
+Demonstration projects through the approvals process in real time (SvN 2024). This guide will 
+provide municipalities with an actionable model for integrating digital tools and managing the 
+concurrent review and approval streams necessary for off-site construction. By creating a clear 
+pathway for parallel approvals, our framework will unlock prefabrication’s efficiency, reducing 
+timelines/costs and accelerating the delivery housing supply. This work will make a significant 
+contribution by providing a scalable model for modernizing municipal workflows to support 
+innovative construction methods, aligning with national goals for housing and economic 
+competitiveness. 
+References:
+
+CMHC Proposal 
+ 5 
+• Altus Group Economic Consulting. 2022. CHBA National Municipal Benchmarking Study, 
+2nd Edition. Prepared for the Canadian Home Builders’ Association.  
+• Canada Mortgage and Housing Corporation. 2025. Canada's housing supply shortages: 
+Moving to a new framework.  
+• Ezcan, Volkan, Jack S. Goulding, Jeff H. Rankin, Brandon Searle, and Mohammed Arif. 2025. 
+"Offsite Evolution: Do we Really Understand the Potential Impact of Technology on Industry 
+5.0?" CIB Conferences 1, Article 376.  
+• Haas, Carl, Adama Olumo, Joon Ha Hwang, Angie Docking, Arash Shahi, Joyce Kim, and 
+Emmanouil Katsimpalis. 2025. Canadian Construction Automation and Robotics Roadmap. 
+Prepared for the National Research Council of Canada.  
+• Jia, Ruoxi, Baihong Jin, Ming Jin, Yuxun Zhou, Ioannis C. Konstantakopoulos, Han Zou, Joyce 
+Kim, Dan Li, Weixi Gu, Reza Arghandeh, Pierluigi Nuzzo, Stefano Schiavon, Alberto L. 
+Sangiovanni-Vincentelli, and Costas J. Spanos. 2018. "Design Automation for Smart 
+Building Systems. " Proceedings of the IEEE 106, no. 9: 1680–1699.  
+• Succar, Bilal, Farzad Jalaei, and Seyed Reza RazaviAlavi. 2025. BIM maturity at scale: 
+Enabling digital transformation across the Canadian construction industry. National 
+Research Council of Canada. doi:10.4224/40003493.  
+• SvN. 2024. Digitally Accelerated Standardized Housing (DASH) Recommendations. 
+Prepared for Metro Vancouver and bcollective. 
+Section 3: Workplan and Timelines (maximum 250 words)  
+Provide a workplan detailing all activities, major milestones and outputs produced at each 
+milestone. Outline any potential challenges in project implementation and strategies to address 
+them. 
+This 12-month project is structured across five phases. 
+• Phase 1: Foundational Mapping (Months 1–4). We will submit for ethics approval while 
+concurrently conducting documentary analysis of procedures in Waterloo and Ottawa. This 
+will create swim lane diagrams to map the prescribed approval journey. 
+• Phase 2: Validation & Interview Analysis (Months 5–8). Upon receiving ethics approval, we 
+will conduct interviews to validate initial maps. We then will analyze interview data, 
+quantifying barriers and compiling validated process maps. 
+• Phase 3: DASH Data Integration & VSM Quantification (Months 5–10). We will integrate data 
+from the DASH Demonstration projects to establish real-world performance benchmarks. 
+This will involve VSM and comparative bottleneck analysis to produce quantified delays and 
+dependencies. 
+• Phase 4: Framework Design & PoC (Months 8–11). We will synthesize the quantified data 
+from Phase 3 to design a draft digital framework architecture. We then will develop the BIM 
+PoC using DASH project data to test automated digital review and validation. 
+• Phase 5: Validation & Dissemination (Months 11–12). In the final months, we will synthesize 
+all findings into a best-practice guide and validate the draft framework architecture through
+
+CMHC Proposal 
+ 6 
+focus groups to confirm its feasibility. Final outputs will include the validated guide, a 
+research report for CMHC, and a policy brief. 
+Potential Challenges and Mitigation:  
+• Ethics Approval Delay is mitigated by front-loading documentary analysis. Team experience 
+suggests approval in <2 months will be feasible.  
+• Participant Recruitment is mitigated by leveraging existing team relationships to ensure 
+timely access to participants. 
+Section 4: Results and Knowledge Mobilization (maximum 250 words)  
+Discuss how the research results are likely to be used, what their expected outcomes might be and 
+any obstacles to the eventual use of the results. Specify how the use of the results will help 
+advance the strategic objectives of this call, especially ways new insights and evidence may drive 
+decision-making, stimulate dialogue and improve outcomes for the Canadian housing system. 
+To ensure our research translates into actionable change, we will implement a multi-channel 
+knowledge mobilization plan in partnership with the BC Housing Research Centre which is a co-
+creator of the DASH Initiative. The project's primary output will be a harmonized digital framework 
+and best-practice guide, providing municipalities with a practical model for managing the 
+concurrent review and approval streams essential for off-site construction. This will be supported 
+by our detailed process maps and comparative bottleneck analysis. 
+Our knowledge mobilization strategy is tailored to key stakeholders: 
+• For Municipal Practitioners: The guide will be the primary tool, supplemented by direct 
+engagement with our partners in Waterloo (two-tier municipality) and Ottawa (single tier 
+municipality) through workshops to ensure the framework is practical and can be readily 
+implemented. We will collaborate with the Association of Municipalities of Ontario to host a 
+webinar with their members to introduce the guide.  
+• For the Broader Housing Sector: Findings will be disseminated widely through presentations 
+at key industry and academic conferences and a publication in a high-impact, open-access 
+journal to ensure the model is accessible to all. 
+• For Policy-Makers: We will produce a targeted policy brief that translates our findings into 
+high-level recommendations for creating provincial and federal policies that support the 
+municipal adoption of the standardized digital workflows. 
+All materials will be publicly available on the Future Cities Institute website. Finally, we will deliver a 
+comprehensive final report and presentation to CMHC to ensure the results inform Canada's 
+national housing strategy.
+
+CMHC Proposal 
+ 7 
+Section 5: Project Team Capacity (maximum 250 words)  
+Summarize the core research team members' expertise and previous work highlighting links to 
+proposed research. A core research team should be led by a lead applicant and may have a 
+maximum of two co-applicants, and may have one or more collaborators. 
+The core project team is uniquely qualified to execute this research successfully.  
+• Dr. Joyce Kim (Lead Applicant): Assistant Professor, Civil and Environmental Engineering, 
+University of Waterloo. Dr. Kim is an expert in digital twin, BIM, and off-site construction. 
+She provides the core technical and research leadership for this project, focusing on the 
+digitalization of prefabricated/modular construction processes. 
+• Dr. Leia Minaker (Co-Applicant): Associate Professor, Director of the Future Cities Institute 
+(FCI), brings extensive experience in municipal policy research, stakeholder engagement, 
+and established relationships with city partners, which is crucial for recruitment and data 
+collection. 
+• Dr. Fatma Gzara (Co-Applicant): Professor, Department of Management Sciences, 
+University of Waterloo. Dr. Gzara contributes expertise in large-scale optimization and 
+supply chain analytics, ensuring a rigorous analysis of municipal workflows using industrial 
+engineering methodologies. 
+The core team is further strengthened by key collaborators:  
+• Susan Brown (Research Coordinator, FCI): Provides project coordination, administrative 
+oversight, and writing of final report/deliverables.  
+• Dr. Farzad Jalaei (Research Officer, NRC): Provides expertise in BIM maturity and national 
+standardization, ensuring the proposed digital framework aligns with the NRC's national 
+efforts to scale digital transformation across the Canadian construction industry.  
+• David Catalfo (Executive Vice President, Operations, ABIC): Brings industry expertise in off-
+site construction and practical BIM implementation, providing access to critical industry 
+perspective to inform the PoC validation.  
+• Dr. Esther de Vos (Executive Director, Research, BC Housing): Brings deep expertise in 
+housing policy and research. Dr. de Vos is a Certified Practitioner with the Chartered 
+Institute of Housing Canada and teaches courses on public policy and affordable housing 
+policy and planning at Royal Roads University and UBC.
+
+CMHC Proposal 
+ 8 
+Budget and Justification 
+The total direct funding requested for this project is $99,450. This budget is structured to leverage 
+dedicated coordination and Highly Qualified Personnel (HQP).  
+ 
+Item Costs Notes 
+Personnel   
+Co-op Student  
+(2 semesters @ $15,000) $30,000 
+Calculation: 
+$23.50/hour x 35 hours/week x 16 weeks/term x 2 terms + 14% 
+vacation pay = $30,000 
+ 
+Notes: 
+Salary of $23.50/h is in alignment with average earnings for mid-
+level undergraduate co-op students from the Faculty of 
+Engineering at the University of Waterloo. 
+Master's Graduate 
+Research Studentship 
+(3 semesters @ $10,000) 
+$30,000 
+Calculation: 
+n/a 
+ 
+Notes: 
+Salary of $10,000/term is in alignment with University of 
+Waterloo Guidelines for Graduate Research Studentships 
+Research Coordinator  
+(0.1 FTE) $10,000 
+Calculation: 
+$80,000 + 24% benefits x 0.1 = $10,000 
+ 
+Notes: 
+Salary aligns with standard UW salary rates for an employee 
+with a graduate degree in this role. 
+Travel   
+Fieldwork in Waterloo and 
+Ottawa $2,000 
+Assumption: 
+The costs below are based on the following assumptions: 
+• Field work in Ottawa will require 1 x 2-day trip to Ottawa 
+for 2 team members including mileage, per diem, hotel 
+accommodation and parking 
+• There will be negligible costs for field work in Waterloo 
+(estimate travel costs of 100 km total) 
+ 
+Mileage ($650) 
+Calculation 
+1,100 km x $0.59/km = $650 
+ 
+Notes 
+Total of 1,100 km includes 1,000 km for round trip between 
+Waterloo and Ottawa and 100 km for field work in Waterloo (see 
+assumptions listed above) 
+ 
+See link for reference to the University of Waterloo’s standard 
+mileage reimbursement rate ($0.59/km).
+
+CMHC Proposal 
+ 9 
+Item Costs Notes 
+Per diem ($320) 
+Calculation: 
+2 people x 2 days x $80/day = $320 
+ 
+Notes: 
+See link for reference to the University of Waterloo’s standard 
+per diem rates within Canada.  
+ 
+Hotel accommodation ($904) 
+Calculation: 
+2 rooms/night x 2 nights x $200/room + 13% tax = $904 
+ 
+Notes: 
+Room rate is based on internet search for cost of standard 
+rooms at Holiday Inn hotels in Ottawa, ON. 
+ 
+Parking ($125) 
+Notes: 
+Assume $125 in parking costs during stakeholder engagements 
+in Ottawa and Waterloo 
+Equipment and Supplies   
+n/a $0  
+Consultants/subcontracts   
+Research ethics review $3,500 This fee aligns with the University of Waterloo’s standard 
+Research Ethics Review Fee.   
+Participant Costs   
+ Participant honoraria $1,000 Calculation: 
+20 participants x $50/participant = $1,000 
+Dissemination   
+n/a $0  
+Total Direct Costs $76,500  
+Total Indirect Costs  
+(30% of TDC) $22,950  
+Total Funding Requested $99,450  
+ 
+ 
+The research is further supported by a substantial $77,230 institutional commitment in faculty time 
+(In-Kind Contribution). 
+Faculty Member In-Kind Contribution In-Kind Value 
+Dr. Joyce Kim (PI) ($150,000/yr salary @10% contribution per year + 10% infringe 
+benefits) x 1.3 (most conservative university overhead rate) $21,450
+
+CMHC Proposal 
+ 10 
+Dr. Leia Minaker (Co-PI) ($175,000/yr salary @10% contribution per year + 10% infringe 
+benefits) x 1.3 (most conservative university overhead rate) $25,025 
+Dr. Fatma Gzara (Co-PI) ($215,000/yr salary @10% contribution per year + 10% infringe 
+benefits) x 1.3 (most conservative university overhead rate) $30,755 
+Total  $77,230 
+ 
+Direct costs are allocated primarily to personnel who will execute the core methodology (M1-4) and 
+key deliverables and cover essential project logistics. 
+Role Responsibility Key deliverables 
+Dr. Joyce Kim (PI) Overall project leadership; BIM technical 
+direction and PoC design. 
+Final framework & guide (technical content); 
+BIM integration strategy; final research 
+report (strategy/review). 
+Dr. Leia Minaker 
+(Co-PI) 
+Qualitative fieldwork; municipal 
+engagement; interview execution and 
+coordination. 
+Ethics protocol/coordination; interview 
+data/validation; policy brief review & editing. 
+Dr. Fatma Gzara 
+(Co-PI) 
+Process engineering analysis; oversees and 
+validates methods (VSM, critical path). 
+Oversight for VSM and bottleneck analysis; 
+expert review of analysis & mapping. 
+Susan Brown (FCI 
+Staff) 
+Project coordination; writing of final report 
+and deliverables. 
+Final report, guide & policy brief (writing), 
+presentation, ethics application 
+submission. 
+Master's Student 
+(GRS) 
+BIM integration; digital framework design 
+and validation (M3, M4). 
+Digital framework architecture & technical 
+specifications; PoC validation results. 
+Co-op Student 
+Process mapping (M1); VSM analysis (M2); 
+documentation and ethics application 
+support. 
+Value Stream Maps (VSM); Swim Lane 
+Diagrams; ethics application drafting; 
+bottleneck analysis.

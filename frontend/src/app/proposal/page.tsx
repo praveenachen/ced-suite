@@ -11,6 +11,7 @@ import {
   Loader2,
   Upload,
   AlertCircle,
+  Download,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -25,17 +26,20 @@ import {
   type Draft,
   type DraftSection,
   type ValidationResult,
+  exportDraftPdf,
 } from "@/lib/api";
 import { CommunityForm } from "@/components/CommunityForm";
 import { ProposalSections } from "@/components/ProposalSections";
 import { ReportView } from "@/components/ReportView";
 import { cn } from "@/lib/utils";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const STEPS = [
   { id: 1, label: "Upload grant package" },
   { id: 2, label: "Review sections" },
   { id: 3, label: "Community info" },
   { id: 4, label: "Generate report" },
+  { id: 5, label: "Export draft" },
 ];
 
 export default function ProposalPage() {
@@ -46,6 +50,42 @@ export default function ProposalPage() {
   const [draft, setDraft] = useState<Draft | null>(null);
   const [enhanced, setEnhanced] = useState<Record<string, string> | null>(null);
   const [validation, setValidation] = useState<ValidationResult | null>(null);
+  const [finalSections, setFinalSections] = useState<DraftSection[]>([]);
+  const [exportError, setExportError] = useState<string>("");
+
+  const exportMutation = useMutation({
+    mutationFn: async () => {
+      if (!profile || !requirements || finalSections.length === 0) {
+        throw new Error("No finalized draft content to export.");
+      }
+      return exportDraftPdf({
+        grant_name: requirements.grant_name || "",
+        community_name: profile.community_name || "",
+        region: profile.region || "",
+        local_priority: profile.local_priority || "",
+        requested_budget: profile.requested_budget,
+        sections: finalSections.map((s) => ({
+          key: s.key,
+          title: s.title,
+          body: s.body,
+        })),
+      });
+    },
+    onSuccess: (blob) => {
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "grant_proposal.pdf";
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      window.URL.revokeObjectURL(url);
+      setExportError("");
+    },
+    onError: (err) => {
+      setExportError(err instanceof Error ? err.message : "Export failed.");
+    },
+  });
 
   const parseMutation = useMutation({
     mutationFn: (file: File) => parseGrant(file),
@@ -114,7 +154,57 @@ export default function ProposalPage() {
     [requirements, generateMutation]
   );
 
-  const progressPct = step === 4 ? 100 : ((step - 1) / 3) * 100;
+  const handleSectionTitleChange = useCallback(
+    (sectionKey: string, title: string) => {
+      setRequirements((prev) => {
+        if (!prev) return prev;
+        return {
+          ...prev,
+          sections: (prev.sections || []).map((s) =>
+            s.key === sectionKey ? { ...s, title } : s
+          ),
+        };
+      });
+    },
+    []
+  );
+
+  const handleSectionDelete = useCallback((sectionKey: string) => {
+    setRequirements((prev) => {
+      if (!prev) return prev;
+      return {
+        ...prev,
+        sections: (prev.sections || []).filter((s) => s.key !== sectionKey),
+      };
+    });
+  }, []);
+
+  const handleSectionAdd = useCallback(() => {
+    setRequirements((prev) => {
+      if (!prev) return prev;
+      const sections = prev.sections || [];
+      let idx = sections.length + 1;
+      let key = `custom_section_${idx}`;
+      const existing = new Set(sections.map((s) => s.key));
+      while (existing.has(key)) {
+        idx += 1;
+        key = `custom_section_${idx}`;
+      }
+      return {
+        ...prev,
+        sections: [
+          ...sections,
+          {
+            key,
+            title: `Custom Section ${idx}`,
+            guidance: "",
+          },
+        ],
+      };
+    });
+  }, []);
+
+  const progressPct = step === 5 ? 100 : ((step - 1) / 4) * 100;
 
   return (
     <div className="min-h-screen">
@@ -132,6 +222,7 @@ export default function ProposalPage() {
               </p>
             )}
           </div>
+          <ThemeToggle />
         </div>
         {/* Stepper */}
         <div className="border-t border-border bg-muted/30 px-4 py-3">
@@ -264,6 +355,9 @@ export default function ProposalPage() {
                 requirements={requirements}
                 onNext={() => setStep(3)}
                 onBack={() => setStep(1)}
+                onSectionTitleChange={handleSectionTitleChange}
+                onSectionDelete={handleSectionDelete}
+                onSectionAdd={handleSectionAdd}
               />
             </motion.div>
           )}
@@ -286,7 +380,7 @@ export default function ProposalPage() {
           )}
 
           {/* Step 4: Report */}
-          {step === 4 && draft && requirements && (
+          {step === 4 && draft && requirements && profile && (
             <motion.div
               key="step4"
               initial={{ opacity: 0, y: 8 }}
@@ -298,7 +392,72 @@ export default function ProposalPage() {
                 enhanced={enhanced || {}}
                 validation={validation}
                 requirements={requirements}
+                profile={profile}
+                onContinueToExport={(sections) => {
+                  setFinalSections(sections);
+                  setStep(5);
+                }}
               />
+            </motion.div>
+          )}
+
+          {/* Step 5: Export */}
+          {step === 5 && profile && requirements && (
+            <motion.div
+              key="step5"
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              className="space-y-6"
+            >
+              <Card>
+                <CardHeader>
+                  <CardTitle>Final export</CardTitle>
+                  <CardDescription>
+                    Download a polished PDF version of your proposal. You can go back to the
+                    editor if you want to make more section changes first.
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="rounded-lg border border-border bg-muted/20 p-4 text-sm text-muted-foreground">
+                    <p>
+                      Document: <span className="font-medium text-foreground">{requirements.grant_name || "Grant Proposal"}</span>
+                    </p>
+                    <p>
+                      Community: <span className="font-medium text-foreground">{profile.community_name || "N/A"}</span>
+                    </p>
+                    <p>
+                      Sections: <span className="font-medium text-foreground">{finalSections.length}</span>
+                    </p>
+                  </div>
+
+                  {exportError && (
+                    <div className="flex items-center gap-2 rounded-lg border border-destructive/50 bg-destructive/10 p-3 text-sm text-destructive">
+                      <AlertCircle className="h-4 w-4 shrink-0" />
+                      {exportError}
+                    </div>
+                  )}
+
+                  <div className="flex flex-wrap gap-3">
+                    <Button variant="outline" onClick={() => setStep(4)} disabled={exportMutation.isPending}>
+                      Back to editor
+                    </Button>
+                    <Button onClick={() => exportMutation.mutate()} disabled={exportMutation.isPending || finalSections.length === 0}>
+                      {exportMutation.isPending ? (
+                        <>
+                          <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                          Preparing PDF...
+                        </>
+                      ) : (
+                        <>
+                          <Download className="mr-2 h-4 w-4" />
+                          Download PDF
+                        </>
+                      )}
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
             </motion.div>
           )}
         </AnimatePresence>

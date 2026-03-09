@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import os
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional
 
 from openai import OpenAI
 
@@ -47,6 +47,9 @@ def ingest_folder(
     persist_dir: Optional[str] = None,
     collection_name: str = "grant_library",
     reset: bool = False,
+    source_tag: Optional[str] = None,
+    use_case: Optional[str] = None,
+    extra_metadata: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, int]:
     """
     Ingests ALL .txt files in library_dir into a persisted Chroma collection.
@@ -86,7 +89,14 @@ def ingest_folder(
         for idx, chunk in enumerate(chunks):
             source = str(fp.relative_to(lib)).replace("\\", "/")
             ids.append(stable_id(chunk, source=source))
-            metas.append({"source": source, "chunk_index": idx})
+            meta: Dict[str, Any] = {"source": source, "chunk_index": idx}
+            if source_tag:
+                meta["source_tag"] = source_tag
+            if use_case:
+                meta["use_case"] = use_case
+            if extra_metadata:
+                meta.update(extra_metadata)
+            metas.append(meta)
 
         # Upsert-like behavior via deterministic IDs:
         # If IDs already exist, Chroma will overwrite or ignore depending on version;

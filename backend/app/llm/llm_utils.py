@@ -3,7 +3,9 @@ from __future__ import annotations
 
 import os
 import json
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
+
+from backend.app.rag.use_cases import collection_for_use_case, normalize_use_case
 
 _RAG_AVAILABLE: Optional[bool] = None
 
@@ -13,6 +15,7 @@ def _get_rag_context(
     top_k: int = 6,
     persist_dir: Optional[str] = None,
     collection_name: str = "grant_library",
+    where: Optional[Dict[str, Any]] = None,
 ) -> str:
     """Retrieve relevant grant-library excerpts for the query. Returns empty string if RAG unavailable."""
     global _RAG_AVAILABLE
@@ -21,7 +24,13 @@ def _get_rag_context(
     try:
         from backend.app.rag.retrieve import retrieve
         _RAG_AVAILABLE = True
-        out = retrieve(query=query, top_k=top_k, persist_dir=persist_dir, collection_name=collection_name)
+        out = retrieve(
+            query=query,
+            top_k=top_k,
+            persist_dir=persist_dir,
+            collection_name=collection_name,
+            where=where,
+        )
         return (out or "").strip()
     except Exception:
         _RAG_AVAILABLE = False
@@ -115,6 +124,55 @@ def _build_payload(
     return payload
 
 
+def _retrieve_rag_references(
+    query: str,
+    top_k: int = 5,
+    persist_dir: Optional[str] = None,
+    collection_name: str = "grant_library",
+    where: Optional[Dict[str, Any]] = None,
+) -> List[Dict[str, Any]]:
+    """Return structured RAG references for UI side panels."""
+    try:
+        from backend.app.rag.retrieve import embed_query
+        from backend.app.rag.store import get_collection
+    except Exception:
+        return []
+
+    q = (query or "").strip()
+    if not q:
+        return []
+
+    try:
+        col = get_collection(persist_dir=persist_dir, collection_name=collection_name)
+        q_emb = embed_query(q)
+        res = col.query(
+            query_embeddings=[q_emb],
+            n_results=top_k,
+            include=["documents", "metadatas", "distances"],
+            where=where,
+        )
+    except Exception:
+        return []
+
+    docs = (res.get("documents") or [[]])[0]
+    metas = (res.get("metadatas") or [[]])[0]
+    dists = (res.get("distances") or [[]])[0]
+
+    refs: List[Dict[str, Any]] = []
+    for idx, (doc, meta, dist) in enumerate(zip(docs, metas, dists), start=1):
+        m = meta or {}
+        refs.append(
+            {
+                "rank": idx,
+                "source": m.get("source", "unknown"),
+                "chunk_index": m.get("chunk_index"),
+                "distance": dist,
+                "snippet": (doc or "").strip()[:500],
+            }
+        )
+    return refs
+
+
 def enhance_sections(
     draft: Dict[str, Any],
     requirements: Dict[str, Any] | None = None,
@@ -124,6 +182,7 @@ def enhance_sections(
     rag_top_k: int = 6,
     rag_persist_dir: Optional[str] = None,
     rag_collection_name: str = "grant_library",
+    use_case: Optional[str] = None,
 ) -> Dict[str, str]:
     """
     Returns dict mapping section_key -> improved body text
@@ -143,6 +202,9 @@ def enhance_sections(
         return {}
 
     payload = _build_payload(draft=draft, requirements=requirements, profile=profile)
+    use_case_norm = normalize_use_case(use_case)
+    rag_collection = collection_for_use_case(use_case_norm, base_collection=rag_collection_name)
+    payload["rag_use_case"] = use_case_norm
 
     # RAG: retrieve relevant grant-library context and add to payload when available
     if use_rag:
@@ -158,7 +220,7 @@ def enhance_sections(
             query=rag_query,
             top_k=rag_top_k,
             persist_dir=rag_persist_dir,
-            collection_name=rag_collection_name,
+            collection_name=rag_collection,
         )
         if rag_context:
             payload["grant_library_excerpts"] = rag_context
@@ -227,3 +289,126 @@ def enhance_sections(
             out[str(k)] = str(t)
 
     return out
+
+
+def rewrite_section_with_instruction(
+    *,
+    section_key: str,
+    section_title: str,
+    current_text: str,
+    instruction: str,
+    requirements: Optional[Dict[str, Any]] = None,
+    profile: Optional[Dict[str, Any]] = None,
+    use_rag: bool = True,
+    rag_top_k: int = 5,
+    rag_persist_dir: Optional[str] = None,
+    rag_collection_name: str = "grant_library",
+    use_case: Optional[str] = None,
+) -> Dict[str, Any]:
+    """Rewrite a single section using user instruction; returns text + structured references."""
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        return {"text": (current_text or "").strip(), "references": []}
+
+    requirements = requirements or {}
+    profile = profile or {}
+
+    use_case_norm = normalize_use_case(use_case)
+    rag_collection = collection_for_use_case(use_case_norm, base_collection=rag_collection_name)
+
+    grant_name = (
+        requirements.get("grant_name")
+        or requirements.get("program_name")
+        or requirements.get("name")
+        or ""
+    )
+    rag_query = "\n\n".join(
+        [
+            grant_name,
+            section_title or section_key,
+            instruction or "",
+            (current_text or "")[:1200],
+            (requirements.get("raw_text") or "")[:1200],
+        ]
+    ).strip()
+
+    references: List[Dict[str, Any]] = []
+    excerpts = ""
+    if use_rag:
+        references = _retrieve_rag_references(
+            query=rag_query,
+            top_k=rag_top_k,
+            persist_dir=rag_persist_dir,
+            collection_name=rag_collection,
+        )
+        excerpt_blocks = []
+        for ref in references:
+            source = ref.get("source", "unknown")
+            chunk_index = ref.get("chunk_index", "—")
+            snippet = ref.get("snippet", "")
+            excerpt_blocks.append(
+                f"Source: {source} (chunk {chunk_index})\n{snippet}"
+            )
+        excerpts = "\n\n---\n\n".join(excerpt_blocks)
+
+    payload = {
+        "grant_name": grant_name,
+        "section": {
+            "key": section_key,
+            "title": section_title,
+            "current_text": current_text or "",
+        },
+        "instruction": (instruction or "").strip(),
+        "community_profile": profile,
+        "requirements_text_snippet": (requirements.get("raw_text") or "")[:3000],
+        "rag_use_case": use_case_norm,
+        "grant_library_excerpts": excerpts,
+    }
+
+    system_msg = (
+        "You are a senior Canadian grant writer. Rewrite one section only. "
+        "Follow user instruction exactly, keep factual integrity, and do not invent facts. "
+        "If source excerpts are provided, use them only as reference guidance and do not copy verbatim. "
+        "Return JSON only: {\"text\":\"<rewritten section>\"}."
+    )
+    user_msg = json.dumps(payload, ensure_ascii=False)
+
+    try:
+        from openai import OpenAI
+
+        client = OpenAI(api_key=api_key)
+        resp = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": system_msg},
+                {"role": "user", "content": user_msg},
+            ],
+            response_format={"type": "json_object"},
+            temperature=0.2,
+        )
+        content = resp.choices[0].message.content or "{}"
+        data = json.loads(content)
+    except Exception as e_v1:
+        try:
+            import openai
+
+            openai.api_key = api_key
+            r = openai.ChatCompletion.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": system_msg},
+                    {"role": "user", "content": user_msg},
+                ],
+                temperature=0.2,
+            )
+            content = r["choices"][0]["message"]["content"] or "{}"
+            data = json.loads(content)
+        except Exception as e_legacy:
+            raise RuntimeError(
+                "Section rewrite failed in both OpenAI SDK modes."
+                f"\n\nv1+ error: {repr(e_v1)}"
+                f"\nlegacy error: {repr(e_legacy)}"
+            )
+
+    text = str(data.get("text") or "").strip() or (current_text or "").strip()
+    return {"text": text, "references": references}

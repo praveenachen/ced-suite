@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} min-h-screen gradient-bg`}>
+      <body className={`${inter.className} app-neon-bg min-h-screen gradient-bg`}>
         <Providers>{children}</Providers>
       </body>
     </html>

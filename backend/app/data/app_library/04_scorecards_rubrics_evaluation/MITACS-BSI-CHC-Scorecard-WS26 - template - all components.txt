@@ -1,0 +1,1032 @@
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 1 of 23 
+ 
+Mitacs BSI Application Template 
+Template version: 2025-11-26 
+ 
+ 
+Upon submitting your application, you are agreeing that Mitacs can post the title of your project, 
+the public project overview, the name of the partner organization (if applicable), the name of the 
+intern, the name of the academic supervisor, and the involved academic institution 
+on www.mitacs.ca/en/projects and this information may be used by Mitacs to publicize its 
+programs. Mitacs Privacy Policy can be found at www.mitacs.ca/en/privacy-policy. 
+ 
+ 
+ 
+Section 1: Project Overview 
+ 
+P-1.1 Title (255 characters max)  
+Note: This can be changed later 
+ 
+Vision One Million Scorecard: An Integrated Framework for Regional Growth Readiness 
+ 
+ 
+P-1.2 Size of application 
+☒   Small (1-3 internships) 
+Expert review should take no more than 6 weeks for the majority of proposals. 
+Please plan for additional review time should revisions be requested. Your project 
+start date will only be confirmed once the proposal is approved, intern(s) identified, 
+and partner organization funds received at Mitacs.  
+☐   Medium (6-10 internships)  
+Expert review should take no more than 8 weeks for the majority of proposals. 
+Please plan for additional review time should revisions be requested. Your project 
+start date will only be confirmed once the proposal is approved, intern(s) identified, 
+and partner organization funds received at Mitacs. 
+ 
+ 
+P-1.3 Public Project Overview (100-200 words) 
+Using simplified language, please provide a general one-paragraph description of the proposed 
+project including the expected benefit to the partner organization. 
+ 
+The population in the Waterloo Region is expected to grow from approximately 678,000 residents 
+(as of year-end, 2024) to one million by 2050 – an increase of over 300,000 people. Local leaders 
+recognize that the Region’s current infrastructure is not advancing at the pace needed to support 
+this expansion, creating an urgent need for coordinated tracking and planning.  
+ 
+The Future Cities Institute (FCI) at the University of Waterloo has partnered with the Greater 
+Kitchener-Waterloo Chamber of Commerce (GKWCC) to develop and implement the Vision One
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 2 of 23 
+ 
+Million Scorecard. This comprehensive tool monitors the Region’s readiness across five critical 
+sectors: housing, transportation, healthcare, employment and placemaking.   
+ 
+The scorecard integrates existing municipal data with evidence-based benchmarks derived from 
+comparative metropolitan research and validated through expert consultation with local 
+stakeholders. By presenting readiness scores in an accessible, unified format, the scorecard 
+enables stakeholders to understand infrastructure gaps across all sectors simultaneously, 
+promoting accountability, informed decision-making and coordinated action.  
+ 
+ 
+P-1.4 Academic discipline 
+Please highlight the academic discipline (1 only) that most closely aligns with the project.  
+ 
+☒   Business  
+☐   Computer Science 
+☐   Earth Science 
+☐   Engineering 
+☐   Life Science 
+☐   Mathematical Science 
+☐   Physical Science 
+☐   Social Science, Arts and Humanities 
+ 
+P-1.5 Keywords to identify reviewers 
+Please specify five to ten keywords to help identify proper reviewers and to accelerate the review 
+process. Please provide both technically and/or conceptually related (50%) and discipline related 
+keywords (50%). 
+ 
+Conceptually/technically-related 
+keywords (50%) Discipline-related keywords (50%) 
+• Benchmarking 
+• Population growth forecasting 
+• Capacity planning 
+• Regional analytics 
+• Infrastructure readiness assessment 
+• Community engagement  
+• Growth projection 
+• Impact tracking  
+• Research presentation 
+• Regional planning 
+• Economic development
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 3 of 23 
+ 
+Section 2: Academic Supervisor Details 
+ 
+P-2.1a Academic Supervisor details 
+Please complete the following table for each academic supervisor included on the project (copy the 
+table as necessary). 
+ 
+ACADEMIC SUPERVISOR 
+FULL NAME 
+First name: Leia 
+Last name: Minaker 
+Email: lminaker@uwaterloo.ca 
+Re-type email: lminaker@uwaterloo.ca 
+Contact phone: 519-888-4567 
+Extension: 45615 
+Academic institution: University of Waterloo 
+Department: School of Planning 
+Address: 200 University Avenue West 
+City: Waterloo 
+Province: Ontario 
+Country: Canada 
+Postal code: N2L 3G1 
+ 
+ 
+ 
+P-2.1b  Academic Supervisor Policy on Sensitive Technology Research and Affiliations of 
+Concern Declaration 
+ 
+1. Are you currently affiliated with, or in receipt of funding or in-kind support from any of the 
+listed Named Research Organizations (NROs)? 
+☐  Yes  ☒ No 
+ 
+Any applicant who is currently affiliated with, or in receipt of funding or in-kind 
+support from one or more of the institutions on the list of NROs is not eligible to 
+participate in a Mitacs-funded project involving research that aims to advance 
+a Sensitive Technology Research Area (STRA). Mitacs will also screen a sample of 
+applications, selected at its sole discretion, and validate the accuracy of the 
+completed declarations. Mitacs reserves the right to decline funding, at any point, 
+for a project that advances a sensitive technology research area because of 
+affiliations of concern. 
+ 
+ 
+P-2.1c Academic supervisor CV
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 4 of 23 
+ 
+The academic supervisor must upload a CV/resume for any application that will involve 6 or more 
+internships. Please note by uploading your Resume/CV you are granting all participants in this 
+application and Mitacs staff access to this document. 
+  
+Not required for this application.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 5 of 23 
+ 
+Section 3: Partner Organization Information 
+ 
+P-3.1 Organizational Profile 
+Please complete the following table for each partner organization included on the project (copy the 
+table as necessary) 
+ 
+PARTNER ORGANIZATION 
+Organization Name (Primary contact) 
+Partner Contact Information 
+First name:  Last name:  
+Email:  Re-type email:  
+Department:  
+Contact phone:  Extension:  
+Business Information 
+Legal Organization Name:  
+Organization URL:  
+Industry code (NAICS):  
+Legal Status:  
+(For Canadian Organizations 
+only) 
+☐ For Profit Canadian Corporation 
+☐   Not for Profit Canadian Corporation 
+☐   Crown Corporation 
+☐   Municipality 
+Organization Size: (Number of 
+employees in Canada) 
+☐ 1 – 49 
+☐   50 – 99 
+☐ 100 – 499 
+☐  500 – 999 
+☐ 1000+ 
+Address:  
+City:  Province:  
+Country:  Postal code:  
+Organizational Structure and Activities 
+Is the organization 
+incorporated? 
+☐ Yes 
+☐ No 
+ 
+If yes, please include the date (YYYY/MM/DD) of 
+incorporation: 
+RESPONSE 
+Is the organization a parent 
+company? 
+☐ Yes 
+☐ No 
+ 
+If yes, please describe (e.g., main subsidiaries, name of 
+the parent company/holding company, city and country 
+where the headquarters of the parent company/holding 
+company are located):  
+RESPONSE 
+Is the organization a subsidiary 
+company? 
+☐ Yes 
+☐ No 
+If yes, please describe (e.g., main subsidiaries, name of 
+the parent company/holding company, city and country 
+where the headquarters of the parent company/holding 
+company are located):  
+RESPONSE
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 6 of 23 
+ 
+PARTNER ORGANIZATION 
+Organization Name (Primary contact) 
+Does the organization have an 
+R&D department in Canada? 
+☐ Yes 
+☐ No 
+ 
+If yes, what is the exact number of research and 
+development (R&D) staff in Canada? 
+RESPONSE 
+ 
+If no, is R&D conducted on the organization’s premises in 
+Canada? 
+RESPONSE 
+Is this the first time the partner 
+has collaborated with the 
+academic institution? 
+☐ Yes 
+☐ No 
+ 
+Funds Declaration 
+Have the funds committed by 
+the Organization been 
+leveraged against other federal 
+or provincial programs? 
+☐ Yes 
+☐ No 
+ 
+If yes, Please contact your Mitacs Advisor before you 
+proceed with the application. 
+ 
+If yes, please identify the Program Name(s): 
+RESPONSE 
+ 
+If yes, please indicate the Total Program(s) Contribution: 
+RESPONSE 
+Invoicing Information 
+How often will the partner 
+organization be invoiced? 
+☐ Every 4 months 
+☐ Annually 
+☐ Single payment 
+Net invoice term (Days >=30)  
+Accounts payable attention to:  
+ First name:  
+ Last name:   
+ Email:    
+ Phone:    
+ Extension:  
+Please describe any 
+applicable invoice 
+requirements: 
+RESPONSE
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 7 of 23 
+ 
+Section 4: Project details 
+ 
+4.1  PROJECT DESCRIPTION 
+ 
+A-4.1a Background (What problem needs to be solved?) 
+Provide an overview and describe the main activities of the partner organization. Explain the 
+innovation challenge or improvement priority that the partner needs to solve. Specify how this 
+project will help the partner organization address those challenges in a way that goes beyond day-
+to-day business operations/activities. Describe what kind of expertise is required to solve the 
+problem. 
+ 
+Overview of partner organization  
+The Greater Kitchener Waterloo Chamber of Commerce (GKWCC) acts as a strong advocate for 
+continued community development and a partner for prosperity by connecting, educating, and 
+developing the business community through networking events, educational programs, and 
+advocacy. A portion of the GKWCC’s advocacy efforts involve working with all levels of government 
+on issues related to taxation, business regulations, land supply, economic development and 
+essential public services. Of note, the GKWCC’s Physician Recruitment efforts have helped bring 
+150+ family physicians to the Region, demonstrating their commitment to community development 
+beyond traditional business advocacy. 
+ 
+Together with the Business and Economic Support Team of Waterloo Region (BestWR), the GKWCC 
+is advancing its advocacy efforts through the development and implementation of the Vision One 
+Million Scorecard. 
+ 
+Description of current challenge  
+The Waterloo Region stands at the threshold of massive growth, with projections indicating that the 
+Region’s population will grow from approximately 678,000 residents (as of year-end, 2024) to one 
+million by 2050 — an increase of over 300,000 people. Currently, our housing supply, transportation 
+infrastructure, healthcare services, employment opportunities, and social infrastructure are not 
+advancing at the pace needed to support this population boom. Local leaders recognize that the 
+Region’s current infrastructure is not advancing at the pace needed to support this expansion, 
+creating an urgent need for coordinated monitoring and planning.  
+ 
+In response, the Greater Kitchener-Waterloo Chamber of Commerce (GKWCC) and the Future 
+Cities Institute (FCI) at the University of Waterloo are developing and implementing the Vision One 
+Million Scorecard (the “Scorecard”), a unified framework that measures infrastructure readiness 
+across five key pillars that are vital to regional operations and community support. These include: 
+housing, transportation, healthcare, employment, and placemaking.   
+ 
+The team has conducted an expansive review across the five key pillars listed above to understand 
+what it takes to support a population of one million people. This involved reviewing all aspects of 
+community and population growth, leveraging the knowledge and experience of metropolitan areas 
+across the globe, and reflecting on how the needs of the Region of Waterloo may differ from other 
+communities.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 8 of 23 
+ 
+In general, current efforts to assess growth readiness remain inconsistent and fragmented across 
+industries and sectors, making it difficult to develop a comprehensive understanding of the 
+infrastructure requirements necessary to support the Region of Waterloo's projected growth. This 
+project aims to address this critical gap in growth readiness monitoring by: 
+ 
+1. identifying evidence-based approaches for municipalities to measure infrastructure 
+readiness,  
+2. establishing benchmarks and targets that align with best practices while accounting for the 
+region's unique context and needs, and  
+3. developing a framework that can be adapted and scaled to other municipalities facing 
+similar growth challenges. 
+ 
+By addressing the interconnected social, economic and political challenges inherent in preparing a 
+Region for tremendous population growth, the Scorecard will promote accountability, informed 
+decision-making and coordinated action.  
+ 
+Impact of project 
+This project will significantly enhance the GKWCC's advocacy efforts by establishing a long-term, 
+data-driven infrastructure monitoring system that will inform and strengthen how the Region 
+prepares for and supports sustained population growth. The Scorecard creates an enduring 
+framework that transcends short-term priorities and individual initiatives, positioning the GKWCC 
+as a convener of cross-sectoral collaboration that brings together municipal governments, 
+academic institutions, community organizations, and civil society around shared metrics and 
+collective responsibility for outcomes. 
+ 
+By providing a clear and accurate picture of which infrastructure investments should be prioritized 
+to support municipal growth, the Scorecard will enable coordinated action across all sectors, 
+transforming population growth from a resource worry to an opportunity for the Region of Waterloo. 
+This positions the GKWCC as a key player in driving this transformation while contributing 
+meaningful knowledge to the broader field of municipal growth planning through a scalable 
+framework that can be adapted by other regions experiencing similar population growth. 
+ 
+Expertise required to solve the problem 
+Specialized expertise required to develop this solution includes (but is not limited to):  
+• Proficiency in data collection and analysis 
+• Experience working across interdisciplinary teams with diverse subject matter expertise 
+• Ability to integrate multiple perspectives and adapt communication approaches for 
+different stakeholder groups 
+ 
+ 
+A-4.1b Objectives and Approach (How will the problem be solved?) 
+State the objectives for this project and explain how you plan to accomplish them. Enough detail 
+should be provided so that it is clear whether the described approach is appropriate to achieve 
+each objective. For projects with more than one intern, clearly explain which objective(s) each 
+intern will work on.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 9 of 23 
+ 
+This project has XX main objectives: 
+ 
+Consultation – month 1 
+Data gathering, synthesis and analysis – 2,3,4 
+Drafting next interation of the scorecard – 4,5 
+Soft launch – to make sure  
+Actual release - 6 
+Early January there will be a meeting with the Mayors and CAOs – to see if what we have is  
+ 
+OBJECTIVE 1: Validate metrics through stakeholder engagement 
+Engage regional stakeholders (including municipal leaders, academic experts, community 
+organizations, industry representatives and civil society) to assess the suitability, usability, and 
+feasibility of the established benchmarks, ensuring they reflect local priorities and are practical for 
+ongoing monitoring and decision-making. 
+ 
+Activities related to Objective 2 may include (but are not limited to) the following: 
+• Identify/map relevant stakeholders for engagement 
+o Tasks for the Mitacs Intern could include: 
+▪ Developing engagement strategy (including stakeholder identification and 
+mapping) 
+▪ Conducting stakeholder outreach and recruitment 
+• Carry out consultation sessions as required 
+o Tasks for the Mitacs Intern could include: 
+▪ Organizing and conducting semi-structured interviews with key stakeholders 
+to ensure relevant and current data are captured. 
+▪ Delivering research presentations to various government and community 
+roundtables (e.g., Government Relations table for the Community Safety 
+and Wellbeing Plan) 
+• Refinement and validation of proposed metrics based on feedback 
+o Tasks for the Mitacs Intern could include: 
+▪ Feedback analysis and synthesis 
+▪ Documentation and reporting 
+ 
+ 
+OBJECTIVE 2: Launch and Disseminate the Vision One Million Scorecard 
+Publicly launch the Scorecard as an accessible, user-friendly tool that enables stakeholders, 
+policymakers and community members to monitor infrastructure readiness across the Region of 
+Waterloo. 
+ 
+Activities related to Objective 2 may include (but are not limited to) the following: 
+• Develop documentation and resources to support launch 
+o Tasks for the Mitacs Intern could include: 
+▪ Supporting project leads in the development of communication materials 
+(e.g., developing user guides, tutorials, visual aids to help users navigate the 
+platform) 
+• Draft Scorecard based on Objective 1 activities results and documentation activities
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 10 of 23 
+ 
+ 
+• Finalize the publicly accessible digital platform (development to begin prior to funding 
+period) 
+o Tasks for the Mitacs intern could include: 
+▪ Quality assurance (e.g., reviewing written content for clarity, consistency, 
+and accuracy; verifying that data visualizations are clearly labeled and 
+interpretable, etc.) 
+▪ Supporting project leads in the development of communication materials 
+(e.g., development of a communication strategy and associated materials 
+explaining how to access and use the Scorecard, etc.)  
+ 
+ 
+• Conduct outreach to ensure broad awareness and uptake among key audiences 
+o Tasks for the Mitacs Intern could include: 
+▪ Organizing and facilitating testing sessions with target user groups 
+▪ Compiling and synthesizing feedback for the development team 
+▪ Tracking outstanding issues and following-up on resolution  
+ 
+ 
+ 
+ 
+ 
+ 
+A-4.1c Timeline (Who will solve the problem and how much effort will be required?) 
+Insert a timeline showing which task(s) will be performed when, and by which intern in order to 
+achieve the objectives stated above (consider breaking this down by week for shorter projects or by 
+month for longer projects via a Gantt chart). Ensure there are no gaps in the timeline and that the 
+effort required to complete each task matches the amount of time allocated for each intern. 
+ 
+The project will proceed as follows: 
+ 
+TASK PROJECT MONTHS RESPONSIBLE 1 2 3 4 5 6 7 8 
+          
+          
+          
+          
+          
+          
+          
+          
+ 
+ 
+ 
+A-4.1d Deliverables (What does success look like?)
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 11 of 23 
+ 
+List the deliverables or tangible results you expect from the project and identify which intern is 
+responsible for it. For example, will you develop a new patent/prototype/product/service, business 
+model, business process, or will you access new markets? Will the intern be expected to produce a 
+report, evaluation, presentation, etc.? 
+ 
+The following are some ideas from the Accelerate application:  
+☐   Reports for the partner organization      
+☐   Presentations to the partner organization's staff   
+☐   Patent applications   
+☐   Conference presentations  
+☐   New research tools or methods  
+☐   Other intellectual property claims (copyrights, trademarks, industrial designs)  
+☐   Plans to commercialize a new technology      
+☐   New products or services    
+☐   Opportunities for the partner organization to hire new staff   
+☐   Expansion to new markets  
+☐   Publication in peer-reviewed journals, book chapters or technical publications   
+☐   Thesis chapter(s)  
+☐   Other (if other, please specify):  
+ 
+Vision One Million Scorecard: 
+The intern will be responsible for the creation of a mock-up interactive Scorecard that will 
+eventually be migrated to a dedicated website. – website should be finished in December 
+ 
+Reports for the partner organization 
+The intern will be responsible for the creation of documentation that outlines data sources, data 
+analysis, and findings from stakeholder interviews. The document will contain all information to be 
+placed on the final Vision One Million Scorecard.  
+ 
+Presentations to stakeholders 
+The intern will be responsible for presenting data analysis findings to stakeholders, such as 
+Regional government workers, to identify gaps in the Scorecard’s understanding of current work. 
+Further, there will be opportunity to receive feedback on the feasibility of recommendations made 
+by the Scorecard regarding proposed governmental action.  
+ 
+New research tools or methods: 
+The intern will be responsible for the documentation of their progress throughout the term. From 
+this, a process-focused document will be created by the intern that provides an overview of steps 
+taken to collect and analyze information used on the scorecard.  
+ 
+ 
+Establishing longer term directions and data sharing agreements for how to access the data 
+moving forward 
+ 
+ 
+Progress to date
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 12 of 23 
+ 
+The team has conducted an expansive review across the five key pillars to understand the 
+infrastructure needs required to support a population of one million people. This review involved 
+considering all aspects of community and population growth, leveraging the knowledge and 
+experience of metropolitan areas across the globe, and reflecting on how the needs of the Region of 
+Waterloo may differ from other communities.  
+ 
+ 
+ 
+The review resulted in the identification of key metrics that the team believed would be valuable to 
+include on the Scorecard, leading to the preparation of an initial draft. The team then engaged local 
+leaders and stakeholders to validate the proposed metrics and ensure that the Scorecard reflected 
+the priorities, challenges, and opportunities specific to the Region of Waterloo.  
+ 
+ 
+Next steps 
+Based on the
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 13 of 23 
+ 
+ 
+ 
+A-2.2  INTERNSHIP BENEFITS 
+ 
+A-4.2a Benefits and Impacts to Canada 
+If this project potentially impacts broader challenges that society or the industry faces, please 
+describe how the project will help address these challenges. Why are these contributions important? 
+ 
+Impact on Society 
+The BestWR Scorecard project, specifically pertaining to process documentation, will be invaluable 
+in supporting communities across Canada as they prepare for population growth in their 
+communities. This project will provide a clear process, as well as completed product, demonstrating 
+how communities can find and solve resource gaps through community engagement and 
+partnerships.  The completed Scorecard acts as a “proof of concept” document, whereas the 
+progress documentation forms a “do it yourself” guide.  Through this, the growth and betterment of 
+communities across Canada will be supported.  
+ 
+Importance 
+This contribution is important because the population size  and demographic makeup o f many 
+communities in Canada are changing. For example, Waterloo Region has become the fastest -
+growing metropolitan area in Canada over the last 10 years , as well as the youngest. Even still, our 
+population is aging, and consideration needs to be placed on how the community wishes to develop 
+infrastructure and resources going forward. This story is playing out in many other communities 
+across the country, and it will be beneficial to be able to learn from our findings.  
+ 
+ 
+A-4.2b Benefits to the Intern(s) 
+Explain how participating in this project aligns with the academic studies of the intern(s). How is 
+participating in the project expected to benefit their future career(s)? For example, will they expand 
+their professional network, gain knowledge in a busin ess context, or develop skills in problem -
+solving, communication, project management, creative thinking, etc.? 
+ 
+This project aligns with the future career goals of the intern. In addition to providing a wealth of 
+connections within the University of Waterloo and wider Waterloo Region, it supports their research 
+and writing abilities, project management skills, and r esearch dissemination abilities. These skills 
+and connections will continue to serve the intern throughout their undergraduate career, and will lay 
+the foundations for future work in any research-oriented field.  
+ 
+ 
+A-4.3 INTERNSHIP ENVIRONMENT 
+ 
+A-4.3a Description of the Academic Internship Environment 
+a. Please describe the nature of academic supervision during the internship period. Explain 
+the type and frequency of interactions (e.g., meetings, phone calls, etc.) between the 
+intern and academic supervisor.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 14 of 23 
+ 
+The intern will communicate with the supervisor through bi-weekly teams meetings, in 
+addition to the occasional in-person meeting. Meetings will serve as progress updates and 
+assist the supervisor in working through any difficulties experienced by the intern 
+throughout the course of the project.  
+ 
+b. Will the project make use of the resources and/or facilities of the academic institution? If so, 
+please describe.  
+ 
+The intern will have an on-site office located at the University of Waterloo.  
+ 
+A-4.3b Description of the Partner Internship Environment 
+a. Please state the nature of the partner interaction:     ☐  Onsite     ☒  Virtual     ☐  Hybrid 
+ 
+b. Describe the working environment at the partner organization and the type and frequency of 
+interactions between the intern(s) and employees. For example, what resources, 
+facilities/equipment, and specialized training will the intern(s) have access to? If the 
+intern(s) will work virtually, how will they be exposed to the activities and culture of the 
+partner organization?  
+The intern will meet with the partner organization once per month, with additional meetings 
+scheduled when required for the project. The intern will have access to the network of contacts 
+provided by the partner organization, as well as software and employee assistance in creating the 
+foundations for the Scorecard website.  
+The intern will have the opportunity to engage in the culture of the partner organization through 
+regular roundtables and engagement events.  
+ 
+ 
+A-4.4  PAST/OTHER MITACS PROJECTS 
+Is this application related to, or a continuation of, any previous or current Mitacs projects?      
+☐  Yes      
+☒  No 
+ 
+If Yes, provide specifics about the relationship(s), including relevant project IT#(s). If the current 
+project is a continuation of prior work, briefly describe how it meaningfully furthers what has been 
+previously achieved. 
+ 
+N/A 
+ 
+A-4.5  ENGAGEMENT WITH INDIGENOUS COMMUNITIES OR PARTNERS (IF APPLICABLE) 
+Projects that involve or impact Indigenous communities must comply with the Mitacs Indigenous 
+Research Policy. Describe (1) Indigenous community support for the project, and their role in 
+shaping its objectives/approach, (2) plans for Indigenous community access, use, and governance 
+of resulting knowledge/data, and (3) the team background in Indigenous research, including 
+planned training/mentorship the intern(s) will receive to address deficits in experience. 
+You may also submit 1-2 letter(s) of support from Indigenous Elders who are members of the partner 
+community/communities and possess the authority to speak on community interests.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 15 of 23 
+ 
+N/A 
+ 
+A-4.6  INTELLECTUAL PROPERTY (IF APPLICABLE) 
+Explain how this project supports the creation and/or ownership of IP for the partner organization. 
+If the project provides education or training about IP for any of the participants, explain here.  
+ 
+Insert text 
+ 
+A-4.7  REFERENCES / SOURCES (IF APPLICABLE) 
+List any references you have cited in your proposal.  
+ 
+N/A
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 16 of 23 
+ 
+Section 5: Internship Budget and Schedule 
+ 
+P-5.1  SUMMARY OF INTERNSHIPS 
+ 
+Please select only one type of internship option per application from the list below. If you want to 
+apply for internships of a different type, you will need to create a separate application. Each of your 
+applications can include up to 10 internships of the same type. If you select an internship option 
+with project costs, you must include a description of how these fundings will be used in your project 
+proposal. 
+ 
+☐  Business Strategy Internship (BSI) Standard Funding:  
+Each BSI internship unit is valued at $10,000 and the partner organization’s financial 
+contribution starts at $5,000 per unit. Each intern receives a minimum of $10,000 
+stipend per unit 
+ 
+☐  Business Strategy Internship (BSI) Standard Funding plus Project Costs:  
+Each BSI internship unit is valued at $15,000 and the partner organization’s financial 
+contribution starts at $7,500 per unit. Each intern receives a minimum $10,000 
+stipend per unit. The additional $5,000 in funds can be used to pay for eligible 
+project costs or can be used to top-up the intern stipend to $15,000. 
+ 
+☐  Business Strategy Internship (BSI) - Indigenous Pathways Reduced Cost 10K:    
+Projects with Indigenous participants are eligible for a reduced partner contribution. 
+Each BSI internship unit is valued at $10,000 and the partner organization’s financial 
+contribution starts at $2,500 per unit. Each intern receives a minimum $10,000 
+stipend per unit. 
+ 
+☐  Business Strategy Internship (BSI) - Indigenous Pathways Reduced Cost 15K:    
+Projects with Indigenous participants are eligible for a reduced partner contribution. 
+Each BSI internship unit is valued at $15,000 and the partner organization’s financial 
+contribution starts at $3,750 per unit. Each intern receives a minimum $10,000 
+stipend per unit. The additional $5,000 in funds can be used to pay for eligible 
+project costs or can be used to top-up the intern stipend to $15,000. 
+ 
+ 
+P-5.2   INTERNSHIP DETAILS 
+ 
+P-5.2a  Intern Name 
+* NOTE: An intern can be named (if known) or TBD 
+[INSERT TEXT] 
+ 
+ 
+P-5.2b  Degree Program During Internship 
+NOTE: A recent graduate is an individual who, at the start of the internship, graduated less than 2 
+years ago. “Other University Program” should be used for an individual who is enrolled at a
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 17 of 23 
+ 
+Canadian university in a non-degree program (e.g., diploma, certificate). “Recent Graduate (Other 
+University Program)” should be used for an individual who, at the start of the internship, graduated 
+less than 2 years ago from a non-degree program (e.g., diploma, certificate). 
+ 
+☐  College 
+☐  Bachelors 
+☐  Masters 
+☐  PhD 
+☐  PDF 
+☐  Recent Grad – College 
+☐  Recent Grad - Bachelors 
+ 
+P-5.2c  Internship timing  
+ 
+a. Start date: January 5, 2026  
+b. Duration (months): 8 
+c. # of Consecutive Internships With Same Stipend (see * below): 2  
+d. End date: This auto-generates in the system based on the start date and the duration of the 
+internship 
+ 
+* NOTE: ‘Consecutive internships' refers to sequential internships performed by a 
+specific intern without breaks (gaps) in between each. To create a break between 
+internships, create a new row for that specific intern. To enable each internship for a 
+given intern to have a different stipend value from the other internships for the same 
+intern, please create a new row for that specific intern. 'Same stipend' refers to 
+every internship for that specific intern being assigned the same stipend value. Tip: 
+Use the Duplicate function in the Actions menu to copy internships that are similar 
+then make simple edits (such as modifying the stipend value, internship length, or 
+add a new intern with the same stipend, duration and sequence as previous 
+additions) as outlined above. 
+ 
+  
+P-5.3  ACADEMIC SUPERVISORS 
+ 
+P-5.3a  Participant details  
+ 
+This information will be auto-generated from the “Participants” tab. 
+ 
+P-5.3b  Partner organizations 
+The total minimum required organization contributions are listed in section P-3.1 above. This 
+contribution can be distributed across multiple organizations. 
+ 
+a. Please note that the financial contribution of organizations is subject to applicable Goods 
+and Services Tax (GST), Harmonized Sales Tax (HST) and/or Quebec Sales Tax (QST) 
+(Collectively the value added tax or VAT).
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 18 of 23 
+ 
+b. Partner organizations can contribute additional funding to the project but Mitacs will not 
+provide any additional matching funding outside of the standard awards.  
+c. Additional partner contributions are only allowed with academic institution approval.  
+d. Any additional partner funding must be shown in the proposal/budget and the anticipated 
+use of these funds must be explained so that the academic institution can clearly see and 
+approve the planned budget when they sign-off on the proposal (e.g. will the extra funds be 
+used for stipend top-up, specialized equipment, etc.?).  
+e. Any additional funds associated with a specific internship must be received by Mitacs at the 
+same time as the normal partner contribution.  
+f. The funds will be added to the award and forwarded to the academic institution to be paid 
+out to the intern. 
+ 
+PARTNER NAME IS A PARTICIPANT OF THIS 
+INTERNSHIP (See * below) 
+AMOUNT PER INTERNSHIP 
+(See ** below) 
+Partner A Auto-generated based on 
+“Participants” tab 
+$7,500 
+   
+ 
+* Make sure each participant has been entered in the “Participants” tab. 
+** Note this amount does not include the tax component 
+ 
+ 
+P-5.4c  Stipends and Project Expenses: 
+a. Partner organizations can contribute additional funding to the project but Mitacs will not 
+provide any additional matching funding outside of the standard awards.  
+b. Additional partner contributions are only allowed with academic institution approval.  
+c. Any additional partner funding must be shown in the proposal/budget and the anticipated 
+use of these funds must also be shown so that the academic institution can clearly see and 
+approve the planned budget when they sign-off on the proposal.  
+d. Any additional funding associated with a specific internship must be received by Mitacs at 
+the same time as the normal partner contribution.  
+e. The funds will be added to the award and forwarded to the academic institution to be paid 
+out to the intern.  
+f. A minimum of $10,000 per internship must be use for intern stipend. Any additional funding 
+the partner organization provides will be allocated to the intern stipend amount. 
+ 
+ 
+BUDGET ITEM AMOUNT 
+Stipend (must be at least 10,000) $20,000 
+Project Expenses (usually $5,000) $10,000 
+Total $30,000 
+ 
+ 
+P-5.4d  Details of project expenses.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 19 of 23 
+ 
+If your internship includes project expenses, you must enter details of these project expenses in the 
+space provided. For example, if you have two four-month internships listed above, please include 
+what expenses will be required for each of these two units. 
+ 
+The project expenses for the 2 IU included in this application will be used to top-up the intern’s 
+stipend.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 20 of 23 
+ 
+Section 6: Declarations 
+ 
+6.1  DECLARATIONS FROM PORTAL 
+P-6.1 Answer the following questions: 
+a. Will the intern conduct any of the proposed project activities outside of the academic 
+institution or partner premises? 
+ ☐  Yes  ☒  No 
+ 
+b. Does the project involve: 
+ 
+a. Human participants whose data, or responses to interventions, stimuli, or 
+questions by the intern, are relevant to completing the work? 
+  ☐  Yes  ☒  No 
+ 
+b. Secondary use of human data or health information (even if anonymized)? 
+ ☐  Yes  ☒  No 
+  
+c. Human biological materials, as well as human embryos, fetuses, fetal tissue, 
+reproductive materials, and stem cells? This applies to materials derived from living 
+and deceased individuals 
+  ☐  Yes  ☒  No 
+ 
+d. Secondary use of biological materials (even if anonymized)? 
+ ☐  Yes  ☒  No 
+ 
+If Yes was checked for any of the questions above, applicants must contact the ethics 
+offices at all participating academic institutions to determine whether ethics clearance is 
+required. This includes primary/secondary use of human data/biological materials owned 
+by the partner. 
+ 
+c. Will the proposed project require the use of laboratory animals, and/or potentially impact 
+the well-being of wild/domesticated animals?  
+ ☐  Yes  ☒  No 
+ 
+If yes, applicants must contact the animal care committees at all participating academic 
+institutions to determine whether any certifications/authorizations are required. 
+ 
+d. Will the proposed project require the interns to handle or be exposed to biohazards? 
+ ☐  Yes  ☒  No 
+ 
+If yes, please check all that apply: 
+e. Biohazards (e.g., viruses, bacteria, fungi, parasites, toxins, prions, zoonotic 
+pathogens, recombinant DNA, genetically modified organisms, viral vectors, 
+synthetic organisms, cell lines/cultures) 
+ ☐  Yes  ☐  No
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 21 of 23 
+ 
+ 
+f. Radioactive materials 
+ ☐  Yes  ☐  No 
+ 
+g. Restricted substances (e.g., cannabis) 
+ ☐  Yes  ☐  No 
+ 
+h. Other: 
+ ☐  Yes  ☐  No 
+ 
+If one or more options were checked, any necessary documentation must be 
+obtained in accordance with all participating academic institutions’ policies and 
+maintained throughout the duration of the research project. 
+ 
+e. Will the project involve the use of personal data or large datasets that could be considered 
+sensitive (for additional information, see List 2 of Annex A of the National Security 
+Guidelines for Research Partnerships)? 
+ ☐  Yes  ☒  No  
+ 
+If yes, please describe:  
+ 
+f. Will the project involve research related to critical minerals and/or one of the critical 
+infrastructure sectors? 
+ ☒  Yes  ☐  No 
+ 
+If yes, please describe: This project involves research related to the following critical 
+infrastructure sector: Transportation  
+ 
+g. Will the project involve research related to goods or technology that are included on 
+the Export Control List (ECL) of the Export and Import Permits Act (EIPA)? 
+ ☐  Yes  ☒  No 
+ 
+If yes, please describe:  
+ 
+h. Will background intellectual property (IP) be transferred from Canadian institution(s) to the 
+partner organization(s)? 
+ ☐  Yes  ☒  No 
+ 
+If yes, please describe:  
+ 
+i. Will intellectual property (IP) arising from the project be owned by, assigned to, or licensed 
+to the partner organization(s)? 
+ ☐  Yes  ☒  No 
+ 
+If yes, please describe:
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 22 of 23 
+ 
+j. Does the project aim to advance any of the listed Sensitive Technology Research Areas 
+(STRAs)? 
+ ☐  Yes  ☒  No 
+ 
+If yes, please describe:  
+ 
+If yes, applicants should consider any potential research security risks associated with the 
+nature of the proposed activities. Applicants should also consult the policies, guidelines, 
+and requirements of their participating Canadian academic institution(s) to determine any 
+appropriate research security risk mitigation measures based on federal and provincial 
+government guidelines/policy statements, and to identify any necessary actions to ensure 
+compliance with relevant government regulations and legislation (e.g., import/export laws) 
+ 
+ 
+ 
+ 
+ 
+ 
+6.2  DECLARATIONS FROM APPLICATION FORM 
+A6.2a Conflict of interest 
+ 
+Mitacs will not approve a BSI application  if the intern listed on the proposal has a position of 
+ownership, employment, or influence over the daily operations of the partner organization. Interns 
+with close family or intimate relationships with academic supervisors or employees of the partner 
+organization are also ineligible. Any other real or perceived conflict of interest (COI) - for example, 
+past intern employment at the partner organization  - must be disclosed to Mitacs during the 
+application process using  the Intern Eligibility and Conflict of Interest Declaration Form. Academic 
+supervisors must disclose any COIs through the Academic Institution Acknowledgement of COI(s) 
+Form, and submit this documentation on behalf of their post -secondary institution when applying 
+through the Registration and Application Portal (RAP) .  
+ 
+Mitacs will first determine if BSI program rules are satisfied, and if so Mitacs will then review the 
+COI to determine whether mitigations can be enacted to manage the COI. If a COI does exist, we 
+suggest that you contact your Mitacs Advisor prior to starting an application to ensure that the 
+participants in this project are eligible for the program. Please view the Mitacs Conflict of Interest 
+Policy for more information.    
+ 
+PLEASE NOTE : Failure to disclose a COI will :  
+• Delay the project  evaluation proces s. 
+• Require submission of a COI mitigation approach  satisfactory to Mitacs  before project work 
+initiates or continues.  
+• Risk forced withdrawal from the BSI program , should a satisfactory mitigation plan not be 
+reached. 
+ 
+Have any applicants declared a COI via the appropriate documentation?        
+☐  Yes, an intern
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: November 11, 2025 (sgbrown) 
+Page 23 of 23 
+ 
+☐  Yes, an academic supervisor         
+☒  No                     
+ 
+ 
+A-6.2b  Indigenous engagement 
+Please indicate if any of the below statements are true. 
+☐  One or more named interns self-declares as an Indigenous person 
+☐  The partner organization is a for-profit organization with self-identifying Indigenous 
+persons who hold 50% or greater ownership shares 
+☐  The partner organization is a not-for-profit with board membership consisting of 50% of 
+greater self-identifying Indigenous persons 
+☒  The partner organization is a not-for-profit whose core mandate includes Indigenous 
+community impact or serving Indigenous communities           
+ 
+* If any of the above statements are true, your organization may be eligible for enhanced leveraging 
+via the Mitacs Indigenous Pathways Initiative. Please check with your Mitacs Advisor for more 
+information. 
+ 
+A-6.2c Type of innovation 
+Please select all the types of innovation you will significantly impact through your project. Refer to 
+the following definition of innovation for further information: Defining innovation - OECD. 
+ 
+☒  Product innovation                     
+☒  Process innovation                     
+☐  Marketing innovation                     
+☒  Organizational innovation

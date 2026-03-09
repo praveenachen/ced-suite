@@ -1,0 +1,1108 @@
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 1 of 22 
+ 
+Mitacs BSI Application Template 
+Template version: 2025-12-03 
+ 
+ 
+Upon submitting your application, you are agreeing that Mitacs can post the title of your project, 
+the public project overview, the name of the partner organization (if applicable), the name of the 
+intern, the name of the academic supervisor, and the involved academic institution 
+on www.mitacs.ca/en/projects and this information may be used by Mitacs to publicize its 
+programs. Mitacs Privacy Policy can be found at www.mitacs.ca/en/privacy-policy. 
+ 
+ 
+ 
+Section 1: Project Overview 
+ 
+P-1.1 Title (255 characters max)  
+Note: This can be changed later 
+ 
+UNISON: Data-Driven Optimization of Public Safety Resource Deployment 
+ 
+ 
+P-1.2 Size of application 
+☒   Small (1-3 internships) 
+Expert review should take no more than 6 weeks for the majority of proposals. 
+Please plan for additional review time should revisions be requested. Your project 
+start date will only be confirmed once the proposal is approved, intern(s) identified, 
+and partner organization funds received at Mitacs.  
+☐   Medium (6-10 internships)  
+Expert review should take no more than 8 weeks for the majority of proposals. 
+Please plan for additional review time should revisions be requested. Your project 
+start date will only be confirmed once the proposal is approved, intern(s) identified, 
+and partner organization funds received at Mitacs. 
+ 
+ 
+P-1.3 Public Project Overview (100-200 words) 
+Using simplified language, please provide a general one-paragraph description of the proposed 
+project including the expected benefit to the partner organization. 
+ 
+The UNISON project will enhance an existing public safety predictive analytics tool used by the City 
+of Edmonton to optimize the deployment of public safety resources. The Data Science and 
+Research team will refine existing predictive models for improved accuracy and precision in 
+forecasting calls for service, integrate new data sources to enrich models and gain deeper insights 
+into public safety trends, and design and prototype new data-driven features such as localized 
+prediction capabilities and advanced visualization tools. Additionally, the team will develop robust 
+metrics to evaluate the impact of UNISON's predictions on public safety outcomes. These
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 2 of 22 
+ 
+enhancements will enable more informed, proactive deployment of public safety resources across 
+the city, leading to improved efficiency and better outcomes for the community while contributing 
+to a scalable data science framework that supports the application's continued growth. 
+ 
+ 
+P-1.4 Academic discipline 
+Please highlight the academic discipline (1 only) that most closely aligns with the project.  
+ 
+☐   Business  
+☒   Computer Science 
+☐   Earth Science 
+☐   Engineering 
+☐   Life Science 
+☐   Mathematical Science 
+☐   Physical Science 
+☐   Social Science, Arts and Humanities 
+ 
+ 
+P-1.5 Project priority sectors 
+Please select the project’s priority sectors (3 max) 
+ 
+☐   Advanced Manufacturing 
+☐   Aerospace  
+☐   Agriculture & Food  
+☐   Aquaculture & Fishing  
+☒   Artificial Intelligence 
+☐   Automotive  
+☐   Biomanufacturing 
+☐   Biotechnology  
+☐   Cannabis  
+☐   Clean Technology  
+☐   Commercial Services  
+☐   Construction  
+☐   Cyber Security  
+☐   Education 
+☐   Energy & Utilities 
+☐   Entertainment & Media 
+☐   Env. Science & Technology 
+☐   Finance & Insurance 
+☐   Forestry 
+☐   Green/Alternative Energy 
+☐   Health/Related Sci & Tech 
+☐   Indigenous Innovation 
+☐   Info & Communication Tech 
+☐   Life Sciences (not health) 
+☐   Manufacturing & Construction 
+☐   Mining 
+☐   Nanotechnology 
+☐   Natural Gas 
+☐   Natural Resources 
+☐   New & Digital Media 
+☐   Ocean Tech 
+☐   Oil & Gas 
+☐   Other 
+☐   Pharmaceuticals 
+☒   Pub. Services, Policy & Governance 
+☐   Quantum Science 
+☐   Social Innovation 
+☐   Sustainability & the Env. 
+☒   Technology 
+☐   Tourism 
+☐   Transportation 
+☐   Water 
+ 
+ 
+ 
+P-1.6 Keywords to identify reviewers 
+Please specify five to ten keywords to help identify proper reviewers and to accelerate the review 
+process. Please provide both technically and/or conceptually related (50%) and discipline related 
+keywords (50%). 
+ 
+Conceptually/technically-related 
+keywords (50%) Discipline-related keywords (50%) 
+• Predictive analytics 
+• Resource optimization 
+• Data science 
+• Machine learning
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 3 of 22 
+ 
+• Geospatial analysis 
+• Data visualization 
+• Data integration 
+• Public safety 
+• Operations research 
+• Statistical modeling
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 4 of 22 
+ 
+Section 2: Academic Supervisor Details 
+ 
+P-2.1a Academic Supervisor details 
+Please complete the following table for each academic supervisor included on the project (copy the 
+table as necessary). 
+ 
+ACADEMIC SUPERVISOR 
+FULL NAME 
+First name: Leia 
+Last name: Minaker 
+Email: lminaker@uwaterloo.ca 
+Re-type email: lminaker@uwaterloo.ca 
+Contact phone: 519-888-4567 
+Extension: 45615 
+Academic institution: University of Waterloo 
+Department: School of Planning 
+Address: 200 University Avenue West 
+City: Waterloo 
+Province: ON 
+Country: Canada 
+Postal code: N2L 3G1 
+ 
+P-2.1b  Academic Supervisor Policy on Sensitive Technology Research and Affiliations of 
+Concern Declaration 
+ 
+1. Are you currently affiliated with, or in receipt of funding or in-kind support from any of the 
+listed Named Research Organizations (NROs)? 
+☐  Yes  ☒ No 
+ 
+Any applicant who is currently affiliated with, or in receipt of funding or in-kind 
+support from one or more of the institutions on the list of NROs is not eligible to 
+participate in a Mitacs-funded project involving research that aims to advance 
+a Sensitive Technology Research Area (STRA). Mitacs will also screen a sample of 
+applications, selected at its sole discretion, and validate the accuracy of the 
+completed declarations. Mitacs reserves the right to decline funding, at any point, 
+for a project that advances a sensitive technology research area because of 
+affiliations of concern. 
+ 
+P-2.1c Academic supervisor CV 
+The academic supervisor must upload a CV/resume for any application that will involve 6 or more 
+internships. Please note by uploading your Resume/CV you are granting all participants in this 
+application and Mitacs staff access to this document. 
+  
+Not required for this application.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 5 of 22
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 6 of 22 
+ 
+Section 3: Partner Organization Information 
+ 
+P-3.1 Organizational Profile 
+Please complete the following table for each partner organization included on the project (copy the 
+table as necessary) 
+ 
+PARTNER ORGANIZATION 
+Organization Name (Primary contact) 
+Partner Contact Information 
+First name: Zehra Last name: Shah 
+Email: zehra.shah@edmonton.ca 
+Department: Data Science and Research 
+Contact phone: 780-508-9527 Extension:  
+Business Information 
+Legal Organization Name: City of Edmonton 
+Organization URL: www.edmonton.ca 
+Industry code (NAICS): 913: Local, municipal and regional public administration 
+Legal Status:  
+(For Canadian Organizations 
+only) 
+☐ For Profit Canadian Corporation 
+☐   Not for Profit Canadian Corporation 
+☐   Crown Corporation 
+☒   Municipality 
+Organization Size: (Number of 
+employees in Canada) 
+☐ 1 – 49 
+☐   50 – 99 
+☐ 100 – 499 
+☐  500 – 999 
+☒ 1000+ 
+Address: 1 Sir Winston Churchill Square 
+City: Edmonton Province: AB 
+Country: Canada Postal code: T5J 2R7 
+Organizational Structure and Activities 
+Is the organization 
+incorporated? 
+☒ Yes 
+☐ No 
+ 
+If yes, please include the date (YYYY/MM/DD) of 
+incorporation: 
+1904-10-06 
+Is the organization a parent 
+company? 
+☐ Yes 
+☒ No 
+ 
+If yes, please describe (e.g., main subsidiaries, name of 
+the parent company/holding company, city and country 
+where the headquarters of the parent company/holding 
+company are located):  
+n/a 
+Is the organization a subsidiary 
+company? 
+☐ Yes 
+☒ No 
+If yes, please describe (e.g., main subsidiaries, name of 
+the parent company/holding company, city and country 
+where the headquarters of the parent company/holding 
+company are located):  
+n/a
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 7 of 22 
+ 
+PARTNER ORGANIZATION 
+Organization Name (Primary contact) 
+Does the organization have an 
+R&D department in Canada? 
+☐ Yes 
+☒ No 
+ 
+If yes, what is the exact number of research and 
+development (R&D) staff in Canada? 
+n/a 
+ 
+If no, is R&D conducted on the organization’s premises in 
+Canada? 
+No 
+Is this the first time the partner 
+has collaborated with the 
+academic institution? 
+☐ Yes 
+☒ No 
+ 
+Funds Declaration 
+Have the funds committed by 
+the Organization been 
+leveraged against other federal 
+or provincial programs? 
+☐ Yes 
+☒ No 
+ 
+If yes, Please contact your Mitacs Advisor before you 
+proceed with the application. 
+ 
+If yes, please identify the Program Name(s): 
+n/a 
+ 
+If yes, please indicate the Total Program(s) Contribution: 
+n/a 
+Invoicing Information 
+How often will the partner 
+organization be invoiced? 
+☐ Every 4 months 
+☐ Annually 
+☒ Single payment 
+Net invoice term (Days >=30) 30 
+Accounts payable attention to:  
+ First name: Zehra  
+ Last name:  Shah 
+ Email:   zehra.shah@edmonton.ca 
+ Phone:   780-508-9527 
+ Extension:  
+Please describe any 
+applicable invoice 
+requirements: 
+n/a
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 8 of 22 
+ 
+Section 4: Project details 
+ 
+4.1  PROJECT DESCRIPTION 
+ 
+A-4.1a Background (What problem needs to be solved?) 
+Provide an overview and describe the main activities of the partner organization. Explain the 
+innovation challenge or improvement priority that the partner needs to solve. Specify how this 
+project will help the partner organization address those challenges in a way that goes beyond day-
+to-day business operations/activities. Describe what kind of expertise is required to solve the 
+problem. 
+ 
+Overview of partner organization  
+The City of Edmonton’s Data Science and Research (DSR) team acts as a central problem-solving 
+hub, collaborating with diverse internal municipal teams by accepting projects based on a 
+structured evaluation process. It is dedicated to leveraging data and technology to enhance 
+municipal services and improve quality of life for residents. This team leads initiatives in open data, 
+artificial intelligence and predictive analytics, and collaborates with various stakeholders to drive 
+innovation and transparency. Their work includes developing predictive models for emergency 
+events, optimizing urban planning through data-driven insights, and fostering a culture of open 
+government through accessible data portals.  
+ 
+The team acts as a central problem-solving hub, collaborating with diverse internal municipal 
+teams by accepting projects based on a structured evaluation process. This process scores 
+requests against the City’s Corporate Business Plan and their potential to generate value 
+(make/save money, reduce risk, save operationalizing the results, projects are prioritized and 
+initiated. 
+ 
+The DSR team emphasizes strong relationships, a well-defined problem, willing stakeholders, 
+clarity on expected changes, and comfort with unpredictable results as critical for project success, 
+all while maintaining a strong focus on data privacy and ethics. 
+ 
+Description of current challenge  
+The City of Edmonton faces the ongoing challenge of meeting its operational needs for public 
+safety resource deployment and ultimately keeping the public safe. The City’s Data Science and 
+Research (DSR) team has developed a public safety predictive analytics tool that leverages data to 
+inform the proactive deployment of public safety resources.  
+ 
+This project involves reviewing the current operational support structure to ensure optimal 
+positioning for scaling and maintaining the application’s data science capabilities. Specifically, the 
+DSR team needs to improve the accuracy and precision of existing predictive models that forecast 
+calls for service, integrate diverse data sources to enrich these predictions and uncover deeper 
+insights into public safety trends, and develop advanced features—particularly localized prediction 
+capabilities—that provide more granular, actionable intelligence for resource deployment 
+decisions.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 9 of 22 
+ 
+The DSR team successfully developed and deployed the Unison Application, a sophisticated, 
+unified platform designed to centralize and manage all critical City of Edmonton incidents as well 
+as forecasting for the next day where the hotspot is. This powerful system achieves comprehensive 
+situational awareness by integrating real-time data streams from eight diverse internal and external 
+sources, providing a single source of truth for city operations and emergency management. 
+  
+  
+The strategic roadmap for the ongoing development of the Unison Application focuses on three key 
+priority areas to further enhance its capabilities and value: 
+• Advanced Forecasting Capabilities: The DSR team is actively working on implementing 
+next-generation forecasting models. These new models will move beyond simple historical 
+trends by incorporating complex spatial and temporal relationships between various city 
+grids—such as traffic flow, utility consumption, and environmental factors—to predict 
+future incidents with greater accuracy and lead time. This capability will significantly 
+improve proactive resource allocation and operational planning. 
+• User Experience and Operational Enhancements: A core priority is continuous 
+improvement based on actionable insights derived from direct user feedback. Planned 
+enhancements include the addition of new, highly requested features focused on improving 
+data accessibility, providing more intuitive and interactive data visualization tools, and 
+streamlining workflows. These updates are designed to ensure the Unison platform remains 
+an efficient and indispensable tool for all city personnel. 
+• Incident Consolidation through Generative AI: The DSR team is pioneering the 
+implementation of Generative Artificial Intelligence (Gen AI) to revolutionize the incident 
+consolidation process. This new Gen AI approach will precisely consolidate high-volume, 
+related incident calls at the granular call type level. This represents a major technological 
+upgrade from the platform's current system, which relies on a heuristic AI approach that 
+only matches and consolidates incidents at the less detailed higher occurrence type level. 
+The move to Gen AI will dramatically increase the precision and fidelity of incident grouping, 
+leading to faster, more accurate analysis and response. 
+ 
+Impact of project 
+ 
+The Unison project is a critical application for safety deployment, involving collaboration between 
+internal and external teams. Enhancing its capabilities by providing more accurate forecasting—
+through the consideration of location relationships and environmental factors—will not only 
+improve immediate predictions but also allow for multi-day forecasting, facilitating better planning 
+for upcoming weeks. Furthermore, improvements to the user interface will enable users to define 
+their areas of interest, filtering the volume of information to present exactly what is relevant to their 
+needs. Providing forecasts at a more granular, call-type level will also allow teams to focus on more 
+specific and detailed information. In addition, by establishing clear metrics to measure UNISON's 
+impact, the City will be able to quantify how the tool is contributing to making communities safer 
+and continuously improving it based on real results. This goes beyond day-to-day operations by 
+fundamentally strengthening the City's ability to proactively protect residents rather than 
+responding to incidents after they occur.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 10 of 22 
+ 
+Expertise required to solve the problem 
+Specialized expertise required to develop this solution includes (but is not limited to):  
+• Programming and Databases: Demonstrated experience with programming languages and 
+relational databases, particularly SQL. 
+• Data Analysis and Visualization: Proficiency in data analysis and visualization tools (e.g., 
+R or Python). 
+• Time Series Forecasting: Practical experience with Time Series Forecasting methods. 
+• Full-stack Development: Experience with full-stack development, specifically using React 
+and Python. 
+ 
+ 
+A-4.1b Objectives and Approach (How will the problem be solved?) 
+State the objectives for this project and explain how you plan to accomplish them. Enough detail 
+should be provided so that it is clear whether the described approach is appropriate to achieve 
+each objective. For projects with more than one intern, clearly explain which objective(s) each 
+intern will work on. 
+ 
+The Unison project's core objectives are twofold: 
+• To develop a robust forecasting model for the strategic deployment of safety resources. 
+• To enhance system functionality to allow users to conduct customized data analysis. 
+These objectives will be achieved through a data-driven, iterative methodology. The initial steps will 
+involve upgrading the user interface to align with modern frameworks and best practices. 
+Subsequently, research will focus on the optimal way to integrate environmental factors and 
+locational relationships into time series forecasting. This research and implementation will follow 
+the implementation of a Generative AI model for consolidating call types. 
+ 
+ 
+A-4.1c Timeline (Who will solve the problem and how much effort will be required?) 
+Insert a timeline showing which task(s) will be performed when, and by which intern in order to 
+achieve the objectives stated above (consider breaking this down by week for shorter projects or by 
+month for longer projects via a Gantt chart). Ensure there are no gaps in the timeline and that the 
+effort required to complete each task matches the amount of time allocated for each intern. 
+ 
+The project will proceed as follows: 
+ 
+TASK PROJECT MONTHS RESPONSIBLE 1 2 3 4 5 6 7 8
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 11 of 22 
+ 
+Incorporate new data into Unison, 
+such as problem properties and 
+employee safety information. 
+        
+Mitacs Intern 
+• Refine the existing data 
+source pulling process. 
+• Research and implement 
+the incorporation of 
+location and 
+environmental factors into 
+forecasting models. 
+        
+Mitacs Intern 
+• Utilize Generative AI for the 
+consolidation of call type 
+data 
+• Develop functionality for 
+forecasting various call 
+types. 
+        
+Mitacs Intern 
+Create customized daily reports 
+for users. 
+        Mitacs Intern 
+Migrate the current workflow to a 
+cloud-based environment. 
+        Mitacs Intern 
+Modernize the current front-end 
+framework by transitioning to 
+React. 
+        
+Mitacs Intern 
+Enhance the User Interface (UI) by 
+implementing requested user 
+features. 
+        
+Mitacs Intern 
+Develop comprehensive 
+documentation for all new 
+features and improvements. 
+        
+Mitacs Intern 
+ 
+ 
+ 
+A-4.1d Deliverables (What does success look like?) 
+List the deliverables or tangible results you expect from the project and identify which intern is 
+responsible for it. For example, will you develop a new patent/prototype/product/service, business 
+model, business process, or will you access new markets? Will the intern be expected to produce a 
+report, evaluation, presentation, etc.? 
+ 
+Deliverables for this project include (but are not limited to): 
+ 
+• Enhancing existing products or services: Once the predictive models have been refined 
+and new data sources have been integrated, the DSR team will work on upgrading 
+UNISON's user interface to align with modern frameworks and best practices and extend 
+system functionality to provide customizable data analysis at the neighborhood level, 
+enabling more precise resource deployment decisions across specific areas of the city.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 12 of 22 
+ 
+• Comprehensive reports and presentations for the partner organization: These will 
+document methodologies, findings, and recommendations related to predictive model 
+enhancements, data integration strategies, new feature development, and performance 
+evaluation metrics while effectively communicating technical development, analytical 
+results, and practical implications for proactive public safety resource deployment and 
+improved community safety outcomes.  
+ 
+ 
+ 
+A-4.2  INTERNSHIP BENEFITS 
+ 
+A-4.2a Benefits and Impacts to Canada 
+If this project potentially impacts broader challenges that society or the industry faces, please 
+describe how the project will help address these challenges. Why are these contributions important? 
+ 
+The UNISON project addresses broader challenges that many cities and public safety organizations 
+face in efficiently allocating limited resources to protect their communities. As municipalities 
+across North America grapple with budget constraints, increasing service demands, and the need 
+to demonstrate measurable outcomes, data-driven approaches to public safety resource 
+deployment offer a path forward. By developing enhanced predictive models, integrating diverse 
+data sources, and establishing robust performance metrics, this project contributes to the growing 
+field of smart city analytics and evidence-based public safety practices. The focus on building a 
+scalable data science framework and exploring advanced methodologies like MLOps and causal 
+inference creates knowledge and approaches that can be adapted by other jurisdictions facing 
+similar challenges.  
+ 
+Ultimately, this work demonstrates how cities can leverage data science to move from reactive to 
+proactive service delivery, improving both the efficiency of resource use and the safety outcomes 
+for residents—challenges that are increasingly urgent for communities everywhere. 
+ 
+ 
+A-4.2b Benefits to the Intern(s) 
+Explain how participating in this project aligns with the academic studies of the intern(s). How is 
+participating in the project expected to benefit  their future career(s)? For example, will they expand  
+their professional network, gain knowledge in a business context, or develop  skills in problem -
+solving, communication, project management, creative thinking, etc.? 
+ 
+By participating in this project, the intern will: 
+ 
+• Apply their academic expertise to real-world problems by using the specific skills 
+mentioned in Q 2.1.a to refine predictive models, integrate and analyze diverse data 
+sources, develop new data-driven features, and evaluate the performance and impact of 
+public safety analytics tools. 
+• Use and develop creative problem-solving skills by thinking on their feet and solving 
+problems in real time
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 13 of 22 
+ 
+• Foster management, leadership, and communication abilities by working with an 
+experienced team and ensuring the end product delivers accurate predictions, actionable 
+insights, and measurable improvements in public safety resource deployment.  
+• Gain valuable experience in applying data science methodologies to address complex 
+societal challenges while contributing to innovations that directly improve community 
+safety and well-being. 
+• An intern leading a data science project for the City of Edmonton will gain hands-on 
+experience applying theoretical concepts—such as machine learning, statistical modeling, 
+and programming—to complex municipal challenges. This opportunity will expand their 
+professional network within a leading municipal data science team, deepen understanding 
+of public sector operations, and enhance problem-solving skills by addressing novel issues. 
+Additionally, the experience will build skills in project management, stakeholder 
+communication, ethical data practices, and the ability to operationalize data science 
+solutions from concept to deployment.  
+ 
+ 
+ 
+A-2.3 INTERNSHIP ENVIRONMENT 
+ 
+A-2.3a Description of the Academic Internship Environment 
+a. Please describe the nature of academic supervision during the internship period. Explain 
+the type and frequency of interactions (e.g., meetings, phone calls, etc.) between the 
+intern and academic supervisor. 
+b. Will the project make use of the resources and/or facilities of the academic institution? If so, 
+please describe.  
+ 
+Academic internship Environment 
+The Future Cities Institute (FCI), founded by CAIVAN is committed to fostering healthy, prosperous 
+cities and communities in Canada and beyond through interdisciplinary partnerships, action-
+oriented research, and data-informed decision-making. The Data Science and Research Team at 
+the City of Edmonton is one of FCI’s core partners due to their focus on developing data-driven 
+solutions to municipal challenges and their commitment to the democratization of tools and 
+resources. 
+ 
+Nature of academic supervision 
+The intern will meet virtually with Dr. Leia Minaker (Director, Future Cities Institute, Faculty of 
+Environment) at least once a month to ensure ongoing alignment with the goals and objectives of 
+the Future Cities Institute and to discuss progress towards knowledge mobilization outcomes. 
+ 
+Use of UWaterloo resources and/or facilities 
+The initial development, implementation and evaluation of the solution will use very few UWaterloo 
+resources and/or facilities since the intern is physically located in Edmonton. However, the FCI staff 
+team (primarily Research Coordinator and Communications Officer) will be engaged throughout 
+the internship to support knowledge mobilization and/or communication activities.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 14 of 22 
+ 
+A-4.3b Description of the Partner Internship Environment 
+a. Please state the nature of the partner interaction:     ☒  Onsite     ☐  Virtual     ☐  Hybrid 
+ 
+b. Describe the working environment at the partner organization and the type and frequency of 
+interactions between the intern(s) and employees. For example, what resources, 
+facilities/equipment, and specialized training will the intern(s) have access to? If the 
+intern(s) will work virtually, how will they be exposed to the activities and culture of the 
+partner organization?  
+ 
+Partner Internship Environment 
+The intern will immerse themselves in the Data Science and Research team's dynamic, pragmatic, 
+and highly collaborative environment at the City of Edmonton. Interactions will be frequent and 
+direct, involving continuous engagement with senior data scientists for mentorship and active 
+collaboration with partner teams across various city departments, from project intake through 
+operationalization, to define problems and ensure solutions meet real-world needs. 
+  
+Access to resources, facilities/equipment and specialized training 
+For resources, the intern will access state-of-the-art centralized infrastructure, including Google 
+Cloud Platform services (BigQuery, Dataflow, Dataproc, GPU support) and GitLab for project 
+management and version control. Specialized training will be hands-on, provided through direct 
+guidance from experienced public sector data scientists, ensuring practical skill development. 
+ 
+Organizational culture 
+Cultural exposure will stem from direct team integration, participating in the team's problem-
+solving ethos, and gaining deep institutional knowledge by observing and contributing to the 
+operational realities and diverse activities of the partner organizations they support. 
+ 
+ 
+A-4.4  PAST/OTHER MITACS PROJECTS 
+Is this application related to, or a continuation of, any previous or current Mitacs projects?      
+☐  Yes      
+☒  No 
+ 
+If Yes, provide specifics about the relationship(s), including relevant project IT#(s). If the current 
+project is a continuation of prior work, briefly describe how it meaningfully furthers what has been 
+previously achieved. 
+ 
+n/a 
+ 
+A-4.5  ENGAGEMENT WITH INDIGENOUS COMMUNITIES OR PARTNERS (IF APPLICABLE) 
+Projects that involve or impact Indigenous communities must comply with the Mitacs Indigenous 
+Research Policy. Describe (1) Indigenous community support for the project, and their role in 
+shaping its objectives/approach, (2) plans for Indigenous community access, use, and governance 
+of resulting knowledge/data, and (3) the team background in Indigenous research, including 
+planned training/mentorship the intern(s) will receive to address deficits in experience.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 15 of 22 
+ 
+You may also submit 1-2 letter(s) of support from Indigenous Elders who are members of the partner 
+community/communities and possess the authority to speak on community interests.    
+ 
+n/a 
+ 
+A-4.7  INTELLECTUAL PROPERTY (IF APPLICABLE) 
+Explain how this project supports the creation and/or ownership of IP for the partner organization. 
+If the project provides education or training about IP for any of the participants, explain here.  
+ 
+Any intellectual property created by a Placement Student during their participation in the Program or 
+performance of the Work will be the exclusive property of the City of Edmonton (the “Intellectual 
+Property).  
+ 
+The City of Edmonton may, at its discretion, provide advance written consent to a Placement Student 
+for their use of the Intellectual Property for non-commercial purposes. 
+ 
+The City of Edmonton also agrees to facilitate the reasonable use of the Intellectual Property by the 
+University of Waterloo for academic purposes related to the administration of a Placement Student’s 
+education, where applicable. 
+ 
+Subject to the protection of any confidential information of the City of Edmonton or information 
+otherwise protected under applicable legislation, including the Freedom of Information and 
+Protection of Privacy Act (RSA 2000, c F -25), as amended, this reaso nable use by the University of 
+Waterloo will include posting each Placement Student’s final reports and presentations related to 
+the Work on the University’s website. 
+ 
+ 
+A-2.7  REFERENCES / SOURCES (IF APPLICABLE) 
+List any references you have cited in your proposal.  
+ 
+n/a
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 16 of 22 
+ 
+Section 5: Internship Budget and Schedule 
+ 
+P-5.1  SUMMARY OF INTERNSHIPS 
+ 
+Please select only one type of internship option per application from the list below. If you want to 
+apply for internships of a different type, you will need to create a separate application. Each of your 
+applications can include up to 10 internships of the same type. If you select an internship option 
+with project costs, you must include a description of how these fundings will be used in your project 
+proposal. 
+ 
+☐  Business Strategy Internship (BSI) Standard Funding:  
+Each BSI internship unit is valued at $10,000 and the partner organization’s financial 
+contribution starts at $5,000 per unit. Each intern receives a minimum of $10,000 
+stipend per unit 
+ 
+☒  Business Strategy Internship (BSI) Standard Funding plus Project Costs:  
+Each BSI internship unit is valued at $15,000 and the partner organization’s financial 
+contribution starts at $7,500 per unit. Each intern receives a minimum $10,000 
+stipend per unit. The additional $5,000 in funds can be used to pay for eligible 
+project costs or can be used to top-up the intern stipend to $15,000. 
+ 
+☐  Business Strategy Internship (BSI) - Indigenous Pathways Reduced Cost 10K:    
+Projects with Indigenous participants are eligible for a reduced partner contribution. 
+Each BSI internship unit is valued at $10,000 and the partner organization’s financial 
+contribution starts at $2,500 per unit. Each intern receives a minimum $10,000 
+stipend per unit. 
+ 
+☐  Business Strategy Internship (BSI) - Indigenous Pathways Reduced Cost 15K:    
+Projects with Indigenous participants are eligible for a reduced partner contribution. 
+Each BSI internship unit is valued at $15,000 and the partner organization’s financial 
+contribution starts at $3,750 per unit. Each intern receives a minimum $10,000 
+stipend per unit. The additional $5,000 in funds can be used to pay for eligible 
+project costs or can be used to top-up the intern stipend to $15,000. 
+ 
+ 
+P-5.2   INTERNSHIP DETAILS 
+ 
+P-5.2a  Intern Name 
+* NOTE: An intern can be named (if known) or TBD 
+[INSERT TEXT] 
+ 
+ 
+P-5.2b  Degree Program During Internship 
+NOTE: A recent graduate is an individual who, at the start of the internship, graduated less than 2 
+years ago. “Other University Program” should be used for an individual who is enrolled at a
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 17 of 22 
+ 
+Canadian university in a non-degree program (e.g., diploma, certificate). “Recent Graduate (Other 
+University Program)” should be used for an individual who, at the start of the internship, graduated 
+less than 2 years ago from a non-degree program (e.g., diploma, certificate). 
+ 
+☐  College 
+☐  Bachelors 
+☐  Masters 
+☐  PhD 
+☐  PDF 
+☐  Recent Grad – College 
+☐  Recent Grad - Bachelors 
+ 
+P-5.2c  Internship timing  
+ 
+a. Start date:   
+b. Duration (months):  
+c. # of Consecutive Internships With Same Stipend (see * below):   
+d. End date: This auto-generates in the system based on the start date and the duration of the 
+internship 
+ 
+* NOTE: ‘Consecutive internships' refers to sequential internships performed by a 
+specific intern without breaks (gaps) in between each. To create a break between 
+internships, create a new row for that specific intern. To enable each internship for a 
+given intern to have a different stipend value from the other internships for the same 
+intern, please create a new row for that specific intern. 'Same stipend' refers to 
+every internship for that specific intern being assigned the same stipend value. Tip: 
+Use the Duplicate function in the Actions menu to copy internships that are similar 
+then make simple edits (such as modifying the stipend value, internship length, or 
+add a new intern with the same stipend, duration and sequence as previous 
+additions) as outlined above. 
+ 
+  
+P-5.3  ACADEMIC SUPERVISORS 
+ 
+P-5.3a  Participant details  
+ 
+This information will be auto-generated from the “Participants” tab. 
+ 
+P-5.3b  Partner organizations 
+The total minimum required organization contributions are listed in section P-3.1 above. This 
+contribution can be distributed across multiple organizations. 
+ 
+a. Please note that the financial contribution of organizations is subject to applicable Goods 
+and Services Tax (GST), Harmonized Sales Tax (HST) and/or Quebec Sales Tax (QST) 
+(Collectively the value added tax or VAT).
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 18 of 22 
+ 
+b. Partner organizations can contribute additional funding to the project but Mitacs will not 
+provide any additional matching funding outside of the standard awards.  
+c. Additional partner contributions are only allowed with academic institution approval.  
+d. Any additional partner funding must be shown in the proposal/budget and the anticipated 
+use of these funds must be explained so that the academic institution can clearly see and 
+approve the planned budget when they sign-off on the proposal (e.g. will the extra funds be 
+used for stipend top-up, specialized equipment, etc.?).  
+e. Any additional funds associated with a specific internship must be received by Mitacs at the 
+same time as the normal partner contribution.  
+f. The funds will be added to the award and forwarded to the academic institution to be paid 
+out to the intern. 
+ 
+PARTNER NAME IS A PARTICIPANT OF THIS 
+INTERNSHIP (See * below) 
+AMOUNT PER INTERNSHIP 
+(See ** below) 
+Partner A Auto-generated based on 
+“Participants” tab 
+$7,500 
+   
+ 
+* Make sure each participant has been entered in the “Participants” tab. 
+** Note this amount does not include the tax component 
+ 
+ 
+P-5.4c  Stipends and Project Expenses: 
+a. Partner organizations can contribute additional funding to the project but Mitacs will not 
+provide any additional matching funding outside of the standard awards.  
+b. Additional partner contributions are only allowed with academic institution approval.  
+c. Any additional partner funding must be shown in the proposal/budget and the anticipated 
+use of these funds must also be shown so that the academic institution can clearly see and 
+approve the planned budget when they sign-off on the proposal.  
+d. Any additional funding associated with a specific internship must be received by Mitacs at 
+the same time as the normal partner contribution.  
+e. The funds will be added to the award and forwarded to the academic institution to be paid 
+out to the intern.  
+f. A minimum of $10,000 per internship must be use for intern stipend. Any additional funding 
+the partner organization provides will be allocated to the intern stipend amount. 
+ 
+ 
+BUDGET ITEM AMOUNT 
+Stipend (must be at least $10,000)  
+Project Expenses (usually $5,000)  
+Total  
+ 
+ 
+P-5.4d  Details of project expenses.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 19 of 22 
+ 
+If your internship includes project expenses, you must enter details of these project expenses in the 
+space provided. For example, if you have two four-month internships listed above, please include 
+what expenses will be required for each of these two units. 
+ 
+The project expenses for the XX IU(s) included in this application will be used to top-up the intern’s 
+stipend.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 20 of 22 
+ 
+Section 6: Declarations 
+ 
+6.1  DECLARATIONS FROM PORTAL 
+ 
+P-6.1 Answer the following questions: 
+ 
+Declarations from the Portal 
+Will the intern conduct any of the proposed 
+project activities outside of the academic 
+institution or partner premises? 
+☐ Yes 
+☒ No 
+ 
+Does the project involve: 
+Human participant whose data, or 
+responses to interventions, stimuli, or 
+questions by the intern, are relevant to 
+completing the work? 
+☐ Yes 
+☒ No 
+ 
+If yes, was checked for any of these questions, 
+applicants must contact the ethics offices at all 
+participating academic institutions to 
+determine whether ethics clearance is 
+required. This includes primary/secondary use 
+of human data/biological materials owned by 
+the partner. 
+Secondary use of human data or health 
+information (even if anonymized)? 
+☐ Yes 
+☒ No 
+Human biological materials, as well as 
+human embryos, fetuses, fetal tissue, 
+reproductive materials, and stem cells? 
+This applies to materials derived from 
+living and deceased individuals 
+☐ Yes 
+☒ No 
+ 
+Secondary use of biological materials 
+(even if anonymized)? 
+☐ Yes 
+☒ No 
+Will the proposed project require the use of 
+laboratory animals, and/or potentially impact 
+the well-being of wild/domesticated animals? 
+☐ Yes 
+☒ No 
+If yes, applicants must contact the animal care 
+committees at all participating academic 
+institutions to determine whether any 
+certifications/authorizations are required. 
+Will the proposed project require the interns to 
+handle or be exposed to biohazards? 
+ 
+☐ Yes 
+☒ No 
+If yes, please check all that apply: 
+Biohazards (e.g., viruses, 
+bacteria, fungi, parasites, toxins, 
+prions, zoonotic pathogens, 
+recombinant DNA, genetically 
+modified organisms, viral 
+vectors, synthetic organisms, 
+cell lines/cultures) 
+☐ Yes 
+☐ No 
+Radioactive materials ☐ Yes 
+☐ No 
+Restricted substances (e.g., 
+cannabis) 
+☐ Yes 
+☐ No 
+Other ☐ Yes 
+☐ No 
+If one or more options were checked, any 
+necessary documentation must be obtained in 
+accordance with all participating academic 
+institutions’ policies and maintained throughout 
+the duration of the research project.
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 21 of 22 
+ 
+Declarations from the Portal 
+Will the project involve the use of personal 
+data or large datasets that could be 
+considered sensitive (for additional 
+information, see List 2 of Annex A of the 
+National Security Guidelines for Research 
+Partnerships)? 
+☐ Yes 
+☒ No 
+If yes, please describe: 
+RESPONSE 
+Will the project involve research related 
+to critical minerals and/or one of the critical 
+infrastructure sectors? 
+☐ Yes 
+☐ No 
+If yes, please describe: 
+RESPONSE 
+Will the project involve research related to 
+goods or technology that are included on 
+the Export Control List (ECL) of the Export and 
+Import Permits Act (EIPA)? 
+☐ Yes 
+☒ No 
+If yes, please describe: 
+RESPONSE 
+Will background intellectual property (IP) be 
+transferred from Canadian institution(s) to the 
+partner organization(s)? 
+☐ Yes 
+☒ No 
+If yes, please describe: 
+RESPONSE 
+Will intellectual property (IP) arising from the 
+project be owned by, assigned to, or licensed 
+to the partner organization(s)? 
+☐ Yes 
+☒ No 
+If yes, please describe: 
+RESPONSE 
+Does the project aim to advance any of the 
+listed Sensitive Technology Research Areas 
+(STRAs)? 
+ 
+☐ Yes 
+☒ No 
+If yes, please describe: 
+RESPONSE 
+ 
+ 
+If yes, applicants should consider any potential 
+research security risks associated with the 
+nature of the proposed activities. Applicants 
+should also consult the policies, guidelines, 
+and requirements of their participating 
+Canadian academic institution(s) to determine 
+any appropriate research security risk 
+mitigation measures based on federal and 
+provincial government guidelines/policy 
+statements, and to identify any necessary 
+actions to ensure compliance with relevant 
+government regulations and legislation (e.g., 
+import/export laws) 
+ 
+ 
+6.2  DECLARATIONS FROM APPLICATION FORM 
+ 
+A6.2a Conflict of interest 
+ 
+Mitacs will not approve a BSI application  if the intern listed on the proposal has a position of 
+ownership, employment, or influence over the daily operations of the partner organization. 
+Interns with close family or intimate relationships with academic supervisors or employees of 
+the partner org anization are also ineligible. Any other real or perceived conflict of interest (COI) - 
+for example, past intern employment at the partner organization  - must be disclosed to 
+Mitacs during the application process using  the Intern Eligibility and Conflict of Interest
+
+Mitacs BSI Application T emplate 
+APPLICATION AND PORTAL COMPONENTS 
+Modified: December 3, 2025 (sgbrown) 
+Page 22 of 22 
+ 
+Declaration Form. Academic supervisors must disclose any COIs through the Academic 
+Institution Acknowledgement of COI(s) Form, and submit this documentation on behalf of their 
+post-secondary institution when applying through the Registration and Application Portal (RAP) .  
+ 
+Mitacs will first determine if BSI program rules are satisfied, and if so Mitacs will then review the 
+COI to determine whether mitigations can be enacted to manage the COI. If a COI does exist, we 
+suggest that you contact your Mitacs Advisor prior to starting an application to ensure that the 
+participants in this project are eligible for the program. Please view the Mitacs Conflict of Interest 
+Policy for more information.    
+ 
+PLEASE NOTE : Failure to disclose a COI will :  
+• Delay the project  evaluation proces s. 
+• Require submission of a COI mitigation approach  satisfactory to Mitacs before project 
+work initiates or continues.  
+• Risk forced withdrawal from the BSI program , should a satisfactory mitigation plan not be 
+reached. 
+ 
+Have any applicants declared a COI via the appropriate documentation?        
+☐  Yes, an intern         
+☐  Yes, an academic supervisor         
+☒  No                     
+ 
+ 
+A-6.2b  Indigenous engagement 
+Please indicate if any of the below statements are true. 
+☐  One or more named interns self-declares as an Indigenous person 
+☐  The partner organization is a for-profit organization with self-identifying Indigenous 
+persons who hold 50% or greater ownership shares 
+☐  The partner organization is a not-for-profit with board membership consisting of 50% of 
+greater self-identifying Indigenous persons 
+☒  The partner organization is a not-for-profit whose core mandate includes Indigenous 
+community impact or serving Indigenous communities           
+ 
+* If any of the above statements are true, your organization may be eligible for enhanced leveraging 
+via the Mitacs Indigenous Pathways Initiative. Please check with your Mitacs Advisor for more 
+information. 
+ 
+A-6.2c Type of innovation 
+Please select all the types of innovation you will significantly impact through your project. Refer to 
+the following definition of innovation for further information: Defining innovation - OECD. 
+ 
+☒  Product innovation                     
+☒  Process innovation                     
+☐  Marketing innovation                     
+☒  Organizational innovation
