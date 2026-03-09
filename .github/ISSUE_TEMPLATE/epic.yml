@@ -1,0 +1,47 @@
+name: Epic
+description: Track a larger initiative that may require multiple feature issues/PRs.
+title: "Epic: "
+labels:
+  - epic
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What business or product outcome should this epic achieve?
+      placeholder: Clear, measurable outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: In Scope
+      description: List what is included in this epic.
+      placeholder: |
+        - Item 1
+        - Item 2
+    validations:
+      required: true
+  - type: textarea
+    id: out_of_scope
+    attributes:
+      label: Out of Scope
+      description: List what is explicitly not included right now.
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Child Issues / Deliverables
+      description: Link the feature issues that belong to this epic.
+      placeholder: |
+        - [ ] #123
+        - [ ] #124
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of Done
+      description: How do we know this epic is complete?
+      placeholder: All child issues complete, tested, and merged.
+    validations:
+      required: true

@@ -1,0 +1,46 @@
+name: Feature
+description: Define a single feature task that should map to one branch and one PR.
+title: "Feature: "
+labels:
+  - feature
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem are we solving?
+      placeholder: Current behavior and why it is not acceptable.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: What should be built?
+      placeholder: High-level approach.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: Use checkbox format for testable outcomes.
+      placeholder: |
+        - [ ] Criteria 1
+        - [ ] Criteria 2
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: Test Notes
+      description: How should a reviewer validate this task?
+      placeholder: Steps, inputs, expected outputs.
+    validations:
+      required: true
+  - type: input
+    id: branch
+    attributes:
+      label: Suggested Branch Name
+      description: Example format feat/short-name
+      placeholder: feat/example-feature
