@@ -5,6 +5,8 @@ import json
 import os
 import re
 
+CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-5-mini")
+
 def _read_txt(file) -> str:
     return file.getvalue().decode("utf-8", errors="ignore")
 
@@ -245,7 +247,7 @@ def _extract_sections_with_llm(text: str) -> list[dict]:
         from openai import OpenAI
         client = OpenAI(api_key=api_key)
         resp = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model=CHAT_MODEL,
             messages=[
                 {
                     "role": "system",

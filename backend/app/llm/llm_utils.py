@@ -8,6 +8,7 @@ from typing import Dict, Any, Optional, List
 from backend.app.rag.use_cases import collection_for_use_case, normalize_use_case
 
 _RAG_AVAILABLE: Optional[bool] = None
+CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-5-mini")
 
 
 def _get_rag_context(
@@ -244,7 +245,7 @@ def enhance_sections(
         client = OpenAI(api_key=api_key)
 
         resp = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model=CHAT_MODEL,
             messages=[
                 {"role": "system", "content": system_msg},
                 {"role": "user", "content": user_msg},
@@ -263,7 +264,7 @@ def enhance_sections(
             openai.api_key = api_key
 
             r = openai.ChatCompletion.create(
-                model="gpt-4o-mini",
+                model=CHAT_MODEL,
                 messages=[
                     {"role": "system", "content": system_msg},
                     {"role": "user", "content": user_msg},
@@ -378,7 +379,7 @@ def rewrite_section_with_instruction(
 
         client = OpenAI(api_key=api_key)
         resp = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model=CHAT_MODEL,
             messages=[
                 {"role": "system", "content": system_msg},
                 {"role": "user", "content": user_msg},
@@ -394,7 +395,7 @@ def rewrite_section_with_instruction(
 
             openai.api_key = api_key
             r = openai.ChatCompletion.create(
-                model="gpt-4o-mini",
+                model=CHAT_MODEL,
                 messages=[
                     {"role": "system", "content": system_msg},
                     {"role": "user", "content": user_msg},
