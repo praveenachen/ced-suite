@@ -9,7 +9,6 @@ import {
   Sparkles,
   ArrowRight,
   Database,
-  Mic,
   Cpu,
 } from "lucide-react";
 import Link from "next/link";
@@ -66,14 +65,14 @@ export default function HomePage() {
           </motion.h2>
           <motion.p variants={item} className="mt-2 max-w-xl text-muted-foreground">
             AI-powered grant proposal builder for communities. Get expert guidance through
-            voice conversations and intelligent document analysis.
+            interactive workflows and intelligent document analysis.
           </motion.p>
           <motion.div
             variants={item}
             className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary"
           >
             <Sparkles className="h-4 w-4" />
-            Powered by RAG, GPT-4o & ElevenLabs Voice AI
+            Powered by RAG and GPT-5 mini
           </motion.div>
         </motion.div>
         <div className="mx-auto mt-10 h-px w-full max-w-4xl bg-gradient-to-r from-fuchsia-500/0 via-cyan-400/80 to-blue-500/0" />
@@ -131,7 +130,7 @@ export default function HomePage() {
                 <CardTitle className="text-xl">Start New Proposal</CardTitle>
                 <CardDescription>
                   Create a professional grant proposal from scratch. Our AI assistant will
-                  guide you through each section with voice and text support.
+                  guide you through each section with guided prompts and smart suggestions.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -143,7 +142,7 @@ export default function HomePage() {
                 </Link>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   {[
-                    "Voice-guided conversations",
+                    "Guided assistant workflow",
                     "11-section structured workflow",
                     "RAG-based smart suggestions",
                   ].map((t) => (
@@ -173,13 +172,7 @@ export default function HomePage() {
               color: "bg-cyan-500/15 text-cyan-400",
             },
             {
-              title: "Voice & Text",
-              desc: "Speak naturally or type - powered by ElevenLabs voice AI",
-              icon: Mic,
-              color: "bg-fuchsia-500/15 text-fuchsia-400",
-            },
-            {
-              title: "GPT-4o Powered",
+              title: "GPT-5 mini Powered",
               desc: "Advanced AI understands Indigenous and Northern community context",
               icon: Cpu,
               color: "bg-blue-500/15 text-blue-400",
