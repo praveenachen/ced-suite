@@ -5,7 +5,7 @@ import json
 import os
 import re
 
-CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-5-mini")
+CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini")
 
 def _read_txt(file) -> str:
     return file.getvalue().decode("utf-8", errors="ignore")

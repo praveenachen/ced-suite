@@ -8,7 +8,7 @@ from typing import Dict, Any, Optional, List
 from backend.app.rag.use_cases import collection_for_use_case, normalize_use_case
 
 _RAG_AVAILABLE: Optional[bool] = None
-CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-5-mini")
+CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini")
 
 
 def _get_rag_context(
