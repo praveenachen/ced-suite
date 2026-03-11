@@ -24,8 +24,14 @@ export function ProposalSections({
 }) {
   const sections = requirements.sections || [];
   const count = sections.length;
-  const parseConfidence = requirements.parser_meta?.confidence;
+  const parserMeta = requirements.parser_meta;
+  const parseConfidence = parserMeta?.confidence;
   const showParseWarning = parseConfidence === "low" || count <= 1;
+  const diagnostics = parserMeta?.diagnostics || [];
+  const fallbackReasons = parserMeta?.fallback_reasons || [];
+  const llmError = parserMeta?.llm_error;
+  const sectionPreview = parserMeta?.section_titles_preview || [];
+  const heuristicPreview = parserMeta?.heuristic_titles_preview || [];
 
   return (
     <motion.div
@@ -58,6 +64,59 @@ export function ProposalSections({
             <div className="mb-4 rounded-lg border border-amber-300 bg-amber-50 p-3 text-sm text-amber-900 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-100">
               Parse quality looks low ({count} section detected). Consider uploading a cleaner text-based PDF/DOCX, or continue and manually edit section expectations.
             </div>
+          )}
+          {parserMeta && (
+            <details className="mb-4 rounded-lg border border-border bg-muted/30 p-3 text-sm text-muted-foreground">
+              <summary className="cursor-pointer font-medium text-foreground">
+                Extraction diagnostics
+              </summary>
+              <div className="mt-3 space-y-2">
+                <p>
+                  Mode: <span className="font-medium text-foreground">{parserMeta.mode || "unknown"}</span>
+                  {" | "}
+                  Confidence: <span className="font-medium text-foreground">{parseConfidence || "unknown"}</span>
+                  {" | "}
+                  Model: <span className="font-medium text-foreground">{parserMeta.model || "unknown"}</span>
+                </p>
+                <p>
+                  Raw text: <span className="font-medium text-foreground">{parserMeta.raw_text_length || 0}</span> chars
+                  {" | "}
+                  Heuristic sections: <span className="font-medium text-foreground">{parserMeta.heuristic_section_count || 0}</span>
+                  {" | "}
+                  Final sections: <span className="font-medium text-foreground">{parserMeta.final_section_count || 0}</span>
+                </p>
+                {fallbackReasons.length > 0 && (
+                  <p>
+                    Fallback reasons: <span className="font-medium text-foreground">{fallbackReasons.join(", ")}</span>
+                  </p>
+                )}
+                {diagnostics.length > 0 && (
+                  <p>
+                    Diagnostics: <span className="font-medium text-foreground">{diagnostics.join(", ")}</span>
+                  </p>
+                )}
+                {parserMeta.used_default_template && (
+                  <p className="text-amber-700 dark:text-amber-300">
+                    The parser recovered with the default 5-section template because extraction confidence was too low.
+                  </p>
+                )}
+                {llmError && (
+                  <p className="text-destructive">
+                    LLM fallback error: {llmError}
+                  </p>
+                )}
+                {heuristicPreview.length > 0 && (
+                  <p>
+                    Heuristic preview: <span className="font-medium text-foreground">{heuristicPreview.join(" | ")}</span>
+                  </p>
+                )}
+                {sectionPreview.length > 0 && (
+                  <p>
+                    Final preview: <span className="font-medium text-foreground">{sectionPreview.join(" | ")}</span>
+                  </p>
+                )}
+              </div>
+            </details>
           )}
           <div className="space-y-4">
             <div className="flex justify-end">
