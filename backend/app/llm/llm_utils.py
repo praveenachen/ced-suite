@@ -3,12 +3,19 @@ from __future__ import annotations
 
 import os
 import json
+import logging
+import importlib.util
 from typing import Dict, Any, Optional, List
 
 from backend.app.rag.use_cases import collection_for_use_case, normalize_use_case
 
 _RAG_AVAILABLE: Optional[bool] = None
+logger = logging.getLogger(__name__)
 CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini")
+
+
+def _openai_sdk_available() -> bool:
+    return importlib.util.find_spec("openai") is not None
 
 
 def _get_rag_context(
@@ -194,6 +201,9 @@ def enhance_sections(
     if not api_key:
         # fail gracefully (app still works)
         return {}
+    if not _openai_sdk_available():
+        logger.warning("OpenAI SDK not installed; skipping section enhancement")
+        return {}
 
     requirements = requirements or {}
     profile = profile or {}
@@ -309,6 +319,9 @@ def rewrite_section_with_instruction(
     """Rewrite a single section using user instruction; returns text + structured references."""
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
+        return {"text": (current_text or "").strip(), "references": []}
+    if not _openai_sdk_available():
+        logger.warning("OpenAI SDK not installed; skipping section rewrite")
         return {"text": (current_text or "").strip(), "references": []}
 
     requirements = requirements or {}
