@@ -1,0 +1,196 @@
+[
+  {
+    "filename": "TCPS2 Chapter 9.pdf",
+    "canonical_title": "TCPS 2 Chapter 9",
+    "short_description": "Canadian research ethics guidance for research involving First Nations, Inuit, and Metis peoples.",
+    "priority_level": "core",
+    "document_type": "ethics_guidance",
+    "community_scope": [
+      "First Nations",
+      "Inuit",
+      "Metis"
+    ],
+    "framework_tags": [
+      "TCPS2",
+      "ethics"
+    ],
+    "section_tags": [
+      "community_engagement",
+      "ethical_research",
+      "data_governance"
+    ],
+    "include_in_primary_retrieval": true
+  },
+  {
+    "filename": "OCAP Principles.pdf",
+    "canonical_title": "OCAP Principles",
+    "short_description": "First Nations data governance principles focused on ownership, control, access, and possession.",
+    "priority_level": "core",
+    "document_type": "data_governance_guidance",
+    "community_scope": [
+      "First Nations"
+    ],
+    "framework_tags": [
+      "OCAP",
+      "data_governance"
+    ],
+    "section_tags": [
+      "data_governance",
+      "ethical_research",
+      "community_engagement"
+    ],
+    "include_in_primary_retrieval": true
+  },
+  {
+    "filename": "National Inuit Strategy on Research (Full).pdf",
+    "canonical_title": "National Inuit Strategy on Research",
+    "short_description": "Inuit-led strategy for research governance, partnerships, data, and capacity development.",
+    "priority_level": "core",
+    "document_type": "research_strategy",
+    "community_scope": [
+      "Inuit"
+    ],
+    "framework_tags": [
+      "NISR",
+      "Inuit_governance",
+      "IQ"
+    ],
+    "section_tags": [
+      "community_engagement",
+      "data_governance",
+      "community_benefit",
+      "iq_collaboration",
+      "iq_skills_development"
+    ],
+    "include_in_primary_retrieval": true
+  },
+  {
+    "filename": "Negotiating Research Relationships with Inuit Communities.pdf",
+    "canonical_title": "Negotiating Research Relationships with Inuit Communities",
+    "short_description": "Practical guide for initiating, negotiating, and maintaining respectful Inuit research relationships.",
+    "priority_level": "core",
+    "document_type": "community_relationship_guidance",
+    "community_scope": [
+      "Inuit"
+    ],
+    "framework_tags": [
+      "Inuit_governance",
+      "community_engagement"
+    ],
+    "section_tags": [
+      "community_engagement",
+      "ethical_research",
+      "implementation_plan",
+      "iq_collaboration"
+    ],
+    "include_in_primary_retrieval": true
+  },
+  {
+    "filename": "paw_2026-2027_6161886_inst_1768505132675_eng.pdf",
+    "canonical_title": "ISC LEDSP/CORP Application Instructions 2026-2027",
+    "short_description": "Indigenous Services Canada application instructions for LEDSP/CORP eligibility, project framing, and cost readiness.",
+    "priority_level": "core",
+    "document_type": "program_instructions",
+    "community_scope": [
+      "First Nations",
+      "Inuit",
+      "Metis"
+    ],
+    "framework_tags": [
+      "ISC_LEDSP_CORP",
+      "funding_requirements"
+    ],
+    "section_tags": [
+      "implementation_plan",
+      "budget_alignment",
+      "community_benefit",
+      "land_environment",
+      "regulatory_readiness",
+      "staff_capacity"
+    ],
+    "include_in_primary_retrieval": true
+  },
+  {
+    "filename": "Indigenous Peoples Funding & Resource Guide.pdf",
+    "canonical_title": "Indigenous Peoples Funding and Resource Guide",
+    "short_description": "Reference guide to Indigenous funding and capacity-building support resources.",
+    "priority_level": "secondary",
+    "document_type": "funding_reference",
+    "community_scope": [
+      "First Nations",
+      "Inuit",
+      "Metis"
+    ],
+    "framework_tags": [
+      "funding_reference"
+    ],
+    "section_tags": [
+      "staff_capacity",
+      "sustainability",
+      "community_benefit"
+    ],
+    "include_in_primary_retrieval": true
+  },
+  {
+    "filename": "Indigenous Population Profile, 2021 Census.pdf",
+    "canonical_title": "Indigenous Population Profile, 2021 Census",
+    "short_description": "Statistics Canada release summarizing Indigenous population demographics and growth.",
+    "priority_level": "secondary",
+    "document_type": "statistical_reference",
+    "community_scope": [
+      "First Nations",
+      "Inuit",
+      "Metis"
+    ],
+    "framework_tags": [
+      "evidence_context"
+    ],
+    "section_tags": [
+      "community_benefit",
+      "evaluation_plan"
+    ],
+    "include_in_primary_retrieval": false
+  },
+  {
+    "filename": "Inuit-Nunangat-Policy-EN.pdf",
+    "canonical_title": "Inuit Nunangat Policy",
+    "short_description": "Federal policy guidance for designing and delivering policies and programs in Inuit Nunangat.",
+    "priority_level": "secondary",
+    "document_type": "policy_guidance",
+    "community_scope": [
+      "Inuit"
+    ],
+    "framework_tags": [
+      "Inuit_policy",
+      "Inuit_governance"
+    ],
+    "section_tags": [
+      "community_benefit",
+      "implementation_plan",
+      "iq_service_to_community",
+      "iq_environmental_stewardship"
+    ],
+    "include_in_primary_retrieval": true
+  },
+  {
+    "filename": "IDS 1.pdf",
+    "canonical_title": "Indigenous Data Sovereignty in Open Data",
+    "short_description": "Background discussion of Indigenous data sovereignty and open data risks.",
+    "priority_level": "secondary",
+    "document_type": "governance_support",
+    "community_scope": [
+      "First Nations",
+      "Inuit",
+      "Metis"
+    ],
+    "framework_tags": [
+      "IDS",
+      "data_governance"
+    ],
+    "section_tags": [
+      "data_governance",
+      "ethical_research"
+    ],
+    "include_in_primary_retrieval": false
+  }
+]

@@ -22,6 +22,14 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 from typing import Any, Dict, List, Optional
 
+from backend.app.compliance import build_default_service, ComplianceEvaluationService
+from backend.app.compliance.models import (
+    ComplianceEvaluationRequest,
+    ComplianceEvaluationResponse,
+    ProposalEvaluationRequest,
+    ProposalEvaluationResponse,
+)
+
 app = FastAPI(title="Grant Proposal API", version="0.1.0")
 
 app.add_middleware(
@@ -219,6 +227,25 @@ def _render_pdf(body: ExportDraftPdfRequest) -> bytes:
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+
+def get_compliance_service() -> ComplianceEvaluationService:
+    service = getattr(app.state, "compliance_service", None)
+    if service is None:
+        service = build_default_service()
+        app.state.compliance_service = service
+    return service
+
+
+@app.post("/evaluate/compliance", response_model=ComplianceEvaluationResponse)
+def evaluate_compliance(body: ComplianceEvaluationRequest):
+    return get_compliance_service().evaluate_section(body)
+
+
+@app.post("/evaluate/proposal", response_model=ProposalEvaluationResponse)
+def evaluate_proposal(body: ProposalEvaluationRequest):
+    _ = body
+    return get_compliance_service().scaffold_proposal_evaluation()
 
 
 @app.post("/api/parse-grant")

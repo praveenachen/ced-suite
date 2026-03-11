@@ -1,0 +1,431 @@
+[
+  {
+    "check_id": "community_engagement_001",
+    "title": "Community engagement is clearly described",
+    "section": "community_engagement",
+    "category": "community_engagement",
+    "check_text": "The proposal should explain how the affected Indigenous community will be engaged in project planning, implementation, or oversight.",
+    "explanation": "TCPS2 Chapter 9 emphasizes engagement when research may affect the welfare of Indigenous communities.",
+    "failure_signals": [
+      "No named community partners",
+      "No engagement process",
+      "Engagement appears one-way or post hoc"
+    ],
+    "evidence_examples": [
+      "Named Inuit or Indigenous partner bodies",
+      "Decision-making role for community",
+      "Clear engagement timeline"
+    ],
+    "severity_if_failed": "major",
+    "framework_tags": [
+      "TCPS2",
+      "ethics"
+    ],
+    "community_scope": [
+      "First Nations",
+      "Inuit",
+      "Metis"
+    ],
+    "source_document": "TCPS 2 Chapter 9",
+    "source_section": "Introduction (page 1)",
+    "priority_weight": 1.0,
+    "source_excerpt": "2021-11-02, 2'11 PMTri-Council Policy Statement: Ethical Conduct for Research Involving…arch Involving the First Nations, Inuit and Métis Peoples of Canada\nPage 1 of 16https://ethics.gc.ca/eng/tcps2-eptc2_2018_chapter9-chapitre9.html#intro\nHome  Policy  TCPS 2 (2018)\nTCPS 2 (2018) – Chapter 9: Research Involving the First Nations, Inuitand Métis Peoples of CanadaIntroductionA"
+  },
+  {
+    "check_id": "ethical_research_001",
+    "title": "Proposal addresses collective welfare and respectful conduct",
+    "section": "community_engagement",
+    "category": "ethical_research",
+    "check_text": "Research-oriented sections should show respect for collective welfare, reciprocity, and appropriate community protocols.",
+    "explanation": "TCPS2 Chapter 9 frames Indigenous research ethics around collective welfare and respectful relationships.",
+    "failure_signals": [
+      "Only individual benefits described",
+      "No reciprocity",
+      "No protocol or ethics references"
+    ],
+    "evidence_examples": [
+      "Reciprocal benefits",
+      "Respectful governance process",
+      "Ethics or protocol awareness"
+    ],
+    "severity_if_failed": "major",
+    "framework_tags": [
+      "TCPS2",
+      "ethics"
+    ],
+    "community_scope": [
+      "First Nations",
+      "Inuit",
+      "Metis"
+    ],
+    "source_document": "TCPS 2 Chapter 9",
+    "source_section": "Introduction (page 3)",
+    "priority_weight": 1.0,
+    "source_excerpt": "anadian society. The interpretation of Concern for Welfare in FirstNations, Inuit and Métis contexts may therefore place strong emphasis on collective welfare as a complement to individual well-being.\nJustice may be compromised when a serious imbalance of power prevails between the researcher and participants. Resulting harms are seldom intentional,but nonetheless real for the participants. In t"
+  },
+  {
+    "check_id": "data_governance_001",
+    "title": "Data ownership and control are addressed",
+    "section": "data_governance",
+    "category": "data_governance",
+    "check_text": "If community data will be collected or used, the proposal should explain community ownership, control, access, or possession expectations.",
+    "explanation": "OCAP requires clear treatment of First Nations control over community data and information management.",
+    "failure_signals": [
+      "Data collection mentioned without governance",
+      "Open sharing promised without controls",
+      "No access or storage plan"
+    ],
+    "evidence_examples": [
+      "Data stewardship commitments",
+      "Community approval for access",
+      "Storage and possession terms"
+    ],
+    "severity_if_failed": "critical",
+    "framework_tags": [
+      "OCAP",
+      "data_governance"
+    ],
+    "community_scope": [
+      "First Nations"
+    ],
+    "source_document": "OCAP Principles",
+    "source_section": "Ownership, Control, Access and Possession (page 1)",
+    "priority_weight": 1.0,
+    "source_excerpt": "OCAP\nOwnership, Control, Access and Possession\nOCAP\nOwnership, Control, Access and Possession\nSanctioned by the First Nations Information Governance Committee"
+  },
+  {
+    "check_id": "data_governance_002",
+    "title": "Indigenous data sovereignty risks are managed",
+    "section": "data_governance",
+    "category": "data_governance",
+    "check_text": "Sections involving data should avoid implying unrestricted open use of Indigenous community data.",
+    "explanation": "Indigenous data sovereignty guidance warns that open data approaches can conflict with Indigenous rights and privacy expectations.",
+    "failure_signals": [
+      "Commitment to public release of raw data",
+      "No privacy boundary",
+      "No consent or governance condition"
+    ],
+    "evidence_examples": [
+      "Restricted release conditions",
+      "Community review prior to sharing",
+      "Controlled access"
+    ],
+    "severity_if_failed": "major",
+    "framework_tags": [
+      "IDS",
+      "data_governance"
+    ],
+    "community_scope": [
+      "First Nations",
+      "Inuit",
+      "Metis"
+    ],
+    "source_document": "Indigenous Data Sovereignty in Open Data",
+    "source_section": "Key points (page 1)",
+    "priority_weight": 0.7,
+    "source_excerpt": "Key points\n ■ Indigenous Data Sovereignty (IDS) has emerged as an important topic over the last three \nyears, raising fundamental questions about assumptions of ownership, representation, \nand control in open data communities.\n ■ IDS refers to the right of Indigenous peoples to control data from and about their \ncommunities and lands, articulating both individual and collective"
+  },
+  {
+    "check_id": "inuit_governance_001",
+    "title": "Inuit-specific work is aligned with Inuit-led governance",
+    "section": "community_engagement",
+    "category": "community_engagement",
+    "check_text": "Inuit-specific proposals should show Inuit involvement in setting priorities, governance, or oversight.",
+    "explanation": "The National Inuit Strategy on Research centers Inuit governance over research agendas, partnerships, and decisions.",
+    "failure_signals": [
+      "Inuit are only beneficiaries",
+      "No Inuit partner named",
+      "No governance role for Inuit organization"
+    ],
+    "evidence_examples": [
+      "Inuit-led steering committee",
+      "Partnership with regional Inuit organization",
+      "Shared decision-making"
+    ],
+    "severity_if_failed": "critical",
+    "framework_tags": [
+      "NISR",
+      "Inuit_governance"
+    ],
+    "community_scope": [
+      "Inuit"
+    ],
+    "source_document": "National Inuit Strategy on Research",
+    "source_section": "Strategy overview (page 3)",
+    "priority_weight": 1.0,
+    "source_excerpt": "actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .28\n Priority Area 1: Advance Inuit governance in research . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .29\n Priority Area 2: Enhance the ethical conduct of research . . . . . . . . . . . . . . . . . . . . . . . . . . .30\n Priority Area 3: Align funding with Inuit research priorities"
+  },
+  {
+    "check_id": "community_benefit_001",
+    "title": "Inuit-specific work identifies tangible community benefit",
+    "section": "implementation_plan",
+    "category": "community_benefit",
+    "check_text": "Inuit-specific sections should explain how the work benefits Inuit communities and not only institutional goals.",
+    "explanation": "The National Inuit Strategy on Research and Inuit Nunangat Policy both emphasize Inuit self-determination and benefit.",
+    "failure_signals": [
+      "Benefits only described for researchers",
+      "No local outcomes",
+      "No community-facing deliverables"
+    ],
+    "evidence_examples": [
+      "Community-facing outputs",
+      "Service improvements",
+      "Local benefits or employment"
+    ],
+    "severity_if_failed": "major",
+    "framework_tags": [
+      "NISR",
+      "Inuit_policy"
+    ],
+    "community_scope": [
+      "Inuit"
+    ],
+    "source_document": "National Inuit Strategy on Research",
+    "source_section": "Strategy overview (page 3)",
+    "priority_weight": 1.0,
+    "source_excerpt": ". . . . .8\n 4.3 Research is a tool for creating social equity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .9\n 4.4 Inuit self-determination unlocks the potential of Inuit Nunangat research . . . . .12\n 4.5 Inuit governance structure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .13\n 4.6 Inuit Nunangat research centres . . ."
+  },
+  {
+    "check_id": "iq_collaboration_001",
+    "title": "Proposal reflects collaborative Inuit decision-making",
+    "section": "community_engagement",
+    "category": "iq_collaboration",
+    "check_text": "Where an Inuit-specific context is clear, the proposal should show collaborative and consensus-oriented planning.",
+    "explanation": "Aajiiqatigiinniq and Piliriqatigiinniq support consensus building and collaborative work in Inuit contexts.",
+    "failure_signals": [
+      "Top-down plan",
+      "No collaborative mechanism",
+      "No consensus or shared planning process"
+    ],
+    "evidence_examples": [
+      "Shared planning tables",
+      "Consensus-oriented decision process",
+      "Collaborative implementation"
+    ],
+    "severity_if_failed": "major",
+    "framework_tags": [
+      "IQ",
+      "Inuit_governance"
+    ],
+    "community_scope": [
+      "Inuit"
+    ],
+    "source_document": "National Inuit Strategy on Research",
+    "source_section": "Strategy overview (page 2)",
+    "priority_weight": 0.95,
+    "source_excerpt": "ve the status of protected treaties under\nsection 35 of the Constitution Act, 1982 , and we remain committed to fully implementing them in \npartnership with the Crown. ITK advocates for policies, programs, and services to address the social, \ncultural, political, and environmental issues facing our people. \nITK is governed by a Board of Directors composed of the following members: \n• Chai"
+  },
+  {
+    "check_id": "iq_skills_development_001",
+    "title": "Proposal supports Inuit skills development",
+    "section": "staff_organization",
+    "category": "iq_skills_development",
+    "check_text": "Inuit-specific proposals should consider local skills development, mentorship, or capacity strengthening where relevant.",
+    "explanation": "Pilimmaksarniq and related Inuit principles support skills development and capacity building.",
+    "failure_signals": [
+      "External experts only",
+      "No local training or roles",
+      "No community capacity outcome"
+    ],
+    "evidence_examples": [
+      "Training plan",
+      "Mentorship roles",
+      "Community employment or skills transfer"
+    ],
+    "severity_if_failed": "minor",
+    "framework_tags": [
+      "IQ",
+      "NISR"
+    ],
+    "community_scope": [
+      "Inuit"
+    ],
+    "source_document": "National Inuit Strategy on Research",
+    "source_section": "Strategy overview (page 3)",
+    "priority_weight": 0.9,
+    "source_excerpt": ". . . . . . . .16\n 4.8 Enhancing the ethical conduct of Inuit Nunangat research . . . . . . . . . . . . . . . . . . . .23\n 4.9 Funding and capacity building in Inuit Nunangat research . . . . . . . . . . . . . . . . . . . .25\n5. Part II: Objectives and actions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .28\n Priority Area 1: Ad"
+  },
+  {
+    "check_id": "staff_capacity_001",
+    "title": "Responsible delivery team is identified",
+    "section": "staff_organization",
+    "category": "staff_capacity",
+    "check_text": "The proposal should identify who will lead the project and how responsibilities are divided.",
+    "explanation": "LEDSP/CORP reviewers need enough detail to judge readiness and whether the project can be delivered.",
+    "failure_signals": [
+      "No responsible team members",
+      "No roles or departments",
+      "No delivery ownership"
+    ],
+    "evidence_examples": [
+      "Named lead",
+      "Implementation responsibilities",
+      "Operational staffing plan"
+    ],
+    "severity_if_failed": "major",
+    "framework_tags": [
+      "ISC_LEDSP_CORP"
+    ],
+    "community_scope": [
+      "First Nations",
+      "Inuit",
+      "Metis"
+    ],
+    "source_document": "ISC LEDSP/CORP Application Instructions 2026-2027",
+    "source_section": "Applicant information (page 2)",
+    "priority_weight": 1.0,
+    "source_excerpt": "Nations, they should be indicated. \nApplicant eligibility Select the applicant eligibility type which reflects \nyour organization’s type. \nContact person \n- Contact person name \n- Title \n- Mailing address (number / street / \napartment / P.O. box) \n- City/Town/Community \n- Province/Territory \n- Postal code \nThe name and position title of the person who can \nbe contacted for further informati"
+  },
+  {
+    "check_id": "implementation_plan_001",
+    "title": "Project description is eligible and concrete",
+    "section": "implementation_plan",
+    "category": "implementation_plan",
+    "check_text": "The proposal should clearly describe the project, the activities to be delivered, and how they meet program objectives.",
+    "explanation": "ISC instructions ask reviewers to assess whether the project is eligible and aligned to LEDSP or CORP objectives.",
+    "failure_signals": [
+      "Activities are vague",
+      "No link to objectives",
+      "No deliverables or outputs"
+    ],
+    "evidence_examples": [
+      "Concrete activities",
+      "Program objective alignment",
+      "Defined outputs"
+    ],
+    "severity_if_failed": "major",
+    "framework_tags": [
+      "ISC_LEDSP_CORP"
+    ],
+    "community_scope": [
+      "First Nations",
+      "Inuit",
+      "Metis"
+    ],
+    "source_document": "ISC LEDSP/CORP Application Instructions 2026-2027",
+    "source_section": "Purpose (page 1)",
+    "priority_weight": 1.0,
+    "source_excerpt": "s Canada (ISC) regional office to evaluate and \nprioritize using the criteria outlined below: \n• The applicant is an eligible recipient; \n• The proposed project meets at least one of the LEDSP or CORP objectives; \n• The proposed project is an eligible project; and \n• The requested funds are eligible project costs. \n \nDue date: \nContact your ISC regional office. \n \nList of provincial/territorial office contacts: \n \nProvince/Territory Email address"
+  },
+  {
+    "check_id": "budget_alignment_001",
+    "title": "Requested costs are tied to eligible project work",
+    "section": "budget_justification",
+    "category": "budget_alignment",
+    "check_text": "Budget sections should explain why the requested funds are needed for eligible project costs.",
+    "explanation": "ISC instructions explicitly assess whether requested funds are eligible project costs.",
+    "failure_signals": [
+      "No link between costs and activities",
+      "No justification",
+      "Administrative costs not explained"
+    ],
+    "evidence_examples": [
+      "Line-item rationale",
+      "Cost tied to activity",
+      "Eligibility framing"
+    ],
+    "severity_if_failed": "major",
+    "framework_tags": [
+      "ISC_LEDSP_CORP"
+    ],
+    "community_scope": [
+      "First Nations",
+      "Inuit",
+      "Metis"
+    ],
+    "source_document": "ISC LEDSP/CORP Application Instructions 2026-2027",
+    "source_section": "Purpose (page 1)",
+    "priority_weight": 1.0,
+    "source_excerpt": "ent; \n• The proposed project meets at least one of the LEDSP or CORP objectives; \n• The proposed project is an eligible project; and \n• The requested funds are eligible project costs. \n \nDue date: \nContact your ISC regional office. \n \nList of provincial/territorial office contacts: \n \nProvince/Territory Email address \nAB - Alberta abecdev@sac-isc.gc.ca \nBC - British Columbia bcecdev@sac-isc.gc.ca \nMB - Manitoba mbppdec"
+  },
+  {
+    "check_id": "regulatory_readiness_001",
+    "title": "Land and environmental implications are acknowledged when relevant",
+    "section": "implementation_plan",
+    "category": "land_environment",
+    "check_text": "If the project affects land, infrastructure, or site use, the proposal should show awareness of land or environmental considerations.",
+    "explanation": "LEDSP/CORP review includes project readiness and practical feasibility, including site-related considerations when applicable.",
+    "failure_signals": [
+      "Site work described with no land context",
+      "No permissions or location details",
+      "No environmental considerations"
+    ],
+    "evidence_examples": [
+      "Site readiness",
+      "Permissions or approvals",
+      "Environmental stewardship measures"
+    ],
+    "severity_if_failed": "minor",
+    "framework_tags": [
+      "ISC_LEDSP_CORP"
+    ],
+    "community_scope": [
+      "First Nations",
+      "Inuit",
+      "Metis"
+    ],
+    "source_document": "ISC LEDSP/CORP Application Instructions 2026-2027",
+    "source_section": "Project fields (page 1)",
+    "priority_weight": 0.9,
+    "source_excerpt": "a outlined below: \n• The applicant is an eligible recipient; \n• The proposed project meets at least one of the LEDSP or CORP objectives; \n• The proposed project is an eligible project; and \n• The requested funds are eligible project costs. \n \nDue date: \nContact your ISC regional office. \n \nList of provincial/territorial office contacts: \n \nProvince/Territory Email address \nAB - Alberta abecdev@sac-isc.gc.ca \nBC - Britis"
+  },
+  {
+    "check_id": "implementation_plan_002",
+    "title": "Research relationship is negotiated early",
+    "section": "community_engagement",
+    "category": "community_engagement",
+    "check_text": "Inuit research proposals should show early contact and negotiated expectations with the community.",
+    "explanation": "The Inuit community relationship guide recommends early contact, negotiated roles, and clear communication strategies.",
+    "failure_signals": [
+      "Community contact deferred until after funding",
+      "No communication plan",
+      "No negotiated expectations"
+    ],
+    "evidence_examples": [
+      "Early community contact",
+      "Negotiated relationship",
+      "Communication strategy"
+    ],
+    "severity_if_failed": "major",
+    "framework_tags": [
+      "Inuit_governance"
+    ],
+    "community_scope": [
+      "Inuit"
+    ],
+    "source_document": "Negotiating Research Relationships with Inuit Communities",
+    "source_section": "Elements of a negotiated research relationship (page 2)",
+    "priority_weight": 1.0,
+    "source_excerpt": "Why we wrote this guide 1\nCommunity Perceptions of Research 1\nAdvantages of community involvement in research 5\nKey Issues to Address 7\nElements of a negotiated research relationship 7\nDetermining the level of community involvement 10\nInitiating community contact 13\nResearch licensing 16\nCommunication strategy 18\nNegotiating a Research Relationship 21\nUseful Links 22\nAppendix A 23\nAppendix B 25\n❖❖\nTABLE OFCONTENTS"
+  },
+  {
+    "check_id": "iq_service_to_community_001",
+    "title": "Inuit-specific work is framed as service to community",
+    "section": "implementation_plan",
+    "category": "iq_service_to_community",
+    "check_text": "Inuit-specific sections should describe how the project serves community priorities and public value in Inuit Nunangat.",
+    "explanation": "Pijitsirniq and the Inuit Nunangat Policy support service to community and Inuit self-determination.",
+    "failure_signals": [
+      "Institution-first framing",
+      "No community priority stated",
+      "Benefits detached from local needs"
+    ],
+    "evidence_examples": [
+      "Community-defined priority",
+      "Public value",
+      "Inuit Nunangat relevance"
+    ],
+    "severity_if_failed": "major",
+    "framework_tags": [
+      "IQ",
+      "Inuit_policy"
+    ],
+    "community_scope": [
+      "Inuit"
+    ],
+    "source_document": "Inuit Nunangat Policy",
+    "source_section": "Policy overview (page 1)",
+    "priority_weight": 0.85,
+    "source_excerpt": "FINAL DRAFT \n \nFINAL DRAFT WITHOUT PREJUDICE \nINUIT NUNANGAT POLICY \n \nThis Policy applies to all federal department s and agencies, guiding them in the design, \ndevelopment and delivery of all new or renewe d federal policies, pr ograms, services, and \ninitiatives that apply in Inuit Nunangat and/or benefit Inuit, includ ing programs of general \napplication, and to support Inu"
+  }
+]
