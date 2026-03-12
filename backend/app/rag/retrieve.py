@@ -291,7 +291,7 @@ def retrieve_from_both_sources(
     }
 
 
-# ============ Legacy/Compatibility Functions ============
+# legacy retrieval stuff
 
 def retrieve(
     query: str,
