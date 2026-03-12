@@ -4,6 +4,7 @@ from io import BytesIO
 import json
 import os
 import re
+import csv
 
 def _read_txt(file) -> str:
     return file.getvalue().decode("utf-8", errors="ignore")
@@ -67,6 +68,17 @@ def _read_docx(file) -> str:
     try:
         doc = docx.Document(file)
         return "\n".join([p.text for p in doc.paragraphs])
+    except Exception:
+        return ""
+
+def _read_csv(file) -> str:
+    # return the CSV content as a formatted string 
+    try:
+        file.seek(0)
+        decoded = file.getvalue().decode("utf-8", errors="ignore")
+        reader = csv.reader(decoded.splitlines())
+        rows = ["\t".join(row) for row in reader]
+        return "\n".join(rows)
     except Exception:
         return ""
 
@@ -330,6 +342,8 @@ def parse_grant_upload_to_requirements(uploaded_file) -> Tuple[Dict[str, Any] | 
         raw = _read_pdf(uploaded_file)
     elif name.endswith(".docx"):
         raw = _read_docx(uploaded_file)
+    elif name.endswith(".csv"):
+        raw = _read_csv(uploaded_file)
     else:
         raw = ""
 
