@@ -1,11 +1,14 @@
 "use client";
 
+import { useRef, useState } from "react";
 import { motion } from "framer-motion";
+import { useMutation } from "@tanstack/react-query";
 import {
   ArrowUpFromLine,
   MessageCircle,
   Check,
   FileUp,
+  Loader2,
   Sparkles,
   ArrowRight,
   Database,
@@ -13,9 +16,11 @@ import {
   ShieldCheck,
 } from "lucide-react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { uploadExistingDraft } from "@/lib/api";
 
 const container = {
   hidden: { opacity: 0 },
@@ -31,6 +36,34 @@ const item = {
 };
 
 export default function HomePage() {
+  const router = useRouter();
+  const inputRef = useRef<HTMLInputElement | null>(null);
+  const [uploadError, setUploadError] = useState("");
+  const [isDragActive, setIsDragActive] = useState(false);
+  const uploadMutation = useMutation({
+    mutationFn: uploadExistingDraft,
+    onSuccess: (analysis) => {
+      router.push(`/improve-draft/${analysis.analysis.proposal_id}`);
+    },
+    onError: (error) => {
+      setUploadError(error instanceof Error ? error.message : "Could not analyze the uploaded draft.");
+    },
+  });
+
+  const handleDraftFile = (file: File | null) => {
+    if (!file) return;
+    setUploadError("");
+    if (!/\.(pdf|docx)$/i.test(file.name)) {
+      setUploadError("Only PDF and DOCX files are supported for existing draft analysis.");
+      return;
+    }
+    if (file.size > 15 * 1024 * 1024) {
+      setUploadError("File too large. Please upload a proposal under 15 MB.");
+      return;
+    }
+    uploadMutation.mutate(file);
+  };
+
   return (
     <div className="relative min-h-screen overflow-hidden">
       {/* Header */}
@@ -99,14 +132,67 @@ export default function HomePage() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="flex min-h-[140px] flex-col items-center justify-center rounded-lg border-2 border-dashed border-muted-foreground/30 bg-muted/30 p-6 text-center text-sm text-muted-foreground">
-                  <FileUp className="mb-2 h-10 w-10 opacity-50" />
-                  Drag & drop your proposal here or click to browse
+                <div
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => inputRef.current?.click()}
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      event.preventDefault();
+                      inputRef.current?.click();
+                    }
+                  }}
+                  onDragOver={(event) => {
+                    event.preventDefault();
+                    setIsDragActive(true);
+                  }}
+                  onDragLeave={() => setIsDragActive(false)}
+                  onDrop={(event) => {
+                    event.preventDefault();
+                    setIsDragActive(false);
+                    handleDraftFile(event.dataTransfer.files?.[0] || null);
+                  }}
+                  className={`flex min-h-[140px] cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed p-6 text-center text-sm transition-colors ${
+                    isDragActive
+                      ? "border-primary/70 bg-primary/10 text-foreground"
+                      : "border-muted-foreground/30 bg-muted/30 text-muted-foreground"
+                  }`}
+                >
+                  {uploadMutation.isPending ? (
+                    <>
+                      <Loader2 className="mb-2 h-10 w-10 animate-spin text-primary" />
+                      Uploading and analyzing your draft...
+                    </>
+                  ) : (
+                    <>
+                      <FileUp className="mb-2 h-10 w-10 opacity-50" />
+                      Drag & drop your proposal here or click to browse
+                    </>
+                  )}
                 </div>
-                <Button variant="secondary" className="w-full" size="lg">
+                <input
+                  ref={inputRef}
+                  type="file"
+                  accept=".pdf,.docx"
+                  className="hidden"
+                  onChange={(event) => handleDraftFile(event.target.files?.[0] || null)}
+                />
+                <Button
+                  variant="secondary"
+                  className="w-full"
+                  size="lg"
+                  onClick={() => inputRef.current?.click()}
+                  disabled={uploadMutation.isPending}
+                >
                   <FileUp className="mr-2 h-4 w-4" />
-                  Choose File
+                  {uploadMutation.isPending ? "Analyzing..." : "Choose File"}
                 </Button>
+                {uploadError && (
+                  <p className="rounded-lg border border-destructive/50 bg-destructive/10 p-3 text-sm text-destructive">
+                    {uploadError}
+                  </p>
+                )}
+                <p className="text-xs text-muted-foreground">Supports PDF and DOCX. Maximum file size: 15 MB.</p>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   {["Instant competitiveness score", "Section-by-section feedback", "AI-powered improvements"].map(
                     (t) => (

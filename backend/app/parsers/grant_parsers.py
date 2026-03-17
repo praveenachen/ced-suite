@@ -8,6 +8,7 @@ import re
 
 logger = logging.getLogger(__name__)
 CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini")
+VALID_SECTION_ROMANS = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"}
 
 def _read_txt(file) -> str:
     return file.getvalue().decode("utf-8", errors="ignore")
@@ -74,6 +75,13 @@ def _read_docx(file) -> str:
     except Exception:
         return ""
 
+
+def _is_valid_roman_heading(line: str) -> bool:
+    match = re.match(r"^\s*([IVXLCDM]{1,8})[\)\.\-:]\s+\S+", line or "", flags=re.I)
+    if not match:
+        return False
+    return match.group(1).upper() in VALID_SECTION_ROMANS
+
 def _is_probable_heading(line: str) -> bool:
     ln = line.strip()
     if not ln:
@@ -97,7 +105,7 @@ def _is_probable_heading(line: str) -> bool:
         return False
 
     # Strong heading patterns with explicit numbering systems.
-    if re.match(r"^(?:[IVXLCDM]{1,8})[\)\.\-:]\s+\S+", ln, flags=re.I):
+    if _is_valid_roman_heading(ln):
         return True
     if re.match(r"^\d+(\.\d+)*[\)\.\-:]?\s+\S+", ln):
         return True
@@ -128,13 +136,147 @@ def _is_top_level_section_heading(line: str) -> bool:
     ln = line.strip()
     if not ln:
         return False
-    if re.match(r"^(?:[IVXLCDM]{1,8})[\)\.\-:]\s+\S+", ln, flags=re.I):
+    if _is_valid_roman_heading(ln):
         return True
     if re.match(r"^\d+(\.\d+){0,2}[\)\.\-:]?\s+\S+", ln):
         return True
     if re.match(r"^(SECTION|PART|APPENDIX)\s+[A-Z0-9]+", ln, flags=re.I):
         return True
     return False
+
+
+def _is_explicit_non_numeric_top_level_heading(line: str) -> bool:
+    ln = line.strip()
+    if not ln:
+        return False
+    if _is_valid_roman_heading(ln):
+        return True
+    if re.match(r"^(SECTION|PART|APPENDIX)\s+[A-Z0-9]+", ln, flags=re.I):
+        return True
+    return False
+
+
+def _parse_single_level_numbered_heading(line: str) -> tuple[int, str] | None:
+    match = re.match(r"^\s*(\d+)[\)\.\-:]\s+(.+?)\s*$", line or "")
+    if not match:
+        return None
+    try:
+        number = int(match.group(1))
+    except Exception:
+        return None
+    title = match.group(2).strip()
+    if not title:
+        return None
+    return number, title
+
+
+def _base_numeric_heading_score(lines: list[str], index: int) -> float:
+    line = lines[index].strip()
+    parsed = _parse_single_level_numbered_heading(line)
+    if not parsed:
+        return float("-inf")
+
+    _, title = parsed
+    title_words = len(title.split())
+    score = 0.0
+
+    if 1 <= title_words <= 8:
+        score += 2.5
+    elif title_words <= 12:
+        score += 1.0
+    else:
+        score -= 2.5
+
+    if title.endswith(":"):
+        score -= 1.0
+
+    prev_line = lines[index - 1].strip() if index > 0 else ""
+    prev_non_empty = ""
+    for cursor in range(index - 1, -1, -1):
+        if lines[cursor].strip():
+            prev_non_empty = lines[cursor].strip()
+            break
+
+    next_non_empty = ""
+    for cursor in range(index + 1, len(lines)):
+        if lines[cursor].strip():
+            next_non_empty = lines[cursor].strip()
+            break
+
+    if not prev_line:
+        score += 1.5
+    if prev_non_empty and prev_non_empty.endswith((".", ":", ";")):
+        score += 0.5
+
+    if next_non_empty:
+        if next_non_empty.startswith(("o ", "•", "-", "*")):
+            score -= 2.0
+        elif _parse_single_level_numbered_heading(next_non_empty):
+            score -= 3.0
+        else:
+            score += 1.5
+
+    if re.search(r"\b(?:goal|objectives?|details?|overview|challenge|journey|program|roles?|budget|cost|timeline|evaluation|plan)\b", title, flags=re.I):
+        score += 1.5
+
+    return score
+
+
+def _select_primary_numbered_heading_indices(lines: list[str]) -> list[int]:
+    candidates: list[dict[str, float | int]] = []
+    for idx, line in enumerate(lines):
+        parsed = _parse_single_level_numbered_heading(line.strip())
+        if not parsed:
+            continue
+        number, _ = parsed
+        candidates.append(
+            {
+                "index": idx,
+                "number": number,
+                "score": _base_numeric_heading_score(lines, idx),
+            }
+        )
+
+    if len(candidates) < 3:
+        return []
+
+    best_score = [float(item["score"]) for item in candidates]
+    best_length = [1 for _ in candidates]
+    previous = [-1 for _ in candidates]
+
+    for i in range(len(candidates)):
+        current_number = int(candidates[i]["number"])
+        current_index = int(candidates[i]["index"])
+        current_base = float(candidates[i]["score"])
+        for j in range(i):
+            prior_number = int(candidates[j]["number"])
+            prior_index = int(candidates[j]["index"])
+            if prior_index >= current_index:
+                continue
+            if prior_number + 1 != current_number:
+                continue
+
+            gap_bonus = min(2.0, max(0.0, (current_index - prior_index) / 80.0))
+            candidate_score = best_score[j] + current_base + gap_bonus
+            candidate_length = best_length[j] + 1
+            if (
+                candidate_length > best_length[i]
+                or (candidate_length == best_length[i] and candidate_score > best_score[i])
+            ):
+                best_score[i] = candidate_score
+                best_length[i] = candidate_length
+                previous[i] = j
+
+    best_idx = max(range(len(candidates)), key=lambda i: (best_length[i], best_score[i]))
+    if best_length[best_idx] < 3:
+        return []
+
+    chain: list[int] = []
+    cursor = best_idx
+    while cursor != -1:
+        chain.append(int(candidates[cursor]["index"]))
+        cursor = previous[cursor]
+    return list(reversed(chain))
 
 def _is_heading_continuation(line: str) -> bool:
     ln = line.strip()
@@ -163,10 +305,14 @@ def _extract_sections_from_numbered_headings(lines: list[str]) -> list[dict]:
     heading_idxs: list[int] = []
     headings: list[str] = []
 
+    primary_numeric_idxs = set(_select_primary_numbered_heading_indices(lines))
+
     i = 0
     while i < len(lines):
         ln = lines[i].strip()
-        if _is_top_level_section_heading(ln):
+        is_primary_numeric = i in primary_numeric_idxs
+        is_other_top_level = _is_explicit_non_numeric_top_level_heading(ln)
+        if is_primary_numeric or is_other_top_level:
             heading = ln.rstrip(":").strip()
             j = i + 1
             continuation_parts: list[str] = []

@@ -116,6 +116,102 @@ export type RewriteReference = {
   snippet: string;
 };
 
+export type ProposalMetricIssue = {
+  issue_id: string;
+  title: string;
+  message: string;
+  severity: "success" | "info" | "warning" | "critical";
+  confidence_score: number;
+  section_key: string;
+  anchor_type: "text" | "paragraph" | "section";
+  anchor_text?: string | null;
+  anchor_hint?: string | null;
+  affected_sections: string[];
+  excerpt?: string | null;
+  recommendation: string;
+};
+
+export type ProposalMetric = {
+  id: string;
+  label: string;
+  category_id: string;
+  description: string;
+  score: number;
+  issues_count: number;
+  status: string;
+  summary: string;
+  issues: ProposalMetricIssue[];
+  suggestions: string[];
+  linked_sections: string[];
+};
+
+export type ProposalMetricCategory = {
+  id: string;
+  label: string;
+  score: number;
+  issues: number;
+  metrics: ProposalMetric[];
+};
+
+export type ProposalAnalysisSection = {
+  key: string;
+  title: string;
+  body: string;
+  order: number;
+  word_limit?: number | null;
+  issues_count: number;
+  warnings: ComplianceWarning[];
+  compliance_gaps: ComplianceGap[];
+  section_score: number;
+};
+
+export type ProposalAnalysis = {
+  analysis: {
+    proposal_id: string;
+    file_name: string;
+    file_type: "pdf" | "docx";
+    uploaded_at: string;
+    last_analyzed_at: string;
+  };
+  extraction: {
+    extractor: string;
+    confidence: "high" | "medium" | "low";
+    preview_mode: "sectioned" | "continuous";
+    raw_text_length: number;
+    cleaned_text_length: number;
+    section_count: number;
+    numbering_gaps_detected: boolean;
+    warnings: string[];
+    candidate_extractors: Array<{
+      extractor: string;
+      score: number;
+      chars: number;
+    }>;
+  };
+  overall_score: number;
+  issue_count: number;
+  categories: ProposalMetricCategory[];
+  sections: ProposalAnalysisSection[];
+  additional_submission_requirements: string[];
+  assistant_starters: string[];
+  raw_preview_text: string;
+  report_summary: string;
+};
+
+export type ProposalRewriteResponse = {
+  proposal_id: string;
+  section_key: string;
+  rewritten_text: string;
+  rationale: string;
+  references: RewriteReference[];
+};
+
+export type ProposalChatResponse = {
+  proposal_id: string;
+  response: string;
+  suggested_actions: string[];
+};
+
 export async function parseGrant(file: File): Promise<{
   requirements: Requirements;
   raw_text: string;
@@ -240,6 +336,84 @@ export async function evaluateDraftCompliance(
   };
 }
 
+export async function uploadExistingDraft(file: File): Promise<ProposalAnalysis> {
+  const form = new FormData();
+  form.append("file", file);
+  const res = await fetch(`${API_BASE}/evaluate/proposal`, {
+    method: "POST",
+    body: form,
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ detail: res.statusText }));
+    throw new Error(err.detail || "Failed to analyze proposal draft");
+  }
+  return res.json();
+}
+
+export async function getProposalAnalysis(proposalId: string): Promise<ProposalAnalysis> {
+  const res = await fetch(`${API_BASE}/evaluate/proposal/${proposalId}`);
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ detail: res.statusText }));
+    throw new Error(err.detail || "Failed to load proposal analysis");
+  }
+  return res.json();
+}
+
+export async function reanalyzeProposal(params: {
+  proposal_id: string;
+  sections: ProposalAnalysisSection[];
+}): Promise<ProposalAnalysis> {
+  const res = await fetch(`${API_BASE}/evaluate/proposal/reanalyze`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(params),
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ detail: res.statusText }));
+    throw new Error(err.detail || "Failed to re-run proposal analysis");
+  }
+  return res.json();
+}
+
+export async function rewriteProposalSection(params: {
+  proposal_id: string;
+  section_key: string;
+  instruction: string;
+  metric_id?: string;
+  issue_id?: string;
+  issue_message?: string;
+  issue_recommendation?: string;
+}): Promise<ProposalRewriteResponse> {
+  const res = await fetch(`${API_BASE}/evaluate/proposal/section-rewrite`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(params),
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ detail: res.statusText }));
+    throw new Error(err.detail || "Failed to rewrite proposal section");
+  }
+  return res.json();
+}
+
+export async function chatAboutProposal(params: {
+  proposal_id: string;
+  message: string;
+  section_key?: string;
+  metric_id?: string;
+}): Promise<ProposalChatResponse> {
+  const res = await fetch(`${API_BASE}/evaluate/proposal/chat`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(params),
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ detail: res.statusText }));
+    throw new Error(err.detail || "Failed to get assistant response");
+  }
+  return res.json();
+}
+
 export async function rewriteSection(
   params: {
     section_key: string;
@@ -282,6 +456,26 @@ export async function exportDraftPdf(params: {
   if (!res.ok) {
     const err = await res.json().catch(() => ({ detail: res.statusText }));
     throw new Error(err.detail || "Failed to export PDF");
+  }
+  return res.blob();
+}
+
+export async function exportDraftDocx(params: {
+  grant_name: string;
+  community_name: string;
+  region: string;
+  local_priority: string;
+  requested_budget?: number;
+  sections: Array<{ key?: string; title: string; body: string }>;
+}): Promise<Blob> {
+  const res = await fetch(`${API_BASE}/api/export-draft-docx`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(params),
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({ detail: res.statusText }));
+    throw new Error(err.detail || "Failed to export DOCX");
   }
   return res.blob();
 }

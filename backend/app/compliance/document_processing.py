@@ -3,7 +3,7 @@ from __future__ import annotations
 import hashlib
 import re
 from pathlib import Path
-from typing import Iterable, List
+from typing import Dict, Iterable, List
 
 from docx import Document
 from pypdf import PdfReader
@@ -21,9 +21,7 @@ def extract_text_from_file(path: Path) -> str:
 
 
 def extract_text_from_pdf(path: Path) -> str:
-    reader = PdfReader(str(path))
-    pages = [(page.extract_text() or "").strip() for page in reader.pages]
-    return "\n\n".join(page for page in pages if page)
+    return extract_pdf_text_with_diagnostics(path)["text"]
 
 
 def extract_text_from_docx(path: Path) -> str:
@@ -34,6 +32,78 @@ def extract_text_from_docx(path: Path) -> str:
 def extract_pdf_pages(path: Path) -> List[str]:
     reader = PdfReader(str(path))
     return [(page.extract_text() or "").strip() for page in reader.pages]
+
+
+def extract_pdf_text_with_diagnostics(path: Path) -> Dict[str, object]:
+    candidates: List[Dict[str, object]] = []
+
+    try:
+        reader = PdfReader(str(path))
+        pages = [(page.extract_text() or "").strip() for page in reader.pages]
+        candidates.append(
+            {
+                "name": "pypdf",
+                "text": "\n\n".join(page for page in pages if page),
+                "page_count": len(pages),
+            }
+        )
+    except Exception:
+        pass
+
+    try:
+        import pdfplumber
+
+        pages = []
+        with pdfplumber.open(str(path)) as pdf:
+            for page in pdf.pages:
+                pages.append((page.extract_text() or "").strip())
+        candidates.append(
+            {
+                "name": "pdfplumber",
+                "text": "\n\n".join(page for page in pages if page),
+                "page_count": len(pages),
+            }
+        )
+    except Exception:
+        pass
+
+    try:
+        import fitz
+
+        pages = []
+        with fitz.open(str(path)) as pdf:
+            for page in pdf:
+                pages.append((page.get_text("text") or "").strip())
+        candidates.append(
+            {
+                "name": "pymupdf",
+                "text": "\n\n".join(page for page in pages if page),
+                "page_count": len(pages),
+            }
+        )
+    except Exception:
+        pass
+
+    if not candidates:
+        return {"extractor": "none", "text": "", "page_count": 0}
+
+    scored = []
+    for candidate in candidates:
+        text = normalize_whitespace(str(candidate["text"]))
+        page_count = int(candidate["page_count"])
+        score = _score_pdf_extraction_candidate(text, page_count)
+        scored.append({**candidate, "text": text, "score": score})
+
+    best = max(scored, key=lambda item: item["score"])
+    return {
+        "extractor": best["name"],
+        "text": best["text"],
+        "page_count": best["page_count"],
+        "candidates": [
+            {"extractor": item["name"], "score": item["score"], "chars": len(str(item["text"]))}
+            for item in scored
+        ],
+    }
 
 
 def normalize_whitespace(text: str) -> str:
@@ -80,3 +150,21 @@ def stable_chunk_id(source_document: str, page_number: int | None, text: str) ->
     h.update(b"||")
     h.update(text.encode("utf-8"))
     return h.hexdigest()[:16]
+
+
+def _score_pdf_extraction_candidate(text: str, page_count: int) -> float:
+    if not text:
+        return 0.0
+    words = re.findall(r"\b\w+\b", text)
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    avg_words_per_line = len(words) / max(1, len(lines))
+    long_lines = sum(1 for line in lines if len(line.split()) >= 6)
+    punctuation_hits = len(re.findall(r"[.!?;:]", text))
+    return (
+        len(text) * 0.01
+        + len(words) * 0.02
+        + long_lines * 0.8
+        + avg_words_per_line * 2.5
+        + punctuation_hits * 0.05
+        + page_count * 1.0
+    )

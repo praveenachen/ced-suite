@@ -23,11 +23,18 @@ from pydantic import BaseModel, Field
 from typing import Any, Dict, List, Optional
 
 from backend.app.compliance import build_default_service, ComplianceEvaluationService
+from backend.app.compliance.proposal_analysis import ProposalAnalysisService
 from backend.app.compliance.models import (
     ComplianceEvaluationRequest,
     ComplianceEvaluationResponse,
-    ProposalEvaluationRequest,
-    ProposalEvaluationResponse,
+)
+from backend.app.compliance.proposal_models import (
+    ProposalAnalysisResponse,
+    ProposalChatRequest,
+    ProposalChatResponse,
+    ProposalReanalyzeRequest,
+    ProposalSectionRewriteRequest,
+    ProposalSectionRewriteResponse,
 )
 
 app = FastAPI(title="Grant Proposal API", version="0.1.0")
@@ -118,6 +125,10 @@ class ExportDraftPdfRequest(BaseModel):
     local_priority: str = ""
     requested_budget: Optional[int] = None
     sections: List[ExportSection] = []
+
+
+class ExportDraftDocxRequest(ExportDraftPdfRequest):
+    pass
 
 
 def _safe_filename(value: str) -> str:
@@ -223,6 +234,40 @@ def _render_pdf(body: ExportDraftPdfRequest) -> bytes:
     return buf.read()
 
 
+def _render_docx(body: ExportDraftDocxRequest) -> bytes:
+    try:
+        from docx import Document
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"DOCX export dependency missing: {e}. Install python-docx.",
+        )
+
+    document = Document()
+    document.add_heading("Grant Proposal", level=0)
+    if body.grant_name:
+        document.add_paragraph(body.grant_name)
+    document.add_paragraph(f"Community: {body.community_name or 'N/A'}")
+    document.add_paragraph(f"Region: {body.region or 'N/A'}")
+    document.add_paragraph(f"Local Priority: {body.local_priority or 'N/A'}")
+    if body.requested_budget is not None:
+        document.add_paragraph(f"Requested Funding: ${body.requested_budget:,.0f}")
+    document.add_paragraph(f"Generated: {date.today().isoformat()}")
+
+    for i, sec in enumerate(body.sections, start=1):
+        title = (sec.title or f"Section {i}").strip()
+        document.add_heading(f"{i}. {title}", level=1)
+        for paragraph in (sec.body or "No content provided.").replace("\r\n", "\n").split("\n\n"):
+            cleaned = paragraph.strip()
+            if cleaned:
+                document.add_paragraph(cleaned)
+
+    buf = BytesIO()
+    document.save(buf)
+    buf.seek(0)
+    return buf.read()
+
+
 # ---------- Endpoints ----------
 @app.get("/health")
 def health():
@@ -237,15 +282,84 @@ def get_compliance_service() -> ComplianceEvaluationService:
     return service
 
 
+def get_proposal_analysis_service() -> ProposalAnalysisService:
+    service = getattr(app.state, "proposal_analysis_service", None)
+    if service is None:
+        service = ProposalAnalysisService(get_compliance_service())
+        app.state.proposal_analysis_service = service
+    return service
+
+
 @app.post("/evaluate/compliance", response_model=ComplianceEvaluationResponse)
 def evaluate_compliance(body: ComplianceEvaluationRequest):
     return get_compliance_service().evaluate_section(body)
 
 
-@app.post("/evaluate/proposal", response_model=ProposalEvaluationResponse)
-def evaluate_proposal(body: ProposalEvaluationRequest):
-    _ = body
-    return get_compliance_service().scaffold_proposal_evaluation()
+@app.post("/evaluate/proposal", response_model=ProposalAnalysisResponse)
+async def evaluate_proposal(file: UploadFile = File(...)):
+    if not file.filename:
+        raise HTTPException(status_code=400, detail="A PDF or DOCX file is required.")
+    lower = file.filename.lower()
+    if not (lower.endswith(".pdf") or lower.endswith(".docx")):
+        raise HTTPException(status_code=400, detail="Only PDF and DOCX files are supported.")
+    try:
+        content = await file.read()
+        analysis = get_proposal_analysis_service().analyze_upload(file.filename, content)
+        return analysis
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
+@app.post("/evaluate/proposal/reanalyze", response_model=ProposalAnalysisResponse)
+def reanalyze_proposal(body: ProposalReanalyzeRequest):
+    try:
+        return get_proposal_analysis_service().reanalyze_sections(
+            proposal_id=body.proposal_id,
+            sections=body.sections,
+        )
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail="Proposal analysis not found.") from exc
+
+
+@app.get("/evaluate/proposal/{proposal_id}", response_model=ProposalAnalysisResponse)
+def get_proposal_analysis(proposal_id: str):
+    try:
+        return get_proposal_analysis_service().load_analysis(proposal_id)
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail="Proposal analysis not found.") from exc
+
+
+@app.post("/evaluate/proposal/section-rewrite", response_model=ProposalSectionRewriteResponse)
+def rewrite_proposal_section(body: ProposalSectionRewriteRequest):
+    try:
+        return get_proposal_analysis_service().rewrite_section(
+            proposal_id=body.proposal_id,
+            section_key=body.section_key,
+            instruction=body.instruction,
+            metric_id=body.metric_id,
+            issue_id=body.issue_id,
+            issue_message=body.issue_message,
+            issue_recommendation=body.issue_recommendation,
+        )
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail="Proposal analysis not found.") from exc
+    except KeyError as exc:
+        raise HTTPException(status_code=404, detail="Section not found.") from exc
+
+
+@app.post("/evaluate/proposal/chat", response_model=ProposalChatResponse)
+def proposal_chat(body: ProposalChatRequest):
+    try:
+        return get_proposal_analysis_service().chat(
+            proposal_id=body.proposal_id,
+            message=body.message,
+            section_key=body.section_key,
+            metric_id=body.metric_id,
+        )
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail="Proposal analysis not found.") from exc
 
 
 @app.post("/api/parse-grant")
@@ -371,5 +485,21 @@ def export_draft_pdf(body: ExportDraftPdfRequest):
     return StreamingResponse(
         BytesIO(pdf_bytes),
         media_type="application/pdf",
+        headers={"Content-Disposition": f'attachment; filename="{filename}"'},
+    )
+
+
+@app.post("/api/export-draft-docx")
+def export_draft_docx(body: ExportDraftDocxRequest):
+    """Export the final draft as a DOCX document."""
+    if not body.sections:
+        raise HTTPException(status_code=400, detail="At least one section is required for export.")
+
+    docx_bytes = _render_docx(body)
+    base = _safe_filename(body.community_name or body.grant_name or "grant_proposal")
+    filename = f"{base}_proposal.docx"
+    return StreamingResponse(
+        BytesIO(docx_bytes),
+        media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         headers={"Content-Disposition": f'attachment; filename="{filename}"'},
     )
