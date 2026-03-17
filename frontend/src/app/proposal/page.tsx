@@ -20,12 +20,12 @@ import {
   parseGrant,
   generateDraft,
   enhanceDraft,
-  validateDraft,
+  evaluateDraftCompliance,
   type Requirements,
   type CommunityProfile,
   type Draft,
   type DraftSection,
-  type ValidationResult,
+  type ComplianceSummary,
   exportDraftPdf,
 } from "@/lib/api";
 import { CommunityForm } from "@/components/CommunityForm";
@@ -49,7 +49,7 @@ export default function ProposalPage() {
   const [profile, setProfile] = useState<CommunityProfile | null>(null);
   const [draft, setDraft] = useState<Draft | null>(null);
   const [enhanced, setEnhanced] = useState<Record<string, string> | null>(null);
-  const [validation, setValidation] = useState<ValidationResult | null>(null);
+  const [validation, setValidation] = useState<ComplianceSummary | null>(null);
   const [finalSections, setFinalSections] = useState<DraftSection[]>([]);
   const [exportError, setExportError] = useState<string>("");
 
@@ -107,7 +107,7 @@ export default function ProposalPage() {
     }) => {
       const d = await generateDraft(p, r, budget);
       const { enhanced: enh } = await enhanceDraft(d, r, p);
-      const val = await validateDraft(d, r);
+      const val = await evaluateDraftCompliance(d.sections || []);
       return { draft: d, enhanced: enh, validation: val };
     },
     onSuccess: (data) => {

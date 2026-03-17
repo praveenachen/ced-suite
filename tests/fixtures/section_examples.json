@@ -1,0 +1,17 @@
+[
+  {
+    "name": "structurally_incomplete",
+    "section_name": "staff_organization",
+    "section_text": "TBD. Add team details later."
+  },
+  {
+    "name": "substantive_problem",
+    "section_name": "staff_organization",
+    "section_text": "Our external consultant will carry out the work over the summer and prepare the final report. The section says the consultant will coordinate activities with staff as needed, but it does not name an internal lead, does not explain who approves decisions, does not assign delivery responsibilities to any department, and does not describe any community delivery role, operational oversight process, or ongoing staffing plan for implementation."
+  },
+  {
+    "name": "solid_section",
+    "section_name": "staff_organization",
+    "section_text": "The project will be led by the Community Economic Development Director, who will serve as project lead and final signing authority. A full-time project coordinator will manage weekly implementation, budget tracking, and reporting, while the hamlet wellness committee and regional Inuit partner will review milestones each month and confirm that activities remain aligned with community priorities. The data coordinator will oversee records management and ensure that any community information is stored under agreed access controls. Elders and youth advisors will guide outreach design, and local trainees will be paired with the coordinator for skills development, event delivery, and evaluation support throughout the project."
+  }
+]
