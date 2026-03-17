@@ -11,6 +11,7 @@ PROCESSED_DIR = DATA_DIR / "processed"
 MANIFEST_PATH = PROCESSED_DIR / "manifests" / "source_manifest.json"
 CHUNKS_PATH = PROCESSED_DIR / "chunks" / "source_chunks.json"
 CHECKS_PATH = PROCESSED_DIR / "compliance_checks" / "checks.json"
+PROPOSAL_ANALYSIS_DIR = PROCESSED_DIR / "proposal_analyses"
 
 
 class WarningThresholds(BaseModel):
