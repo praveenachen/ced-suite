@@ -10,7 +10,7 @@ from __future__ import annotations
 import os
 from typing import Any, Dict, List, Optional, Tuple
 
-from openai import OpenAI
+from backend.app.llm.client import embed_texts as gemini_embed_texts
 
 from backend.app.rag.store import (
     get_collection, 
@@ -22,13 +22,16 @@ from backend.app.rag.store import (
 from backend.app.rag.bm25 import bm25_search, get_bm25_index
 from backend.app.rag.utils import logger
 
-EMBED_MODEL = os.getenv("EMBED_MODEL", "text-embedding-3-small")
+EMBED_MODEL = os.getenv("GEMINI_EMBED_MODEL", "models/embedding-001")
 
 
 def embed_query(query: str) -> List[float]:
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-    resp = client.embeddings.create(model=EMBED_MODEL, input=[query])
-    return resp.data[0].embedding
+    embeddings = gemini_embed_texts(
+        texts=[query],
+        model=EMBED_MODEL,
+        task_type="retrieval_query",
+    )
+    return embeddings[0]
 
 
 def dense_retrieve(
@@ -243,6 +246,8 @@ def retrieve_from_both_sources(
     rerank_provider: Optional[str] = "cohere",
     app_library_weight: float = 0.6,
     quant_data_weight: float = 0.4,
+    app_collection_name: str = DEFAULT_COLLECTION,
+    quant_collection_name: str = QUANT_COLLECTION,
 ) -> Dict[str, Any]:
     """
     Retrieve from both app_library and quant_data knowledge bases.
@@ -263,14 +268,14 @@ def retrieve_from_both_sources(
     # Retrieve from app_library (text-rich documents)
     app_library_results = retrieve_with_rerank(
         query, top_k=top_k, persist_dir=persist_dir,
-        collection_name=DEFAULT_COLLECTION, where=where,
+        collection_name=app_collection_name, where=where,
         use_hybrid=use_hybrid, rerank_provider=rerank_provider
     )
     
     # Retrieve from quant_data (quantitative files)
     quant_results = retrieve_with_rerank(
         query, top_k=top_k, persist_dir=persist_dir,
-        collection_name=QUANT_COLLECTION, where=where,
+        collection_name=quant_collection_name, where=where,
         use_hybrid=use_hybrid, rerank_provider=rerank_provider
     )
     

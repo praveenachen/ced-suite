@@ -25,7 +25,7 @@ AI-assisted grant proposal workspace with:
 
 - Python 3.9+
 - Node.js 18+ and npm
-- `OPENAI_API_KEY` environment variable
+- `GEMINI_API_KEY` (or `GOOGLE_API_KEY`) environment variable
 
 ## Local Setup
 
@@ -66,14 +66,14 @@ pip install -r api/requirements.txt
 Windows PowerShell:
 
 ```powershell
-$env:OPENAI_API_KEY = "your_key_here"
+$env:GEMINI_API_KEY = "your_key_here"
 $env:PYTHONPATH = (Get-Location).Path
 ```
 
 macOS/Linux:
 
 ```bash
-export OPENAI_API_KEY="your_key_here"
+export GEMINI_API_KEY="your_key_here"
 export PYTHONPATH="$(pwd)"
 ```
 

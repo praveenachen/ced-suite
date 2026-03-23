@@ -7,7 +7,7 @@ from io import BytesIO
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from openai import OpenAI
+from backend.app.llm.client import embed_texts as gemini_embed_texts
 
 from backend.app.rag.store import (
     get_collection, 
@@ -22,7 +22,7 @@ from backend.app.rag.store import (
 from backend.app.rag.bm25 import BM25Index, save_bm25_index
 from backend.app.rag.utils import logger
 
-EMBED_MODEL = os.getenv("EMBED_MODEL", "text-embedding-3-small")
+EMBED_MODEL = os.getenv("GEMINI_EMBED_MODEL", "gemini-embedding-001")
 
 # different ext
 TEXT_EXTENSIONS = {".txt", ".md", ".markdown"}
@@ -238,19 +238,22 @@ def chunk_quantitative_data(text: str, chunk_size: int = 800) -> List[str]:
 
 
 # Stage 1.3) Embedding
-def embed_texts(texts: List[str], batch_size: int = 100) -> List[List[float]]:
-    """Embed texts using OpenAI with batching for large inputs."""
+def embed_texts(texts: List[str], batch_size: int = 50) -> List[List[float]]:
+    """Embed texts using Gemini with batching for large inputs."""
     if not texts:
         return []
-    
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
     all_embeddings: List[List[float]] = []
-    
     for i in range(0, len(texts), batch_size):
         batch = texts[i:i + batch_size]
-        resp = client.embeddings.create(model=EMBED_MODEL, input=batch)
-        all_embeddings.extend([r.embedding for r in resp.data])
-    
+        all_embeddings.extend(
+            gemini_embed_texts(
+                texts=batch,
+                model=EMBED_MODEL,
+                task_type="retrieval_document",
+            )
+        )
+
     return all_embeddings
 
 

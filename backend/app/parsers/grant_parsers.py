@@ -3,6 +3,7 @@ from typing import Dict, Any, Tuple
 from io import BytesIO
 import json
 import os
+from backend.app.llm.client import gemini_sdk_available, generate_json
 import re
 import csv
 
@@ -220,8 +221,7 @@ def _should_use_llm_fallback(raw_text: str, heuristic_sections: list[dict]) -> b
 
 
 def _extract_sections_with_llm(text: str) -> list[dict]:
-    api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
+    if not gemini_sdk_available():
         return []
 
     snippet = text[:20000]
@@ -254,24 +254,15 @@ def _extract_sections_with_llm(text: str) -> list[dict]:
     }
 
     try:
-        from openai import OpenAI
-        client = OpenAI(api_key=api_key)
-        resp = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {
-                    "role": "system",
-                    "content": (
-                        "You extract grant requirement sections from messy PDF text. "
-                        "Output strict JSON with high recall and minimal hallucination."
-                    ),
-                },
-                {"role": "user", "content": json.dumps(prompt, ensure_ascii=False)},
-            ],
-            response_format={"type": "json_object"},
+        data = generate_json(
+            model=os.getenv("GEMINI_CHAT_MODEL", "gemini-1.5-flash"),
+            system_msg=(
+                "You extract grant requirement sections from messy PDF text. "
+                "Output strict JSON with high recall and minimal hallucination."
+            ),
+            user_msg=json.dumps(prompt, ensure_ascii=False),
             temperature=0.0,
         )
-        data = json.loads(resp.choices[0].message.content or "{}")
         return _normalize_sections((data.get("sections") or []))
     except Exception:
         return []

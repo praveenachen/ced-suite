@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Team Working Agreement
+    url: https://github.com/cedsuite-internal/ced-suite/blob/main/README.md
+    about: Review the collaboration workflow before opening issues.
