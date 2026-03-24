@@ -10,7 +10,7 @@ from __future__ import annotations
 import os
 from typing import Any, Dict, List, Optional, Tuple
 
-from backend.app.llm.client import embed_texts as gemini_embed_texts
+from backend.app.llm.client import embed_texts as openai_embed_texts
 
 from backend.app.rag.store import (
     get_collection, 
@@ -22,14 +22,14 @@ from backend.app.rag.store import (
 from backend.app.rag.bm25 import bm25_search, get_bm25_index
 from backend.app.rag.utils import logger
 
-EMBED_MODEL = os.getenv("GEMINI_EMBED_MODEL", "models/embedding-001")
+EMBED_MODEL = os.getenv("OPENAI_EMBED_MODEL", "text-embedding-3-small")
 
 
 def embed_query(query: str) -> List[float]:
-    embeddings = gemini_embed_texts(
+    embeddings = openai_embed_texts(
         texts=[query],
         model=EMBED_MODEL,
-        task_type="retrieval_query",
+        task_type="",  # OpenAI doesn't use task_type, but keeping parameter for compatibility
     )
     return embeddings[0]
 
