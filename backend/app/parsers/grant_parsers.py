@@ -4,13 +4,17 @@ from io import BytesIO
 import json
 import logging
 import os
-from backend.app.llm.client import gemini_sdk_available, generate_json
+import importlib.util
 import re
 import csv
 
 logger = logging.getLogger(__name__)
 CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini")
 VALID_SECTION_ROMANS = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"}
+
+
+def _openai_sdk_available() -> bool:
+    return importlib.util.find_spec("openai") is not None
 
 def _read_txt(file) -> str:
     return file.getvalue().decode("utf-8", errors="ignore")
@@ -467,7 +471,7 @@ def _should_use_llm_fallback(raw_text: str, heuristic_sections: list[dict]) -> t
 
 
 def _extract_sections_with_llm(text: str) -> list[dict]:
-    if not gemini_sdk_available():
+    if not _openai_sdk_available():
         return []
 
     snippet = text[:20000]
@@ -500,17 +504,31 @@ def _extract_sections_with_llm(text: str) -> list[dict]:
     }
 
     try:
-        data = generate_json(
-            model=os.getenv("GEMINI_CHAT_MODEL", "gemini-1.5-flash"),
-            system_msg=(
-                "You extract grant requirement sections from messy PDF text. "
-                "Output strict JSON with high recall and minimal hallucination."
-            ),
-            user_msg=json.dumps(prompt, ensure_ascii=False),
+        from openai import OpenAI
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            return []
+
+        client = OpenAI(api_key=api_key)
+        resp = client.chat.completions.create(
+            model=CHAT_MODEL,
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        "You extract grant requirement sections from messy PDF text. "
+                        "Output strict JSON with high recall and minimal hallucination."
+                    ),
+                },
+                {"role": "user", "content": json.dumps(prompt, ensure_ascii=False)},
+            ],
+            response_format={"type": "json_object"},
             temperature=0.0,
         )
+        data = json.loads(resp.choices[0].message.content or "{}")
         return _normalize_sections((data.get("sections") or []))
-    except Exception:
+    except Exception as exc:
+        logger.exception("Grant section LLM fallback failed")
         return []
 
 def _extract_sections_from_text(text: str) -> list[dict]:

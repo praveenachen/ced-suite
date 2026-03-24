@@ -4,15 +4,19 @@ from __future__ import annotations
 import os
 import json
 import logging
+import importlib.util
 from typing import Dict, Any, Optional, List, Tuple
 
 from backend.app.rag.use_cases import collection_for_use_case, normalize_use_case
-from backend.app.llm.client import gemini_sdk_available, generate_json
 from backend.app.rag.store import QUANT_COLLECTION
 
 _RAG_AVAILABLE: Optional[bool] = None
 logger = logging.getLogger(__name__)
-CHAT_MODEL = os.getenv("GEMINI_CHAT_MODEL", "models/gemini-2.5-flash")
+CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini")
+
+
+def _openai_sdk_available() -> bool:
+    return importlib.util.find_spec("openai") is not None
 
 
 def _get_rag_context(
@@ -284,8 +288,8 @@ def enhance_sections(
     ex: {"need_statement": "...", "budget_justification": "..."}
     When use_rag is True, retrieves relevant grant-library excerpts and injects them into the prompt.
     """
-    if not gemini_sdk_available():
-        logger.warning("Gemini SDK not installed; skipping section enhancement")
+    if not _openai_sdk_available():
+        logger.warning("OpenAI SDK not installed; skipping section enhancement")
         return {}
 
     requirements = requirements or {}
@@ -344,14 +348,54 @@ def enhance_sections(
     user_msg = json.dumps(payload, ensure_ascii=False)
 
     try:
-        data = generate_json(
+        from openai import OpenAI  # v1+
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise RuntimeError("OPENAI_API_KEY environment variable is required")
+
+        client = OpenAI(api_key=api_key)
+
+        resp = client.chat.completions.create(
             model=CHAT_MODEL,
-            system_msg=system_msg,
-            user_msg=user_msg,
+            messages=[
+                {"role": "system", "content": system_msg},
+                {"role": "user", "content": user_msg},
+            ],
+            response_format={"type": "json_object"},
             temperature=0.1,
         )
-    except Exception as e:
-        raise RuntimeError(f"LLM call failed in Gemini mode: {repr(e)}")
+
+        content = resp.choices[0].message.content or "{}"
+        data = json.loads(content)
+
+    except Exception as e_v1:
+        # --- Fallback for legacy openai<1.0 ---
+        try:
+            import openai  # legacy
+            api_key = os.getenv("OPENAI_API_KEY")
+            if not api_key:
+                raise RuntimeError("OPENAI_API_KEY environment variable is required")
+
+            openai.api_key = api_key
+
+            r = openai.ChatCompletion.create(
+                model=CHAT_MODEL,
+                messages=[
+                    {"role": "system", "content": system_msg},
+                    {"role": "user", "content": user_msg},
+                ],
+                temperature=0.1,
+            )
+            content = r["choices"][0]["message"]["content"] or "{}"
+            data = json.loads(content)
+
+        except Exception as e_legacy:
+            # IMPORTANT: don't silently swallow both failures
+            raise RuntimeError(
+                "LLM call failed in both OpenAI SDK v1+ and legacy modes."
+                f"\n\nv1+ error: {repr(e_v1)}"
+                f"\nlegacy error: {repr(e_legacy)}"
+            )
 
     out: Dict[str, str] = {}
     for item in (data.get("sections", []) or []):
@@ -378,8 +422,8 @@ def rewrite_section_with_instruction(
     use_case: Optional[str] = None,
 ) -> Dict[str, Any]:
     """Rewrite a single section using user instruction; returns text + structured references."""
-    if not gemini_sdk_available():
-        logger.warning("Gemini SDK not installed; skipping section rewrite")
+    if not _openai_sdk_available():
+        logger.warning("OpenAI SDK not installed; skipping section rewrite")
         return {"text": (current_text or "").strip(), "references": []}
 
     requirements = requirements or {}
@@ -441,14 +485,47 @@ def rewrite_section_with_instruction(
     user_msg = json.dumps(payload, ensure_ascii=False)
 
     try:
-        data = generate_json(
+        from openai import OpenAI
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise RuntimeError("OPENAI_API_KEY environment variable is required")
+
+        client = OpenAI(api_key=api_key)
+        resp = client.chat.completions.create(
             model=CHAT_MODEL,
-            system_msg=system_msg,
-            user_msg=user_msg,
+            messages=[
+                {"role": "system", "content": system_msg},
+                {"role": "user", "content": user_msg},
+            ],
+            response_format={"type": "json_object"},
             temperature=0.2,
         )
-    except Exception as e:
-        raise RuntimeError(f"Section rewrite failed in Gemini mode: {repr(e)}")
+        content = resp.choices[0].message.content or "{}"
+        data = json.loads(content)
+    except Exception as e_v1:
+        try:
+            import openai
+            api_key = os.getenv("OPENAI_API_KEY")
+            if not api_key:
+                raise RuntimeError("OPENAI_API_KEY environment variable is required")
+
+            openai.api_key = api_key
+            r = openai.ChatCompletion.create(
+                model=CHAT_MODEL,
+                messages=[
+                    {"role": "system", "content": system_msg},
+                    {"role": "user", "content": user_msg},
+                ],
+                temperature=0.2,
+            )
+            content = r["choices"][0]["message"]["content"] or "{}"
+            data = json.loads(content)
+        except Exception as e_legacy:
+            raise RuntimeError(
+                "Section rewrite failed in both OpenAI SDK modes."
+                f"\n\nv1+ error: {repr(e_v1)}"
+                f"\nlegacy error: {repr(e_legacy)}"
+            )
 
     text = str(data.get("text") or "").strip() or (current_text or "").strip()
     return {"text": text, "references": references}
