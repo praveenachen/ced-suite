@@ -429,12 +429,15 @@ def enhance(body: EnhanceRequest):
         from backend.app.llm.llm_utils import enhance_sections
     except ImportError as e:
         raise HTTPException(status_code=500, detail=f"Backend import error: {e}")
-    enhanced = enhance_sections(
-        draft=body.draft,
-        requirements=body.requirements,
-        profile=body.profile,
-        use_case=body.use_case,
-    )
+    try:
+        enhanced = enhance_sections(
+            draft=body.draft,
+            requirements=body.requirements,
+            profile=body.profile,
+            use_case=body.use_case,
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
     return {"enhanced": enhanced}
 
 

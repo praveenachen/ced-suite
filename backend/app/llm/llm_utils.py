@@ -4,18 +4,15 @@ from __future__ import annotations
 import os
 import json
 import logging
-import importlib.util
-from typing import Dict, Any, Optional, List
+from typing import Dict, Any, Optional, List, Tuple
 
 from backend.app.rag.use_cases import collection_for_use_case, normalize_use_case
+from backend.app.llm.client import gemini_sdk_available, generate_json
+from backend.app.rag.store import QUANT_COLLECTION
 
 _RAG_AVAILABLE: Optional[bool] = None
 logger = logging.getLogger(__name__)
-CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini")
-
-
-def _openai_sdk_available() -> bool:
-    return importlib.util.find_spec("openai") is not None
+CHAT_MODEL = os.getenv("GEMINI_CHAT_MODEL", "models/gemini-2.5-flash")
 
 
 def _get_rag_context(
@@ -43,6 +40,96 @@ def _get_rag_context(
     except Exception:
         _RAG_AVAILABLE = False
         return ""
+
+
+def _format_references_for_prompt(refs: List[Dict[str, Any]]) -> str:
+    blocks: List[str] = []
+    for ref in refs:
+        source = ref.get("source", "unknown")
+        chunk_index = ref.get("chunk_index", "-")
+        source_type = ref.get("source_type", "unknown")
+        snippet = ref.get("snippet", "")
+        blocks.append(
+            f"Source: {source} (chunk {chunk_index}, type: {source_type})\n{snippet}"
+        )
+    return "\n\n---\n\n".join(blocks)
+
+
+def _get_rag_context_from_both_sources(
+    query: str,
+    top_k: int = 6,
+    persist_dir: Optional[str] = None,
+    app_collection_name: str = "grant_library",
+    quant_collection_name: str = QUANT_COLLECTION,
+    where: Optional[Dict[str, Any]] = None,
+) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict[str, Any]]]:
+    """Return combined, app-library, and quant-data references."""
+    global _RAG_AVAILABLE
+    if _RAG_AVAILABLE is False:
+        return [], [], []
+
+    try:
+        from backend.app.rag.retrieve import retrieve_from_both_sources
+
+        _RAG_AVAILABLE = True
+        out = retrieve_from_both_sources(
+            query=query,
+            top_k=top_k,
+            persist_dir=persist_dir,
+            where=where,
+            use_hybrid=True,
+            rerank_provider=None,
+            app_collection_name=app_collection_name,
+            quant_collection_name=quant_collection_name,
+        )
+    except Exception:
+        _RAG_AVAILABLE = False
+        return [], [], []
+
+    combined_refs: List[Dict[str, Any]] = []
+    app_refs: List[Dict[str, Any]] = []
+    quant_refs: List[Dict[str, Any]] = []
+
+    for idx, (_, doc, meta, score, source_type) in enumerate(out.get("combined", []), start=1):
+        m = meta or {}
+        combined_refs.append(
+            {
+                "rank": idx,
+                "source": m.get("source", "unknown"),
+                "chunk_index": m.get("chunk_index"),
+                "score": score,
+                "source_type": source_type or m.get("source_type", "unknown"),
+                "snippet": (doc or "").strip()[:500],
+            }
+        )
+
+    for idx, (_, doc, meta, score) in enumerate(out.get("app_library", []), start=1):
+        m = meta or {}
+        app_refs.append(
+            {
+                "rank": idx,
+                "source": m.get("source", "unknown"),
+                "chunk_index": m.get("chunk_index"),
+                "score": score,
+                "source_type": m.get("source_type", "app_library"),
+                "snippet": (doc or "").strip()[:500],
+            }
+        )
+
+    for idx, (_, doc, meta, score) in enumerate(out.get("quant_data", []), start=1):
+        m = meta or {}
+        quant_refs.append(
+            {
+                "rank": idx,
+                "source": m.get("source", "unknown"),
+                "chunk_index": m.get("chunk_index"),
+                "score": score,
+                "source_type": m.get("source_type", "quant_data"),
+                "snippet": (doc or "").strip()[:500],
+            }
+        )
+
+    return combined_refs, app_refs, quant_refs
 
 
 def _build_payload(
@@ -197,12 +284,8 @@ def enhance_sections(
     ex: {"need_statement": "...", "budget_justification": "..."}
     When use_rag is True, retrieves relevant grant-library excerpts and injects them into the prompt.
     """
-    api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        # fail gracefully (app still works)
-        return {}
-    if not _openai_sdk_available():
-        logger.warning("OpenAI SDK not installed; skipping section enhancement")
+    if not gemini_sdk_available():
+        logger.warning("Gemini SDK not installed; skipping section enhancement")
         return {}
 
     requirements = requirements or {}
@@ -215,6 +298,7 @@ def enhance_sections(
     payload = _build_payload(draft=draft, requirements=requirements, profile=profile)
     use_case_norm = normalize_use_case(use_case)
     rag_collection = collection_for_use_case(use_case_norm, base_collection=rag_collection_name)
+    quant_collection = collection_for_use_case(use_case_norm, base_collection=QUANT_COLLECTION)
     payload["rag_use_case"] = use_case_norm
 
     # RAG: retrieve relevant grant-library context and add to payload when available
@@ -227,70 +311,47 @@ def enhance_sections(
         )
         raw_req = (requirements.get("raw_text") or "")[:2000]
         rag_query = f"{grant_name}\n\n{raw_req}".strip() or "grant application community economic development"
-        rag_context = _get_rag_context(
+        combined_refs, app_refs, quant_refs = _get_rag_context_from_both_sources(
             query=rag_query,
             top_k=rag_top_k,
             persist_dir=rag_persist_dir,
-            collection_name=rag_collection,
+            app_collection_name=rag_collection,
+            quant_collection_name=quant_collection,
         )
-        if rag_context:
-            payload["grant_library_excerpts"] = rag_context
+
+        if combined_refs:
+            payload["supporting_excerpts"] = _format_references_for_prompt(combined_refs)
+        if app_refs:
+            payload["grant_library_excerpts"] = _format_references_for_prompt(app_refs)
+        if quant_refs:
+            payload["quant_data_excerpts"] = _format_references_for_prompt(quant_refs)
+
+        if combined_refs or app_refs or quant_refs:
             payload["instructions"].append(
-                "Use the attached grant_library_excerpts when relevant to strengthen your writing with "
-                "evidence, phrasing, or structure from successful grant materials. Do not copy verbatim; "
-                "adapt to the current application. Cite or echo themes where they align with the requirements."
+                "Ground your writing in both narrative evidence and quantitative context from the provided "
+                "supporting_excerpts, grant_library_excerpts, and quant_data_excerpts where relevant. "
+                "Do not copy verbatim; adapt to the current application."
             )
 
     system_msg = (
         """You are a senior Canadian grant writer with 10+ years of experience writing successful federal, provincial, and Indigenous community infrastructure and CED grant applications.
         You write in clear, professional, funder-facing language. Your output should be ready for submission with minimal editing. Write with concrete implementation detail.
         Follow the grant posting requirements and do not invent facts.
-        When the user payload includes grant_library_excerpts, use them as reference material to inform phrasing and structure where relevant; do not copy verbatim."""
+        When the user payload includes supporting_excerpts, grant_library_excerpts, or quant_data_excerpts,
+        use them as reference material to inform phrasing, evidence, and quantitative grounding where relevant;
+        do not copy verbatim."""
     )
     user_msg = json.dumps(payload, ensure_ascii=False)
 
-    # --- Prefer OpenAI Python SDK v1+ ---
     try:
-        from openai import OpenAI  # v1+
-        client = OpenAI(api_key=api_key)
-
-        resp = client.chat.completions.create(
+        data = generate_json(
             model=CHAT_MODEL,
-            messages=[
-                {"role": "system", "content": system_msg},
-                {"role": "user", "content": user_msg},
-            ],
-            response_format={"type": "json_object"},
+            system_msg=system_msg,
+            user_msg=user_msg,
             temperature=0.1,
         )
-
-        content = resp.choices[0].message.content or "{}"
-        data = json.loads(content)
-
-    except Exception as e_v1:
-        # --- Fallback for legacy openai<1.0 ---
-        try:
-            import openai  # legacy
-            openai.api_key = api_key
-
-            r = openai.ChatCompletion.create(
-                model=CHAT_MODEL,
-                messages=[
-                    {"role": "system", "content": system_msg},
-                    {"role": "user", "content": user_msg},
-                ],
-                temperature=0.3,
-            )
-            content = r["choices"][0]["message"]["content"] or "{}"
-            data = json.loads(content)
-
-        except Exception as e_legacy:
-            # IMPORTANT: don't silently swallow both failures
-            raise RuntimeError(
-                "LLM call failed in both OpenAI SDK v1+ and legacy modes."
-                f"\n\nv1+ error: {repr(e_v1)}"
-                f"\nlegacy error: {repr(e_legacy)}"
-            )
+    except Exception as e:
+        raise RuntimeError(f"LLM call failed in Gemini mode: {repr(e)}")
 
     out: Dict[str, str] = {}
     for item in (data.get("sections", []) or []):
@@ -317,11 +378,8 @@ def rewrite_section_with_instruction(
     use_case: Optional[str] = None,
 ) -> Dict[str, Any]:
     """Rewrite a single section using user instruction; returns text + structured references."""
-    api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        return {"text": (current_text or "").strip(), "references": []}
-    if not _openai_sdk_available():
-        logger.warning("OpenAI SDK not installed; skipping section rewrite")
+    if not gemini_sdk_available():
+        logger.warning("Gemini SDK not installed; skipping section rewrite")
         return {"text": (current_text or "").strip(), "references": []}
 
     requirements = requirements or {}
@@ -329,6 +387,7 @@ def rewrite_section_with_instruction(
 
     use_case_norm = normalize_use_case(use_case)
     rag_collection = collection_for_use_case(use_case_norm, base_collection=rag_collection_name)
+    quant_collection = collection_for_use_case(use_case_norm, base_collection=QUANT_COLLECTION)
 
     grant_name = (
         requirements.get("grant_name")
@@ -349,21 +408,15 @@ def rewrite_section_with_instruction(
     references: List[Dict[str, Any]] = []
     excerpts = ""
     if use_rag:
-        references = _retrieve_rag_references(
+        combined_refs, app_refs, quant_refs = _get_rag_context_from_both_sources(
             query=rag_query,
             top_k=rag_top_k,
             persist_dir=rag_persist_dir,
-            collection_name=rag_collection,
+            app_collection_name=rag_collection,
+            quant_collection_name=quant_collection,
         )
-        excerpt_blocks = []
-        for ref in references:
-            source = ref.get("source", "unknown")
-            chunk_index = ref.get("chunk_index", "—")
-            snippet = ref.get("snippet", "")
-            excerpt_blocks.append(
-                f"Source: {source} (chunk {chunk_index})\n{snippet}"
-            )
-        excerpts = "\n\n---\n\n".join(excerpt_blocks)
+        references = combined_refs
+        excerpts = _format_references_for_prompt(combined_refs)
 
     payload = {
         "grant_name": grant_name,
@@ -376,7 +429,7 @@ def rewrite_section_with_instruction(
         "community_profile": profile,
         "requirements_text_snippet": (requirements.get("raw_text") or "")[:3000],
         "rag_use_case": use_case_norm,
-        "grant_library_excerpts": excerpts,
+        "supporting_excerpts": excerpts,
     }
 
     system_msg = (
@@ -388,41 +441,14 @@ def rewrite_section_with_instruction(
     user_msg = json.dumps(payload, ensure_ascii=False)
 
     try:
-        from openai import OpenAI
-
-        client = OpenAI(api_key=api_key)
-        resp = client.chat.completions.create(
+        data = generate_json(
             model=CHAT_MODEL,
-            messages=[
-                {"role": "system", "content": system_msg},
-                {"role": "user", "content": user_msg},
-            ],
-            response_format={"type": "json_object"},
+            system_msg=system_msg,
+            user_msg=user_msg,
             temperature=0.2,
         )
-        content = resp.choices[0].message.content or "{}"
-        data = json.loads(content)
-    except Exception as e_v1:
-        try:
-            import openai
-
-            openai.api_key = api_key
-            r = openai.ChatCompletion.create(
-                model=CHAT_MODEL,
-                messages=[
-                    {"role": "system", "content": system_msg},
-                    {"role": "user", "content": user_msg},
-                ],
-                temperature=0.2,
-            )
-            content = r["choices"][0]["message"]["content"] or "{}"
-            data = json.loads(content)
-        except Exception as e_legacy:
-            raise RuntimeError(
-                "Section rewrite failed in both OpenAI SDK modes."
-                f"\n\nv1+ error: {repr(e_v1)}"
-                f"\nlegacy error: {repr(e_legacy)}"
-            )
+    except Exception as e:
+        raise RuntimeError(f"Section rewrite failed in Gemini mode: {repr(e)}")
 
     text = str(data.get("text") or "").strip() or (current_text or "").strip()
     return {"text": text, "references": references}

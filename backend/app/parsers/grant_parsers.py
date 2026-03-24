@@ -4,7 +4,9 @@ from io import BytesIO
 import json
 import logging
 import os
+from backend.app.llm.client import gemini_sdk_available, generate_json
 import re
+import csv
 
 logger = logging.getLogger(__name__)
 CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini")
@@ -75,6 +77,17 @@ def _read_docx(file) -> str:
     except Exception:
         return ""
 
+
+def _read_csv(file) -> str:
+    # return the CSV content as a formatted string
+    try:
+        file.seek(0)
+        decoded = file.getvalue().decode("utf-8", errors="ignore")
+        reader = csv.reader(decoded.splitlines())
+        rows = ["\t".join(row) for row in reader]
+        return "\n".join(rows)
+    except Exception:
+        return ""
 
 def _is_valid_roman_heading(line: str) -> bool:
     match = re.match(r"^\s*([IVXLCDM]{1,8})[\)\.\-:]\s+\S+", line or "", flags=re.I)
@@ -453,14 +466,13 @@ def _should_use_llm_fallback(raw_text: str, heuristic_sections: list[dict]) -> t
     return bool(reasons), reasons
 
 
-def _extract_sections_with_llm(text: str) -> tuple[list[dict], str | None]:
-    api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        return [], "missing_openai_api_key"
+def _extract_sections_with_llm(text: str) -> list[dict]:
+    if not gemini_sdk_available():
+        return []
 
     snippet = text[:20000]
     if len(snippet.strip()) < 800:
-        return [], "insufficient_text_for_llm_fallback"
+        return []
 
     prompt = {
         "task": "Extract concrete grant application sections from the posting text.",
@@ -488,28 +500,18 @@ def _extract_sections_with_llm(text: str) -> tuple[list[dict], str | None]:
     }
 
     try:
-        from openai import OpenAI
-        client = OpenAI(api_key=api_key)
-        resp = client.chat.completions.create(
-            model=CHAT_MODEL,
-            messages=[
-                {
-                    "role": "system",
-                    "content": (
-                        "You extract grant requirement sections from messy PDF text. "
-                        "Output strict JSON with high recall and minimal hallucination."
-                    ),
-                },
-                {"role": "user", "content": json.dumps(prompt, ensure_ascii=False)},
-            ],
-            response_format={"type": "json_object"},
+        data = generate_json(
+            model=os.getenv("GEMINI_CHAT_MODEL", "gemini-1.5-flash"),
+            system_msg=(
+                "You extract grant requirement sections from messy PDF text. "
+                "Output strict JSON with high recall and minimal hallucination."
+            ),
+            user_msg=json.dumps(prompt, ensure_ascii=False),
             temperature=0.0,
         )
-        data = json.loads(resp.choices[0].message.content or "{}")
-        return _normalize_sections((data.get("sections") or [])), None
-    except Exception as exc:
-        logger.exception("Grant section LLM fallback failed")
-        return [], f"{type(exc).__name__}: {exc}"
+        return _normalize_sections((data.get("sections") or []))
+    except Exception:
+        return []
 
 def _extract_sections_from_text(text: str) -> list[dict]:
     """
@@ -581,6 +583,8 @@ def parse_grant_upload_to_requirements(uploaded_file) -> Tuple[Dict[str, Any] | 
         raw = _read_pdf(uploaded_file)
     elif name.endswith(".docx"):
         raw = _read_docx(uploaded_file)
+    elif name.endswith(".csv"):
+        raw = _read_csv(uploaded_file)
     else:
         raw = ""
 
@@ -597,7 +601,7 @@ def parse_grant_upload_to_requirements(uploaded_file) -> Tuple[Dict[str, Any] | 
     diagnostics.extend(fallback_reasons)
 
     if should_use_llm:
-        llm_sections, llm_error = _extract_sections_with_llm(raw)
+        llm_sections = _extract_sections_with_llm(raw)
         llm_used = True
         if len(llm_sections) >= 2:
             sections = llm_sections
@@ -612,7 +616,7 @@ def parse_grant_upload_to_requirements(uploaded_file) -> Tuple[Dict[str, Any] | 
     heuristic_titles_preview = [str(s.get("title") or "") for s in heuristic_sections[:8]]
 
     logger.info(
-        "Grant parser completed file=%s mode=%s confidence=%s raw_text_length=%s heuristic_sections=%s final_sections=%s llm_used=%s reasons=%s llm_error=%s",
+        "Grant parser completed file=%s mode=%s confidence=%s raw_text_length=%s heuristic_sections=%s final_sections=%s llm_used=%s reasons=%s",
         uploaded_file.name,
         parser_mode,
         confidence,
@@ -621,7 +625,6 @@ def parse_grant_upload_to_requirements(uploaded_file) -> Tuple[Dict[str, Any] | 
         len(sections),
         llm_used,
         ",".join(fallback_reasons) or "none",
-        llm_error or "none",
     )
 
     # Minimal requirements schema the rest of the app expects

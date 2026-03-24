@@ -161,19 +161,19 @@ button:focus{
 st.header("📝 Grant & Proposal Writer")
 st.caption("Upload a grant posting → generate a comprehensive, requirements-aligned proposal draft → download.")
 
-# #Open AI API key check
-# import os 
+# #Gemini API key check
+# import os
 
 # with st.sidebar:
 #     st.markdown("### 🔎 LLM Debug Status")
 
-#     st.write("OPENAI_API_KEY present:", "✅" if os.getenv("OPENAI_API_KEY") else "❌")
+#     st.write("GEMINI_API_KEY present:", "✅" if os.getenv("GEMINI_API_KEY") else "❌")
 
 #     try:
-#         import openai
-#         st.write("openai package installed: ✅")
+#         import google.generativeai as genai
+#         st.write("google-generativeai package installed: ✅")
 #     except Exception as e:
-#         st.write("openai package installed: ❌")
+#         st.write("google-generativeai package installed: ❌")
 #         st.write(str(e))
 
 # ------------------------------
@@ -417,7 +417,7 @@ if st.button("Generate Draft", type="primary", key="btn_generate_draft"):
     try:
         enhanced = enhance_sections(draft, requirements=req, profile=profile)
         if not enhanced:
-            st.warning("LLM enhancement returned empty output (check API key / OpenAI install / errors).")
+            st.warning("LLM enhancement returned empty output (check API key / Gemini install / errors).")
     except Exception as e:
         st.error("LLM enhancement failed. See details below.")
         with st.expander("Show error details"):
